@@ -1,0 +1,75 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: A service to summarize online content.
+
+Globals:
+  Function:
+    Timeout: 180
+
+Parameters:
+  OpenAIApiKey:
+    Type: String
+    Description: OpenAI API key for content summarization
+    NoEcho: true
+
+Resources:
+  SummaryFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: .
+      Handler: src.app.lambda_handler
+      Runtime: python3.12
+      Environment:
+        Variables:
+          DYNAMODB_TABLE: !Ref ContentSummaryTable
+          OPENAI_API_KEY_SSM_NAME: openaiApiKey
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ContentSummaryTable
+        - Statement:
+            - Sid: SSMParameterRead
+              Effect: Allow
+              Action:
+                - ssm:GetParameter
+                - ssm:GetParameters
+              Resource: !Sub arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/openaiApiKey
+      Events:
+        HttpApiEvent:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref SummaryApi
+            Path: /summary
+            Method: get
+
+  SummaryApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: prod
+      CorsConfiguration:
+        AllowOrigins:
+          - "*"
+
+  ContentSummaryTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ContentSummary
+      AttributeDefinitions:
+        - AttributeName: url
+          AttributeType: S
+      KeySchema:
+        - AttributeName: url
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+  OpenAIKey:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: openaiApiKey
+      Type: String
+      Value: !Ref OpenAIApiKey
+      Description: OpenAI API key for content summarization
+
+Outputs:
+  SummaryApiUrl:
+    Description: "URL of the HTTP API endpoint for the summary service"
+    Value: !Sub "https://${SummaryApi}.execute-api.${AWS::Region}.amazonaws.com/prod/summary"
