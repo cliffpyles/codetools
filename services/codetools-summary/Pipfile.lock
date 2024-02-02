@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ad6b376936a3c7a0633cba523a77ef9350b19a50736870e3340add18bffa092e"
+            "sha256": "3333c49f1bfaee0c7cf00a79b067126f5cb4edba0174e18f751f05fe10cab64e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -44,11 +44,11 @@
         },
         "certifi": {
             "hashes": [
-                "sha256:9b469f3a900bf28dc19b8cfbf8019bf47f7fdd1a65a1d4ffb98fc14166beb4d1",
-                "sha256:e036ab49d5b79556f99cfc2d9320b34cfbe5be05c5871b51de9329f0603b0474"
+                "sha256:0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f",
+                "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2023.11.17"
+            "version": "==2024.2.2"
         },
         "charset-normalizer": {
             "hashes": [
@@ -186,6 +186,15 @@
             "markers": "python_version >= '3.5'",
             "version": "==3.6"
         },
+        "markdown": {
+            "hashes": [
+                "sha256:d43323865d89fc0cb9b20c75fc8ad313af307cc087e84b657d9eec768eddeadd",
+                "sha256:e1ac7b3dc550ee80e602e71c1d168002f062e49f1b11e26a36264dafd4df2ef8"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==3.5.2"
+        },
         "openai": {
             "hashes": [
                 "sha256:208886cb501b930dc63f48d51db9c15e5380380f80516d07332adad67c9f1053",
@@ -287,6 +296,15 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==2.16.1"
+        },
+        "pygments": {
+            "hashes": [
+                "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c",
+                "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==2.17.2"
         },
         "requests": {
             "hashes": [

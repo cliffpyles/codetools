@@ -1,3 +1,5 @@
 openai
 beautifulsoup4
 requests
+markdown
+pygments

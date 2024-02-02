@@ -5,6 +5,8 @@ from botocore.exceptions import ClientError
 import requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
+import markdown
+
 from .prompts import SYSTEM_CONTEXT, SUMMARY_PROMPT
 
 # Initialize clients
@@ -25,7 +27,7 @@ def get_openai_api_key():
         return None
 
 
-# Function to scrape and summarize content
+# Scrape and summarize content
 def summarize_content(url):
     # Scrape content
     response = requests.get(url)
@@ -85,19 +87,61 @@ def summarize_content(url):
     }
 
 
+# Render content
+def render_response(summarized_content, response_format, status_code=200):
+    if response_format == "text":
+        return {
+            "statusCode": status_code,
+            "headers": {"Content-Type": "text/plain"},
+            "body": summarized_content["summary"],
+        }
+    elif response_format == "html":
+        html_response = markdown.markdown(
+            summarized_content["summary"],
+            extensions=[
+                "sane_lists",
+                "codehilite",
+                "tables",
+                "fenced_code",
+                "def_list",
+                "abbr",
+            ],
+        )
+        return {
+            "statusCode": status_code,
+            "headers": {"Content-Type": "text/html"},
+            "body": html_response,
+        }
+    elif response_format == "json":
+        return {
+            "statusCode": status_code,
+            "headers": {"Content-Type": "application/json"},
+            "body": json.dumps(summarized_content),
+        }
+    else:
+        # Handle unsupported formats by defaulting to an error in JSON format
+        return {
+            "statusCode": 400,
+            "headers": {"Content-Type": "application/json"},
+            "body": json.dumps({"error": "Unsupported format"}),
+        }
+
+
 # Lambda handler
 def lambda_handler(event, context):
     print(f"EVENT: {json.dumps(event)}")
 
-    url = event["queryStringParameters"]["url"]
+    url = event["queryStringParameters"].get("url")
     print(f"URL: {json.dumps(url)}")
+    response_format = event["queryStringParameters"].get("format", "text").lower()
+    print(f"FORMAT: {response_format}")
 
     # Check if summary exists in DynamoDB
     try:
         record = table.get_item(Key={"url": url})
         if "Item" in record:
             print(f"EXISTING SUMMARY: {json.dumps(record)}")
-            return {"statusCode": 200, "body": record["Item"]["summary"]}
+            return render_response(record["Item"], response_format)
     except ClientError as e:
         print(e)
 
@@ -108,4 +152,4 @@ def lambda_handler(event, context):
     item = {"url": url, **summarized_content}
     table.put_item(Item=item)
 
-    return {"statusCode": 200, "body": summarized_content["summary"]}
+    return render_response(summarized_content, response_format)
