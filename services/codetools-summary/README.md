@@ -14,13 +14,14 @@ CodeTools Summary is a service designed to summarize online content, making it e
 
 ### Endpoint
 
-`GET https://services.codetools.io/summary`
+`GET https://<apigatway_url>/prod/summary`
 
 ### Query Parameters
 
 - `url` (required): The URL of the online content to summarize.
+- `format` (optional): The format to return the response in (text, json, html)
 
 ### Example Request
 
 ```bash
-curl "https://services.codetools.io/summary?url=https://example.com/article"
+curl "https://<apigatway_url>/prod/summary?format=html&url=https://example.com/article"
