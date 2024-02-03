@@ -67,7 +67,7 @@ def summarize_content(url):
                 "role": "system",
                 "content": SYSTEM_CONTEXT,
             },
-            {"role": "user", "content": f"content to read:\n{text}"},
+            {"role": "user", "content": f"url:\n{url}\n\ncontent to read:\n{text}"},
             {
                 "role": "user",
                 "content": SUMMARY_PROMPT,
@@ -102,6 +102,7 @@ def render_html(content):
     )
     html_output = f"""<html>
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown.min.css">
         <style>
             .markdown-body {{
@@ -128,7 +129,7 @@ def render_response(summarized_content, response_format, status_code=200):
     if response_format == "text":
         return {
             "statusCode": status_code,
-            "headers": {"Content-Type": "text/plain"},
+            "headers": {"Content-Type": "text/plain; charset=utf-8"},
             "body": summarized_content["summary"],
         }
     elif response_format == "html":
@@ -136,20 +137,20 @@ def render_response(summarized_content, response_format, status_code=200):
 
         return {
             "statusCode": status_code,
-            "headers": {"Content-Type": "text/html"},
+            "headers": {"Content-Type": "text/html; charset=utf-8"},
             "body": html_response,
         }
     elif response_format == "json":
         return {
             "statusCode": status_code,
-            "headers": {"Content-Type": "application/json"},
+            "headers": {"Content-Type": "application/json; charset=utf-8"},
             "body": json.dumps(summarized_content),
         }
     else:
         # Handle unsupported formats by defaulting to an error in JSON format
         return {
             "statusCode": 400,
-            "headers": {"Content-Type": "application/json"},
+            "headers": {"Content-Type": "application/json; charset=utf-8"},
             "body": json.dumps({"error": "Unsupported format"}),
         }
 
