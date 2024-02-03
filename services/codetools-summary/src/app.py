@@ -87,6 +87,42 @@ def summarize_content(url):
     }
 
 
+def render_html(content):
+    body_content = markdown.markdown(
+        content,
+        extensions=[
+            "sane_lists",
+            "codehilite",
+            "tables",
+            "fenced_code",
+            "def_list",
+            "abbr",
+        ],
+        output_format="html",
+    )
+    html_output = f"""<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown.min.css">
+        <style>
+            .markdown-body {{
+                box-sizing: border-box;
+                min-width: 200px;
+                max-width: 980px;
+                margin: 0 auto;
+                padding: 45px;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="markdown-body">
+            {body_content}
+        </div>
+    </body>
+</html>"""
+
+    return html_output
+
+
 # Render content
 def render_response(summarized_content, response_format, status_code=200):
     if response_format == "text":
@@ -96,17 +132,8 @@ def render_response(summarized_content, response_format, status_code=200):
             "body": summarized_content["summary"],
         }
     elif response_format == "html":
-        html_response = markdown.markdown(
-            summarized_content["summary"],
-            extensions=[
-                "sane_lists",
-                "codehilite",
-                "tables",
-                "fenced_code",
-                "def_list",
-                "abbr",
-            ],
-        )
+        html_response = render_html(summarized_content["summary"])
+
         return {
             "statusCode": status_code,
             "headers": {"Content-Type": "text/html"},
