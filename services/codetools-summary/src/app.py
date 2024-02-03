@@ -163,15 +163,18 @@ def lambda_handler(event, context):
     print(f"URL: {json.dumps(url)}")
     response_format = event["queryStringParameters"].get("format", "text").lower()
     print(f"FORMAT: {response_format}")
+    force = event["queryStringParameters"].get("force", False)
+    print(f"FORCE: {force}")
 
-    # Check if summary exists in DynamoDB
-    try:
-        record = table.get_item(Key={"url": url})
-        if "Item" in record:
-            print(f"EXISTING SUMMARY: {json.dumps(record)}")
-            return render_response(record["Item"], response_format)
-    except ClientError as e:
-        print(e)
+    if force == False:
+        # Check if summary exists in DynamoDB
+        try:
+            record = table.get_item(Key={"url": url})
+            if "Item" in record:
+                print(f"EXISTING SUMMARY: {json.dumps(record)}")
+                return render_response(record["Item"], response_format)
+        except ClientError as e:
+            print(e)
 
     # If not found, scrape, summarize, and store
     summarized_content = summarize_content(url)

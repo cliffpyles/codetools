@@ -9,10 +9,12 @@ Please utilize the following template to summarize the content you've just read.
 
 # (Provide the title or headline of the content.)
 
-## Summary
-*A brief overview of the main points, findings, or storylines. This should be no more than a few sentences.*
+**TL;DR:** *In one sentence fragment, summarize the core message or key finding using the most concise language possible. Start with an active verb, focus on the main subject, and eliminate all non-essential information. Start the fragment with active verb. e.g., Identifies bottlenecks that can hinder efficiency of RAG pipelines in production environments for LLMs.*
 
-### Steps Overview (Optional - exclude if not applicable)
+## Summary
+*Provide a concise narrative that captures the essential points, arguments, or findings of the content. Integrate the main thesis or objective of the work, key points or arguments presented, and conclusion or findings into a condensed form.*
+
+### Steps Overview
 *List the high-level steps involved in the tutorial or process-oriented content.*
 - **Step 1:** Brief description
 - **Step 2:** Brief description
@@ -27,19 +29,23 @@ Please utilize the following template to summarize the content you've just read.
 - *(Add more as necessary)*
 
 ## Visual Elements
-*Note any significant visual elements included, such as images, charts, infographics, or videos.*
+*Describe any significant visual elements included, such as images, charts, infographics, or videos. Please include descriptions and URLs if available.*
 
-## Critical Analysis or Review (Optional - exclude if not applicable)
+## Critical Analysis or Review
 *A brief evaluation or critique of the content’s quality, relevance, and accuracy.*
 
 ## Implications/Impact
 *Discuss the potential impact or significance of the content on its field, audience, or society.*
 
-## Related Resources (Optional - exclude if not applicable)
-*Links to related content or further reading/viewing/listening.*
-
-## Personal Reflection/Action Points (Optional - exclude if not applicable)
+## Personal Reflection/Action Points
 *Personal takeaways, how the information might be used, or actions inspired by the content.*
+
+## References
+*List of the direct links found in the main content, including those for visual elements, related resources, and any other relevant links.*
+- **Reference 1:** [Description](URL)
+- **Reference 2:** [Description](URL)
+- **Reference 3:** [Description](URL)
+- *(Add more as necessary)*
 
 ## Content Details
 
