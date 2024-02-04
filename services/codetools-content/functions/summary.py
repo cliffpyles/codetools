@@ -124,7 +124,6 @@ def render_html(content):
     return html_output
 
 
-# Render content
 def render_response(summarized_content, response_format, status_code=200):
     if response_format == "text":
         return {
@@ -147,7 +146,6 @@ def render_response(summarized_content, response_format, status_code=200):
             "body": json.dumps(summarized_content),
         }
     else:
-        # Handle unsupported formats by defaulting to an error in JSON format
         return {
             "statusCode": 400,
             "headers": {"Content-Type": "application/json; charset=utf-8"},
@@ -155,8 +153,7 @@ def render_response(summarized_content, response_format, status_code=200):
         }
 
 
-# Lambda handler
-def lambda_handler(event, context):
+def handler(event, context):
     print(f"EVENT: {json.dumps(event)}")
 
     url = event["queryStringParameters"].get("url")

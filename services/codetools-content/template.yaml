@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: A service to summarize online content.
+Description: A service to perform actions on online content.
 
 Globals:
   Function:
@@ -9,7 +9,7 @@ Globals:
 Parameters:
   OpenAIApiKey:
     Type: String
-    Description: OpenAI API key for content summarization
+    Description: OpenAI API key for content processing
     NoEcho: true
 
 Resources:
@@ -17,15 +17,15 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: .
-      Handler: src.app.lambda_handler
+      Handler: functions.summary.handler
       Runtime: python3.12
       Environment:
         Variables:
-          DYNAMODB_TABLE: !Ref ContentSummaryTable
+          DYNAMODB_TABLE: !Ref SummaryTable
           OPENAI_API_KEY_SSM_NAME: openaiApiKey
       Policies:
         - DynamoDBCrudPolicy:
-            TableName: !Ref ContentSummaryTable
+            TableName: !Ref SummaryTable
         - Statement:
             - Sid: SSMParameterRead
               Effect: Allow
@@ -37,22 +37,14 @@ Resources:
         HttpApiEvent:
           Type: HttpApi
           Properties:
-            ApiId: !Ref SummaryApi
+            ApiId: !Ref ContentApi
             Path: /summary
             Method: get
 
-  SummaryApi:
-    Type: AWS::Serverless::HttpApi
-    Properties:
-      StageName: prod
-      CorsConfiguration:
-        AllowOrigins:
-          - "*"
-
-  ContentSummaryTable:
+  SummaryTable:
     Type: AWS::DynamoDB::Table
     Properties:
-      TableName: ContentSummary
+      TableName: Summary
       AttributeDefinitions:
         - AttributeName: url
           AttributeType: S
@@ -60,6 +52,14 @@ Resources:
         - AttributeName: url
           KeyType: HASH
       BillingMode: PAY_PER_REQUEST
+
+  ContentApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: prod
+      CorsConfiguration:
+        AllowOrigins:
+          - "*"
 
   OpenAIKey:
     Type: AWS::SSM::Parameter
@@ -72,4 +72,4 @@ Resources:
 Outputs:
   SummaryApiUrl:
     Description: "URL of the HTTP API endpoint for the summary service"
-    Value: !Sub "https://${SummaryApi}.execute-api.${AWS::Region}.amazonaws.com/prod/summary"
+    Value: !Sub "https://${ContentApi}.execute-api.${AWS::Region}.amazonaws.com/prod/summary"
