@@ -5,29 +5,15 @@ from botocore.exceptions import ClientError
 import requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
-import markdown
 
+from .utils import get_openai_api_key, render_response
 from .prompts import SYSTEM_CONTEXT, SUMMARY_PROMPT
 
 # Initialize clients
 dynamodb = boto3.resource("dynamodb")
-ssm = boto3.client("ssm")
 table = dynamodb.Table(os.environ["DYNAMODB_TABLE"])
 
 
-# Fetch OpenAI API key from SSM
-def get_openai_api_key():
-    try:
-        response = ssm.get_parameter(
-            Name=os.environ["OPENAI_API_KEY_SSM_NAME"], WithDecryption=True
-        )
-        return response["Parameter"]["Value"]
-    except ClientError as e:
-        print(e)
-        return None
-
-
-# Scrape and summarize content
 def summarize_content(url):
     # Scrape content
     response = requests.get(url)
@@ -87,72 +73,6 @@ def summarize_content(url):
     }
 
 
-def render_html(content):
-    body_content = markdown.markdown(
-        content,
-        extensions=[
-            "sane_lists",
-            "codehilite",
-            "tables",
-            "fenced_code",
-            "def_list",
-            "abbr",
-        ],
-        output_format="html",
-    )
-    html_output = f"""<html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown.min.css">
-        <style>
-            .markdown-body {{
-                box-sizing: border-box;
-                min-width: 200px;
-                max-width: 980px;
-                margin: 0 auto;
-                padding: 45px;
-            }}
-        </style>
-    </head>
-    <body>
-        <div class="markdown-body">
-            {body_content}
-        </div>
-    </body>
-</html>"""
-
-    return html_output
-
-
-def render_response(summarized_content, response_format, status_code=200):
-    if response_format == "text":
-        return {
-            "statusCode": status_code,
-            "headers": {"Content-Type": "text/plain; charset=utf-8"},
-            "body": summarized_content["summary"],
-        }
-    elif response_format == "html":
-        html_response = render_html(summarized_content["summary"])
-
-        return {
-            "statusCode": status_code,
-            "headers": {"Content-Type": "text/html; charset=utf-8"},
-            "body": html_response,
-        }
-    elif response_format == "json":
-        return {
-            "statusCode": status_code,
-            "headers": {"Content-Type": "application/json; charset=utf-8"},
-            "body": json.dumps(summarized_content),
-        }
-    else:
-        return {
-            "statusCode": 400,
-            "headers": {"Content-Type": "application/json; charset=utf-8"},
-            "body": json.dumps({"error": "Unsupported format"}),
-        }
-
-
 def handler(event, context):
     print(f"EVENT: {json.dumps(event)}")
 
@@ -163,21 +83,23 @@ def handler(event, context):
     force = event["queryStringParameters"].get("force", False)
     print(f"FORCE: {force}")
 
-    if force == False:
-        # Check if summary exists in DynamoDB
+    if force is False:
         try:
             record = table.get_item(Key={"url": url})
             if "Item" in record:
                 print(f"EXISTING SUMMARY: {json.dumps(record)}")
-                return render_response(record["Item"], response_format)
+                return render_response(
+                    record["Item"], item_key="summary", format=response_format
+                )
         except ClientError as e:
             print(e)
 
-    # If not found, scrape, summarize, and store
     summarized_content = summarize_content(url)
     print(f"NEW SUMMARY: {json.dumps(summarized_content)}")
 
     item = {"url": url, **summarized_content}
     table.put_item(Item=item)
 
-    return render_response(summarized_content, response_format)
+    return render_response(
+        summarized_content, item_key="summary", format=response_format
+    )

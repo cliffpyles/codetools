@@ -169,3 +169,53 @@ CONTENT_TYPES = """
 - Legal Documents and Forms
 - Civic Engagement and Activism Articles
 """
+
+CRITICAL_THINKING_PROMPT = """
+Analyze the provided text for logical fallacies and cognitive biases. For each paragraph in the text:
+
+1. Identify any logical fallacies present.
+2. Identify any cognitive biases present.
+3. Count the total number of logical fallacies and cognitive biases identified across all paragraphs.
+4. For each paragraph, create a JSON object that includes:
+   - The paragraph text.
+   - A list of identified logical fallacies, with each fallacy described by:
+     - Its name.
+     - A brief description.
+     - An explanation of why it applies to the paragraph.
+   - A list of identified cognitive biases, with each bias described by:
+     - Its name.
+     - A brief description.
+     - An explanation of why it applies to the paragraph.
+5. Compile these objects into an array, and include the total counts of fallacies and biases in the final JSON structure.
+
+The final JSON output should follow this structure:
+
+{
+  "fallacyCount": [total number of fallacies],
+  "biasCount": [total number of biases],
+  "paragraphs": [
+    {
+      "content": "[paragraph text]",
+      "fallacies": [
+        {
+          "name": "[fallacy name]",
+          "description": "[brief description]",
+          "explanation": "[why it applies]"
+        },
+        ...
+      ],
+      "biases": [
+        {
+          "name": "[bias name]",
+          "description": "[brief description]",
+          "explanation": "[why it applies]"
+        },
+        ...
+      ]
+    },
+    ...
+  ]
+}
+
+Please ensure the analysis is comprehensive yet concise, focusing on clear identification and explanation without unnecessary detail.
+"""

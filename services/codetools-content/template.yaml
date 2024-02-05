@@ -17,7 +17,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: .
-      Handler: functions.summary.handler
+      Handler: app.summary.handler
       Runtime: python3.12
       Environment:
         Variables:
