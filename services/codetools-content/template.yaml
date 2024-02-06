@@ -53,6 +53,46 @@ Resources:
           KeyType: HASH
       BillingMode: PAY_PER_REQUEST
 
+  CriticalThinkingFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: .
+      Handler: app.critical_thinking.handler
+      Runtime: python3.12
+      Environment:
+        Variables:
+          DYNAMODB_TABLE: !Ref CriticalThinkingTable
+          OPENAI_API_KEY_SSM_NAME: openaiApiKey
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref CriticalThinkingTable
+        - Statement:
+            - Sid: SSMParameterRead
+              Effect: Allow
+              Action:
+                - ssm:GetParameter
+                - ssm:GetParameters
+              Resource: !Sub arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/openaiApiKey
+      Events:
+        HttpApiEvent:
+          Type: HttpApi
+          Properties:
+            ApiId: !Ref ContentApi
+            Path: /critical-thinking
+            Method: get
+
+  CriticalThinkingTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: CriticalThinking
+      AttributeDefinitions:
+        - AttributeName: url
+          AttributeType: S
+      KeySchema:
+        - AttributeName: url
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
   ContentApi:
     Type: AWS::Serverless::HttpApi
     Properties:
@@ -73,3 +113,6 @@ Outputs:
   SummaryApiUrl:
     Description: "URL of the HTTP API endpoint for the summary service"
     Value: !Sub "https://${ContentApi}.execute-api.${AWS::Region}.amazonaws.com/prod/summary"
+  CriticalThinkingApiUrl:
+    Description: "URL of the HTTP API endpoint for the critical thinking service"
+    Value: !Sub "https://${ContentApi}.execute-api.${AWS::Region}.amazonaws.com/prod/critical-thinking"

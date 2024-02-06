@@ -9,8 +9,12 @@ beautifulsoup4 = "*"
 requests = "*"
 markdown = "*"
 pygments = "*"
+simplejson = "*"
+py-markdown-table = "*"
+pymdown-extensions = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.12"

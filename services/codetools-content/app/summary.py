@@ -47,7 +47,7 @@ def summarize_content(url):
     api_key = get_openai_api_key()
     client = OpenAI(api_key=api_key)
     completion = client.chat.completions.create(
-        model="gpt-4-1106-preview",
+        model="gpt-4-turbo-preview",
         messages=[
             {
                 "role": "system",

@@ -63,115 +63,8 @@ Please utilize the following template to summarize the content you've just read.
 Ensure that your summary is concise yet comprehensive, providing a clear snapshot of the content's value and insights.
 """
 
-CONTENT_TYPES = """
-**News and Journalism**
-- Breaking News
-- Investigative Articles
-- Feature Stories
-- Opinion Pieces/Editorials
-- News Analysis
-- Press Releases
-
-**Educational Content**
-- How-to Guides and Tutorials
-- Educational Articles and Essays
-- Online Courses and Webinars
-- E-books and Whitepapers
-- Research Papers and Reports
-- Case Studies
-
-**Entertainment**
-- Movie, Music, and Book Reviews
-- Celebrity News and Gossip
-- Satire and Humor Articles
-- Comics and Graphic Novels
-- Fan Fiction
-- Podcasts and Web Series
-
-**Lifestyle**
-- Travel Blogs and Guides
-- Food Recipes and Cooking Tips
-- Fashion and Beauty Tips
-- Health and Wellness Advice
-- Personal Development and Self-Help
-- Home Improvement and DIY Projects
-
-**Technology**
-- Tech News and Updates
-- Product Reviews and Comparisons
-- How-to Tech Guides
-- Analysis and Opinion on Tech Trends
-- Interviews with Industry Experts
-- Cybersecurity Updates and Guides
-
-**Business and Finance**
-- Market Analysis and Financial News
-- Business Strategy and Management Articles
-- Investment Advice and Stock Market Tips
-- Entrepreneurship and Startup Stories
-- Case Studies and Business Profiles
-- Personal Finance and Budgeting Tips
-
-**Science and Environment**
-- Scientific Discoveries and Research Summaries
-- Environmental News and Sustainability Tips
-- Wildlife Conservation Articles
-- Space and Astronomy News
-- Climate Change Reports and Analysis
-- Health and Medical News
-
-**Social Media and Blogging**
-- Personal Blogs and Vlogs
-- Influencer Content and Collaborations
-- Social Media Updates and Trends
-- Tutorials on Social Media Growth
-- Commentary on Social Issues
-
-**Creative Writing and Literature**
-- Poetry and Short Stories
-- Serialized Novels
-- Literary Criticism and Analysis
-- Writing Workshops and Tips
-- Author Interviews and Biographies
-
-**Sports and Recreation**
-- Sports News and Commentary
-- Game Previews and Recaps
-- Player Interviews and Profiles
-- Fantasy Sports Advice
-- Outdoor Adventure and Travel
-
-**Visual Content**
-- Infographics and Data Visualizations
-- Photo Essays
-- Illustrations and Digital Art
-- Video Content and Documentaries
-- Virtual Reality Experiences
-
-**Forums and Community Discussions**
-- Q&A Sites
-- Online Forums and Discussion Boards
-- Comment Sections
-- Social Media Groups and Threads
-- Community Blogs and Wikis
-
-**E-commerce and Marketing**
-- Product Descriptions and Listings
-- Marketing and Promotional Articles
-- Customer Testimonials and Reviews
-- Email Newsletters
-- Affiliate Marketing Content
-
-**Legal and Government**
-- Legal Analysis and Commentary
-- Government Policy Updates and Analysis
-- Public Service Announcements
-- Legal Documents and Forms
-- Civic Engagement and Activism Articles
-"""
-
-CRITICAL_THINKING_PROMPT = """
-Analyze the provided text for logical fallacies and cognitive biases. For each paragraph in the text:
+CRITICAL_THINKING_CONTEXT = """
+Analyze the provided content for logical fallacies and cognitive biases. For each paragraph in the content:
 
 1. Identify any logical fallacies present.
 2. Identify any cognitive biases present.
@@ -218,4 +111,6 @@ The final JSON output should follow this structure:
 }
 
 Please ensure the analysis is comprehensive yet concise, focusing on clear identification and explanation without unnecessary detail.
+
+Do not surround the final output with backticks or a codeblock. The final output should be raw JSON.
 """
