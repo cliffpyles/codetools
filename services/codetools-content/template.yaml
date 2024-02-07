@@ -11,6 +11,15 @@ Parameters:
     Type: String
     Description: OpenAI API key for content processing
     NoEcho: true
+  DomainName:
+    Type: String
+    Description: Domain where the API can be accessed
+  CertificateArn:
+    Type: String
+    Description: ARN of the SSL cert in ACM
+  HostedZoneId:
+    Type: String
+    Description: Id of the hosted zone in Route53
 
 Resources:
   SummaryFunction:
@@ -100,6 +109,11 @@ Resources:
       CorsConfiguration:
         AllowOrigins:
           - "*"
+      Domain:
+        DomainName: !Ref DomainName
+        CertificateArn: !Ref CertificateArn
+        Route53:
+          HostedZoneId: !Ref HostedZoneId
 
   OpenAIKey:
     Type: AWS::SSM::Parameter
