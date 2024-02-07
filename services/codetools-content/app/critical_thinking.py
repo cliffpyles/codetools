@@ -79,7 +79,7 @@ def handle_render(content, format="html"):
 
     for paragraph in content.get("analysis").get("paragraphs"):
         bias_count = len(paragraph.get("biases", []))
-        fallacy_count = len(paragraph.get("biases", []))
+        fallacy_count = len(paragraph.get("fallacies", []))
         biases = [
             f"**{bias['name']}**: {bias['description']}\n\nReasoning: {bias['explanation']}"
             for bias in paragraph.get("biases", [])
