@@ -1,7 +1,6 @@
 import os
 import json
 import markdown
-from py_markdown_table.markdown_table import markdown_table
 import boto3
 from botocore.exceptions import ClientError
 

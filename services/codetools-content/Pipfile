@@ -15,6 +15,10 @@ pymdown-extensions = "*"
 
 [dev-packages]
 ipykernel = "*"
+pytest = "*"
+boto3 = "*"
+pytest-mock = "*"
+moto = {extras = ["ssm"], version = "*"}
 
 [requires]
 python_version = "3.12"
