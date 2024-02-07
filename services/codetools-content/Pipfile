@@ -19,6 +19,7 @@ pytest = "*"
 boto3 = "*"
 pytest-mock = "*"
 moto = {extras = ["ssm"], version = "*"}
+requests-mock = "*"
 
 [requires]
 python_version = "3.12"

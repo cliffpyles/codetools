@@ -9,10 +9,6 @@ from openai import OpenAI
 from .utils import get_openai_api_key, render_response
 from .prompts import CRITICAL_THINKING_CONTEXT
 
-# Initialize clients
-dynamodb = boto3.resource("dynamodb")
-table = dynamodb.Table(os.environ["DYNAMODB_TABLE"])
-
 
 def analyze_content(url):
     # Scrape content
@@ -129,6 +125,10 @@ def handler(event, context):
     print(f"FORCE: {force}")
     format = event["queryStringParameters"].get("format", "html")
     print(f"FORMAT: {format}")
+
+    # Initialize clients
+    dynamodb = boto3.resource("dynamodb")
+    table = dynamodb.Table(os.environ["DYNAMODB_TABLE"])
 
     if not force:
         try:
