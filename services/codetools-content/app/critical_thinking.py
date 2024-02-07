@@ -5,7 +5,6 @@ from botocore.exceptions import ClientError
 import requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
-from py_markdown_table.markdown_table import markdown_table
 
 from .utils import get_openai_api_key, render_response
 from .prompts import CRITICAL_THINKING_CONTEXT
