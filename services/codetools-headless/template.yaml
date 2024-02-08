@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: A service to perform tasks with a headless browser
+
+Parameters:
+  S3BucketName:
+    Type: String
+    Description: The name of the S3 bucket where content will be stored.
+
+Resources:
+  ScreenshotFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: Takes a screenshot of the provided URL and stores it on S3
+      CodeUri: src/
+      Handler: app.screenshotHandler
+      Runtime: nodejs20.x
+      Timeout: 60
+      MemorySize: 512
+      Tracing: Active
+      Environment:
+        Variables:
+          S3_BUCKET_NAME: !Ref S3BucketName
+          AWS_XRAY_CONTEXT_MISSING: LOG_ERROR
+      Events:
+        HttpApiEvent:
+          Type: HttpApi
+          Properties:
+            Path: /download
+            Method: get
+      Policies:
+        - S3CrudPolicy:
+            BucketName: !Ref S3BucketName
+        - AWSXrayWriteOnlyAccess
+
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref S3BucketName
+
+Outputs:
+  CodetoolsHeadlessApi:
+    Description: "API Gateway endpoint URL for Prod stage"
+    Value: !Sub "https://${ServerlessHttpApi}.execute-api.${AWS::Region}.amazonaws.com/"
+  S3BucketNameOutput:
+    Description: "The S3 Bucket Name where content is stored"
+    Value: !Ref S3BucketName
