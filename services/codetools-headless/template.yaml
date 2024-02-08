@@ -8,12 +8,37 @@ Parameters:
     Description: The name of the S3 bucket where content will be stored.
 
 Resources:
+  WebsiteFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Description: Downloads the content of the provided URL and stores it on S3
+      CodeUri: src/
+      Handler: website.handler
+      Runtime: nodejs20.x
+      Timeout: 60
+      MemorySize: 512
+      Tracing: Active
+      Environment:
+        Variables:
+          S3_BUCKET_NAME: !Ref S3BucketName
+          AWS_XRAY_CONTEXT_MISSING: LOG_ERROR
+      Events:
+        HttpApiEvent:
+          Type: HttpApi
+          Properties:
+            Path: /website
+            Method: get
+      Policies:
+        - S3CrudPolicy:
+            BucketName: !Ref S3BucketName
+        - AWSXrayWriteOnlyAccess
+
   ScreenshotFunction:
     Type: AWS::Serverless::Function
     Properties:
       Description: Takes a screenshot of the provided URL and stores it on S3
       CodeUri: src/
-      Handler: app.screenshotHandler
+      Handler: screenshot.handler
       Runtime: nodejs20.x
       Timeout: 60
       MemorySize: 512
