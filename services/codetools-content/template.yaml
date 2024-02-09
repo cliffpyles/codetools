@@ -28,10 +28,12 @@ Resources:
       CodeUri: .
       Handler: app.summary.handler
       Runtime: python3.12
+      Tracing: Active
       Environment:
         Variables:
           DYNAMODB_TABLE: !Ref SummaryTable
           OPENAI_API_KEY_SSM_NAME: openaiApiKey
+          AWS_XRAY_CONTEXT_MISSING: LOG_ERROR
       Policies:
         - DynamoDBCrudPolicy:
             TableName: !Ref SummaryTable
@@ -42,6 +44,7 @@ Resources:
                 - ssm:GetParameter
                 - ssm:GetParameters
               Resource: !Sub arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/openaiApiKey
+        - AWSXrayWriteOnlyAccess
       Events:
         HttpApiEvent:
           Type: HttpApi
@@ -68,10 +71,12 @@ Resources:
       CodeUri: .
       Handler: app.critical_thinking.handler
       Runtime: python3.12
+      Tracing: Active
       Environment:
         Variables:
           DYNAMODB_TABLE: !Ref CriticalThinkingTable
           OPENAI_API_KEY_SSM_NAME: openaiApiKey
+          AWS_XRAY_CONTEXT_MISSING: LOG_ERROR
       Policies:
         - DynamoDBCrudPolicy:
             TableName: !Ref CriticalThinkingTable
@@ -82,6 +87,7 @@ Resources:
                 - ssm:GetParameter
                 - ssm:GetParameters
               Resource: !Sub arn:aws:ssm:${AWS::Region}:${AWS::AccountId}:parameter/openaiApiKey
+        - AWSXrayWriteOnlyAccess      
       Events:
         HttpApiEvent:
           Type: HttpApi
