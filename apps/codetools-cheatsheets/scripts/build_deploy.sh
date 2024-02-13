@@ -26,12 +26,17 @@ fi
 
 echo "Deploying to bucket: $BUCKET_NAME"
 
-# Build the app using Vite without changing the current directory
+# Build the app using Vite
 echo "Building the app..."
 npm --prefix "$APP_DIR" run build
 
-# Deploy the build to the S3 bucket without changing the current directory
+# Deploy the build to the S3 bucket
 echo "Deploying the app to S3..."
 aws s3 sync "$APP_DIR/dist/" s3://"$BUCKET_NAME" --delete
+
+# Deploy the cheatsheets to the S3 bucket
+echo "Deploying cheatsheets to S3..."
+aws s3 sync "$CHEATSHEETS_DIR" s3://"$BUCKET_NAME/cheatsheets" --delete
+
 
 echo "Deployment complete."
