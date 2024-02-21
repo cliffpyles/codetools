@@ -1,0 +1,1492 @@
+{
+  "topic": "Python",
+  "questions": [
+    {
+      "id": "2465c49e-e730-4ce6-8154-e970f8b458ff",
+      "difficulty": 1,
+      "question": "Which keyword is used for function definition in Python?"
+    },
+    {
+      "id": "5da10afc-f79b-43ee-a3fd-d860316d428e",
+      "difficulty": 1,
+      "question": "How do you create a variable with the numeric value 5?"
+    },
+    {
+      "id": "f90026e3-bd80-4fc4-960c-9b71ea1e2b41",
+      "difficulty": 1,
+      "question": "Which method converts a string into a lower case string?"
+    },
+    {
+      "id": "23dc74ba-e44b-4e9f-9816-81702bf52696",
+      "difficulty": 1,
+      "question": "What is the correct file extension for Python files?"
+    },
+    {
+      "id": "654feff9-50fc-4a93-8700-6822276ea0d0",
+      "difficulty": 1,
+      "question": "What keyword is used to check if an object is an instance of a specific class?"
+    },
+    {
+      "id": "d2e5f47b-a2a4-45da-b4b6-7373dcdbdf94",
+      "difficulty": 1,
+      "question": "How do you insert comments in Python code?"
+    },
+    {
+      "id": "6c611a76-d541-463a-a2f3-c153a707cb8e",
+      "difficulty": 1,
+      "question": "What function is used to get the length of a list?"
+    },
+    {
+      "id": "e44d5eba-c4e8-44d1-b255-6fd79186ed72",
+      "difficulty": 1,
+      "question": "Which operator is used to check if two variables are equal?"
+    },
+    {
+      "id": "39a340c2-cb66-4919-b27a-27691cf27815",
+      "difficulty": 1,
+      "question": "Which collection is ordered, changeable, and allows duplicate members?"
+    },
+    {
+      "id": "12fa2ce1-449b-4061-b42b-6e16d58ea995",
+      "difficulty": 1,
+      "question": "How do you start a loop in Python?"
+    },
+    {
+      "id": "8f12551c-fa20-4a49-8af1-d30e08bcdbe7",
+      "difficulty": 1,
+      "question": "How do you create a list in Python?"
+    },
+    {
+      "id": "b1681678-1daf-41f0-890f-69a01f518cd2",
+      "difficulty": 1,
+      "question": "What function prints something to the console?"
+    },
+    {
+      "id": "fa748b5e-a6d5-453f-a936-c81136019fc2",
+      "difficulty": 1,
+      "question": "How can you create a simple dictionary in Python?"
+    },
+    {
+      "id": "80c29c38-b279-451c-b980-559d5f8ef73b",
+      "difficulty": 1,
+      "question": "Which method adds an item to the end of a list?"
+    },
+    {
+      "id": "f7ab47fe-e658-4e2f-beb6-164b1363e452",
+      "difficulty": 1,
+      "question": "What data type is the result of: 5 > 3?"
+    },
+    {
+      "id": "a03020e6-c96e-4a8b-8294-1c982bf6260f",
+      "difficulty": 1,
+      "question": "How do you create a tuple in Python?"
+    },
+    {
+      "id": "1e9f6e5d-54b3-4199-a3ac-c25f1b673fb3",
+      "difficulty": 1,
+      "question": "Which of the followings is the Boolean type in Python?"
+    },
+    {
+      "id": "0b180002-49bb-415d-8ff8-2254689a9d13",
+      "difficulty": 1,
+      "question": "How do you start writing an if statement in Python?"
+    },
+    {
+      "id": "52a78a10-772a-4cc7-8717-5a7e8aab15aa",
+      "difficulty": 1,
+      "question": "What operator is used to multiply numbers?"
+    },
+    {
+      "id": "1390b4dc-cb6c-417b-a53f-3c410d99f9ae",
+      "difficulty": 1,
+      "question": "Which of these data types does not allow duplicate values?"
+    },
+    {
+      "id": "f4b0abf9-f553-415e-859e-15226fee5594",
+      "difficulty": 2,
+      "question": "How can you remove items from a list in Python?"
+    },
+    {
+      "id": "14a4f11b-8e09-4161-8214-822746e7a7f9",
+      "difficulty": 2,
+      "question": "What method can you use to return the index of the first element with the specified value?"
+    },
+    {
+      "id": "0906feac-6220-41fd-8c74-80820094273a",
+      "difficulty": 2,
+      "question": "How do you declare a function that takes no arguments and returns nothing?"
+    },
+    {
+      "id": "c104fee3-0b4f-4328-bab4-cb7846bcf2f7",
+      "difficulty": 2,
+      "question": "What keyword is used to create a class in Python?"
+    },
+    {
+      "id": "748eaf0a-f9a3-4d80-b7e5-5eca84d4636c",
+      "difficulty": 2,
+      "question": "How is memory management handled in Python?"
+    },
+    {
+      "id": "5d2750a1-37b0-4abb-9b72-b840a78ae313",
+      "difficulty": 2,
+      "question": "In Python, what is slicing?"
+    },
+    {
+      "id": "b38d51d2-8a9d-4165-8c01-a4eb365137f2",
+      "difficulty": 2,
+      "question": "How do you copy a list in Python?"
+    },
+    {
+      "id": "7166373f-bc39-4d8c-9037-01098c28f990",
+      "difficulty": 2,
+      "question": "How do you concatenate two lists in Python?"
+    },
+    {
+      "id": "805f9401-0424-4ad2-bcde-621d5751cef7",
+      "difficulty": 2,
+      "question": "What is the correct way to handle exceptions in Python?"
+    },
+    {
+      "id": "91882812-dbd2-4f68-a8a7-2429ec306bb3",
+      "difficulty": 2,
+      "question": "What does the 'self' keyword represent in a Python class?"
+    },
+    {
+      "id": "69172eee-2998-48cd-a925-ef0825107c15",
+      "difficulty": 2,
+      "question": "What is the output of print(2 ** 3)?"
+    },
+    {
+      "id": "8e6629e3-9399-46d0-964f-a4d97d762740",
+      "difficulty": 2,
+      "question": "Which function can generate a sequence of numbers?"
+    },
+    {
+      "id": "edbc72b5-e9f4-4db9-bd71-8c28a68d67fe",
+      "difficulty": 2,
+      "question": "How can you convert a list into a tuple?"
+    },
+    {
+      "id": "397a2fdf-1fb0-44ba-9199-a9ffd19f1208",
+      "difficulty": 2,
+      "question": "What keyword is used to import modules in Python?"
+    },
+    {
+      "id": "04f02a86-5398-4f2e-9c65-e93d3c574aa1",
+      "difficulty": 2,
+      "question": "How do you open a file for reading in Python?"
+    },
+    {
+      "id": "81698aca-0c6d-4d60-b106-f4317eb522b4",
+      "difficulty": 2,
+      "question": "What is list comprehension?"
+    },
+    {
+      "id": "ea28d882-d7bf-4db6-a7b4-094a0b943865",
+      "difficulty": 2,
+      "question": "Which module is used in Python to create graphical interfaces?"
+    },
+    {
+      "id": "48572550-bd86-46d0-b71f-b6c3d982c008",
+      "difficulty": 2,
+      "question": "What is the difference between the 'del' keyword and the pop() method?"
+    },
+    {
+      "id": "a21a04a1-b7cb-4003-83e4-2e60092f0d5b",
+      "difficulty": 2,
+      "question": "How can you achieve multithreading in Python?"
+    },
+    {
+      "id": "e2b4534e-bb95-46fd-bd28-4bd927f7e4b6",
+      "difficulty": 2,
+      "question": "What does the 'continue' keyword do in a loop?"
+    },
+    {
+      "id": "d17f20d5-b62a-49ce-b32b-8253c829df04",
+      "difficulty": 3,
+      "question": "What is a lambda function in Python?"
+    },
+    {
+      "id": "89a2caa8-713e-4b24-8a17-bfd0530240fb",
+      "difficulty": 3,
+      "question": "How do you handle multiple exceptions in a single except block?"
+    },
+    {
+      "id": "0e5e17cf-1d00-4ab2-a551-e6f5e83c12e3",
+      "difficulty": 3,
+      "question": "What is a decorator in Python?"
+    },
+    {
+      "id": "21948245-c179-4fbe-8ee5-eb30287af7ab",
+      "difficulty": 3,
+      "question": "How would you create a static method in Python?"
+    },
+    {
+      "id": "0514b7c3-981a-4c0f-98e5-9c1b55162ddb",
+      "difficulty": 3,
+      "question": "What is the difference between '=='' and 'is'?"
+    },
+    {
+      "id": "1f2a2e5f-0ade-4906-b159-5b3fddc345c3",
+      "difficulty": 3,
+      "question": "How can you merge two dictionaries in Python?"
+    },
+    {
+      "id": "8b9a079a-6f65-4510-aab1-1ded7f53e2f1",
+      "difficulty": 3,
+      "question": "What does the 'yield' keyword do in Python?"
+    },
+    {
+      "id": "d4b5383d-a43f-47bc-9ff8-4093abcd149f",
+      "difficulty": 3,
+      "question": "How do you make a package in Python?"
+    },
+    {
+      "id": "71cb8781-9038-4fb6-9c7a-5d34824ce109",
+      "difficulty": 3,
+      "question": "What is a virtual environment in Python?"
+    },
+    {
+      "id": "29330144-4756-4ea3-895c-a1220f18a54b",
+      "difficulty": 3,
+      "question": "How would you access an element by index in a tuple?"
+    },
+    {
+      "id": "83da8fad-fb27-43c7-a4c9-117382016b9a",
+      "difficulty": 3,
+      "question": "What is the main difference between a list and a set?"
+    },
+    {
+      "id": "2973b7e6-ad9b-49b1-9feb-c1f38cb2520c",
+      "difficulty": 3,
+      "question": "How can you reverse a string in Python?"
+    },
+    {
+      "id": "3da541b6-fd49-4ba2-8217-a329063ea4fb",
+      "difficulty": 3,
+      "question": "What is a generator in Python?"
+    },
+    {
+      "id": "0c728303-1341-4d34-8a73-587368da6ef4",
+      "difficulty": 3,
+      "question": "How do you sort a dictionary by value?"
+    },
+    {
+      "id": "5ad71a55-8de7-4ac7-9564-47db652953ee",
+      "difficulty": 3,
+      "question": "What does the __init__ method do in a class?"
+    },
+    {
+      "id": "b3f8ebe1-a718-4835-b70c-9f6cb0015ad3",
+      "difficulty": 3,
+      "question": "How do you ensure that a function parameter is optional?"
+    },
+    {
+      "id": "51ee570d-c61d-4b38-aad4-fd4f677675a6",
+      "difficulty": 3,
+      "question": "What is PEP 8?"
+    },
+    {
+      "id": "5bcbcd3a-1621-4a7d-bb85-9fcef10f236f",
+      "difficulty": 3,
+      "question": "How do you test if a Python function throws an exception?"
+    },
+    {
+      "id": "24547229-930e-4c74-9160-d932ece74701",
+      "difficulty": 3,
+      "question": "What is the difference between .py and .pyc files?"
+    },
+    {
+      "id": "cc399c52-b0bf-4ff1-bdb7-f7c2c7ec91b2",
+      "difficulty": 3,
+      "question": "How would you strip whitespaces from the start or end of a string?"
+    },
+    {
+      "id": "dbf40cbb-4a93-4d38-8c43-7e2dde06683f",
+      "difficulty": 4,
+      "question": "How can you improve the performance of a Python program?"
+    },
+    {
+      "id": "4c3fd4fd-df36-4fe8-91bc-ef5a87145b1f",
+      "difficulty": 4,
+      "question": "What is the Global Interpreter Lock (GIL)?"
+    },
+    {
+      "id": "fe5bb82a-b73c-4fe5-a815-bc4476884d2e",
+      "difficulty": 4,
+      "question": "What are metaclasses in Python?"
+    },
+    {
+      "id": "74a89d6c-400a-4c64-8e4c-9dbaf477fcdb",
+      "difficulty": 4,
+      "question": "How do you enforce function argument types in Python?"
+    },
+    {
+      "id": "c76add05-e886-4b6a-9b0b-af1e71aa5dae",
+      "difficulty": 4,
+      "question": "What is monkey patching in Python?"
+    },
+    {
+      "id": "a962a7e0-4b64-4a44-abd5-ca5be8c628be",
+      "difficulty": 4,
+      "question": "How can you achieve concurrency in Python?"
+    },
+    {
+      "id": "f359b087-a234-4308-ad79-a93f7a4b8e5b",
+      "difficulty": 4,
+      "question": "What is the difference between shallow and deep copy?"
+    },
+    {
+      "id": "e542e4f4-27d4-4e77-9e7a-2f2faedca3b0",
+      "difficulty": 4,
+      "question": "How is exception chaining done in Python?"
+    },
+    {
+      "id": "6f7c5c4e-e9d6-4377-8180-6734fc141f0f",
+      "difficulty": 4,
+      "question": "What are Python wheels?"
+    },
+    {
+      "id": "49fe861b-eee7-418f-8828-5d2778f7aaa9",
+      "difficulty": 4,
+      "question": "How can you make an object callable?"
+    },
+    {
+      "id": "c63a067c-8a20-44a3-ad6c-5c504ba9d6dd",
+      "difficulty": 4,
+      "question": "What is a context manager and how is it used in Python?"
+    },
+    {
+      "id": "f120f9e6-8c4b-44e9-af18-82bb499c2507",
+      "difficulty": 4,
+      "question": "What is the purpose of the with statement in Python?"
+    },
+    {
+      "id": "5335d586-9106-4ad4-8223-2bf5f11d7779",
+      "difficulty": 4,
+      "question": "How do you debug a Python program?"
+    },
+    {
+      "id": "702dbe14-1f9e-4efa-bc0e-c2ac220dd6fa",
+      "difficulty": 4,
+      "question": "How can the async and await keywords be used?"
+    },
+    {
+      "id": "76431b48-cb65-4fd2-975a-8a9ce1d2a61e",
+      "difficulty": 4,
+      "question": "What is type hinting in Python?"
+    },
+    {
+      "id": "5e18638a-2010-4b4e-9899-3f1066bfdfe4",
+      "difficulty": 4,
+      "question": "How can you profile a Python script?"
+    },
+    {
+      "id": "5ae419be-ee98-4292-872a-83f7477e244c",
+      "difficulty": 4,
+      "question": "What are annotations in Python?"
+    },
+    {
+      "id": "e3935c5a-f7d6-4158-92ef-742dd7846699",
+      "difficulty": 4,
+      "question": "Why and how would you use underscores in Python?"
+    },
+    {
+      "id": "99093032-3c84-4bd8-adb5-89f94fce9645",
+      "difficulty": 4,
+      "question": "How do you use a generator expression?"
+    },
+    {
+      "id": "a313f335-f510-46b8-9a53-c140398a9603",
+      "difficulty": 4,
+      "question": "What is the walrus operator and how is it used?"
+    },
+    {
+      "id": "001b7efd-f49e-49a6-a0c4-c6db5e3e1631",
+      "difficulty": 5,
+      "question": "How do you implement multiple inheritance in Python?"
+    },
+    {
+      "id": "79abad49-b420-49e8-b58b-9d93d44cb30e",
+      "difficulty": 5,
+      "question": "What is the difference between class variables and instance variables?"
+    },
+    {
+      "id": "2306e6ff-148c-4c0f-ae1d-60416ef892d9",
+      "difficulty": 5,
+      "question": "How do you enforce encapsulation in Python?"
+    },
+    {
+      "id": "d2737e5b-8a74-4506-b3bb-e06beb1fa454",
+      "difficulty": 5,
+      "question": "What is the Zen of Python?"
+    },
+    {
+      "id": "832a379b-015d-47a4-b376-ff5b7635be59",
+      "difficulty": 5,
+      "question": "How does Python's memory allocation work for immutable types?"
+    },
+    {
+      "id": "1c949df5-cf52-4283-a72a-1aeb7ffe4923",
+      "difficulty": 5,
+      "question": "What is MRO in Python?"
+    },
+    {
+      "id": "a86fe468-7cd6-4cf5-901e-c27ad63ed269",
+      "difficulty": 5,
+      "question": "How do you dynamically import modules?"
+    },
+    {
+      "id": "8157fc6f-6d82-4794-9460-c10333b89f70",
+      "difficulty": 5,
+      "question": "How do you use the super() function in Python?"
+    },
+    {
+      "id": "c09fed58-8eb0-4c78-930b-fab4f9683e56",
+      "difficulty": 5,
+      "question": "What is namespace in Python?"
+    },
+    {
+      "id": "8784380c-29d5-4081-b60a-c1da2d7e368c",
+      "difficulty": 5,
+      "question": "What are Python descriptors and how are they used?"
+    },
+    {
+      "id": "bb857392-6630-44cb-8c08-c2fe4f0bc871",
+      "difficulty": 5,
+      "question": "How do you serialize and deserialize objects in Python?"
+    },
+    {
+      "id": "986816b5-bcc2-4820-a7b7-092003dc7b7f",
+      "difficulty": 5,
+      "question": "What are the differences between @classmethod, @staticmethod, and instance methods?"
+    },
+    {
+      "id": "d8f33217-e1ac-4a56-a349-179e2c836032",
+      "difficulty": 5,
+      "question": "How can you customize string representation of a class?"
+    },
+    {
+      "id": "df80eeb8-3e81-43f3-a136-e318a1a81f13",
+      "difficulty": 5,
+      "question": "How does garbage collection work in Python?"
+    },
+    {
+      "id": "0a45e390-b76e-449e-9569-e017434d7407",
+      "difficulty": 5,
+      "question": "How do you manage Python dependencies effectively?"
+    },
+    {
+      "id": "51ccd94a-2698-4f1d-83c4-d0e29ec7cf29",
+      "difficulty": 5,
+      "question": "What is an abstract base class in Python?"
+    },
+    {
+      "id": "050638fc-0bb6-47ea-a0de-b4b4c5e4a71e",
+      "difficulty": 5,
+      "question": "How do you use decorators with arguments?"
+    },
+    {
+      "id": "6f966cce-3284-4318-a3d2-7eaeb1294a6d",
+      "difficulty": 5,
+      "question": "What are slots in Python classes?"
+    },
+    {
+      "id": "ada9c204-63a6-4ccc-80b5-a1b6a2cb10bd",
+      "difficulty": 5,
+      "question": "How do you optimize I/O bound and CPU bound operations in Python?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "class",
+        "def",
+        "import",
+        "function"
+      ],
+      "answer": 1,
+      "question_id": "2465c49e-e730-4ce6-8154-e970f8b458ff"
+    },
+    {
+      "choices": [
+        "var = '5'",
+        "int var = 5",
+        "variable = 5",
+        "5 => var"
+      ],
+      "answer": 2,
+      "question_id": "5da10afc-f79b-43ee-a3fd-d860316d428e"
+    },
+    {
+      "choices": [
+        "toLowerCase()",
+        "makeLower()",
+        "convertToLower()",
+        "lower()"
+      ],
+      "answer": 3,
+      "question_id": "f90026e3-bd80-4fc4-960c-9b71ea1e2b41"
+    },
+    {
+      "choices": [
+        ".js",
+        ".java",
+        ".py",
+        ".txt"
+      ],
+      "answer": 2,
+      "question_id": "23dc74ba-e44b-4e9f-9816-81702bf52696"
+    },
+    {
+      "choices": [
+        "is",
+        "instanceof",
+        "check",
+        "isinstance"
+      ],
+      "answer": 3,
+      "question_id": "654feff9-50fc-4a93-8700-6822276ea0d0"
+    },
+    {
+      "choices": [
+        "# This is a comment",
+        "// This is a comment",
+        "<!-- This is a comment -->",
+        "/* This is a comment */"
+      ],
+      "answer": 0,
+      "question_id": "d2e5f47b-a2a4-45da-b4b6-7373dcdbdf94"
+    },
+    {
+      "choices": [
+        "count()",
+        "length()",
+        "len()",
+        "size()"
+      ],
+      "answer": 2,
+      "question_id": "6c611a76-d541-463a-a2f3-c153a707cb8e"
+    },
+    {
+      "choices": [
+        "=",
+        "==",
+        "!==",
+        "==="
+      ],
+      "answer": 1,
+      "question_id": "e44d5eba-c4e8-44d1-b255-6fd79186ed72"
+    },
+    {
+      "choices": [
+        "set",
+        "dictionary",
+        "tuple",
+        "list"
+      ],
+      "answer": 3,
+      "question_id": "39a340c2-cb66-4919-b27a-27691cf27815"
+    },
+    {
+      "choices": [
+        "loop()",
+        "foreach",
+        "for or while",
+        "initiate()"
+      ],
+      "answer": 2,
+      "question_id": "12fa2ce1-449b-4061-b42b-6e16d58ea995"
+    },
+    {
+      "choices": [
+        "list{1, 2, 3}",
+        "[1, 2, 3]",
+        "list[1, 2, 3]",
+        "{1, 2, 3}"
+      ],
+      "answer": 1,
+      "question_id": "8f12551c-fa20-4a49-8af1-d30e08bcdbe7"
+    },
+    {
+      "choices": [
+        "print()",
+        "echo()",
+        "log()",
+        "write()"
+      ],
+      "answer": 0,
+      "question_id": "b1681678-1daf-41f0-890f-69a01f518cd2"
+    },
+    {
+      "choices": [
+        "list() = {'key': 'value'}",
+        "set{} = ('key', 'value')",
+        "dict() = ['key', 'value']",
+        "{'key': 'value'}"
+      ],
+      "answer": 3,
+      "question_id": "fa748b5e-a6d5-453f-a936-c81136019fc2"
+    },
+    {
+      "choices": [
+        "append()",
+        "insert()",
+        "add()",
+        "attach()"
+      ],
+      "answer": 0,
+      "question_id": "80c29c38-b279-451c-b980-559d5f8ef73b"
+    },
+    {
+      "choices": [
+        "string",
+        "int",
+        "bool",
+        "list"
+      ],
+      "answer": 2,
+      "question_id": "f7ab47fe-e658-4e2f-beb6-164b1363e452"
+    },
+    {
+      "choices": [
+        "Using square brackets: [1, 2, 3]",
+        "Using parentheses: (1, 2, 3)",
+        "Using curly braces: {1, 2, 3}",
+        "Using the tuple keyword: tuple{1, 2, 3}"
+      ],
+      "answer": 1,
+      "question_id": "a03020e6-c96e-4a8b-8294-1c982bf6260f"
+    },
+    {
+      "choices": [
+        "Str",
+        "Boolean",
+        "Bool",
+        "Int"
+      ],
+      "answer": 2,
+      "question_id": "1e9f6e5d-54b3-4199-a3ac-c25f1b673fb3"
+    },
+    {
+      "choices": [
+        "if() {",
+        "if []:",
+        "if ():",
+        "if True:"
+      ],
+      "answer": 3,
+      "question_id": "0b180002-49bb-415d-8ff8-2254689a9d13"
+    },
+    {
+      "choices": [
+        "+",
+        "*",
+        "%",
+        "/"
+      ],
+      "answer": 1,
+      "question_id": "52a78a10-772a-4cc7-8717-5a7e8aab15aa"
+    },
+    {
+      "choices": [
+        "list",
+        "dictionary",
+        "set",
+        "tuple"
+      ],
+      "answer": 2,
+      "question_id": "1390b4dc-cb6c-417b-a53f-3c410d99f9ae"
+    },
+    {
+      "choices": [
+        "list.discard(item)",
+        "remove(item) from list",
+        "list.remove(item)",
+        "delete(list[item])"
+      ],
+      "answer": 2,
+      "question_id": "f4b0abf9-f553-415e-859e-15226fee5594"
+    },
+    {
+      "choices": [
+        "find()",
+        "indexOf()",
+        "search()",
+        "index()"
+      ],
+      "answer": 3,
+      "question_id": "14a4f11b-8e09-4161-8214-822746e7a7f9"
+    },
+    {
+      "choices": [
+        "def myFunction[]:",
+        "function myFunction() -> None:",
+        "def myFunction() -> None:",
+        "def myFunction():"
+      ],
+      "answer": 3,
+      "question_id": "0906feac-6220-41fd-8c74-80820094273a"
+    },
+    {
+      "choices": [
+        "function",
+        "class",
+        "create",
+        "define"
+      ],
+      "answer": 1,
+      "question_id": "c104fee3-0b4f-4328-bab4-cb7846bcf2f7"
+    },
+    {
+      "choices": [
+        "The programmer manually allocates and frees memory",
+        "Memory is managed through reference counting and a garbage collector",
+        "Python does not handle memory; it's managed by the operating system",
+        "Memory management is exclusively based on garbage collection without reference counting"
+      ],
+      "answer": 1,
+      "question_id": "748eaf0a-f9a3-4d80-b7e5-5eca84d4636c"
+    },
+    {
+      "choices": [
+        "A method to merge dictionaries",
+        "Creating a shallow copy of a list",
+        "A way to select specific elements from a sequence",
+        "A syntax for exception handling"
+      ],
+      "answer": 2,
+      "question_id": "5d2750a1-37b0-4abb-9b72-b840a78ae313"
+    },
+    {
+      "choices": [
+        "list.copy()",
+        "list[]",
+        "copy(list)",
+        "copy:list"
+      ],
+      "answer": 0,
+      "question_id": "b38d51d2-8a9d-4165-8c01-a4eb365137f2"
+    },
+    {
+      "choices": [
+        "using the + operator",
+        "using the append() method",
+        "using the concat() function",
+        "using the merge() method"
+      ],
+      "answer": 0,
+      "question_id": "7166373f-bc39-4d8c-9037-01098c28f990"
+    },
+    {
+      "choices": [
+        "try: ... except: ... finally: ...",
+        "if: ... otherwise: ...",
+        "begin: ... rescue: ... ensure: ...",
+        "start: ... fail: ... always: ..."
+      ],
+      "answer": 0,
+      "question_id": "805f9401-0424-4ad2-bcde-621d5751cef7"
+    },
+    {
+      "choices": [
+        "A global variable within the class",
+        "The instance of the class calling the method",
+        "A reserved method name within the class",
+        "A decorator used in class methods"
+      ],
+      "answer": 1,
+      "question_id": "91882812-dbd2-4f68-a8a7-2429ec306bb3"
+    },
+    {
+      "choices": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "answer": 1,
+      "question_id": "69172eee-2998-48cd-a925-ef0825107c15"
+    },
+    {
+      "choices": [
+        "listify()",
+        "range()",
+        "sequence()",
+        "numGen()"
+      ],
+      "answer": 1,
+      "question_id": "8e6629e3-9399-46d0-964f-a4d97d762740"
+    },
+    {
+      "choices": [
+        "list(tuple_name)",
+        "tuple(list_name)",
+        "convert(list_name, 'tuple')",
+        "list_name.toTuple()"
+      ],
+      "answer": 1,
+      "question_id": "edbc72b5-e9f4-4db9-bd71-8c28a68d67fe"
+    },
+    {
+      "choices": [
+        "include",
+        "import",
+        "require",
+        "use"
+      ],
+      "answer": 1,
+      "question_id": "397a2fdf-1fb0-44ba-9199-a9ffd19f1208"
+    },
+    {
+      "choices": [
+        "file.open('myfile.txt', 'r')",
+        "open('myfile.txt', 'w')",
+        "open('myfile.txt', 'rb')",
+        "open('myfile.txt', 'r')"
+      ],
+      "answer": 3,
+      "question_id": "04f02a86-5398-4f2e-9c65-e93d3c574aa1"
+    },
+    {
+      "choices": [
+        "A way to write cleaner decorators.",
+        "A syntax for filtering elements from a list.",
+        "A concise way to create lists based on existing lists.",
+        "The process of checking the type of elements in a list."
+      ],
+      "answer": 2,
+      "question_id": "81698aca-0c6d-4d60-b106-f4317eb522b4"
+    },
+    {
+      "choices": [
+        "PyQt",
+        "sys",
+        "turtle",
+        "tkinter"
+      ],
+      "answer": 3,
+      "question_id": "ea28d882-d7bf-4db6-a7b4-094a0b943865"
+    },
+    {
+      "choices": [
+        "The 'del' keyword can remove an item at a specified index without returning it, while the pop() method removes and returns an item at a specified index.",
+        "The pop() method can only be used with dictionaries, while the 'del' keyword is exclusive to lists.",
+        "There is no difference; both perform the same action.",
+        "The 'del' keyword renames a variable, while the pop() method duplicates the list."
+      ],
+      "answer": 0,
+      "question_id": "48572550-bd86-46d0-b71f-b6c3d982c008"
+    },
+    {
+      "choices": [
+        "Using the multiprocessing module",
+        "By importing the sys library",
+        "Through the use of the threading module",
+        "Implementing asynchronous callbacks"
+      ],
+      "answer": 2,
+      "question_id": "a21a04a1-b7cb-4003-83e4-2e60092f0d5b"
+    },
+    {
+      "choices": [
+        "Exits the loop immediately",
+        "Skips the remainder of the current iteration and proceeds to the next iteration",
+        "Terminates the program",
+        "Creates a loop within a loop"
+      ],
+      "answer": 1,
+      "question_id": "e2b4534e-bb95-46fd-bd28-4bd927f7e4b6"
+    },
+    {
+      "choices": [
+        "A loop that iterates over sequences",
+        "A way to define anonymous functions",
+        "A module for working with regular expressions",
+        "A data structure similar to tuples"
+      ],
+      "answer": 1,
+      "question_id": "d17f20d5-b62a-49ce-b32b-8253c829df04"
+    },
+    {
+      "choices": [
+        "By listing them separated by a colon",
+        "By separating them with a semicolon",
+        "By listing them inside parentheses separated by commas",
+        "By using multiple except blocks for each"
+      ],
+      "answer": 3,
+      "question_id": "89a2caa8-713e-4b24-8a17-bfd0530240fb"
+    },
+    {
+      "choices": [
+        "A function that changes the value of global variables",
+        "A tool to manage Python packages",
+        "A function returning another function, used to modify or extend the behavior of other functions or methods",
+        "A type of data structure for organizing information"
+      ],
+      "answer": 2,
+      "question_id": "0e5e17cf-1d00-4ab2-a551-e6f5e83c12e3"
+    },
+    {
+      "choices": [
+        "Using the @staticmethod before a function definition",
+        "Declaring a method outside of a class",
+        "Using the @classmethod before a function definition",
+        "Prefixing the method name with static_"
+      ],
+      "answer": 0,
+      "question_id": "21948245-c179-4fbe-8ee5-eb30287af7ab"
+    },
+    {
+      "choices": [
+        "'==' compares values, while 'is' checks if objects share the same memory location.",
+        "'==' checks if objects are of the same type, 'is' compares values.",
+        "There is no difference; both are used interchangeably in Python.",
+        "'is' compares function names, while '==' compares the results they return."
+      ],
+      "answer": 0,
+      "question_id": "0514b7c3-981a-4c0f-98e5-9c1b55162ddb"
+    },
+    {
+      "choices": [
+        "{**dict1, **dict2}",
+        "dict1.append(dict2)",
+        "dict1.merge(dict2)",
+        "merge(dict1, dict2)"
+      ],
+      "answer": 0,
+      "question_id": "1f2a2e5f-0ade-4906-b159-5b3fddc345c3"
+    },
+    {
+      "choices": [
+        "Ends the execution of a function and returns a value",
+        "Generates a new list comprehension",
+        "Pauses the function saving all its states and later continues from there when called",
+        "Declares a variable"
+      ],
+      "answer": 2,
+      "question_id": "8b9a079a-6f65-4510-aab1-1ded7f53e2f1"
+    },
+    {
+      "choices": [
+        "Create a file named package.py in your project directory",
+        "Use the packager tool from the Python command line",
+        "Create a directory and add an __init__.py file in it",
+        "Publish your code to GitHub and it becomes a package automatically"
+      ],
+      "answer": 2,
+      "question_id": "d4b5383d-a43f-47bc-9ff8-4093abcd149f"
+    },
+    {
+      "choices": [
+        "A predefined set of variables.",
+        "A development environment for Python provided by the IDE.",
+        "A system for granting Python programs elevated permissions.",
+        "A self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages."
+      ],
+      "answer": 3,
+      "question_id": "71cb8781-9038-4fb6-9c7a-5d34824ce109"
+    },
+    {
+      "choices": [
+        "tuple.element(index)",
+        "tuple(index)",
+        "element[index]",
+        "tuple[index]"
+      ],
+      "answer": 3,
+      "question_id": "29330144-4756-4ea3-895c-a1220f18a54b"
+    },
+    {
+      "choices": [
+        "A list can contain duplicate elements, while a set cannot.",
+        "A set supports indexing, while a list does not.",
+        "A list is immutable, while a set is mutable.",
+        "A set can contain only numeric values, while a list can contain any type of values."
+      ],
+      "answer": 0,
+      "question_id": "83da8fad-fb27-43c7-a4c9-117382016b9a"
+    },
+    {
+      "choices": [
+        "Using the sorted() function",
+        "With the reverse parameter in a for loop",
+        "By using the[::-1] slice syntax",
+        "Applying the .reverse() method directly to the string"
+      ],
+      "answer": 2,
+      "question_id": "2973b7e6-ad9b-49b1-9feb-c1f38cb2520c"
+    },
+    {
+      "choices": [
+        "A type-safe collection",
+        "A loop that can iterate forever",
+        "A function that yields values one at a time",
+        "A syntax for parsing XML documents"
+      ],
+      "answer": 2,
+      "question_id": "3da541b6-fd49-4ba2-8217-a329063ea4fb"
+    },
+    {
+      "choices": [
+        "dict.sort(key=lambda x: x[1])",
+        "sorted(dict, key=dict.get)",
+        "dict.sort()",
+        "dict.items().sort()"
+      ],
+      "answer": 1,
+      "question_id": "0c728303-1341-4d34-8a73-587368da6ef4"
+    },
+    {
+      "choices": [
+        "Initializes a window for a GUI application",
+        "Declares the variables used in the class",
+        "Initializes a new instance of a class",
+        "Defines a finalizer method for class objects"
+      ],
+      "answer": 2,
+      "question_id": "5ad71a55-8de7-4ac7-9564-47db652953ee"
+    },
+    {
+      "choices": [
+        "By initializing it in a try block",
+        "Setting the parameter to NULL",
+        "Using the pass keyword",
+        "Assigning a default value when defining the function"
+      ],
+      "answer": 3,
+      "question_id": "b3f8ebe1-a718-4835-b70c-9f6cb0015ad3"
+    },
+    {
+      "choices": [
+        "A version of Python",
+        "Python Enhancement Proposal for coding style",
+        "A Python web framework",
+        "A package manager for Python"
+      ],
+      "answer": 1,
+      "question_id": "51ee570d-c61d-4b38-aad4-fd4f677675a6"
+    },
+    {
+      "choices": [
+        "Use the `except` keyword to catch the exception",
+        "Use the `try` keyword without catching the exception",
+        "Implement unit tests outside of the Python environment",
+        "Using a `with` statement alongside `pytest.raises`"
+      ],
+      "answer": 3,
+      "question_id": "5bcbcd3a-1621-4a7d-bb85-9fcef10f236f"
+    },
+    {
+      "choices": [
+        ".py files are compiled Python files, while .pyc files are the source code",
+        ".pyc files are cache files created by the Python interpreter, while .py files are the source code",
+        "There is no difference; both are used interchangeably",
+        ".py files are the source code written by the programmer, while .pyc files are bytecode compiled versions of .py files"
+      ],
+      "answer": 3,
+      "question_id": "24547229-930e-4c74-9160-d932ece74701"
+    },
+    {
+      "choices": [
+        "strip()",
+        ".trim()",
+        "rstrip()",
+        "remove()"
+      ],
+      "answer": 0,
+      "question_id": "cc399c52-b0bf-4ff1-bdb7-f7c2c7ec91b2"
+    },
+    {
+      "choices": [
+        "Increment all numeric values by 1",
+        "Convert all functions to asynchronous",
+        "Using a more efficient data structure or algorithm",
+        "Change all variable names to be shorter"
+      ],
+      "answer": 2,
+      "question_id": "dbf40cbb-4a93-4d38-8c43-7e2dde06683f"
+    },
+    {
+      "choices": [
+        "A mechanism that prevents multiple threads from executing Python bytecodes at once.",
+        "A tool used to manage memory allocation in multiple programming languages including Python.",
+        "A Python module that ensures thread safety for complex data structures.",
+        "A global lock in the operating system that guarantees single-threaded access to all Python apps."
+      ],
+      "answer": 0,
+      "question_id": "4c3fd4fd-df36-4fe8-91bc-ef5a87145b1f"
+    },
+    {
+      "choices": [
+        "A special syntax for writing multi-threaded programs",
+        "Libraries for performing mathematical calculations",
+        "Classes that create classes, controlling the creation of classes",
+        "Python's term for its object-oriented inheritance model"
+      ],
+      "answer": 2,
+      "question_id": "fe5bb82a-b73c-4fe5-a815-bc4476884d2e"
+    },
+    {
+      "choices": [
+        "Use #type comments above the function definition",
+        "Declare types in function comments",
+        "It's automatically detected, no need to enforce",
+        "Use type hints in the function definition"
+      ],
+      "answer": 3,
+      "question_id": "74a89d6c-400a-4c64-8e4c-9dbaf477fcdb"
+    },
+    {
+      "choices": [
+        "A method for dynamically updating functions at runtime",
+        "The process of installing Python packages directly from a Git repository",
+        "A technique for debugging multi-threaded applications",
+        "The practice of writing Python code that is compatible with multiple versions of Python"
+      ],
+      "answer": 0,
+      "question_id": "c76add05-e886-4b6a-9b0b-af1e71aa5dae"
+    },
+    {
+      "choices": [
+        "Using the 'sync' keyword",
+        "Through multithreading",
+        "Implementing version control",
+        "By optimizing algorithms"
+      ],
+      "answer": 1,
+      "question_id": "a962a7e0-4b64-4a44-abd5-ca5be8c628be"
+    },
+    {
+      "choices": [
+        "Shallow copy only copies the reference pointers, while deep copy copies the contents of the objects.",
+        "Shallow copy duplicates the object's value, whereas deep copy creates a new instance of the original object.",
+        "Shallow copy merges two objects into one, while deep copy separates an object into two replicas.",
+        "Shallow copy can only be used with numeric data types, while deep copy works with all types."
+      ],
+      "answer": 0,
+      "question_id": "f359b087-a234-4308-ad79-a93f7a4b8e5b"
+    },
+    {
+      "choices": [
+        "By using the raise...from statement",
+        "By using the except...as statement",
+        "By concatenating exceptions with +",
+        "By listing all exceptions in parentheses"
+      ],
+      "answer": 0,
+      "question_id": "e542e4f4-27d4-4e77-9e7a-2f2faedca3b0"
+    },
+    {
+      "choices": [
+        "A version control system tailored for Python",
+        "A type of Python optimization tool",
+        "Python's package format for distributing libraries and applications",
+        "An integrated development environment (IDE) for Python"
+      ],
+      "answer": 2,
+      "question_id": "6f7c5c4e-e9d6-4377-8180-6734fc141f0f"
+    },
+    {
+      "choices": [
+        "Declare it as a string",
+        "Use the __call__ method in its class",
+        "Import the Callable module",
+        "Make it inherit from the List class"
+      ],
+      "answer": 1,
+      "question_id": "49fe861b-eee7-418f-8828-5d2778f7aaa9"
+    },
+    {
+      "choices": [
+        "A library for managing system contexts and environment variables.",
+        "A programming paradigm in Python that is used for exception handling only.",
+        "A construct that allows a programmer to manage resources, such as file operations, efficiently and safely with automatic handling of setup and teardown actions.",
+        "A method for synchronizing threads in multi-threaded applications."
+      ],
+      "answer": 2,
+      "question_id": "c63a067c-8a20-44a3-ad6c-5c504ba9d6dd"
+    },
+    {
+      "choices": [
+        "To open a file and ensure it gets closed",
+        "To create a new syntax structure",
+        "To iterate over the elements of a list",
+        "To define a new class"
+      ],
+      "answer": 0,
+      "question_id": "f120f9e6-8c4b-44e9-af18-82bb499c2507"
+    },
+    {
+      "choices": [
+        "Use an IDE to compile the code with debugging flags.",
+        "Use the 'debug' keyword in the console.",
+        "Print statements throughout the code.",
+        "Use the 'pdb' module for debugging."
+      ],
+      "answer": 3,
+      "question_id": "5335d586-9106-4ad4-8223-2bf5f11d7779"
+    },
+    {
+      "choices": [
+        "To create multithreaded applications",
+        "To enforce type checking at compile time",
+        "To handle higher precision arithmetic operations",
+        "To write asynchronous code that looks like synchronous code"
+      ],
+      "answer": 3,
+      "question_id": "702dbe14-1f9e-4efa-bc0e-c2ac220dd6fa"
+    },
+    {
+      "choices": [
+        "A technique for memory optimization",
+        "A method of naming variables",
+        "A practice of defining the types of variables and function return values",
+        "An approach to speed up runtime execution"
+      ],
+      "answer": 2,
+      "question_id": "76431b48-cb65-4fd2-975a-8a9ce1d2a61e"
+    },
+    {
+      "choices": [
+        "Use the 'debug' command with the script name",
+        "Use the 'profile' keyword before running the script",
+        "Use the cProfile module and run the script with it",
+        "Insert 'profile' at the beginning of each function in the script"
+      ],
+      "answer": 2,
+      "question_id": "5e18638a-2010-4b4e-9899-3f1066bfdfe4"
+    },
+    {
+      "choices": [
+        "A special syntax for declaring types",
+        "A framework for web development",
+        "A method for synchronizing threads",
+        "A mechanism for memory management"
+      ],
+      "answer": 0,
+      "question_id": "5ae419be-ee98-4292-872a-83f7477e244c"
+    },
+    {
+      "choices": [
+        "For defining magic methods in classes",
+        "To indicate a loop variable that is not used",
+        "As a naming convention for private methods",
+        "To concatenate strings naturally"
+      ],
+      "answer": 2,
+      "question_id": "e3935c5a-f7d6-4158-92ef-742dd7846699"
+    },
+    {
+      "choices": [
+        "By using the yield keyword inside parentheses",
+        "By enclosing a list comprehension inside square brackets",
+        "By enclosing a list comprehension inside curly braces",
+        "By using the yield keyword inside square brackets"
+      ],
+      "answer": 0,
+      "question_id": "99093032-3c84-4bd8-adb5-89f94fce9645"
+    },
+    {
+      "choices": [
+        "A method to reverse lists in Python.",
+        "A method to iterate over dictionaries.",
+        "A way to assign values to variables as part of a larger expression.",
+        "A special form of lambda for asynchronous programming."
+      ],
+      "answer": 2,
+      "question_id": "a313f335-f510-46b8-9a53-c140398a9603"
+    },
+    {
+      "choices": [
+        "Using the multiple() function",
+        "By creating a class that inherits from multiple classes separated by a comma",
+        "With the help of a special module called 'multi-inherit'",
+        "By declaring two or more classes within a single class definition"
+      ],
+      "answer": 1,
+      "question_id": "001b7efd-f49e-49a6-a0c4-c6db5e3e1631"
+    },
+    {
+      "choices": [
+        "Instance variables are shared across all instances of a class, while class variables are unique to each instance.",
+        "Instance variables are initialized outside any class methods, whereas class variables are initialized within methods.",
+        "Class variables are shared across all instances of a class, while instance variables are unique to each instance.",
+        "Class variables can only be strings, whereas instance variables can be any type."
+      ],
+      "answer": 2,
+      "question_id": "79abad49-b420-49e8-b58b-9d93d44cb30e"
+    },
+    {
+      "choices": [
+        "Use a leading underscore (e.g., _variable) for protected variables.",
+        "Declare the class as 'final'.",
+        "Use the 'private' keyword before variables.",
+        "Wrap variables in a class method."
+      ],
+      "answer": 0,
+      "question_id": "2306e6ff-148c-4c0f-ae1d-60416ef892d9"
+    },
+    {
+      "choices": [
+        "The philosophical approach to optimizing database queries",
+        "A set of 19 software principles that influences the design of Python programs",
+        "The official Python software foundation's code of conduct",
+        "A collection of Python's most commonly used libraries and frameworks"
+      ],
+      "answer": 1,
+      "question_id": "d2737e5b-8a74-4506-b3bb-e06beb1fa454"
+    },
+    {
+      "choices": [
+        "Memory is allocated only once, and all attempts to modify the object will result in a runtime error.",
+        "A new object is created, and the variable is pointed to the new object if a modification is attempted.",
+        "Python allows in-place modification of the object, changing its memory allocation as needed.",
+        "Memory allocation for immutable types is determined at compile-time and cannot be changed."
+      ],
+      "answer": 1,
+      "question_id": "832a379b-015d-47a4-b376-ff5b7635be59"
+    },
+    {
+      "choices": [
+        "Memory Release Order",
+        "Method Resolution Order",
+        "Module Reload Operation",
+        "Multiple Return Optimization"
+      ],
+      "answer": 1,
+      "question_id": "1c949df5-cf52-4283-a72a-1aeb7ffe4923"
+    },
+    {
+      "choices": [
+        "importlib.import_module('module_name')",
+        "import('module_name')",
+        "module = __import__('module_name')",
+        "load('module_name')"
+      ],
+      "answer": 0,
+      "question_id": "a86fe468-7cd6-4cf5-901e-c27ad63ed269"
+    },
+    {
+      "choices": [
+        "super().__init__(self)",
+        "super().method() without arguments",
+        "super().method(arg1, arg2)",
+        "To call a method from the parent class, use super().method()"
+      ],
+      "answer": 3,
+      "question_id": "8157fc6f-6d82-4794-9460-c10333b89f70"
+    },
+    {
+      "choices": [
+        "A memory location where names and addresses are mapped",
+        "A method to increase program speed",
+        "A container where names are mapped to objects",
+        "The main script where Python code is written"
+      ],
+      "answer": 2,
+      "question_id": "c09fed58-8eb0-4c78-930b-fab4f9683e56"
+    },
+    {
+      "choices": [
+        "Functions in Python that are called using a special syntax",
+        "Special methods used to get, set, and delete a property value",
+        "Python classes that are imported from external libraries to manage code packaging",
+        "A tool for managing Python versions and environments"
+      ],
+      "answer": 1,
+      "question_id": "8784380c-29d5-4081-b60a-c1da2d7e368c"
+    },
+    {
+      "choices": [
+        "Using the serialize() and deserialize() functions",
+        "Through the pickle module",
+        "By utilizing JSON.stringify and JSON.parse",
+        "Applying the toString() and fromString() methods"
+      ],
+      "answer": 1,
+      "question_id": "bb857392-6630-44cb-8c08-c2fe4f0bc871"
+    },
+    {
+      "choices": [
+        "@classmethod must have a reference to a class object as the first parameter, @staticmethod can be called without an object or class reference, and instance methods need a self parameter to access instance variables.",
+        "@classmethod and @staticmethod both require a self parameter as the first argument, while instance methods do not need any parameters.",
+        "Instance methods and @staticmethod do not take any parameters, while @classmethod needs a reference to a class object as the first parameter.",
+        "@staticmethod and instance methods both return a new instance of the class, while @classmethod modifies the class itself."
+      ],
+      "answer": 0,
+      "question_id": "986816b5-bcc2-4820-a7b7-092003dc7b7f"
+    },
+    {
+      "choices": [
+        "Override the __str__() method",
+        "Use the print() function inside class",
+        "Modify the __main__() method",
+        "Change the class name"
+      ],
+      "answer": 0,
+      "question_id": "d8f33217-e1ac-4a56-a349-179e2c836032"
+    },
+    {
+      "choices": [
+        "Allocates memory blocks based on code execution and never deallocates them.",
+        "Uses reference counting and can also trigger a cycle-detecting algorithm to collect circular references.",
+        "Manually managed by the developer, requiring explicit deallocation of memory.",
+        "Python does not support garbage collection."
+      ],
+      "answer": 1,
+      "question_id": "df80eeb8-3e81-43f3-a136-e318a1a81f13"
+    },
+    {
+      "choices": [
+        "Modify the PYTHONPATH environment variable for each project.",
+        "Use different Python interpreters for each project.",
+        "Use a package manager like pip and virtual environments.",
+        "Manually copy required packages into your project directory."
+      ],
+      "answer": 2,
+      "question_id": "0a45e390-b76e-449e-9569-e017434d7407"
+    },
+    {
+      "choices": [
+        "A class that cannot be instantiated and is usually used for creating derived classes.",
+        "A standard class for data storage.",
+        "A template for creating user interfaces.",
+        "The base class in Python used for all numeric operations."
+      ],
+      "answer": 0,
+      "question_id": "51ccd94a-2698-4f1d-83c4-d0e29ec7cf29"
+    },
+    {
+      "choices": [
+        "By using the @ symbol followed by the decorator name and passing arguments directly to the decorator",
+        "By passing the arguments to the function being decorated instead of the decorator",
+        "Decorators cannot take arguments",
+        "By defining a decorator within another function which takes arguments"
+      ],
+      "answer": 3,
+      "question_id": "050638fc-0bb6-47ea-a0de-b4b4c5e4a71e"
+    },
+    {
+      "choices": [
+        "A mechanism for signal and slot communication between objects",
+        "Reserved memory locations to store values",
+        "A technique used to dynamically allocate memory to Python objects",
+        "A feature used to significantly reduce the memory footprint of objects by pre-defining a fixed set of attributes"
+      ],
+      "answer": 3,
+      "question_id": "6f966cce-3284-4318-a3d2-7eaeb1294a6d"
+    },
+    {
+      "choices": [
+        "Use the multiprocessing library for I/O bound operations and asyncio for CPU bound operations",
+        "Optimize I/O bound operations with asyncio and CPU bound operations with the multiprocessing library",
+        "Increase the number of threads to optimize both I/O and CPU bound operations",
+        "Optimize both I/O and CPU bound operations using only the threading library"
+      ],
+      "answer": 2,
+      "question_id": "ada9c204-63a6-4ccc-80b5-a1b6a2cb10bd"
+    }
+  ]
+}

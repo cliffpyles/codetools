@@ -1,0 +1,1507 @@
+{
+  "topic": "AWS",
+  "questions": [
+    {
+      "id": "a438efa0-b8d1-4308-9f25-b971c609d035",
+      "difficulty": 1,
+      "question": "What service does AWS offer for cloud storage?"
+    },
+    {
+      "id": "7c6e8fb2-6a80-40e8-804f-aaa15cde9d4f",
+      "difficulty": 1,
+      "question": "Which AWS service is used for compute capability?"
+    },
+    {
+      "id": "bc7e7648-07c8-4962-b42c-f6d4f2df903e",
+      "difficulty": 1,
+      "question": "What does AWS stand for?"
+    },
+    {
+      "id": "97471a51-4f50-4e3b-85f3-f23b20718a98",
+      "difficulty": 1,
+      "question": "What is the AWS service for content delivery and networking?"
+    },
+    {
+      "id": "0b89a6b8-14c6-4fba-ab3c-53c5e8c93a3d",
+      "difficulty": 1,
+      "question": "In which year was AWS launched?"
+    },
+    {
+      "id": "ef5e7984-7f4c-43c9-bcfe-40f43217f34e",
+      "difficulty": 1,
+      "question": "Which AWS service provides a managed relational database?"
+    },
+    {
+      "id": "ce24ce72-50c4-4352-8d8f-3f610f226b3f",
+      "difficulty": 1,
+      "question": "What is Amazon S3 used for?"
+    },
+    {
+      "id": "f1625553-6261-48b8-a0e4-dc8f46d7bff1",
+      "difficulty": 1,
+      "question": "What is an Availability Zone in AWS?"
+    },
+    {
+      "id": "a86298f6-2855-4b8a-af32-944d184c23b0",
+      "difficulty": 1,
+      "question": "Which service is AWS's NoSQL database offering?"
+    },
+    {
+      "id": "747bc36e-b898-4d8a-9707-915cc10a49cc",
+      "difficulty": 1,
+      "question": "What is the AWS service for serverless computing called?"
+    },
+    {
+      "id": "f6fab4ee-5a63-434b-b7ce-058dfcdf1782",
+      "difficulty": 1,
+      "question": "What does the AWS IAM service do?"
+    },
+    {
+      "id": "607ce731-492c-41e7-a0f5-5140f6f8cdd3",
+      "difficulty": 1,
+      "question": "Which AWS model offers fully managed hardware?"
+    },
+    {
+      "id": "62306996-d0d7-484a-9e35-e934f78b4c86",
+      "difficulty": 1,
+      "question": "What is Amazon EC2's primary function?"
+    },
+    {
+      "id": "348c5f28-caa2-4bcf-9557-842c04201267",
+      "difficulty": 1,
+      "question": "Which AWS service offers virtual private servers?"
+    },
+    {
+      "id": "dac6d8a4-ccaa-4361-9661-fea72d20f89e",
+      "difficulty": 1,
+      "question": "What feature does AWS Auto Scaling offer?"
+    },
+    {
+      "id": "e3ed5770-8f17-48c6-ac53-b324bdc4ff1a",
+      "difficulty": 1,
+      "question": "Which AWS service allows you to host a static website?"
+    },
+    {
+      "id": "182cdd7a-de22-4b37-9842-ce1840e23952",
+      "difficulty": 1,
+      "question": "What is AWS CloudFormation designed for?"
+    },
+    {
+      "id": "61cb93ce-0f42-4d04-9d54-9fbd69e4a95b",
+      "difficulty": 1,
+      "question": "What does Amazon RDS stand for?"
+    },
+    {
+      "id": "a60cf62a-593d-4f2b-a862-db3e73c99f87",
+      "difficulty": 1,
+      "question": "Which AWS service provides a managed Kubernetes service?"
+    },
+    {
+      "id": "0566ae20-ddbd-4a3d-945b-291bb7354906",
+      "difficulty": 1,
+      "question": "What is the benefit of AWS Lambda?"
+    },
+    {
+      "id": "923589cf-7eb0-4892-8535-b1739e77e29b",
+      "difficulty": 2,
+      "question": "How does AWS Lambda price its service?"
+    },
+    {
+      "id": "6a27f6ae-0021-427c-8d9e-9f71eb83597e",
+      "difficulty": 2,
+      "question": "What does AWS' CDN service called?"
+    },
+    {
+      "id": "12e90260-39df-4e16-8603-eda66dfaab92",
+      "difficulty": 2,
+      "question": "What is the key-value store service provided by AWS?"
+    },
+    {
+      "id": "a777308c-05da-4b3c-9173-578ac48b5b47",
+      "difficulty": 2,
+      "question": "How does Amazon S3 ensure data durability?"
+    },
+    {
+      "id": "9877cdfe-4726-4031-a866-f31027e41a1e",
+      "difficulty": 2,
+      "question": "What data warehousing service does AWS offer?"
+    },
+    {
+      "id": "3ba6e02f-b5d8-418a-9468-f2e8e0f7e748",
+      "difficulty": 2,
+      "question": "What feature does Amazon EBS provide?"
+    },
+    {
+      "id": "fd55df3c-2fd5-4483-a938-825dc00ad30f",
+      "difficulty": 2,
+      "question": "In AWS, what is a Security Group?"
+    },
+    {
+      "id": "728990ab-2120-4c1a-9f36-3d1f8ae426bf",
+      "difficulty": 2,
+      "question": "How does AWS CloudTrail help AWS users?"
+    },
+    {
+      "id": "895aa5bf-0650-4c7b-82f4-8df60fb32e26",
+      "difficulty": 2,
+      "question": "What does the term 'provisioning' refer to in AWS?"
+    },
+    {
+      "id": "f77d021a-604d-416d-aea3-e571bb54a2e0",
+      "difficulty": 2,
+      "question": "What AWS service offers in-memory caching?"
+    },
+    {
+      "id": "ded309f5-5996-45ac-a781-f1e7b51a115b",
+      "difficulty": 2,
+      "question": "What is the difference between Amazon EC2 and AWS Elastic Beanstalk?"
+    },
+    {
+      "id": "74e116c8-62c9-402a-b82b-2e9c25c8da50",
+      "difficulty": 2,
+      "question": "Which AWS service monitors applications and networks?"
+    },
+    {
+      "id": "371db2a2-c6cc-4ef4-9684-a913d36793df",
+      "difficulty": 2,
+      "question": "What AWS tool is used for DevOps automation?"
+    },
+    {
+      "id": "dcfe43fb-7246-4538-99cb-53d8852b6ee2",
+      "difficulty": 2,
+      "question": "What does AWS Direct Connect provide?"
+    },
+    {
+      "id": "d8c6e13a-ecb8-463d-832a-49f70ce4c4a7",
+      "difficulty": 2,
+      "question": "How does AWS Shield provide value?"
+    },
+    {
+      "id": "45abc092-decf-4515-b0e4-8dd0b0662eee",
+      "difficulty": 2,
+      "question": "What is the managed blockchain service in AWS?"
+    },
+    {
+      "id": "baa2652e-6c6a-4636-91a0-0c41f47a5b83",
+      "difficulty": 2,
+      "question": "How does AWS's Elastic Load Balancing work?"
+    },
+    {
+      "id": "11913af4-ca34-4334-a192-8c3ecdac8431",
+      "difficulty": 2,
+      "question": "What does AWS CodeBuild do?"
+    },
+    {
+      "id": "a54497e0-738c-4fc5-91c2-75afaa9b5a26",
+      "difficulty": 2,
+      "question": "Which AWS service helps with application deployment?"
+    },
+    {
+      "id": "6b57a4d9-96c0-4775-97be-de1a1d036d6d",
+      "difficulty": 2,
+      "question": "How does Amazon Aurora compare to traditional RDS?"
+    },
+    {
+      "id": "eeb48f65-5fc7-4330-bd5a-36f56b026336",
+      "difficulty": 3,
+      "question": "How does AWS KMS enhance security?"
+    },
+    {
+      "id": "3c08ece6-63ea-4985-b3f1-057ed785f899",
+      "difficulty": 3,
+      "question": "What is the primary purpose of AWS WAF?"
+    },
+    {
+      "id": "a16b1903-0bbd-4a76-be2b-2c4a9dfc2f60",
+      "difficulty": 3,
+      "question": "What AWS service provides virtual private cloud?"
+    },
+    {
+      "id": "9507e7cb-82ed-4fbd-983e-044106142762",
+      "difficulty": 3,
+      "question": "How does AWS Fargate simplify computing?"
+    },
+    {
+      "id": "8517cf8d-2b67-451e-8fa4-5e757d0697af",
+      "difficulty": 3,
+      "question": "What is the function of AWS Step Functions?"
+    },
+    {
+      "id": "b8fec604-cadb-4e5c-9a1a-ff451050f4c9",
+      "difficulty": 3,
+      "question": "How does AWS Glue facilitate data integration?"
+    },
+    {
+      "id": "fc2eac9c-8545-4c42-aa8b-37fc7521d3c5",
+      "difficulty": 3,
+      "question": "What is Amazon Athena designed for?"
+    },
+    {
+      "id": "50284969-7018-433b-8853-bdb8033a767c",
+      "difficulty": 3,
+      "question": "Which AWS service is geared towards machine learning?"
+    },
+    {
+      "id": "ac1d7f17-4c86-4a22-ad71-4a5fbdf9b85f",
+      "difficulty": 3,
+      "question": "How does Amazon QuickSight aid in business analytics?"
+    },
+    {
+      "id": "ef2be73f-fde3-46be-a380-5303610ef9bc",
+      "difficulty": 3,
+      "question": "What does Amazon Lex provide?"
+    },
+    {
+      "id": "c10b4012-f08c-47ab-b03d-49a938a953f2",
+      "difficulty": 3,
+      "question": "What is the primary use of AWS Systems Manager?"
+    },
+    {
+      "id": "77413f70-af6f-48cd-9e88-e2cafefba5aa",
+      "difficulty": 3,
+      "question": "How does AWS Batch streamline processing?"
+    },
+    {
+      "id": "b291e146-b142-41b9-af94-8bfb33766d90",
+      "difficulty": 3,
+      "question": "What role does Amazon Elastic Container Service (ECS) play?"
+    },
+    {
+      "id": "3b259876-f88a-4c21-9aec-8588c85bafe4",
+      "difficulty": 3,
+      "question": "How does AWS Outposts extend AWS services?"
+    },
+    {
+      "id": "67142171-eeeb-44c1-9160-9d6bf82f4fbe",
+      "difficulty": 3,
+      "question": "What is AWS OpsWorks designed to manage?"
+    },
+    {
+      "id": "6da9ede9-2729-427c-b5bb-fe25613c0b50",
+      "difficulty": 3,
+      "question": "How does Amazon SQS facilitate application integration?"
+    },
+    {
+      "id": "2cb2e585-cca1-44de-b441-6dbed455f9f5",
+      "difficulty": 3,
+      "question": "What is the benefit of AWS Snowball?"
+    },
+    {
+      "id": "4d5452f5-b5c3-4fe6-848d-ca236da82f68",
+      "difficulty": 3,
+      "question": "How does Amazon VPC Peering function?"
+    },
+    {
+      "id": "949e3084-85a8-441c-b225-0142a7f49d7e",
+      "difficulty": 3,
+      "question": "What is AWS Transit Gateway?"
+    },
+    {
+      "id": "d25bd4c2-f3c9-49c7-906d-22e0a921edd5",
+      "difficulty": 3,
+      "question": "What role does Amazon EKS serve in AWS?"
+    },
+    {
+      "id": "1627deb8-153e-4c3d-b12f-4668061a6617",
+      "difficulty": 4,
+      "question": "How does AWS Global Accelerator improve application performance?"
+    },
+    {
+      "id": "0e41c830-486c-4909-a07f-21bf9fbf72a4",
+      "difficulty": 4,
+      "question": "What is the purpose of AWS IoT Core?"
+    },
+    {
+      "id": "e7d56bb5-3616-43be-92ad-63d8ab507b48",
+      "difficulty": 4,
+      "question": "How does Amazon Quantum Ledger Database (QLDB) secure records?"
+    },
+    {
+      "id": "9b000772-9bc6-4c0a-b265-71d76483beeb",
+      "difficulty": 4,
+      "question": "What does AWS DataSync automate?"
+    },
+    {
+      "id": "82d5bea3-ef35-44ba-bb8b-92b84a270f57",
+      "difficulty": 4,
+      "question": "How does Amazon Redshift Spectrum extend data warehousing?"
+    },
+    {
+      "id": "c9c7fb9e-e110-4b1d-b9a8-65d78ea5bbd5",
+      "difficulty": 4,
+      "question": "What security benefits does AWS Secrets Manager provide?"
+    },
+    {
+      "id": "18ce00b7-728e-412f-806c-cec077ff3873",
+      "difficulty": 4,
+      "question": "How does AWS App Mesh simplify microservice communication?"
+    },
+    {
+      "id": "1288decd-b7f4-4b2d-bf28-a5d5f6a413a2",
+      "difficulty": 4,
+      "question": "What advantages does AWS Lake Formation offer for data lakes?"
+    },
+    {
+      "id": "5d9ce02e-3e16-46a4-84f7-b9aaa27e2b47",
+      "difficulty": 4,
+      "question": "What is AWS CodeStar designed for?"
+    },
+    {
+      "id": "24690e79-56a8-43f6-863b-40efc0796d37",
+      "difficulty": 4,
+      "question": "How does Amazon Managed Blockchain streamline the creation of blockchain networks?"
+    },
+    {
+      "id": "74a306ff-376a-4cfa-b525-ea16b8a55116",
+      "difficulty": 4,
+      "question": "What makes AWS RoboMaker unique?"
+    },
+    {
+      "id": "0f74d8db-9af2-42b6-891b-85a6a0aa907d",
+      "difficulty": 4,
+      "question": "How does Amazon Braket contribute to quantum computing?"
+    },
+    {
+      "id": "61adef9c-d981-4c61-94a6-c1e35fcdd1b6",
+      "difficulty": 4,
+      "question": "What is the unique offering of AWS Ground Station?"
+    },
+    {
+      "id": "81f4fb74-e7b6-4ebe-9039-5035c1b680eb",
+      "difficulty": 4,
+      "question": "How does AWS Managed Services further operations management?"
+    },
+    {
+      "id": "aef9df42-685b-4f2b-b3d7-7a2a1eaff303",
+      "difficulty": 4,
+      "question": "What capabilities does AWS Elemental MediaLive provide?"
+    },
+    {
+      "id": "8e81bb68-968d-4390-a8c1-960e421d8707",
+      "difficulty": 4,
+      "question": "How does AWS Artifact address compliance?"
+    },
+    {
+      "id": "1c7d2b68-db13-4bf3-a382-382c23616653",
+      "difficulty": 4,
+      "question": "What distinguishes AWS DeepLens in the realm of deep learning?"
+    },
+    {
+      "id": "29501c18-272e-40e6-9a62-0d95e994af0e",
+      "difficulty": 4,
+      "question": "How does Amazon Neptune facilitate graph database functionality?"
+    },
+    {
+      "id": "c2347028-6581-46c4-8f20-b45e5843d4e0",
+      "difficulty": 4,
+      "question": "What capabilities does AWS Amplify bring to mobile and web developers?"
+    },
+    {
+      "id": "8b129490-7431-4243-a854-bdfd18bd254a",
+      "difficulty": 4,
+      "question": "What role does AWS Detective play in security analysis?"
+    },
+    {
+      "id": "56c52bbf-cee8-4c38-9257-eb06987cd002",
+      "difficulty": 5,
+      "question": "How does AWS Nitro System enhance EC2 instances?"
+    },
+    {
+      "id": "2938dc60-6462-40e7-b48f-e3e631108233",
+      "difficulty": 5,
+      "question": "What unique features does Amazon Timestream offer for time-series data?"
+    },
+    {
+      "id": "3f2d83e6-af8d-45e9-a359-08ba7ac3cf1b",
+      "difficulty": 5,
+      "question": "How does AWS Savings Plans optimize costs?"
+    },
+    {
+      "id": "18725952-c411-421e-a0a1-ace4c37b3215",
+      "difficulty": 5,
+      "question": "What does Amazon SageMaker Studio provide for ML development?"
+    },
+    {
+      "id": "99aa1cbc-7262-420e-8819-b283dfc52b7b",
+      "difficulty": 5,
+      "question": "How does AWS Control Tower streamline cloud governance?"
+    },
+    {
+      "id": "6acae1c3-13d9-4181-9116-9d09f39794c7",
+      "difficulty": 5,
+      "question": "What advantages does Amazon Aurora Serverless offer over traditional DB instances?"
+    },
+    {
+      "id": "865cbd00-4752-4584-92eb-c0be297c565f",
+      "difficulty": 5,
+      "question": "How does AWS Graviton Processor compare to Intel or AMD chips?"
+    },
+    {
+      "id": "6a9be46f-6629-4cc9-a01d-3911597aa826",
+      "difficulty": 5,
+      "question": "What is the function of Amazon Textract in AWS?"
+    },
+    {
+      "id": "866e1800-1617-4970-93a0-2194f05c49ce",
+      "difficulty": 5,
+      "question": "How does AWS Local Zones improve latency?"
+    },
+    {
+      "id": "5502488c-46fc-401c-90d3-41d9fc63beb2",
+      "difficulty": 5,
+      "question": "What role does Amazon FSx for Lustre play in high-performance computing?"
+    },
+    {
+      "id": "60599fa8-4d5f-4638-bc03-6ec2179e7ece",
+      "difficulty": 5,
+      "question": "What unique capabilities does AWS Wavelength offer?"
+    },
+    {
+      "id": "14562028-2142-4208-a025-92733b7ab267",
+      "difficulty": 5,
+      "question": "How is Amazon Personalize tailored for recommendation engines?"
+    },
+    {
+      "id": "30980bc1-8d2c-4136-91c4-9292e22fa80a",
+      "difficulty": 5,
+      "question": "How does Amazon Rekognition streamline image analysis?"
+    },
+    {
+      "id": "48fdffb1-679f-4d68-8ab8-c042bddafeef",
+      "difficulty": 5,
+      "question": "What is the primary benefit of AWS Elastic Disaster Recovery?"
+    },
+    {
+      "id": "36fc8425-1a38-4e91-87b3-212a6492fead",
+      "difficulty": 5,
+      "question": "How does AWS IoT Greengrass enhance edge computing?"
+    },
+    {
+      "id": "649a88a6-15ab-4c4b-a34f-27c4e0fbf49a",
+      "difficulty": 5,
+      "question": "What features does AWS FIS provide for fault injection?"
+    },
+    {
+      "id": "b9a34ec0-d98f-4ee1-9c56-dfcac8958b10",
+      "difficulty": 5,
+      "question": "What role does AWS Proton play in service infrastructure?"
+    },
+    {
+      "id": "8f35750c-bf8b-4488-b0cd-cf10dc5343b8",
+      "difficulty": 5,
+      "question": "How does AWS Glue DataBrew assist in data preparation?"
+    },
+    {
+      "id": "73549645-2de5-44cf-81a4-42e0d32e6a59",
+      "difficulty": 5,
+      "question": "How is AWS Panorama used in developing computer vision applications at the edge?"
+    },
+    {
+      "id": "cf7a4c1b-5ed8-4315-867c-31b24dab1c55",
+      "difficulty": 5,
+      "question": "What is Amazon Honeycode, and how does it empower non-coders?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "EC2",
+        "RDS",
+        "S3",
+        "Lambda"
+      ],
+      "answer": 2,
+      "question_id": "a438efa0-b8d1-4308-9f25-b971c609d035"
+    },
+    {
+      "choices": [
+        "Amazon RDS",
+        "Amazon S3",
+        "Amazon EC2",
+        "Amazon DynamoDB"
+      ],
+      "answer": 2,
+      "question_id": "7c6e8fb2-6a80-40e8-804f-aaa15cde9d4f"
+    },
+    {
+      "choices": [
+        "Advanced Web Services",
+        "Automated Workflow Systems",
+        "Amazon Web Services",
+        "Application Web Servers"
+      ],
+      "answer": 2,
+      "question_id": "bc7e7648-07c8-4962-b42c-f6d4f2df903e"
+    },
+    {
+      "choices": [
+        "Elastic Compute Cloud (EC2)",
+        "Amazon S3",
+        "AWS Lambda",
+        "Amazon CloudFront"
+      ],
+      "answer": 3,
+      "question_id": "97471a51-4f50-4e3b-85f3-f23b20718a98"
+    },
+    {
+      "choices": [
+        "2004",
+        "2006",
+        "2008",
+        "2002"
+      ],
+      "answer": 1,
+      "question_id": "0b89a6b8-14c6-4fba-ab3c-53c5e8c93a3d"
+    },
+    {
+      "choices": [
+        "AWS Lambda",
+        "Amazon RDS",
+        "Amazon S3",
+        "AWS EC2"
+      ],
+      "answer": 1,
+      "question_id": "ef5e7984-7f4c-43c9-bcfe-40f43217f34e"
+    },
+    {
+      "choices": [
+        "Deploying containerized applications",
+        "Running serverless functions",
+        "Storing and retrieving any amount of data, at any time, from anywhere on the web",
+        "Managing relational databases"
+      ],
+      "answer": 2,
+      "question_id": "ce24ce72-50c4-4352-8d8f-3f610f226b3f"
+    },
+    {
+      "choices": [
+        "A group of data centers in different regions connected through low-latency links",
+        "A single data center designed to be highly available and fault-tolerant",
+        "A distinct location within a region that is engineered to be isolated from failures",
+        "A collection of cloud resources that are allocated to a specific user or project"
+      ],
+      "answer": 2,
+      "question_id": "f1625553-6261-48b8-a0e4-dc8f46d7bff1"
+    },
+    {
+      "choices": [
+        "Amazon DynamoDB",
+        "Amazon RDS",
+        "Amazon Redshift",
+        "AWS Lambda"
+      ],
+      "answer": 0,
+      "question_id": "a86298f6-2855-4b8a-af32-944d184c23b0"
+    },
+    {
+      "choices": [
+        "Amazon Elastic Compute Cloud (EC2)",
+        "AWS Lambda",
+        "Amazon Simple Storage Service (S3)",
+        "AWS Elastic Beanstalk"
+      ],
+      "answer": 1,
+      "question_id": "747bc36e-b898-4d8a-9707-915cc10a49cc"
+    },
+    {
+      "choices": [
+        "It monitors applications and services hosted on AWS.",
+        "It manages user access and encryption keys.",
+        "It provides storage solutions for Internet applications.",
+        "It automatically distributes incoming application traffic across multiple targets."
+      ],
+      "answer": 1,
+      "question_id": "f6fab4ee-5a63-434b-b7ce-058dfcdf1782"
+    },
+    {
+      "choices": [
+        "EC2 Instances",
+        "Virtual Private Cloud (VPC)",
+        "Lambda",
+        "Fargate"
+      ],
+      "answer": 3,
+      "question_id": "607ce731-492c-41e7-a0f5-5140f6f8cdd3"
+    },
+    {
+      "choices": [
+        "Machine learning model training",
+        "Database hosting",
+        "Provide virtual servers on demand",
+        "Content delivery and network services"
+      ],
+      "answer": 2,
+      "question_id": "62306996-d0d7-484a-9e35-e934f78b4c86"
+    },
+    {
+      "choices": [
+        "Amazon S3",
+        "Amazon EC2",
+        "AWS Lambda",
+        "Amazon DynamoDB"
+      ],
+      "answer": 1,
+      "question_id": "348c5f28-caa2-4bcf-9557-842c04201267"
+    },
+    {
+      "choices": [
+        "Automatic database normalization",
+        "Dynamic adjustment of resources to maintain performance",
+        "Instantaneous code deployment across all regions",
+        "End-to-end encryption for all stored data"
+      ],
+      "answer": 1,
+      "question_id": "dac6d8a4-ccaa-4361-9661-fea72d20f89e"
+    },
+    {
+      "choices": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "answer": 2,
+      "question_id": "e3ed5770-8f17-48c6-ac53-b324bdc4ff1a"
+    },
+    {
+      "choices": [
+        "Automating software testing",
+        "Deploying networking infrastructure",
+        "Managing infrastructure through code",
+        "Enhancing security of cloud storage"
+      ],
+      "answer": 2,
+      "question_id": "182cdd7a-de22-4b37-9842-ce1840e23952"
+    },
+    {
+      "choices": [
+        "Amazon Reliable Data Store",
+        "Amazon Rapid Deployment System",
+        "Amazon Relational Database Service",
+        "Amazon Redundant Disk Setup"
+      ],
+      "answer": 2,
+      "question_id": "61cb93ce-0f42-4d04-9d54-9fbd69e4a95b"
+    },
+    {
+      "choices": [
+        "Amazon EC2",
+        "AWS Lambda",
+        "Amazon EKS",
+        "Amazon S3"
+      ],
+      "answer": 2,
+      "question_id": "a60cf62a-593d-4f2b-a862-db3e73c99f87"
+    },
+    {
+      "choices": [
+        "Unlimited storage capacity",
+        "Automatic scaling without provisioning servers",
+        "Free unlimited data transfer",
+        "Dedicated physical servers"
+      ],
+      "answer": 1,
+      "question_id": "0566ae20-ddbd-4a3d-945b-291bb7354906"
+    },
+    {
+      "choices": [
+        "Based on the total number of requests and the execution time of the code.",
+        "Based on the fixed monthly subscription fee.",
+        "Based on the physical server space utilized.",
+        "Based on the data transfer rate."
+      ],
+      "answer": 0,
+      "question_id": "923589cf-7eb0-4892-8535-b1739e77e29b"
+    },
+    {
+      "choices": [
+        "Azure CDN",
+        "CloudFront",
+        "Google CDN",
+        "Akamai"
+      ],
+      "answer": 1,
+      "question_id": "6a27f6ae-0021-427c-8d9e-9f71eb83597e"
+    },
+    {
+      "choices": [
+        "Amazon EC2",
+        "Amazon DynamoDB",
+        "Amazon RDS",
+        "Amazon S3"
+      ],
+      "answer": 1,
+      "question_id": "12e90260-39df-4e16-8603-eda66dfaab92"
+    },
+    {
+      "choices": [
+        "By mirroring data across multiple AWS regions automatically",
+        "Through client-side encryption only",
+        "Utilizing SSD drives exclusively for data storage",
+        "By automatically replicating data across multiple facilities within an AWS Region"
+      ],
+      "answer": 3,
+      "question_id": "a777308c-05da-4b3c-9173-578ac48b5b47"
+    },
+    {
+      "choices": [
+        "Amazon Aurora",
+        "Amazon Redshift",
+        "Amazon DynamoDB",
+        "AWS Glue"
+      ],
+      "answer": 1,
+      "question_id": "9877cdfe-4726-4031-a866-f31027e41a1e"
+    },
+    {
+      "choices": [
+        "Managed NoSQL database service",
+        "Distributed denial-of-service (DDoS) protection",
+        "Persistent block storage volumes for Amazon EC2 instances",
+        "Automated email sending service"
+      ],
+      "answer": 2,
+      "question_id": "3ba6e02f-b5d8-418a-9468-f2e8e0f7e748"
+    },
+    {
+      "choices": [
+        "A cloud-based user directory service",
+        "A virtual firewall that controls inbound and outbound traffic for one or more instances",
+        "A managed database service",
+        "A configuration management service that helps you configure and operate applications"
+      ],
+      "answer": 1,
+      "question_id": "fd55df3c-2fd5-4483-a938-825dc00ad30f"
+    },
+    {
+      "choices": [
+        "By facilitating real-time analysis of their computing resources",
+        "By allowing users to manage their virtual machine instances",
+        "By enabling users to track changes to their AWS resources and actions taken by them or on their behalf",
+        "By providing them with unlimited storage space for data archiving"
+      ],
+      "answer": 2,
+      "question_id": "728990ab-2120-4c1a-9f36-3d1f8ae426bf"
+    },
+    {
+      "choices": [
+        "Monitoring and managing AWS services",
+        "Designing and implementing security measures",
+        "Allocating AWS resources to meet demand",
+        "Developing applications for AWS"
+      ],
+      "answer": 2,
+      "question_id": "895aa5bf-0650-4c7b-82f4-8df60fb32e26"
+    },
+    {
+      "choices": [
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon ElastiCache",
+        "Amazon RDS"
+      ],
+      "answer": 2,
+      "question_id": "f77d021a-604d-416d-aea3-e571bb54a2e0"
+    },
+    {
+      "choices": [
+        "EC2 provides virtual servers with scalable compute capacity, while Elastic Beanstalk is a PaaS offering that automates deployment, scaling, and management of applications.",
+        "EC2 is a storage service, whereas Elastic Beanstalk is a compute service.",
+        "There's no difference; EC2 and Elastic Beanstalk are the same service.",
+        "Elastic Beanstalk is an email sending service, while EC2 offers database storage solutions."
+      ],
+      "answer": 0,
+      "question_id": "ded309f5-5996-45ac-a781-f1e7b51a115b"
+    },
+    {
+      "choices": [
+        "Amazon EC2",
+        "Amazon RDS",
+        "AWS CloudTrail",
+        "Amazon CloudWatch"
+      ],
+      "answer": 3,
+      "question_id": "74e116c8-62c9-402a-b82b-2e9c25c8da50"
+    },
+    {
+      "choices": [
+        "Amazon RDS",
+        "AWS CodePipeline",
+        "Amazon EC2",
+        "AWS Lambda"
+      ],
+      "answer": 1,
+      "question_id": "371db2a2-c6cc-4ef4-9684-a913d36793df"
+    },
+    {
+      "choices": [
+        "A seamless connection to Microsoft Azure",
+        "A dedicated private connection from an on-premises network to Amazon S3",
+        "A service that distributes incoming application traffic across multiple targets, such as Amazon EC2 instances.",
+        "A dedicated network connection from your premises to AWS"
+      ],
+      "answer": 3,
+      "question_id": "dcfe43fb-7246-4538-99cb-53d8852b6ee2"
+    },
+    {
+      "choices": [
+        "By offering a visual interface for database management",
+        "By providing automatic scaling of computing resources",
+        "By protecting against Distributed Denial of Service (DDoS) attacks",
+        "By enabling easier software deployment with DevOps tools"
+      ],
+      "answer": 2,
+      "question_id": "d8c6e13a-ecb8-463d-832a-49f70ce4c4a7"
+    },
+    {
+      "choices": [
+        "Amazon Aurora",
+        "Amazon SageMaker",
+        "Amazon Quantum Ledger Database (QLDB)",
+        "Amazon Managed Blockchain"
+      ],
+      "answer": 3,
+      "question_id": "45abc092-decf-4515-b0e4-8dd0b0662eee"
+    },
+    {
+      "choices": [
+        "Automatically adjusts server capacity in response to incoming application traffic.",
+        "Encrypts data in transit between AWS services.",
+        "Deploys applications across multiple AWS services.",
+        "Monitors application health and sends alerts."
+      ],
+      "answer": 0,
+      "question_id": "baa2652e-6c6a-4636-91a0-0c41f47a5b83"
+    },
+    {
+      "choices": [
+        "Automates the deployment of applications to various AWS services",
+        "Provides a managed environment for developers to write, run, and debug their AWS Lambda functions",
+        "Compiles source code, runs tests, and produces software packages that are ready to deploy",
+        "Manages user identities and access to various AWS services"
+      ],
+      "answer": 2,
+      "question_id": "11913af4-ca34-4334-a192-8c3ecdac8431"
+    },
+    {
+      "choices": [
+        "Amazon EC2",
+        "AWS Lambda",
+        "AWS CodeDeploy",
+        "Amazon S3"
+      ],
+      "answer": 2,
+      "question_id": "a54497e0-738c-4fc5-91c2-75afaa9b5a26"
+    },
+    {
+      "choices": [
+        "Aurora requires more manual management compared to traditional RDS.",
+        "Aurora only supports NoSQL databases, unlike RDS.",
+        "Aurora is a MySQL and PostgreSQL-compatible relational database with improved performance and lower costs compared to traditional RDS.",
+        "Aurora offers fewer database engines than RDS."
+      ],
+      "answer": 2,
+      "question_id": "6b57a4d9-96c0-4775-97be-de1a1d036d6d"
+    },
+    {
+      "choices": [
+        "By providing a user-friendly interface for service management",
+        "By enforcing two-factor authentication for AWS Console",
+        "By offering durable storage solutions",
+        "By enabling the creation and control of encryption keys used to encrypt your data"
+      ],
+      "answer": 3,
+      "question_id": "eeb48f65-5fc7-4330-bd5a-36f56b026336"
+    },
+    {
+      "choices": [
+        "To monitor the health of resources",
+        "To deploy and manage containerized applications",
+        "To protect web applications from web exploits and bots",
+        "To automate software release processes"
+      ],
+      "answer": 2,
+      "question_id": "3c08ece6-63ea-4985-b3f1-057ed785f899"
+    },
+    {
+      "choices": [
+        "Amazon EC2",
+        "AWS Lambda",
+        "Amazon VPC",
+        "Amazon S3"
+      ],
+      "answer": 2,
+      "question_id": "a16b1903-0bbd-4a76-be2b-2c4a9dfc2f60"
+    },
+    {
+      "choices": [
+        "By offering a unified billing system for all AWS services",
+        "By managing the underlying infrastructure, allowing users to run containers without managing servers or clusters",
+        "By automatically optimizing AWS resource allocation",
+        "By providing a graphical interface to manage AWS services"
+      ],
+      "answer": 1,
+      "question_id": "9507e7cb-82ed-4fbd-983e-044106142762"
+    },
+    {
+      "choices": [
+        "Managing relational databases",
+        "Orchestrating AWS services into serverless workflows",
+        "Deploying applications in a virtual cloud",
+        "Monitoring application and infrastructure performance"
+      ],
+      "answer": 1,
+      "question_id": "8517cf8d-2b67-451e-8fa4-5e757d0697af"
+    },
+    {
+      "choices": [
+        "By providing a virtual desktop interface for developers",
+        "By offering a managed blockchain service",
+        "By automating the extraction, transformation, and loading of data",
+        "By delivering a serverless compute service"
+      ],
+      "answer": 2,
+      "question_id": "b8fec604-cadb-4e5c-9a1a-ff451050f4c9"
+    },
+    {
+      "choices": [
+        "Automated Machine Learning",
+        "Interactive query service using standard SQL for data in Amazon S3",
+        "Deployment of applications in a serverless environment",
+        "Management of relational databases"
+      ],
+      "answer": 1,
+      "question_id": "fc2eac9c-8545-4c42-aa8b-37fc7521d3c5"
+    },
+    {
+      "choices": [
+        "Amazon RDS",
+        "AWS Lambda",
+        "Amazon SageMaker",
+        "Amazon EC2"
+      ],
+      "answer": 2,
+      "question_id": "50284969-7018-433b-8853-bdb8033a767c"
+    },
+    {
+      "choices": [
+        "By providing a managed Kubernetes service",
+        "By serving as a content delivery network",
+        "By offering machine learning capabilities",
+        "By enabling users to create and publish interactive dashboards"
+      ],
+      "answer": 3,
+      "question_id": "ac1d7f17-4c86-4a22-ad71-4a5fbdf9b85f"
+    },
+    {
+      "choices": [
+        "A scalable database service",
+        "A content delivery network",
+        "A service to build conversational interfaces into any application using voice and text",
+        "Infrastructure management tools"
+      ],
+      "answer": 2,
+      "question_id": "ef2be73f-fde3-46be-a380-5303610ef9bc"
+    },
+    {
+      "choices": [
+        "Orchestrating cloud instances and services",
+        "Monitoring application performance",
+        "Managing and automating AWS resources and environments",
+        "Deploying machine learning models"
+      ],
+      "answer": 2,
+      "question_id": "c10b4012-f08c-47ab-b03d-49a938a953f2"
+    },
+    {
+      "choices": [
+        "By automatically provisioning resources in response to demand",
+        "By consolidating billing for all AWS services",
+        "By encrypting data in transit and at rest",
+        "By providing a unified interface for all AWS services"
+      ],
+      "answer": 0,
+      "question_id": "77413f70-af6f-48cd-9e88-e2cafefba5aa"
+    },
+    {
+      "choices": [
+        "A platform for running and scaling web applications",
+        "A managed container orchestration service",
+        "A serverless compute service",
+        "A fully managed desktop virtualization service"
+      ],
+      "answer": 1,
+      "question_id": "b291e146-b142-41b9-af94-8bfb33766d90"
+    },
+    {
+      "choices": [
+        "By enabling multi-cloud deployments through AWS",
+        "By offering AWS-designed hardware to run locally in a user's data center",
+        "By providing free tier usage of AWS services for on-premises servers",
+        "By enabling users to access AWS services through satellite connections"
+      ],
+      "answer": 1,
+      "question_id": "3b259876-f88a-4c21-9aec-8588c85bafe4"
+    },
+    {
+      "choices": [
+        "AWS service pricing models",
+        "Deployment and operations of applications on AWS",
+        "Data encryption and security",
+        "Machine learning models"
+      ],
+      "answer": 1,
+      "question_id": "67142171-eeeb-44c1-9160-9d6bf82f4fbe"
+    },
+    {
+      "choices": [
+        "By providing a scalable visual interface to manage AWS resources",
+        "By using distributed ledger technology to ensure data integrity",
+        "By offering a fully managed message queuing service to decouple and scale microservices, distributed systems, and serverless applications",
+        "By facilitating big data processing and analysis through machine learning algorithms"
+      ],
+      "answer": 2,
+      "question_id": "6da9ede9-2729-427c-b5bb-fe25613c0b50"
+    },
+    {
+      "choices": [
+        "Unlimited storage capacity in AWS S3",
+        "Real-time analytics on AWS data",
+        "Cost-effective data transfer out of AWS",
+        "Petabyte-scale data transport solution"
+      ],
+      "answer": 3,
+      "question_id": "2cb2e585-cca1-44de-b441-6dbed455f9f5"
+    },
+    {
+      "choices": [
+        "Allows instances in different AWS regions to share a common storage system.",
+        "Connects one VPC with another via a direct network route using private IP addresses.",
+        "Automatically replicates data across multiple AWS regions for redundancy.",
+        "Enables a public internet connection to route between two VPCs."
+      ],
+      "answer": 1,
+      "question_id": "4d5452f5-b5c3-4fe6-848d-ca236da82f68"
+    },
+    {
+      "choices": [
+        "A cloud service for desktop virtualization",
+        "A managed service for container orchestration",
+        "A service that allows you to connect your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub",
+        "A tool for automated code deployments to any instance"
+      ],
+      "answer": 2,
+      "question_id": "949e3084-85a8-441c-b225-0142a7f49d7e"
+    },
+    {
+      "choices": [
+        "A scalable machine learning service",
+        "A managed Kubernetes service",
+        "A fully managed desktop computing service",
+        "A serverless compute service"
+      ],
+      "answer": 1,
+      "question_id": "d25bd4c2-f3c9-49c7-906d-22e0a921edd5"
+    },
+    {
+      "choices": [
+        "By providing a private, optimized network path",
+        "It reduces the pricing of compute instances based on application usage",
+        "By increasing the storage capacity automatically",
+        "It improves application performance by routing user traffic to the nearest AWS endpoint"
+      ],
+      "answer": 3,
+      "question_id": "1627deb8-153e-4c3d-b12f-4668061a6617"
+    },
+    {
+      "choices": [
+        "To deploy and manage virtual servers",
+        "To connect and manage IoT devices securely",
+        "To analyze big data",
+        "To host static websites"
+      ],
+      "answer": 1,
+      "question_id": "0e41c830-486c-4909-a07f-21bf9fbf72a4"
+    },
+    {
+      "choices": [
+        "Using virtual private clouds (VPCs)",
+        "Through multi-factor authentication",
+        "By encrypting the data at rest using AWS KMS",
+        "It utilizes a consensus protocol to ensure ledger integrity"
+      ],
+      "answer": 2,
+      "question_id": "e7d56bb5-3616-43be-92ad-63d8ab507b48"
+    },
+    {
+      "choices": [
+        "The deployment of EC2 instances",
+        "The movement and transformation of data between on-premises storage and AWS",
+        "Serverless application model transformations",
+        "Continuous integration and continuous deployment workflows"
+      ],
+      "answer": 1,
+      "question_id": "9b000772-9bc6-4c0a-b265-71d76483beeb"
+    },
+    {
+      "choices": [
+        "By providing a content delivery network",
+        "By extending data warehousing to include data stored on Amazon S3",
+        "By offering machine learning capabilities",
+        "By enabling auto-scaling of data storage"
+      ],
+      "answer": 1,
+      "question_id": "82d5bea3-ef35-44ba-bb8b-92b84a270f57"
+    },
+    {
+      "choices": [
+        "Automatic scaling for EC2 instances",
+        "Manage, retrieve, and rotate database credentials, API keys, and other secrets throughout their lifecycle",
+        "Increased data storage limits for S3 buckets",
+        "Real-time threat detection and continuous monitoring"
+      ],
+      "answer": 1,
+      "question_id": "c9c7fb9e-e110-4b1d-b9a8-65d78ea5bbd5"
+    },
+    {
+      "choices": [
+        "By providing a managed database service for microservices",
+        "By offering an integrated development environment (IDE) for building microservices",
+        "By managing service discovery and load balancing",
+        "By enforcing strict data typing between microservices"
+      ],
+      "answer": 2,
+      "question_id": "18ce00b7-728e-412f-806c-cec077ff3873"
+    },
+    {
+      "choices": [
+        "Reduced storage costs for non-relational databases",
+        "Enhanced security features with automatic encryption and permission setting",
+        "Increased computational power for data analytics services",
+        "Streamlined virtual machine provisioning"
+      ],
+      "answer": 1,
+      "question_id": "1288decd-b7f4-4b2d-bf28-a5d5f6a413a2"
+    },
+    {
+      "choices": [
+        "Automating the deployment of AWS infrastructure",
+        "Providing a unified interface to manage software development activities in the cloud",
+        "A machine learning model marketplace",
+        "Monitoring and managing AWS cost and usage"
+      ],
+      "answer": 1,
+      "question_id": "5d9ce02e-3e16-46a4-84f7-b9aaa27e2b47"
+    },
+    {
+      "choices": [
+        "By providing a built-in virtual machine for smart contracts",
+        "By automatically scaling resources to meet blockchain network activity",
+        "By offering templated blockchain instances for rapid deployment",
+        "It eliminates the need for manual setup and management of blockchain infrastructure"
+      ],
+      "answer": 3,
+      "question_id": "24690e79-56a8-43f6-863b-40efc0796d37"
+    },
+    {
+      "choices": [
+        "It's primarily designed for quantum computing.",
+        "It integrates with Alexa for voice-based operations.",
+        "It provides a service for developing, testing, and deploying robotics applications.",
+        "It specializes in blockchain technology deployment."
+      ],
+      "answer": 2,
+      "question_id": "74a306ff-376a-4cfa-b525-ea16b8a55116"
+    },
+    {
+      "choices": [
+        "It facilitates large-scale data migrations",
+        "It provides a development environment for quantum algorithms",
+        "It enhances IoT device connectivity and management",
+        "It improves machine learning model accuracy"
+      ],
+      "answer": 1,
+      "question_id": "0f74d8db-9af2-42b6-891b-85a6a0aa907d"
+    },
+    {
+      "choices": [
+        "Infrastructure as a Service (IaaS)",
+        "Satellite data processing and control",
+        "Blockchain as a Service",
+        "Content Delivery Network (CDN) services"
+      ],
+      "answer": 1,
+      "question_id": "61adef9c-d981-4c61-94a6-c1e35fcdd1b6"
+    },
+    {
+      "choices": [
+        "By directly selling hardware components for infrastructure setup",
+        "By offering turnkey solutions for managing infrastructure, operating systems, and common applications",
+        "By providing free internet services for AWS-hosted applications",
+        "By exclusively managing user data and content delivery"
+      ],
+      "answer": 1,
+      "question_id": "81f4fb74-e7b6-4ebe-9039-5035c1b680eb"
+    },
+    {
+      "choices": [
+        "Machine learning model training and deployment",
+        "Cloud-based email sending service",
+        "Live video processing and broadcasting",
+        "Automated code deployment"
+      ],
+      "answer": 2,
+      "question_id": "aef9df42-685b-4f2b-b3d7-7a2a1eaff303"
+    },
+    {
+      "choices": [
+        "By providing scalable computing resources",
+        "By offering hands-on AWS training programs",
+        "By delivering access to compliance reports and agreements",
+        "By executing automated code reviews for security"
+      ],
+      "answer": 2,
+      "question_id": "8e81bb68-968d-4390-a8c1-960e421d8707"
+    },
+    {
+      "choices": [
+        "It's a cloud service dedicated to real-time data streaming",
+        "It's AWS's physical deep learning-enabled video camera for developers",
+        "It's a managed blockchain service",
+        "It's an IDE for cloud development"
+      ],
+      "answer": 1,
+      "question_id": "1c7d2b68-db13-4bf3-a382-382c23616653"
+    },
+    {
+      "choices": [
+        "By providing a distributed key-value store",
+        "By enabling machine learning algorithms on massive datasets",
+        "By offering a fully managed graph database service",
+        "By automating data backup and recovery processes"
+      ],
+      "answer": 2,
+      "question_id": "29501c18-272e-40e6-9a62-0d95e994af0e"
+    },
+    {
+      "choices": [
+        "Continuous integration and delivery pipelines",
+        "Machine learning model training optimizations",
+        "Advanced 3D game rendering APIs",
+        "A simplified interface for cloud service management"
+      ],
+      "answer": 0,
+      "question_id": "c2347028-6581-46c4-8f20-b45e5843d4e0"
+    },
+    {
+      "choices": [
+        "It provides a virtual computing environment.",
+        "It automates the deployment of applications.",
+        "It helps in analyzing and visualizing security data to rapidly get to the root cause of potential security issues.",
+        "It manages user authentication and authorization."
+      ],
+      "answer": 2,
+      "question_id": "8b129490-7431-4243-a854-bdfd18bd254a"
+    },
+    {
+      "choices": [
+        "Increases the maximum number of instances per region",
+        "Improves instance flexibility, performance, and security by offloading virtualization functions to dedicated hardware and software",
+        "Reduces data transfer costs within AWS networks",
+        "Automatically scales resources based on traffic"
+      ],
+      "answer": 1,
+      "question_id": "56c52bbf-cee8-4c38-9257-eb06987cd002"
+    },
+    {
+      "choices": [
+        "Automated scaling of compute resources",
+        "In-built support for machine learning models",
+        "Serverless computing capabilities",
+        "Native time-series database features such as time-ordered data management, time-based queries, and downsampling"
+      ],
+      "answer": 3,
+      "question_id": "2938dc60-6462-40e7-b48f-e3e631108233"
+    },
+    {
+      "choices": [
+        "By providing discounts for consistent API usage",
+        "By offering free tier usage for the first 12 months",
+        "By giving up-front discounts on compute usage in exchange for a commitment",
+        "By automatically resizing EC2 instances based on workload"
+      ],
+      "answer": 2,
+      "question_id": "3f2d83e6-af8d-45e9-a359-08ba7ac3cf1b"
+    },
+    {
+      "choices": [
+        "A platform for deploying and managing containers",
+        "A tool for managing AWS resources",
+        "An integrated development environment (IDE) for ML models",
+        "A service for monitoring application health"
+      ],
+      "answer": 2,
+      "question_id": "18725952-c411-421e-a0a1-ace4c37b3215"
+    },
+    {
+      "choices": [
+        "By optimizing cost management across different AWS services",
+        "By automating multi-account AWS environment setup using best practices",
+        "By enhancing data encryption methods for all AWS services",
+        "By improving physical security measures in AWS data centers"
+      ],
+      "answer": 1,
+      "question_id": "99aa1cbc-7262-420e-8819-b283dfc52b7b"
+    },
+    {
+      "choices": [
+        "Requires manual scaling based on workload",
+        "Higher maintenance for software patching",
+        "Increased storage costs across all usage patterns",
+        "Automatic scaling depending on the application's needs"
+      ],
+      "answer": 3,
+      "question_id": "6acae1c3-13d9-4181-9116-9d09f39794c7"
+    },
+    {
+      "choices": [
+        "It primarily focuses on graphics rendering.",
+        "It is designed for quantum computing.",
+        "It is optimized for power efficiency and performance by using ARM architecture.",
+        "It has higher clock speeds than both Intel and AMD chips."
+      ],
+      "answer": 2,
+      "question_id": "865cbd00-4752-4584-92eb-c0be297c565f"
+    },
+    {
+      "choices": [
+        "Automates the process of deploying applications within containers",
+        "Extracts text and data from scanned documents",
+        "Provides a virtual serverless computing environment",
+        "Offers a cloud-based email sending service"
+      ],
+      "answer": 1,
+      "question_id": "6a9be46f-6629-4cc9-a01d-3911597aa826"
+    },
+    {
+      "choices": [
+        "By synchronizing clocks across global networks",
+        "By positioning services closer to end-users",
+        "By increasing bandwidth on the main AWS servers",
+        "By offloading compute tasks to edge devices"
+      ],
+      "answer": 1,
+      "question_id": "866e1800-1617-4970-93a0-2194f05c49ce"
+    },
+    {
+      "choices": [
+        "A scalable email sending service",
+        "A fully managed file storage service optimized for high-performance computing",
+        "A machine learning model training platform",
+        "A database management service"
+      ],
+      "answer": 1,
+      "question_id": "5502488c-46fc-401c-90d3-41d9fc63beb2"
+    },
+    {
+      "choices": [
+        "Enhanced machine learning model training",
+        "Ultra-low latency delivery to mobile devices",
+        "Advanced quantum computing simulations",
+        "Unlimited data storage with no retrieval fees"
+      ],
+      "answer": 1,
+      "question_id": "60599fa8-4d5f-4638-bc03-6ec2179e7ece"
+    },
+    {
+      "choices": [
+        "It provides a virtual private cloud for deploying applications",
+        "It allows for automated backup and recovery of data",
+        "It uses machine learning to create highly personalized recommendations",
+        "It offers blockchain technology for secure transactions"
+      ],
+      "answer": 2,
+      "question_id": "14562028-2142-4208-a025-92733b7ab267"
+    },
+    {
+      "choices": [
+        "By providing automated scaling for database storage",
+        "By enabling peer-to-peer network connectivity",
+        "By using deep learning models to identify objects and scenes in images",
+        "By offering a distributed computing environment"
+      ],
+      "answer": 2,
+      "question_id": "30980bc1-8d2c-4136-91c4-9292e22fa80a"
+    },
+    {
+      "choices": [
+        "Reduced infrastructure costs on a global scale",
+        "Decreased time for new application development",
+        "Simplified database migrations to the cloud",
+        "Minimized downtime and data loss with fast, reliable recovery"
+      ],
+      "answer": 3,
+      "question_id": "48fdffb1-679f-4d68-8ab8-c042bddafeef"
+    },
+    {
+      "choices": [
+        "It primarily improves cloud storage solutions.",
+        "It speeds up Internet connectivity for IoT devices.",
+        "It facilitates local data processing and caching for IoT devices.",
+        "It reduces the cost of data transfer for all AWS services."
+      ],
+      "answer": 2,
+      "question_id": "36fc8425-1a38-4e91-87b3-212a6492fead"
+    },
+    {
+      "choices": [
+        "Scalable database management",
+        "User authentication and authorization",
+        "Automated machine learning",
+        "Controlled experiment scenarios including API calls to inject latency or fail API requests"
+      ],
+      "answer": 3,
+      "question_id": "649a88a6-15ab-4c4b-a34f-27c4e0fbf49a"
+    },
+    {
+      "choices": [
+        "It is primarily used for machine learning model deployments",
+        "A service designed for managing microservices and container-based applications",
+        "It offers a decentralized database system for scalable applications",
+        "A tool for monitoring and logging application activity in real-time"
+      ],
+      "answer": 1,
+      "question_id": "b9a34ec0-d98f-4ee1-9c56-dfcac8958b10"
+    },
+    {
+      "choices": [
+        "Automates the deployment of applications in containers",
+        "Facilitates visual data preparation by cleaning and normalizing data",
+        "Enhances security by managing encryption keys",
+        "Streamlines the development of machine learning models"
+      ],
+      "answer": 1,
+      "question_id": "8f35750c-bf8b-4488-b0cd-cf10dc5343b8"
+    },
+    {
+      "choices": [
+        "To provide durable storage for large-scale datasets.",
+        "To deploy and manage Kubernetes applications.",
+        "To apply machine learning models to video streams locally on appliances and cameras.",
+        "To automate code deployment to any instance."
+      ],
+      "answer": 2,
+      "question_id": "73549645-2de5-44cf-81a4-42e0d32e6a59"
+    },
+    {
+      "choices": [
+        "A mobile and web application development tool that uses coding.",
+        "A cloud-based service for large-scale computing tasks.",
+        "A service designed for building and deploying virtual reality experiences.",
+        "A fully managed service that allows users to build mobile and web applications without coding."
+      ],
+      "answer": 3,
+      "question_id": "cf7a4c1b-5ed8-4315-867c-31b24dab1c55"
+    }
+  ]
+}

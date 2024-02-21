@@ -1,0 +1,1507 @@
+{
+  "topic": "Penetration Testing",
+  "questions": [
+    {
+      "id": "8c47c77a-b3eb-4fca-ab95-6af62a5e0735",
+      "difficulty": 1,
+      "question": "What is the primary goal of penetration testing?"
+    },
+    {
+      "id": "0885b775-5b00-4494-a406-2de6055f4b23",
+      "difficulty": 1,
+      "question": "Which tool is commonly used for network scanning during a penetration test?"
+    },
+    {
+      "id": "1027fe14-d1cd-42d1-8681-591f062ceef4",
+      "difficulty": 1,
+      "question": "What is social engineering in the context of penetration testing?"
+    },
+    {
+      "id": "61e34ecf-eeeb-483f-b711-5768c7f9b9f8",
+      "difficulty": 1,
+      "question": "Which phase of penetration testing involves gathering publicly available information about the target?"
+    },
+    {
+      "id": "d12920b2-4e15-4a10-a280-5676054af994",
+      "difficulty": 1,
+      "question": "What does the term 'exploit' refer to in penetration testing?"
+    },
+    {
+      "id": "2e3595f5-eb93-4fb4-8127-fc842c8a7848",
+      "difficulty": 1,
+      "question": "In the context of penetration testing, what is a 'payload'?"
+    },
+    {
+      "id": "e81bd001-4884-4bcb-a1b6-df3efa847f6e",
+      "difficulty": 1,
+      "question": "What is the significance of the post-exploitation phase in penetration testing?"
+    },
+    {
+      "id": "ad816de2-9e13-4ffc-bd58-762b69bb1b16",
+      "difficulty": 1,
+      "question": "Which programming language is often used for writing scripts and exploits in penetration testing?"
+    },
+    {
+      "id": "e1d13e8d-c548-4afd-b1ef-de7ee1c9796a",
+      "difficulty": 1,
+      "question": "What is the importance of obtaining explicit permission before conducting a penetration test?"
+    },
+    {
+      "id": "510adc82-1926-40c7-b1fb-cd7880b93355",
+      "difficulty": 1,
+      "question": "In penetration testing, what does 'OSINT' stand for?"
+    },
+    {
+      "id": "c2958a61-24e0-4c90-8cf5-2cbf34d43dcf",
+      "difficulty": 1,
+      "question": "What type of penetration testing is performed without any prior knowledge of the target system?"
+    },
+    {
+      "id": "c3849163-7224-48be-bb0f-2b6e8dc5e167",
+      "difficulty": 1,
+      "question": "What tool is often used for web application penetration testing?"
+    },
+    {
+      "id": "a4fdfd11-31eb-412f-8407-562a18577c54",
+      "difficulty": 1,
+      "question": "In the context of penetration testing, what is a 'vulnerability assessment'?"
+    },
+    {
+      "id": "533a5ea3-097e-483d-b14d-6ae75ffd086a",
+      "difficulty": 1,
+      "question": "What distinguishes a white box penetration test from a black box penetration test?"
+    },
+    {
+      "id": "fe96f06e-6f4d-4373-b9a2-4eb4b2477aed",
+      "difficulty": 1,
+      "question": "What is the first step in a typical penetration testing methodology?"
+    },
+    {
+      "id": "1068dea8-1888-44cb-9b73-5be1a339ea8a",
+      "difficulty": 1,
+      "question": "What does 'enumeration' mean in the context of penetration testing?"
+    },
+    {
+      "id": "1b8be495-3723-4ce7-adea-ae08753b31f3",
+      "difficulty": 1,
+      "question": "What is a 'false positive' in the context of penetration testing?"
+    },
+    {
+      "id": "dc301916-c0f0-426f-a62d-263d3f3e998f",
+      "difficulty": 1,
+      "question": "Why is it important to define the scope of a penetration test?"
+    },
+    {
+      "id": "3ce3a355-feff-4861-bd75-cecec4e1e618",
+      "difficulty": 1,
+      "question": "What kind of legal document typically outlines the boundaries of a penetration test?"
+    },
+    {
+      "id": "0be96fcb-7099-4125-aac2-988c8fddfeaf",
+      "difficulty": 1,
+      "question": "What does the 'ethical' in 'ethical hacking' imply?"
+    },
+    {
+      "id": "b0d39304-b674-4bb7-8e46-b65af1c6b7de",
+      "difficulty": 2,
+      "question": "In which phase of penetration testing would you typically engage in 'sniffing' network traffic?"
+    },
+    {
+      "id": "35d828ab-309e-4621-931b-f4b83f762b23",
+      "difficulty": 2,
+      "question": "What is a 'honeypot' in terms of network security?"
+    },
+    {
+      "id": "59b36919-07bd-407c-a872-e29a4048cf3c",
+      "difficulty": 2,
+      "question": "Which tool can be used for password cracking during a penetration test?"
+    },
+    {
+      "id": "8293d50b-5f82-456f-9444-8f0ecc4f3a55",
+      "difficulty": 2,
+      "question": "How does a 'man-in-the-middle' attack work?"
+    },
+    {
+      "id": "4ed479c5-5478-40f6-8343-34b15947cc2d",
+      "difficulty": 2,
+      "question": "What is the purpose of using a proxy server during a penetration test?"
+    },
+    {
+      "id": "c5e7cbf3-d910-45a7-9e1e-5028c4af08c2",
+      "difficulty": 2,
+      "question": "What is an 'SQL Injection' attack?"
+    },
+    {
+      "id": "e8251538-b951-40d0-aad3-746b191c690c",
+      "difficulty": 2,
+      "question": "What are 'Metasploit' modules?"
+    },
+    {
+      "id": "ca2abb66-9cc3-43bd-83f1-4919f0644fcd",
+      "difficulty": 2,
+      "question": "In penetration testing, what is meant by 'fuzzing'?"
+    },
+    {
+      "id": "72512e91-6ece-4493-8a3c-6944e32508ad",
+      "difficulty": 2,
+      "question": "How can a 'cross-site scripting' (XSS) vulnerability be exploited?"
+    },
+    {
+      "id": "05e79b13-8ebe-4852-b1d6-e0462132249e",
+      "difficulty": 2,
+      "question": "What role does 'Wireshark' play in penetration testing?"
+    },
+    {
+      "id": "ddf83b0a-57cf-46e6-85cb-1c90c9f0d405",
+      "difficulty": 2,
+      "question": "What is 'phishing' in the context of social engineering attacks?"
+    },
+    {
+      "id": "1f466b1a-ec41-4365-b42d-b36956d049bd",
+      "difficulty": 2,
+      "question": "In penetration testing, what is a 'shellcode'?"
+    },
+    {
+      "id": "7f9573b0-3f0d-4d86-a57f-05171a044ddc",
+      "difficulty": 2,
+      "question": "What is meant by 'privilege escalation'?"
+    },
+    {
+      "id": "02d9b9a1-90c0-41c4-8494-5266c437d8ec",
+      "difficulty": 2,
+      "question": "What is the purpose of 'port scanning' during a penetration test?"
+    },
+    {
+      "id": "16fe7436-d297-46cc-b550-5d7371aa9e8a",
+      "difficulty": 2,
+      "question": "What is a 'session hijacking' attack?"
+    },
+    {
+      "id": "051de080-0018-454a-9053-7498a7ffb725",
+      "difficulty": 2,
+      "question": "What differentiates an 'active' from a 'passive' reconnaissance phase?"
+    },
+    {
+      "id": "1a804b9d-2d86-4949-bf89-4b1ea16b43d6",
+      "difficulty": 2,
+      "question": "What is the intention behind a 'denial of service' attack?"
+    },
+    {
+      "id": "4b1696c5-38a1-4a88-8a59-9b4649c4936b",
+      "difficulty": 2,
+      "question": "How is a 'reverse shell' used in penetration testing?"
+    },
+    {
+      "id": "8953b3a3-04b6-4a02-a6bf-9e9330687cc7",
+      "difficulty": 2,
+      "question": "What is the significance of 'patch management' in maintaining security?"
+    },
+    {
+      "id": "387ba458-cf68-4fd3-84fb-6a785036ea96",
+      "difficulty": 2,
+      "question": "What are 'CVE identifiers'?"
+    },
+    {
+      "id": "c5915008-1e98-470b-abac-09e69cc7fbcd",
+      "difficulty": 3,
+      "question": "How does a 'buffer overflow' attack work?"
+    },
+    {
+      "id": "230e00b1-1ec1-4c26-9da0-03997e057131",
+      "difficulty": 3,
+      "question": "What is a 'zero day' vulnerability?"
+    },
+    {
+      "id": "e56526d7-68a7-4cbd-8379-96aa9c57424b",
+      "difficulty": 3,
+      "question": "Which penetration testing framework focuses on web applications?"
+    },
+    {
+      "id": "c49eda4a-69c6-42f4-9730-795eba0ffef8",
+      "difficulty": 3,
+      "question": "How do 'rainbow tables' assist in password cracking?"
+    },
+    {
+      "id": "7ac8fe3d-c193-4889-b904-b7fb4f14a53d",
+      "difficulty": 3,
+      "question": "What is 'heap spraying'?"
+    },
+    {
+      "id": "6415de12-3a33-48fc-9529-2e458c14ce0b",
+      "difficulty": 3,
+      "question": "In penetration testing, what is a 'rootkit'?"
+    },
+    {
+      "id": "297035a3-7692-4916-8895-aabd5ea99afb",
+      "difficulty": 3,
+      "question": "What is 'clickjacking'?"
+    },
+    {
+      "id": "87a30251-7b9c-4530-bb75-901d74d71c34",
+      "difficulty": 3,
+      "question": "How does 'two-factor authentication' increase security?"
+    },
+    {
+      "id": "67222d6a-e08b-4550-834c-668c8efb23b1",
+      "difficulty": 3,
+      "question": "What is 'spyware'?"
+    },
+    {
+      "id": "e744ea59-5dab-4026-9446-cc5470834d78",
+      "difficulty": 3,
+      "question": "How does 'ARP spoofing' work?"
+    },
+    {
+      "id": "6e1221c9-47b5-43d2-b916-89394c850bb6",
+      "difficulty": 3,
+      "question": "In penetration testing, what is meant by 'pivoting'?"
+    },
+    {
+      "id": "cebe0b77-4b06-4bbb-8151-e68db4cceee9",
+      "difficulty": 3,
+      "question": "What are the types of 'SQL injection' attacks?"
+    },
+    {
+      "id": "115f68ec-a892-4e56-893a-32d5d61239b5",
+      "difficulty": 3,
+      "question": "How is 'SSL stripping' executed?"
+    },
+    {
+      "id": "656c20b9-d648-43ab-9463-ed4eb21d3106",
+      "difficulty": 3,
+      "question": "What is the TOR network and how does it relate to penetration testing?"
+    },
+    {
+      "id": "51fb9373-19af-44a3-a041-eff1ad7e062c",
+      "difficulty": 3,
+      "question": "What is 'DNS spoofing'?"
+    },
+    {
+      "id": "e00bb606-0ed1-4d54-8962-75d5cd62e55b",
+      "difficulty": 3,
+      "question": "What functionality does 'OWASP Zap' provide?"
+    },
+    {
+      "id": "b1c1a440-8927-4d06-a2ba-b57d347fcdaa",
+      "difficulty": 3,
+      "question": "How does 'malware' differ from 'adware'?"
+    },
+    {
+      "id": "f5ae89c2-ffac-4a39-a9c9-6792403f8399",
+      "difficulty": 3,
+      "question": "What is a 'side-channel attack'?"
+    },
+    {
+      "id": "a0c1c299-e389-4fdd-9f39-64dc1d15e296",
+      "difficulty": 3,
+      "question": "In what scenario is 'keylogging' used?"
+    },
+    {
+      "id": "d0435c08-e551-4d92-95d3-db5b3c831bbb",
+      "difficulty": 3,
+      "question": "What is 'steganography' in the context of data hiding?"
+    },
+    {
+      "id": "041da90e-5950-410c-9711-d70cad37d69d",
+      "difficulty": 4,
+      "question": "What is the 'Advanced Encryption Standard (AES)'?"
+    },
+    {
+      "id": "a961f82a-b447-42fb-9ddb-80483d8a2762",
+      "difficulty": 4,
+      "question": "Describe the impact of 'Heartbleed' vulnerability."
+    },
+    {
+      "id": "88af09ec-3f36-4d7e-bf2a-f31f849f2bc6",
+      "difficulty": 4,
+      "question": "How do 'botnets' affect network security?"
+    },
+    {
+      "id": "202d2d60-5500-40a5-86d5-e9620f5a9aa4",
+      "difficulty": 4,
+      "question": "In penetration testing, what is 'beaconing'?"
+    },
+    {
+      "id": "c0c341e2-8473-47f5-a542-8b5ebf9dcb1b",
+      "difficulty": 4,
+      "question": "What is the concept of 'sandboxing' in cybersecurity?"
+    },
+    {
+      "id": "e482ec65-a776-4f8f-868a-1c5b24561ccf",
+      "difficulty": 4,
+      "question": "How is digital evidence preserved in a forensic analysis after a security breach?"
+    },
+    {
+      "id": "7caf977c-9e00-4e09-bd7e-154438d18122",
+      "difficulty": 4,
+      "question": "What is an 'advanced persistent threat (APT)'?"
+    },
+    {
+      "id": "57371774-4a6a-4310-9f34-33b0875dd175",
+      "difficulty": 4,
+      "question": "What is the role of 'hashing' in storing passwords securely?"
+    },
+    {
+      "id": "154cdd22-43e8-4102-bfbb-fe18cd584b8e",
+      "difficulty": 4,
+      "question": "Describe 'certificate pinning' in mobile application security."
+    },
+    {
+      "id": "6dc29a1f-6aee-4486-b6cb-6e37a73d474c",
+      "difficulty": 4,
+      "question": "What is a 'Cross-Site Request Forgery' (CSRF) attack?"
+    },
+    {
+      "id": "0461b783-7dfb-48e6-8a7a-89b47df34f0b",
+      "difficulty": 4,
+      "question": "How does the 'BlueKeep' vulnerability affect systems?"
+    },
+    {
+      "id": "b8107389-3bdf-4417-a834-52efdb5ea508",
+      "difficulty": 4,
+      "question": "In the context of web security, what is 'Content Security Policy' (CSP)?"
+    },
+    {
+      "id": "2b7579ad-91ce-4204-a9e5-b2e67923c849",
+      "difficulty": 4,
+      "question": "Describe how 'chain of custody' is maintained in digital forensics."
+    },
+    {
+      "id": "7408bf8d-370e-4906-ab58-57e82280fd85",
+      "difficulty": 4,
+      "question": "What is the purpose of 'threat modeling' in security analysis?"
+    },
+    {
+      "id": "a0c4f8da-7bcd-45d7-89b7-a0484079b40c",
+      "difficulty": 4,
+      "question": "How does 'RFID cloning' compromise security?"
+    },
+    {
+      "id": "c08824f7-31e1-4384-b1cd-21734cd6cf15",
+      "difficulty": 4,
+      "question": "Describe the role of 'honeynets' in cybersecurity."
+    },
+    {
+      "id": "fad7e2fb-4fe3-4199-b0ec-542efe942027",
+      "difficulty": 4,
+      "question": "What is the significance of a 'firewall' in network security?"
+    },
+    {
+      "id": "32f28446-d024-4f8c-a362-f97d248c50f6",
+      "difficulty": 4,
+      "question": "How does 'quantum computing' pose a threat to current encryption methodologies?"
+    },
+    {
+      "id": "c36f3deb-f28c-42bd-a279-14ad1b9e8fbd",
+      "difficulty": 4,
+      "question": "What is the difference between 'symmetric' and 'asymmetric' encryption?"
+    },
+    {
+      "id": "ac8ab81b-b4e8-4923-a21c-8b42d35b7876",
+      "difficulty": 4,
+      "question": "How does 'Deep Packet Inspection' (DPI) enhance network security?"
+    },
+    {
+      "id": "c0f6eb5f-a4cc-45f1-a7ac-384f757d0091",
+      "difficulty": 5,
+      "question": "Explain the concept of 'cryptographic nonce' in security protocols."
+    },
+    {
+      "id": "730db508-0653-467b-bc0f-281f1e6299ce",
+      "difficulty": 5,
+      "question": "What is 'quantum key distribution'?"
+    },
+    {
+      "id": "237f50e8-930c-4139-9d41-f0395cb4833d",
+      "difficulty": 5,
+      "question": "Describe the principle of 'least privilege' in system security."
+    },
+    {
+      "id": "8f138bde-8ae1-4c27-8cb2-4b4fc108a57b",
+      "difficulty": 5,
+      "question": "Explain 'Kerberos' in the context of network authentication."
+    },
+    {
+      "id": "605256a9-62aa-4e5d-a5b7-7d47b93b36dc",
+      "difficulty": 5,
+      "question": "How does 'ransomware' operate to compromise system security?"
+    },
+    {
+      "id": "149df388-1764-4731-bcc8-9039957f762b",
+      "difficulty": 5,
+      "question": "What are 'security information and event management' (SIEM) systems?"
+    },
+    {
+      "id": "cb391f06-233d-43f8-959b-e680958fbca5",
+      "difficulty": 5,
+      "question": "Explain the workings of 'Secure Multi-party Computation' (SMPC)."
+    },
+    {
+      "id": "67cdf940-6f16-4b44-bbfe-57c678653758",
+      "difficulty": 5,
+      "question": "What are the potential security risks of 'Internet of Things' (IoT) devices?"
+    },
+    {
+      "id": "948ad966-11a2-409b-9f42-4e63f309a89f",
+      "difficulty": 5,
+      "question": "How does 'fileless malware' differ from traditional malware?"
+    },
+    {
+      "id": "ca1090dd-a85a-445f-910b-4ba91c170739",
+      "difficulty": 5,
+      "question": "Explain the concept of 'Zero Trust' security model."
+    },
+    {
+      "id": "b90c6fa1-bebe-4dbc-a363-0a607eb3c979",
+      "difficulty": 5,
+      "question": "What is 'blockchain' technology's role in cybersecurity?"
+    },
+    {
+      "id": "d57681db-383a-4db3-9205-ef149323d10d",
+      "difficulty": 5,
+      "question": "Describe the 'Meltdown' and 'Spectre' vulnerabilities."
+    },
+    {
+      "id": "167776f3-899a-4e50-a07b-dd18cf0f4eed",
+      "difficulty": 5,
+      "question": "What is 'behavioral biometrics' in cybersecurity?"
+    },
+    {
+      "id": "95aac76c-5005-480f-ad01-09186445982e",
+      "difficulty": 5,
+      "question": "How does 'network segmentation' improve security?"
+    },
+    {
+      "id": "8e2234ae-6a4e-486c-b121-73913fee8fc6",
+      "difficulty": 5,
+      "question": "Explain the role of 'Artificial Intelligence' in cybersecurity."
+    },
+    {
+      "id": "747bf98e-b21e-4ffa-b93f-91ad7f4c6a36",
+      "difficulty": 5,
+      "question": "How do 'microsegmentation' strategies enhance network security?"
+    },
+    {
+      "id": "764ad3d8-c44b-4597-8bb6-77cab2e7a680",
+      "difficulty": 5,
+      "question": "What is the significance of 'secure coding practices' in software development?"
+    },
+    {
+      "id": "a6a69f7c-d01d-408d-b834-c270edd01e20",
+      "difficulty": 5,
+      "question": "How are 'security orchestration, automation, and response' (SOAR) tools used?"
+    },
+    {
+      "id": "7a48a98a-0dee-44bf-92fd-f2b5e3c3788d",
+      "difficulty": 5,
+      "question": "Explain the differences between 'Intrusion Detection Systems' (IDS) and 'Intrusion Prevention Systems' (IPS)."
+    },
+    {
+      "id": "c48a0adf-5ed8-4f62-bd80-527e863d9bb0",
+      "difficulty": 5,
+      "question": "Describe the challenges and solutions in 'cloud security'."
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "To create a secure network perimeter",
+        "To identify and remediate vulnerabilities in a system before attackers can exploit them",
+        "To encrypt sensitive data",
+        "To train employees on security best practices"
+      ],
+      "answer": 1,
+      "question_id": "8c47c77a-b3eb-4fca-ab95-6af62a5e0735"
+    },
+    {
+      "choices": [
+        "Metasploit",
+        "Nmap",
+        "Burp Suite",
+        "Wireshark"
+      ],
+      "answer": 1,
+      "question_id": "0885b775-5b00-4494-a406-2de6055f4b23"
+    },
+    {
+      "choices": [
+        "A technique that involves manipulating people into breaking normal security procedures",
+        "A method to strengthen network security by applying strict firewall rules",
+        "The process of using automated tools to scan and identify vulnerabilities in a system",
+        "The practice of coding algorithms to predict future cyber-attacks"
+      ],
+      "answer": 0,
+      "question_id": "1027fe14-d1cd-42d1-8681-591f062ceef4"
+    },
+    {
+      "choices": [
+        "Exploitation Phase",
+        "Reporting Phase",
+        "Reconnaissance Phase",
+        "Post-Exploitation Phase"
+      ],
+      "answer": 2,
+      "question_id": "61e34ecf-eeeb-483f-b711-5768c7f9b9f8"
+    },
+    {
+      "choices": [
+        "A method for securing a network against attackers",
+        "A software tool used to monitor network traffic",
+        "A bug or flaw that is used to gain unauthorized access to a system",
+        "An official document detailing security policies"
+      ],
+      "answer": 2,
+      "question_id": "d12920b2-4e15-4a10-a280-5676054af994"
+    },
+    {
+      "choices": [
+        "A set of tools used for encryption",
+        "A malware component delivered by an exploit",
+        "A technique used for anonymizing the tester's IP address",
+        "A document detailing the findings of a test"
+      ],
+      "answer": 1,
+      "question_id": "2e3595f5-eb93-4fb4-8127-fc842c8a7848"
+    },
+    {
+      "choices": [
+        "Identifying the vulnerabilities in the system",
+        "Establishing a persistent presence within the exploited system",
+        "Scanning the network for accessible systems",
+        "Conducting initial reconnaissance"
+      ],
+      "answer": 1,
+      "question_id": "e81bd001-4884-4bcb-a1b6-df3efa847f6e"
+    },
+    {
+      "choices": [
+        "Ruby",
+        "Python",
+        "Java",
+        "C++"
+      ],
+      "answer": 1,
+      "question_id": "ad816de2-9e13-4ffc-bd58-762b69bb1b16"
+    },
+    {
+      "choices": [
+        "To ensure the test aligns with legal and ethical standards",
+        "To increase the difficulty of the penetration test",
+        "To make the target system more vulnerable",
+        "To reduce the cost of the penetration test"
+      ],
+      "answer": 0,
+      "question_id": "e1d13e8d-c548-4afd-b1ef-de7ee1c9796a"
+    },
+    {
+      "choices": [
+        "Online Security Intelligence",
+        "Operational Security Information",
+        "Open Source Intelligence",
+        "Offensive Security Instruction Node"
+      ],
+      "answer": 2,
+      "question_id": "510adc82-1926-40c7-b1fb-cd7880b93355"
+    },
+    {
+      "choices": [
+        "Internal Testing",
+        "Blind Testing",
+        "External Testing",
+        "Double Blind Testing"
+      ],
+      "answer": 1,
+      "question_id": "c2958a61-24e0-4c90-8cf5-2cbf34d43dcf"
+    },
+    {
+      "choices": [
+        "Wireshark",
+        "Burp Suite",
+        "Adobe Photoshop",
+        "Microsoft Excel"
+      ],
+      "answer": 1,
+      "question_id": "c3849163-7224-48be-bb0f-2b6e8dc5e167"
+    },
+    {
+      "choices": [
+        "A process to physically secure the computing devices in an organization",
+        "The identification and quantification of security vulnerabilities in a target's systems",
+        "A legal agreement between the penetration tester and the client",
+        "The act of sending phishing emails to employees to gauge their response"
+      ],
+      "answer": 1,
+      "question_id": "a4fdfd11-31eb-412f-8407-562a18577c54"
+    },
+    {
+      "choices": [
+        "The use of automated scanning tools versus manual testing",
+        "The attacker's knowledge of the system's details prior to testing",
+        "The legality of the hacking methods employed during the test",
+        "The focus on internal versus external threats"
+      ],
+      "answer": 1,
+      "question_id": "533a5ea3-097e-483d-b14d-6ae75ffd086a"
+    },
+    {
+      "choices": [
+        "Exploiting vulnerabilities",
+        "Performing network scanning",
+        "Gathering information",
+        "Reporting and analysis"
+      ],
+      "answer": 2,
+      "question_id": "fe96f06e-6f4d-4373-b9a2-4eb4b2477aed"
+    },
+    {
+      "choices": [
+        "The process of identifying user accounts or system resources.",
+        "Creating a secure connection between the attacker and the victim.",
+        "The act of physically breaching a secured area without authorization.",
+        "Encrypting sensitive information to protect it from attackers."
+      ],
+      "answer": 0,
+      "question_id": "1068dea8-1888-44cb-9b73-5be1a339ea8a"
+    },
+    {
+      "choices": [
+        "A vulnerability that doesn't exist but is detected by a scanner.",
+        "A successful exploitation of a system's weakness.",
+        "The actual downtime experienced due to an attack.",
+        "A real vulnerability that is not detected by a scanner."
+      ],
+      "answer": 0,
+      "question_id": "1b8be495-3723-4ce7-adea-ae08753b31f3"
+    },
+    {
+      "choices": [
+        "To determine the cost of the cybersecurity tools required",
+        "To ensure legal and ethical boundaries are not crossed",
+        "To identify the team members involved in the test",
+        "To choose the types of reports to be generated post-test"
+      ],
+      "answer": 1,
+      "question_id": "dc301916-c0f0-426f-a62d-263d3f3e998f"
+    },
+    {
+      "choices": [
+        "Service Level Agreement",
+        "Memorandum of Understanding",
+        "Rules of Engagement",
+        "User License Agreement"
+      ],
+      "answer": 2,
+      "question_id": "3ce3a355-feff-4861-bd75-cecec4e1e618"
+    },
+    {
+      "choices": [
+        "Using hacking skills for malicious purposes",
+        "Hacking into systems without permission",
+        "Hacking with the intent to identify and fix security vulnerabilities",
+        "The ability to bypass antivirus software"
+      ],
+      "answer": 2,
+      "question_id": "0be96fcb-7099-4125-aac2-988c8fddfeaf"
+    },
+    {
+      "choices": [
+        "Post-Exploitation Phase",
+        "Reconnaissance Phase",
+        "Exploitation Phase",
+        "Sniffing Network Traffic is not a phase of penetration testing"
+      ],
+      "answer": 1,
+      "question_id": "b0d39304-b674-4bb7-8e46-b65af1c6b7de"
+    },
+    {
+      "choices": [
+        "A software tool used for patching vulnerabilities",
+        "A computer system that is set up to attract and trap individuals who attempt to penetrate other computer systems",
+        "A type of malware designed to steal data",
+        "A protocol for secure communication over a computer network"
+      ],
+      "answer": 1,
+      "question_id": "35d828ab-309e-4621-931b-f4b83f762b23"
+    },
+    {
+      "choices": [
+        "Nmap",
+        "Burp Suite",
+        "John the Ripper",
+        "Wireshark"
+      ],
+      "answer": 2,
+      "question_id": "59b36919-07bd-407c-a872-e29a4048cf3c"
+    },
+    {
+      "choices": [
+        "An attacker exploits vulnerabilities in the software to gain unauthorized access to the system.",
+        "An attacker intercepts communications between two parties without their knowledge, potentially altering the communication.",
+        "An attacker floods the victim's system with an overwhelming amount of traffic, causing a denial of service.",
+        "An attacker uses phishing techniques to trick the user into revealing sensitive information."
+      ],
+      "answer": 1,
+      "question_id": "8293d50b-5f82-456f-9444-8f0ecc4f3a55"
+    },
+    {
+      "choices": [
+        "To increase the speed of the testing process",
+        "To bypass network security measures",
+        "To store copies of tested data for analysis",
+        "To anonymize the source of the testing traffic"
+      ],
+      "answer": 3,
+      "question_id": "4ed479c5-5478-40f6-8343-34b15947cc2d"
+    },
+    {
+      "choices": [
+        "An attack that exploits weaknesses in the SSL protocol",
+        "An attack in which malicious scripts are inserted into URLs",
+        "A technique used to attack data-driven applications, in which nefarious SQL statements are inserted into an entry field for execution",
+        "A physical maneuver to bypass security mechanisms in laptop hardware"
+      ],
+      "answer": 2,
+      "question_id": "c5e7cbf3-d910-45a7-9e1e-5028c4af08c2"
+    },
+    {
+      "choices": [
+        "Libraries for data manipulation in pandas",
+        "Plugins for enhancing web browser capabilities",
+        "Pieces of code that can be used within the Metasploit framework to perform tasks",
+        "Cryptographic algorithms for secure communication"
+      ],
+      "answer": 2,
+      "question_id": "e8251538-b951-40d0-aad3-746b191c690c"
+    },
+    {
+      "choices": [
+        "Analyzing network traffic for vulnerabilities",
+        "Sending random data to software to induce errors",
+        "Decrypting passwords stored in a database",
+        "Monitoring system logs for suspicious activity"
+      ],
+      "answer": 1,
+      "question_id": "ca2abb66-9cc3-43bd-83f1-4919f0644fcd"
+    },
+    {
+      "choices": [
+        "By overloading the server with traffic",
+        "By intercepting and modifying HTTPS traffic",
+        "By injecting malicious scripts into webpages viewed by other users",
+        "By cracking the passwords stored in a database"
+      ],
+      "answer": 2,
+      "question_id": "72512e91-6ece-4493-8a3c-6944e32508ad"
+    },
+    {
+      "choices": [
+        "Developing web applications",
+        "Conducting wireless attacks",
+        "Packet sniffing and network traffic analysis",
+        "Creating penetration testing reports"
+      ],
+      "answer": 2,
+      "question_id": "05e79b13-8ebe-4852-b1d6-e0462132249e"
+    },
+    {
+      "choices": [
+        "An attack that floods the victim's system with unnecessary requests to overload the system",
+        "A method to physically break into a secure location to access a computer network",
+        "A technique that involves tricking individuals into revealing personal information, such as passwords or credit card numbers",
+        "A form of attack that exploits vulnerabilities in the software to gain unauthorized access"
+      ],
+      "answer": 2,
+      "question_id": "ddf83b0a-57cf-46e6-85cb-1c90c9f0d405"
+    },
+    {
+      "choices": [
+        "A type of encryption algorithm used to secure data",
+        "A set of instructions for bypassing user authentication",
+        "A small piece of code used to exploit a vulnerability and open a command shell on the target system",
+        "A scripting language designed for automating penetration testing tasks"
+      ],
+      "answer": 2,
+      "question_id": "1f466b1a-ec41-4365-b42d-b36956d049bd"
+    },
+    {
+      "choices": [
+        "Encrypting data to prevent unauthorized access",
+        "The process of gaining higher-level permissions than originally assigned",
+        "Creating a secure tunnel between two points on a network",
+        "The act of finding and exploiting vulnerabilities in a firewall"
+      ],
+      "answer": 1,
+      "question_id": "7f9573b0-3f0d-4d86-a57f-05171a044ddc"
+    },
+    {
+      "choices": [
+        "To identify the operating system of the target.",
+        "To enumerate services running on the target's ports.",
+        "To create a physical map of the network.",
+        "To brute force the login credentials of the target's services."
+      ],
+      "answer": 1,
+      "question_id": "02d9b9a1-90c0-41c4-8494-5266c437d8ec"
+    },
+    {
+      "choices": [
+        "An attack that floods a target with excessive requests to overload systems",
+        "An attack where the attacker steals or manipulates the session cookie to gain unauthorized access to information or services in a computer system",
+        "A type of attack that encrypts the victim's data and demands payment for the decryption key",
+        "The act of sending fraudulent emails designed to trick the recipient into revealing personal information"
+      ],
+      "answer": 1,
+      "question_id": "16fe7436-d297-46cc-b550-5d7371aa9e8a"
+    },
+    {
+      "choices": [
+        "Active reconnaissance does not engage with the target system, whereas passive reconnaissance involves direct interaction.",
+        "Active reconnaissance involves interacting with the target system to gather information, whereas passive reconnaissance gathers data without direct interaction.",
+        "Passive reconnaissance is illegal, whereas active reconnaissance is legally conducted with permission.",
+        "Passive reconnaissance uses automated tools, whereas active reconnaissance requires manual collection of data."
+      ],
+      "answer": 1,
+      "question_id": "051de080-0018-454a-9053-7498a7ffb725"
+    },
+    {
+      "choices": [
+        "To gain unauthorized access to network resources",
+        "To encrypt files for ransom",
+        "To disrupt service to make a network resource unavailable to its users",
+        "To steal sensitive data"
+      ],
+      "answer": 2,
+      "question_id": "1a804b9d-2d86-4949-bf89-4b1ea16b43d6"
+    },
+    {
+      "choices": [
+        "To patch vulnerabilities in the system being tested",
+        "To establish a secure, encrypted connection for testing",
+        "To execute commands from the attacker's machine on the target system",
+        "To scan the network for open ports"
+      ],
+      "answer": 2,
+      "question_id": "4b1696c5-38a1-4a88-8a59-9b4649c4936b"
+    },
+    {
+      "choices": [
+        "Improving the speed of network connections",
+        "Reducing the workload for IT departments",
+        "Correcting security vulnerabilities and improving system stability",
+        "Increasing the usability of software interfaces"
+      ],
+      "answer": 2,
+      "question_id": "8953b3a3-04b6-4a02-a6bf-9e9330687cc7"
+    },
+    {
+      "choices": [
+        "Tools for automated code review",
+        "A classification scheme for various types of malware",
+        "Algorithms used in encryption and decryption",
+        "Unique identifiers for publicly known cybersecurity vulnerabilities"
+      ],
+      "answer": 3,
+      "question_id": "387ba458-cf68-4fd3-84fb-6a785036ea96"
+    },
+    {
+      "choices": [
+        "Sending emails from a fake address to gain confidential information",
+        "Flooding a network with excessive requests to overload and shutdown the target",
+        "Exploiting a vulnerability by executing malicious code in the memory space of a program",
+        "Intercepting and altering communication between two parties without their knowledge"
+      ],
+      "answer": 2,
+      "question_id": "c5915008-1e98-470b-abac-09e69cc7fbcd"
+    },
+    {
+      "choices": [
+        "A vulnerability that is patched within 24 hours of its discovery",
+        "A vulnerability that only exists for zero days",
+        "A security vulnerability that is unknown to those interested in mitigating the vulnerability",
+        "A vulnerability found during the first day of a software release"
+      ],
+      "answer": 2,
+      "question_id": "230e00b1-1ec1-4c26-9da0-03997e057131"
+    },
+    {
+      "choices": [
+        "Metasploit",
+        "Burp Suite",
+        "Nmap",
+        "Cain & Abel"
+      ],
+      "answer": 1,
+      "question_id": "e56526d7-68a7-4cbd-8379-96aa9c57424b"
+    },
+    {
+      "choices": [
+        "By encrypting passwords with a unique salt",
+        "By providing a time-memory trade-off for recovering password hashes",
+        "By scanning networks for open ports",
+        "By automating phishing attacks on users"
+      ],
+      "answer": 1,
+      "question_id": "c49eda4a-69c6-42f4-9730-795eba0ffef8"
+    },
+    {
+      "choices": [
+        "A technique for mitigating buffer overflow attacks",
+        "A method of integrating third-party services into applications securely",
+        "A practice of filling a region of memory with a payload in exploit development",
+        "An approach for optimizing database storage efficiency"
+      ],
+      "answer": 2,
+      "question_id": "7ac8fe3d-c193-4889-b904-b7fb4f14a53d"
+    },
+    {
+      "choices": [
+        "A software tool used for port scanning",
+        "A malware variant that gives unauthorized access to a computer",
+        "A protocol for secure communication over the Internet",
+        "A type of firewall used to protect against unauthorized access"
+      ],
+      "answer": 1,
+      "question_id": "6415de12-3a33-48fc-9529-2e458c14ce0b"
+    },
+    {
+      "choices": [
+        "Using social engineering to guess a user's password",
+        "A denial of service attack that floods a victim's system with traffic",
+        "Tricking a user into clicking on something different than what the user perceives",
+        "Exploiting software vulnerabilities without user interaction"
+      ],
+      "answer": 2,
+      "question_id": "297035a3-7692-4916-8895-aabd5ea99afb"
+    },
+    {
+      "choices": [
+        "By ensuring the user's location is within a trusted network",
+        "By encrypting data at a higher encryption standard",
+        "By providing a second piece of evidence that you are who you say you are",
+        "By automatically updating the system's security patches"
+      ],
+      "answer": 2,
+      "question_id": "87a30251-7b9c-4530-bb75-901d74d71c34"
+    },
+    {
+      "choices": [
+        "A software that helps protect your computer against viruses",
+        "A tool for data encryption and secure communication",
+        "A type of malware that collects information from a computer without the user's knowledge",
+        "An official software update provided by the operating system vendor"
+      ],
+      "answer": 2,
+      "question_id": "67222d6a-e08b-4550-834c-668c8efb23b1"
+    },
+    {
+      "choices": [
+        "Encrypting data packets to prevent detection by intrusion detection systems",
+        "Exploiting vulnerabilities in web applications using SQL injection",
+        "Associating the attacker's MAC address with the IP address of the victim's machine, redirecting the victim's traffic to the attacker",
+        "Sending malicious email attachments to gain unauthorized access to user data"
+      ],
+      "answer": 2,
+      "question_id": "e744ea59-5dab-4026-9446-cc5470834d78"
+    },
+    {
+      "choices": [
+        "Using social engineering to gain physical access to a target building",
+        "Exploiting a web application firewall by overwhelming it with traffic",
+        "The process of using a compromised system to attack other systems on the same network",
+        "Decrypting intercepted encrypted traffic without the decryption key"
+      ],
+      "answer": 2,
+      "question_id": "6e1221c9-47b5-43d2-b916-89394c850bb6"
+    },
+    {
+      "choices": [
+        "Cross-site scripting, Credential stuffing, Directory traversal",
+        "In-band SQLi, Blind SQLi, Out-of-band SQLi",
+        "Brute force, Phishing, Man-in-the-middle",
+        "Denial of Service, Eavesdropping, Spoofing"
+      ],
+      "answer": 1,
+      "question_id": "cebe0b77-4b06-4bbb-8151-e68db4cceee9"
+    },
+    {
+      "choices": [
+        "By decrypting SSL certificates using brute force attacks",
+        "By flooding the network with requests until it crashes",
+        "By intercepting and altering communications to downgrade from HTTPS to HTTP",
+        "By exploiting vulnerabilities in the SSL protocol to inject malicious scripts"
+      ],
+      "answer": 3,
+      "question_id": "115f68ec-a892-4e56-893a-32d5d61239b5"
+    },
+    {
+      "choices": [
+        "A tool for static code analysis used primarily in debugging during penetration testing.",
+        "A brute force attack method used for password cracking in penetration testing.",
+        "A decentralized network that enables anonymous communication, often used for security research and penetration testing.",
+        "A popular web vulnerability scanner used in penetration testing."
+      ],
+      "answer": 2,
+      "question_id": "656c20b9-d648-43ab-9463-ed4eb21d3106"
+    },
+    {
+      "choices": [
+        "Rerouting email traffic to an unauthorized mail server",
+        "Stealing credentials through fake Wi-Fi access points",
+        "Injecting malicious scripts into web pages viewed by users",
+        "Making a computer network believe that a certain IP address belongs to a trusted source, when it actually does not"
+      ],
+      "answer": 3,
+      "question_id": "51fb9373-19af-44a3-a041-eff1ad7e062c"
+    },
+    {
+      "choices": [
+        "Static code analysis",
+        "Web application security scanning",
+        "Network traffic monitoring",
+        "Password cracking"
+      ],
+      "answer": 1,
+      "question_id": "e00bb606-0ed1-4d54-8962-75d5cd62e55b"
+    },
+    {
+      "choices": [
+        "Malware is a software designed to enable advertising on your device, while adware is designed to damage or disable computers and computer systems.",
+        "Malware and adware are the same, both designed to steal personal information.",
+        "Adware is a type of malware that displays unwanted advertisements to the user.",
+        "Malware is software designed to damage or disable computers and computer systems, while adware specifically presents unwanted advertising to the user."
+      ],
+      "answer": 3,
+      "question_id": "b1c1a440-8927-4d06-a2ba-b57d347fcdaa"
+    },
+    {
+      "choices": [
+        "An attack that focuses on decrypting data by defeating the mathematics which underpins cryptography.",
+        "An attack that exploits indirect information from the physical implementation of a computer system.",
+        "An attack that relies on manipulating people into performing actions or divulging confidential information.",
+        "An attack that involves overwhelming the target with traffic to disrupt service."
+      ],
+      "answer": 1,
+      "question_id": "f5ae89c2-ffac-4a39-a9c9-6792403f8399"
+    },
+    {
+      "choices": [
+        "To enhance encryption methods",
+        "To record keystrokes on a device for data extraction",
+        "For improving typing speed",
+        "To debug software applications"
+      ],
+      "answer": 1,
+      "question_id": "a0c1c299-e389-4fdd-9f39-64dc1d15e296"
+    },
+    {
+      "choices": [
+        "The practice of encrypting a message only readable at a specific software version",
+        "The technique of hiding secret data within an ordinary file or message to avoid detection",
+        "The process of spreading a virus or malware through an email attachment",
+        "The act of physically tampering with hardware to gain unauthorized access"
+      ],
+      "answer": 1,
+      "question_id": "d0435c08-e551-4d92-95d3-db5b3c831bbb"
+    },
+    {
+      "choices": [
+        "A protocol for secure network communications",
+        "A vulnerability assessment tool",
+        "A symmetric block cipher used for secure data encryption",
+        "A software framework for web application development"
+      ],
+      "answer": 2,
+      "question_id": "041da90e-5950-410c-9711-d70cad37d69d"
+    },
+    {
+      "choices": [
+        "It causes Denial of Service (DoS) by overwhelming the target system with traffic.",
+        "It allows attackers to inject malicious JavaScript into web pages viewed by users.",
+        "It enables attackers to read sensitive data from the memory of vulnerable servers without leaving traces.",
+        "It allows for elevation of privileges by exploiting improper input validation."
+      ],
+      "answer": 2,
+      "question_id": "a961f82a-b447-42fb-9ddb-80483d8a2762"
+    },
+    {
+      "choices": [
+        "They increase the encryption level of transmitted data",
+        "They enhance the network's resilience to attacks",
+        "They can perform distributed denial-of-service (DDoS) attacks",
+        "They streamline network traffic management"
+      ],
+      "answer": 2,
+      "question_id": "88af09ec-3f36-4d7e-bf2a-f31f849f2bc6"
+    },
+    {
+      "choices": [
+        "A method of sending data packets to establish a connection with a command and control server",
+        "Encrypting data before exfiltration to avoid detection",
+        "The process of scanning an entire network to identify active devices",
+        "A technique used to physically bypass security controls by gaining unauthorized access to premises"
+      ],
+      "answer": 0,
+      "question_id": "202d2d60-5500-40a5-86d5-e9620f5a9aa4"
+    },
+    {
+      "choices": [
+        "The process of encrypting data to prevent unauthorized access",
+        "A method for detecting vulnerabilities by simulating attacks",
+        "Isolating untrusted software to monitor its behavior without risking the host system",
+        "Creating a duplicate network for testing purposes"
+      ],
+      "answer": 2,
+      "question_id": "c0c341e2-8473-47f5-a542-8b5ebf9dcb1b"
+    },
+    {
+      "choices": [
+        "By converting all files to a common format like PDF",
+        "By keeping the system online and monitored",
+        "By creating a bit-by-bit image of the storage media",
+        "By only analyzing the data in memory"
+      ],
+      "answer": 2,
+      "question_id": "e482ec65-a776-4f8f-868a-1c5b24561ccf"
+    },
+    {
+      "choices": [
+        "A bug in the application code that allows an attacker to gain unauthorized access",
+        "An integrated development environment for security professionals",
+        "A network attack in which an unauthorized person gains access to a network and stays there undetected for a long period of time",
+        "A type of malware that locks or encrypts data, demanding a ransom for its release"
+      ],
+      "answer": 2,
+      "question_id": "7caf977c-9e00-4e09-bd7e-154438d18122"
+    },
+    {
+      "choices": [
+        "Encrypting user sessions for secure communication",
+        "Storing passwords in plain text for easier retrieval",
+        "Transforming passwords into a fixed-size string of characters",
+        "Monitoring user activities for unauthorized access"
+      ],
+      "answer": 2,
+      "question_id": "57371774-4a6a-4310-9f34-33b0875dd175"
+    },
+    {
+      "choices": [
+        "A method for dynamically allocating IP addresses to devices",
+        "A technique used to make data unreadable to unauthorized users",
+        "A security measure used to prevent attackers from spoofing a certificate of a genuine website",
+        "A tool for monitoring network traffic in real-time"
+      ],
+      "answer": 2,
+      "question_id": "154cdd22-43e8-4102-bfbb-fe18cd584b8e"
+    },
+    {
+      "choices": [
+        "An attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated.",
+        "A security exploit in which the attacker injects malicious code into a trusted website.",
+        "An attack that intercepts and modifies communication between two parties without either party's knowledge.",
+        "A technique used to exploit web applications by injecting malicious SQL statements into input fields for execution."
+      ],
+      "answer": 0,
+      "question_id": "6dc29a1f-6aee-4486-b6cb-6e37a73d474c"
+    },
+    {
+      "choices": [
+        "It increases the processing power of the system.",
+        "It allows remote code execution without any user interaction.",
+        "It encrypts files and asks for ransom.",
+        "It protects systems by updating firewalls."
+      ],
+      "answer": 1,
+      "question_id": "0461b783-7dfb-48e6-8a7a-89b47df34f0b"
+    },
+    {
+      "choices": [
+        "A protocol for encrypting web traffic",
+        "A set of rules for validating user input",
+        "A security standard for preventing XSS attacks",
+        "A method for authenticating web pages"
+      ],
+      "answer": 2,
+      "question_id": "b8107389-3bdf-4417-a834-52efdb5ea508"
+    },
+    {
+      "choices": [
+        "Regularly updating security patches to prevent tampering",
+        "Creating multiple backups of digital evidence for redundancy",
+        "Documenting every person who handles the evidence and how it's been processed",
+        "Encrypting the evidence using public key infrastructure"
+      ],
+      "answer": 2,
+      "question_id": "2b7579ad-91ce-4204-a9e5-b2e67923c849"
+    },
+    {
+      "choices": [
+        "To create a detailed inventory of all digital assets",
+        "To predict and rank potential threats to the system",
+        "To establish a budget for the security department",
+        "To choose the best encryption algorithm for data protection"
+      ],
+      "answer": 1,
+      "question_id": "7408bf8d-370e-4906-ab58-57e82280fd85"
+    },
+    {
+      "choices": [
+        "By deploying malware through email phishing campaigns",
+        "By intercepting and manipulating internet traffic",
+        "By copying the information of an RFID tag to create a duplicate",
+        "By exploiting vulnerabilities in web applications"
+      ],
+      "answer": 2,
+      "question_id": "a0c4f8da-7bcd-45d7-89b7-a0484079b40c"
+    },
+    {
+      "choices": [
+        "Enhancing internet browsing speed for users in a network.",
+        "A type of software used for data encryption.",
+        "Creating a secure, encrypted tunnel for data transmission over the internet.",
+        "Networks of virtual honeypots designed to simulate vulnerable systems to attract and study attackers."
+      ],
+      "answer": 3,
+      "question_id": "c08824f7-31e1-4384-b1cd-21734cd6cf15"
+    },
+    {
+      "choices": [
+        "A tool for monitoring network traffic",
+        "A protocol for encrypting data",
+        "A device or software used to prevent unauthorized access to or from a private network",
+        "A method for compressing data"
+      ],
+      "answer": 2,
+      "question_id": "fad7e2fb-4fe3-4199-b0ec-542efe942027"
+    },
+    {
+      "choices": [
+        "It increases the speed of brute-force attacks",
+        "It requires more energy than traditional computing, thus overheating servers",
+        "It uses multi-threading to break passwords faster",
+        "It reduces the cost of computing power, making attacks more affordable"
+      ],
+      "answer": 0,
+      "question_id": "32f28446-d024-4f8c-a362-f97d248c50f6"
+    },
+    {
+      "choices": [
+        "Asymmetric encryption uses a single key for both encryption and decryption, while symmetric encryption uses a pair of keys.",
+        "There is no difference; they are interchangeable terms used in penetration testing.",
+        "Symmetric encryption uses the same key for both encryption and decryption, whereas asymmetric encryption uses a public key for encryption and a private key for decryption.",
+        "Symmetric encryption is mainly used for performance testing, while asymmetric encryption is used for compatibility testing."
+      ],
+      "answer": 2,
+      "question_id": "c36f3deb-f28c-42bd-a279-14ad1b9e8fbd"
+    },
+    {
+      "choices": [
+        "By providing a virtual private network (VPN) for secure communications",
+        "By analyzing the data part and the header of the packet on various layers",
+        "By encrypting data packets transmitted over the network",
+        "By increasing the speed of packet transfer across the network"
+      ],
+      "answer": 1,
+      "question_id": "ac8ab81b-b4e8-4923-a21c-8b42d35b7876"
+    },
+    {
+      "choices": [
+        "A temporary file used for logging security events",
+        "A unique, arbitrary number that may only be used once",
+        "A method of encrypting data at rest",
+        "A protocol for establishing a secure communication channel"
+      ],
+      "answer": 1,
+      "question_id": "c0f6eb5f-a4cc-45f1-a7ac-384f757d0091"
+    },
+    {
+      "choices": [
+        "A method to securely distribute encryption keys over a network without risk of interception",
+        "A technique for identifying vulnerabilities in software applications by simulating attacks",
+        "A process for distributing software updates in a secure manner",
+        "A method for creating secure communication channels over a quantum network"
+      ],
+      "answer": 0,
+      "question_id": "730db508-0653-467b-bc0f-281f1e6299ce"
+    },
+    {
+      "choices": [
+        "The process of scanning a network for open ports",
+        "Granting users minimum levels of access \u2013 or permissions \u2013 needed to perform their job functions",
+        "Installing antivirus software on all devices in a network",
+        "Regularly updating system passwords to prevent unauthorized access"
+      ],
+      "answer": 1,
+      "question_id": "237f50e8-930c-4139-9d41-f0395cb4833d"
+    },
+    {
+      "choices": [
+        "A protocol for managing and updating IoT devices securely",
+        "A network authentication protocol using secret-key cryptography",
+        "A tool for automatic code review and vulnerability assessment",
+        "A type of malware designed to exploit vulnerabilities in networks"
+      ],
+      "answer": 1,
+      "question_id": "8f138bde-8ae1-4c27-8cb2-4b4fc108a57b"
+    },
+    {
+      "choices": [
+        "By creating a secure backup of system data",
+        "By encrypting files and demanding payment for decryption",
+        "By strengthening firewall rules",
+        "By scanning for open ports to close them"
+      ],
+      "answer": 1,
+      "question_id": "605256a9-62aa-4e5d-a5b7-7d47b93b36dc"
+    },
+    {
+      "choices": [
+        "Tools used for automating the deployment of applications.",
+        "Systems designed to manage the configurations of network devices.",
+        "Platforms that aggregate and analyze security alerts and events within an IT environment.",
+        "Software solutions for managing large datasets across clusters of computers."
+      ],
+      "answer": 2,
+      "question_id": "149df388-1764-4731-bcc8-9039957f762b"
+    },
+    {
+      "choices": [
+        "A protocol to distribute a system's data processing tasks across multiple servers, ensuring no single server can access the full data set.",
+        "A network security methodology focusing on protecting the physical hardware of servers.",
+        "A technique that allows parties to jointly compute a function over their inputs while keeping those inputs private.",
+        "A method for securing communications over a computer network by using cryptographic protocols."
+      ],
+      "answer": 2,
+      "question_id": "cb391f06-233d-43f8-959b-e680958fbca5"
+    },
+    {
+      "choices": [
+        "Increased memory usage on personal devices",
+        "Reduced device connectivity and interoperability",
+        "Easier tracking of personal activities by third parties",
+        "Vulnerabilities can be exploited to gain unauthorized access"
+      ],
+      "answer": 3,
+      "question_id": "67cdf940-6f16-4b44-bbfe-57c678653758"
+    },
+    {
+      "choices": [
+        "Fileless malware is larger in size than traditional malware.",
+        "Fileless malware requires user interaction to spread.",
+        "Fileless malware operates by writing itself directly onto the hard drive.",
+        "Fileless malware resides only in memory and does not write any files to the disk."
+      ],
+      "answer": 3,
+      "question_id": "948ad966-11a2-409b-9f42-4e63f309a89f"
+    },
+    {
+      "choices": [
+        "A security model based entirely on signature-based detection mechanisms.",
+        "A security model that requires continuous verification of the operational environment.",
+        "A security method that allows access to all users inside the network but not to those outside.",
+        "A framework for choosing the strongest cryptographic algorithms available."
+      ],
+      "answer": 1,
+      "question_id": "ca1090dd-a85a-445f-910b-4ba91c170739"
+    },
+    {
+      "choices": [
+        "Blockchain technology is primarily used for enhancing physical security systems.",
+        "Blockchain is used for creating strong, tamper-evident databases which can be critical in preventing fraud and ensuring data integrity in cybersecurity.",
+        "It plays a minor role, only used for securing cryptocurrency transactions.",
+        "Blockchain is a framework for developing antivirus software."
+      ],
+      "answer": 1,
+      "question_id": "b90c6fa1-bebe-4dbc-a363-0a607eb3c979"
+    },
+    {
+      "choices": [
+        "Vulnerabilities in web application firewalls that allow attackers to bypass security measures.",
+        "Vulnerabilities in email encryption protocols that allow attackers to decrypt emails without the private key.",
+        "Vulnerabilities that exploit side-channel attacks on modern processors to access protected memory.",
+        "Cross-site scripting (XSS) vulnerabilities that allow attackers to inject client-side scripts into web pages viewed by other users."
+      ],
+      "answer": 2,
+      "question_id": "d57681db-383a-4db3-9205-ef149323d10d"
+    },
+    {
+      "choices": [
+        "A method of encrypting data using behavioral patterns",
+        "The process of segmenting networks based on user behavior",
+        "A set of security practices focused on human behavior and traits",
+        "Techniques that rely on patterns of human activity to authenticate individuals"
+      ],
+      "answer": 3,
+      "question_id": "167776f3-899a-4e50-a07b-dd18cf0f4eed"
+    },
+    {
+      "choices": [
+        "By encrypting data stored on servers",
+        "By reducing the attack surface available to potential attackers",
+        "By increasing the speed of network traffic",
+        "By automatically updating firewall rules"
+      ],
+      "answer": 1,
+      "question_id": "95aac76c-5005-480f-ad01-09186445982e"
+    },
+    {
+      "choices": [
+        "Automating routine data analysis tasks",
+        "Creating more efficient cooling systems for data centers",
+        "Enhancing the graphic design of cybersecurity software interfaces",
+        "Increasing the speed of network cables"
+      ],
+      "answer": 0,
+      "question_id": "8e2234ae-6a4e-486c-b121-73913fee8fc6"
+    },
+    {
+      "choices": [
+        "By centralizing all data storage to reduce potential attack surfaces",
+        "By creating smaller, distinct zones in data centers and cloud environments to isolate workloads from one another and secure them individually",
+        "By encrypting data at rest and in transit, making it unreadable to unauthorized users",
+        "By implementing strong, multifactor authentication methods to improve user access control"
+      ],
+      "answer": 1,
+      "question_id": "747bf98e-b21e-4ffa-b93f-91ad7f4c6a36"
+    },
+    {
+      "choices": [
+        "To ensure that the software can be easily upgraded in the future",
+        "To guarantee that software meets all its functional requirements",
+        "To minimize the risk of vulnerabilities and security breaches in software",
+        "To simplify the software development process for developers"
+      ],
+      "answer": 2,
+      "question_id": "764ad3d8-c44b-4597-8bb6-77cab2e7a680"
+    },
+    {
+      "choices": [
+        "For analyzing business metrics and KPIs",
+        "To create visually captivating user interfaces",
+        "To automate security incident response and streamline operations",
+        "For executing high-frequency trading algorithms"
+      ],
+      "answer": 2,
+      "question_id": "a6a69f7c-d01d-408d-b834-c270edd01e20"
+    },
+    {
+      "choices": [
+        "IDS detects and logs attacks while IPS prevents the attack by blocking traffic.",
+        "IDS and IPS are the same; the terms can be used interchangeably.",
+        "IPS detects vulnerabilities in the system, whereas IDS prevents hackers from exploiting them.",
+        "IDS encrypts data to prevent unauthorized access, while IPS monitors and reports on the integrity of the data."
+      ],
+      "answer": 0,
+      "question_id": "7a48a98a-0dee-44bf-92fd-f2b5e3c3788d"
+    },
+    {
+      "choices": [
+        "Ensuring physical security of data centers, as traditional pen testing methods apply directly",
+        "Lack of visibility and control over the network infrastructure, making traditional tools ineffective",
+        "Cloud services are inherently secure, posing little challenge to penetration testers",
+        "Most cloud providers use proprietary hardware which cannot be tested by external parties"
+      ],
+      "answer": 1,
+      "question_id": "c48a0adf-5ed8-4f62-bd80-527e863d9bb0"
+    }
+  ]
+}

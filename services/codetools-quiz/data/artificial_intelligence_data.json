@@ -1,0 +1,1342 @@
+{
+  "topic": "Artificial Intelligence",
+  "questions": [
+    {
+      "id": "27650bc2-c237-4441-a17f-c9e38b46f913",
+      "difficulty": 1,
+      "question": "What does AI stand for?"
+    },
+    {
+      "id": "460cade3-97f9-44cc-96c4-ba97ae8b367e",
+      "difficulty": 1,
+      "question": "Which of these is a primary goal of AI? Understanding human intelligence, replacing humans in all tasks, making computers think exactly like humans, or creating a self-aware system?"
+    },
+    {
+      "id": "07aeee77-f4f4-46e6-8786-55243d125d64",
+      "difficulty": 1,
+      "question": "In which field is AI primarily used to parse and understand large datasets?"
+    },
+    {
+      "id": "ec9fb5c6-bb97-4cf5-9160-097dd137793d",
+      "difficulty": 1,
+      "question": "What is the name of the test designed to assess a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human?"
+    },
+    {
+      "id": "37779740-cd0a-4c91-97ed-c80f93bdc1f6",
+      "difficulty": 1,
+      "question": "Which of these is a basic component of AI? Neural networks, water cooling systems, quantum processors, or mechanical arms?"
+    },
+    {
+      "id": "0352245b-464d-4aaf-958a-5d502527303a",
+      "difficulty": 1,
+      "question": "What is machine learning?"
+    },
+    {
+      "id": "f0b957d9-65ba-4972-8905-be6ec9360172",
+      "difficulty": 1,
+      "question": "What is a common application of AI in everyday life? Autonomous vehicles, smartphones, or both?"
+    },
+    {
+      "id": "20427afc-f4d9-4090-ad94-3e38650f1e84",
+      "difficulty": 1,
+      "question": "What language is commonly used for AI development?"
+    },
+    {
+      "id": "2671703a-a4c3-401a-93d8-913abcfb4e65",
+      "difficulty": 1,
+      "question": "What is an algorithm?"
+    },
+    {
+      "id": "58862918-eb5e-4139-be3b-487f12ea8f5e",
+      "difficulty": 1,
+      "question": "Which company is known for its advancements in AI? Google, Coca-Cola, Nike, or Boeing?"
+    },
+    {
+      "id": "d7402495-3bd4-4785-aa90-43d72798decc",
+      "difficulty": 1,
+      "question": "What is a chatbot?"
+    },
+    {
+      "id": "76c70ddd-0d5f-41a5-8d99-93194e59c952",
+      "difficulty": 1,
+      "question": "What does 'neural' in neural networks refer to?"
+    },
+    {
+      "id": "537216eb-54ed-4d74-88a1-f96a0c3a2622",
+      "difficulty": 1,
+      "question": "What is robotics?"
+    },
+    {
+      "id": "58a01738-52ee-4245-a91d-30a63c07c8de",
+      "difficulty": 1,
+      "question": "Which of these is a way AI can learn? Through programming, experience, or both?"
+    },
+    {
+      "id": "e405e045-47e0-4aa6-80f1-e4a78d08c379",
+      "difficulty": 1,
+      "question": "What is computer vision?"
+    },
+    {
+      "id": "2f32901c-fc0c-4469-8b43-54fef7dd4193",
+      "difficulty": 1,
+      "question": "What is natural language processing?"
+    },
+    {
+      "id": "9001c8e7-4379-41b0-aff2-5faf2a1e1748",
+      "difficulty": 1,
+      "question": "Which of these terms is closely related to AI? Moore's Law, Heisenberg Uncertainty Principle, or Big Data?"
+    },
+    {
+      "id": "508bdf1a-e899-40c4-9470-4108bbda9057",
+      "difficulty": 1,
+      "question": "How does AI differ from traditional programming?"
+    },
+    {
+      "id": "5d2abced-4854-4185-9660-8a4c6e352d95",
+      "difficulty": 1,
+      "question": "What field of AI involves making predictions based on data?"
+    },
+    {
+      "id": "457f0357-875b-4901-b4dc-a5b37bcb7e67",
+      "difficulty": 1,
+      "question": "What is deep learning?"
+    },
+    {
+      "id": "3ff73c23-c936-4099-84f0-0ed2b2418e13",
+      "difficulty": 2,
+      "question": "What is the key difference between supervised and unsupervised learning?"
+    },
+    {
+      "id": "8d90760f-6fae-4f31-b566-ee8d4ae4c2aa",
+      "difficulty": 2,
+      "question": "What is a perceptron in the context of AI?"
+    },
+    {
+      "id": "d3d1a054-e1b5-45cd-bc01-bfcebf66c382",
+      "difficulty": 2,
+      "question": "What is reinforcement learning?"
+    },
+    {
+      "id": "71629d8b-a370-4fea-9f87-2a4b9cdfe0e4",
+      "difficulty": 2,
+      "question": "In machine learning, what is overfitting?"
+    },
+    {
+      "id": "5697fdff-8e80-4de0-9f63-9d5a5ce666f0",
+      "difficulty": 2,
+      "question": "What does the term 'feature' refer to in machine learning?"
+    },
+    {
+      "id": "db2970ec-5d85-4967-ba9f-56b72dfddd54",
+      "difficulty": 2,
+      "question": "Name an algorithm used for classification in machine learning."
+    },
+    {
+      "id": "a82b0586-c5f7-499a-bf20-bdb536911d2f",
+      "difficulty": 2,
+      "question": "What is a decision tree?"
+    },
+    {
+      "id": "2c2eeecf-bc8a-41e2-8ba8-e5022ab53d72",
+      "difficulty": 2,
+      "question": "What is the purpose of the activation function in neural networks?"
+    },
+    {
+      "id": "9d648f3c-f682-4c1e-acf9-c7f7cc23fd74",
+      "difficulty": 2,
+      "question": "Define 'precision' in the context of machine learning models."
+    },
+    {
+      "id": "059de464-46a8-4771-8274-7a1c641a2f0d",
+      "difficulty": 2,
+      "question": "What is a convolutional neural network?"
+    },
+    {
+      "id": "8076464b-0273-4fe1-8a96-eba13cd0277f",
+      "difficulty": 2,
+      "question": "What is 'dropout' in the context of deep learning?"
+    },
+    {
+      "id": "98e9683b-a6e0-4cad-8d8e-6cd9c861096d",
+      "difficulty": 2,
+      "question": "How does a recurrent neural network differ from a traditional neural network?"
+    },
+    {
+      "id": "a83cfa30-6282-43f7-8c4a-f37790a99a88",
+      "difficulty": 2,
+      "question": "What is a 'hidden layer' in a neural network?"
+    },
+    {
+      "id": "67f4b013-4934-4b89-9c45-74b0cb9f9e13",
+      "difficulty": 2,
+      "question": "What does the term 'backpropagation' refer to?"
+    },
+    {
+      "id": "dd18f915-93f9-40ab-a62b-3357fec6b280",
+      "difficulty": 2,
+      "question": "What is the significance of 'depth' in deep learning?"
+    },
+    {
+      "id": "d65552d7-35cb-4c81-ab8e-2d65907d6541",
+      "difficulty": 2,
+      "question": "Define the term 'embedding' in machine learning."
+    },
+    {
+      "id": "6e04b2e4-cf67-457f-bc30-5e16520fadfe",
+      "difficulty": 2,
+      "question": "What is a hyperparameter in machine learning?"
+    },
+    {
+      "id": "8c4fcada-d544-4d27-859b-d45a42c4403a",
+      "difficulty": 2,
+      "question": "Name a method for reducing dimensionality in datasets."
+    },
+    {
+      "id": "58aad447-2674-4ef6-b872-3c9e00782d7f",
+      "difficulty": 2,
+      "question": "What is 'transfer learning' in AI?"
+    },
+    {
+      "id": "63edc864-9d76-461b-88ef-af591c3146ce",
+      "difficulty": 2,
+      "question": "Explain 'generative adversarial networks' (GANs)."
+    },
+    {
+      "id": "f023e03a-2abe-4e1a-bfab-ac2325795027",
+      "difficulty": 3,
+      "question": "How does gradient descent optimize model parameters?"
+    },
+    {
+      "id": "0ecd01cf-4905-40ec-93a3-864d975831d9",
+      "difficulty": 3,
+      "question": "What is 'cross-validation' in machine learning?"
+    },
+    {
+      "id": "44e7204b-2cfa-4574-bd1b-424c53ee8a73",
+      "difficulty": 3,
+      "question": "Explain the concept of 'ensemble methods' in machine learning."
+    },
+    {
+      "id": "c344269f-3531-4990-955c-68ed7acd9965",
+      "difficulty": 3,
+      "question": "How do you handle missing data in a machine learning model?"
+    },
+    {
+      "id": "265eae86-9a7f-457e-b539-d84f06b81a8a",
+      "difficulty": 3,
+      "question": "What is the 'bias-variance tradeoff'?"
+    },
+    {
+      "id": "5dde8480-5bc7-42a6-b7c0-c8141f0ca00b",
+      "difficulty": 3,
+      "question": "What is 'feature engineering'?"
+    },
+    {
+      "id": "bcc5e9f3-e692-4627-b970-a9f58b512804",
+      "difficulty": 3,
+      "question": "How does a 'bag of words' model work in natural language processing?"
+    },
+    {
+      "id": "35a887b4-6f52-42cf-b9be-f63d728adcab",
+      "difficulty": 3,
+      "question": "What is 'word embedding' in NLP?"
+    },
+    {
+      "id": "cf398442-c9de-4184-a9e4-c673b0cb6da8",
+      "difficulty": 3,
+      "question": "What is the purpose of a 'loss function' in machine learning?"
+    },
+    {
+      "id": "84a7ea6a-e3a4-4a2b-aa7c-e898656994bd",
+      "difficulty": 3,
+      "question": "Explain the difference between 'batch' and 'stochastic' gradient descent."
+    },
+    {
+      "id": "3852e9b0-24aa-491e-a6b0-b36adfd84422",
+      "difficulty": 3,
+      "question": "What is 'sequence to sequence' learning?"
+    },
+    {
+      "id": "c0937b00-9405-42f1-a7c9-97bae9fbd78b",
+      "difficulty": 3,
+      "question": "What are 'attention mechanisms' in neural networks?"
+    },
+    {
+      "id": "b5c49123-f723-4ebc-b270-ed5f76e7c772",
+      "difficulty": 3,
+      "question": "What is 'one-hot encoding'?"
+    },
+    {
+      "id": "209e82cd-6b22-4456-bdf5-e088ca71127f",
+      "difficulty": 3,
+      "question": "How does an 'autoencoder' work?"
+    },
+    {
+      "id": "e4099728-fa6a-4bb7-86a1-2b6c854a36bc",
+      "difficulty": 3,
+      "question": "What is 'model regularization' and why is it important?"
+    },
+    {
+      "id": "5d318fcf-825e-4c14-912e-2e3d7e71df22",
+      "difficulty": 3,
+      "question": "What is the 'exploding gradient problem' and how can it be mitigated?"
+    },
+    {
+      "id": "bae17201-e818-41d3-b5ea-5f376c09eaaf",
+      "difficulty": 3,
+      "question": "Explain 'Long Short-Term Memory' (LSTM) networks."
+    },
+    {
+      "id": "f614beed-bf08-41a8-a727-7fe19cdc0621",
+      "difficulty": 3,
+      "question": "What is 'semantic segmentation' in computer vision?"
+    },
+    {
+      "id": "c9db6459-2aa5-4a7a-bd18-b270a67bbb47",
+      "difficulty": 3,
+      "question": "What is 'zero-shot learning' in AI?"
+    },
+    {
+      "id": "8ca5afde-acf8-4f07-b383-0caef92c8eda",
+      "difficulty": 4,
+      "question": "What is the principle behind 'capsule networks' in deep learning?"
+    },
+    {
+      "id": "ed22787a-743e-408b-9b96-10fe68799bea",
+      "difficulty": 4,
+      "question": "Explain the concept of 'meta-learning' in AI."
+    },
+    {
+      "id": "e75facf7-f3bf-4ad5-ba19-23c2515a513a",
+      "difficulty": 4,
+      "question": "What is the difference between 'end-to-end learning' and traditional ML workflows?"
+    },
+    {
+      "id": "74caf0d5-39cb-44a5-a67d-51093d6273f2",
+      "difficulty": 4,
+      "question": "How does 'federated learning' work?"
+    },
+    {
+      "id": "2ce67a8a-5809-48a6-9466-02aa57fb4daa",
+      "difficulty": 4,
+      "question": "What is 'quantum machine learning'?"
+    },
+    {
+      "id": "64421eac-1532-4382-a72f-e2a9cd8533e8",
+      "difficulty": 4,
+      "question": "How can 'adversarial examples' impact neural network models?"
+    },
+    {
+      "id": "7c80b73e-60dd-4aab-88f2-d5c901cb94e4",
+      "difficulty": 4,
+      "question": "What is 'multi-task learning' in machine learning?"
+    },
+    {
+      "id": "cc024722-2167-439e-84b5-76b0277807c3",
+      "difficulty": 4,
+      "question": "Explain the use of 'transformers' in natural language processing."
+    },
+    {
+      "id": "0e300d0b-2616-43d5-bfcd-0d0ab5124d7a",
+      "difficulty": 4,
+      "question": "What is 'reinforcement learning with partial observability'?"
+    },
+    {
+      "id": "0f03bf37-8861-4bf3-8d4d-5749ffc5020d",
+      "difficulty": 4,
+      "question": "How does 'contrastive learning' differ from traditional supervised learning?"
+    },
+    {
+      "id": "51a79a15-6ab3-4819-9888-3e8bdb5560e8",
+      "difficulty": 4,
+      "question": "What is 'neuroevolution' in AI?"
+    },
+    {
+      "id": "f39d5fa8-2c19-41da-a56b-46a9a56a8923",
+      "difficulty": 4,
+      "question": "Explain 'self-supervised learning' in the context of AI."
+    },
+    {
+      "id": "6ccd4509-5512-484d-a044-8ca11c4eebbe",
+      "difficulty": 4,
+      "question": "What is 'model interpretability' and why is it important?"
+    },
+    {
+      "id": "1311590a-d9e4-493b-86a1-d25a755c59d7",
+      "difficulty": 4,
+      "question": "How do 'graph neural networks' work?"
+    },
+    {
+      "id": "5f1fc1ab-56f8-4470-ab7d-772dc779fc02",
+      "difficulty": 4,
+      "question": "What is the challenge of 'domain adaptation' in machine learning?"
+    },
+    {
+      "id": "fd45349e-d0da-4324-82ba-f00054093351",
+      "difficulty": 4,
+      "question": "What is 'Bayesian deep learning'?"
+    },
+    {
+      "id": "34276ff8-9ae2-428f-b667-e081fe690d0f",
+      "difficulty": 4,
+      "question": "How can generative models be used for 'data augmentation'?"
+    },
+    {
+      "id": "4bbecbd0-dbf5-4c7a-8bc1-0e63b24b4a74",
+      "difficulty": 4,
+      "question": "Explain the concept of 'active learning' in machine learning."
+    },
+    {
+      "id": "ca0c298d-5d4c-47fa-8c8c-628d80660de6",
+      "difficulty": 4,
+      "question": "What is 'few-shot learning'?"
+    },
+    {
+      "id": "d7badc39-4e54-4abb-9c9a-b9e0cc205c4a",
+      "difficulty": 4,
+      "question": "Describe the challenges of 'causal inference' in AI."
+    },
+    {
+      "id": "1eb7c464-7305-42c9-b0e8-2402413a79c9",
+      "difficulty": 5,
+      "question": "What is 'algorithmic fairness' in AI?"
+    },
+    {
+      "id": "a11113e5-547d-42ce-abb9-eb28a86ad3bb",
+      "difficulty": 5,
+      "question": "Explain the concept of 'disentangled representations' in deep learning."
+    },
+    {
+      "id": "7071dd8e-cdd0-4bae-a86e-b4c2fa797186",
+      "difficulty": 5,
+      "question": "How does 'multi-agent reinforcement learning' differ from single-agent systems?"
+    },
+    {
+      "id": "c3ceb11b-6ca5-4cf7-812d-6b8900dbb1ad",
+      "difficulty": 5,
+      "question": "What is 'differential privacy' in the context of AI?"
+    },
+    {
+      "id": "756b1c36-34e1-4f81-9ef1-11c2138d57b0",
+      "difficulty": 5,
+      "question": "Explain the idea behind 'explainable AI' (XAI)."
+    },
+    {
+      "id": "91526fff-1e53-4dd6-a3b1-70b312d77b8d",
+      "difficulty": 5,
+      "question": "What is 'neural architecture search' (NAS)?"
+    },
+    {
+      "id": "a761e903-619d-4389-ab80-8fd5c9e0c4a8",
+      "difficulty": 5,
+      "question": "How does 'domain generalization' aim to improve machine learning models?"
+    },
+    {
+      "id": "4b448129-8621-40e1-909a-3daafd5b6ad9",
+      "difficulty": 5,
+      "question": "What are 'continuous learning' systems in AI?"
+    },
+    {
+      "id": "6a86f38d-fe8f-496a-a049-62411395a532",
+      "difficulty": 5,
+      "question": "Explain the challenges of 'ethical AI'."
+    },
+    {
+      "id": "a3b9ff6f-ca81-4e1e-a7a3-0b14f812d654",
+      "difficulty": 5,
+      "question": "What is 'embodied AI'?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "Automated Intelligence",
+        "Artificial Ingredients",
+        "Artificial Intelligence",
+        "Automatic Interpretation"
+      ],
+      "answer": 2,
+      "question_id": "27650bc2-c237-4441-a17f-c9e38b46f913"
+    },
+    {
+      "choices": [
+        "replacing humans in all tasks",
+        "making computers think exactly like humans",
+        "creating a self-aware system",
+        "Understanding human intelligence"
+      ],
+      "answer": 3,
+      "question_id": "460cade3-97f9-44cc-96c4-ba97ae8b367e"
+    },
+    {
+      "choices": [
+        "Game Development",
+        "Social Media Analysis",
+        "Natural Language Processing",
+        "Automotive Engineering"
+      ],
+      "answer": 2,
+      "question_id": "07aeee77-f4f4-46e6-8786-55243d125d64"
+    },
+    {
+      "choices": [
+        "Voight-Kampff Test",
+        "Turing Test",
+        "Rorschach Test",
+        "Sobchak Evaluation"
+      ],
+      "answer": 1,
+      "question_id": "ec9fb5c6-bb97-4cf5-9160-097dd137793d"
+    },
+    {
+      "choices": [
+        "quantum processors",
+        "mechanical arms",
+        "neural networks",
+        "water cooling systems"
+      ],
+      "answer": 2,
+      "question_id": "37779740-cd0a-4c91-97ed-c80f93bdc1f6"
+    },
+    {
+      "choices": [
+        "A set of rules programmed by humans to make decisions",
+        "A subfield of computer science focused on creating algorithms that can improve automatically through experience",
+        "The process of making machines that have human-like senses",
+        "The study of the Internet and how it works"
+      ],
+      "answer": 1,
+      "question_id": "0352245b-464d-4aaf-958a-5d502527303a"
+    },
+    {
+      "choices": [
+        "Autonomous vehicles",
+        "Smartphones",
+        "Calculators",
+        "Both Autonomous vehicles and smartphones"
+      ],
+      "answer": 3,
+      "question_id": "f0b957d9-65ba-4972-8905-be6ec9360172"
+    },
+    {
+      "choices": [
+        "C++",
+        "Java",
+        "Python",
+        "JavaScript"
+      ],
+      "answer": 2,
+      "question_id": "20427afc-f4d9-4090-ad94-3e38650f1e84"
+    },
+    {
+      "choices": [
+        "A protocol for secure network communication",
+        "A predetermined sequence of instructions for solving a specific problem",
+        "A type of computer hardware",
+        "An error in a computer program"
+      ],
+      "answer": 1,
+      "question_id": "2671703a-a4c3-401a-93d8-913abcfb4e65"
+    },
+    {
+      "choices": [
+        "Coca-Cola",
+        "Boeing",
+        "Google",
+        "Nike"
+      ],
+      "answer": 2,
+      "question_id": "58862918-eb5e-4139-be3b-487f12ea8f5e"
+    },
+    {
+      "choices": [
+        "A computer program used to simulate intelligent conversations with humans.",
+        "A type of malware that infiltrates computers.",
+        "An Internet search engine.",
+        "A 3D model used in video games."
+      ],
+      "answer": 0,
+      "question_id": "d7402495-3bd4-4785-aa90-43d72798decc"
+    },
+    {
+      "choices": [
+        "Algorithmic optimization techniques",
+        "The neurons in the human brain",
+        "Network transmission protocols",
+        "Quantum computing processors"
+      ],
+      "answer": 1,
+      "question_id": "76c70ddd-0d5f-41a5-8d99-93194e59c952"
+    },
+    {
+      "choices": [
+        "The study of computer algorithms that improve automatically through experience",
+        "The design, construction, operation, and use of robots for human assistance or to perform tasks",
+        "The process of using large datasets to find hidden patterns and correlations",
+        "The creation of digital environments that can simulate physical presence in real or imagined worlds"
+      ],
+      "answer": 1,
+      "question_id": "537216eb-54ed-4d74-88a1-f96a0c3a2622"
+    },
+    {
+      "choices": [
+        "Through programming only",
+        "Through both programming and experience",
+        "Through experience only",
+        "Neither programming nor experience"
+      ],
+      "answer": 1,
+      "question_id": "58a01738-52ee-4245-a91d-30a63c07c8de"
+    },
+    {
+      "choices": [
+        "The process of improving the intelligence of computers using complex algorithms",
+        "A field of AI that focuses on enabling computers to interpret and understand the visual world",
+        "The study of how to make machines that can interpret programming languages",
+        "The development of systems capable of performing tasks that typically require human intelligence, such as visual perception"
+      ],
+      "answer": 1,
+      "question_id": "e405e045-47e0-4aa6-80f1-e4a78d08c379"
+    },
+    {
+      "choices": [
+        "A process by which computers analyze large sets of organized data for patterns",
+        "The study of algorithms that improve automatically through experience",
+        "The use of digital systems to simulate human reasoning",
+        "The branch of AI that deals with the interaction between computers and humans using the natural language"
+      ],
+      "answer": 3,
+      "question_id": "2f32901c-fc0c-4469-8b43-54fef7dd4193"
+    },
+    {
+      "choices": [
+        "Moore's Law",
+        "Big Data",
+        "Heisenberg Uncertainty Principle",
+        "Quantum Computing"
+      ],
+      "answer": 1,
+      "question_id": "9001c8e7-4379-41b0-aff2-5faf2a1e1748"
+    },
+    {
+      "choices": [
+        "AI functions without data, while traditional programming is data-driven.",
+        "In AI, the machine learns from data to make decisions, whereas traditional programming follows explicit instructions coded by humans.",
+        "Traditional programming can evolve by itself over time, while AI cannot.",
+        "AI relies solely on hardware improvements, unlike traditional programming which depends on software changes."
+      ],
+      "answer": 1,
+      "question_id": "508bdf1a-e899-40c4-9470-4108bbda9057"
+    },
+    {
+      "choices": [
+        "Expert Systems",
+        "Natural Language Processing",
+        "Machine Learning",
+        "Robotics"
+      ],
+      "answer": 2,
+      "question_id": "5d2abced-4854-4185-9660-8a4c6e352d95"
+    },
+    {
+      "choices": [
+        "A group of algorithms used for internet search",
+        "A subset of machine learning that involves neural networks with many layers",
+        "A type of artificial intelligence that focuses on creating expert systems",
+        "A software that can program itself to perform tasks without human intervention"
+      ],
+      "answer": 1,
+      "question_id": "457f0357-875b-4901-b4dc-a5b37bcb7e67"
+    },
+    {
+      "choices": [
+        "Unsupervised learning uses labeled data while supervised does not",
+        "Supervised learning algorithms require human intervention",
+        "Supervised learning uses labeled data while unsupervised does not",
+        "Both types of learning algorithms are identical in approach and application"
+      ],
+      "answer": 2,
+      "question_id": "3ff73c23-c936-4099-84f0-0ed2b2418e13"
+    },
+    {
+      "choices": [
+        "A neural network designed for sequence processing",
+        "A type of optimization algorithm",
+        "A foundational model of artificial neural networks",
+        "A rule-based system for making decisions"
+      ],
+      "answer": 2,
+      "question_id": "8d90760f-6fae-4f31-b566-ee8d4ae4c2aa"
+    },
+    {
+      "choices": [
+        "A method of software development focused on user feedback and iterative design",
+        "A subset of machine learning where an agent learns to behave in an environment by performing actions and seeing the results",
+        "A technique for solving polynomial equations",
+        "A computer vision method that identifies objects in images and videos"
+      ],
+      "answer": 1,
+      "question_id": "d3d1a054-e1b5-45cd-bc01-bfcebf66c382"
+    },
+    {
+      "choices": [
+        "Using too simple a model to make predictions",
+        "When a model performs better on the training data than on unseen data",
+        "Training a model for too short a time",
+        "Applying an algorithm without data preprocessing"
+      ],
+      "answer": 1,
+      "question_id": "71629d8b-a370-4fea-9f87-2a4b9cdfe0e4"
+    },
+    {
+      "choices": [
+        "A procedure designed to solve a specific problem",
+        "An individual measurable property or characteristic of a phenomenon being observed",
+        "A unique type of algorithm used exclusively in neural networks",
+        "A graphical representation of data analysis"
+      ],
+      "answer": 1,
+      "question_id": "5697fdff-8e80-4de0-9f63-9d5a5ce666f0"
+    },
+    {
+      "choices": [
+        "QuickSort",
+        "Support Vector Machine",
+        "Bubble Sort",
+        "Dijkstra's Algorithm"
+      ],
+      "answer": 1,
+      "question_id": "db2970ec-5d85-4967-ba9f-56b72dfddd54"
+    },
+    {
+      "choices": [
+        "A programming structure that executes a sequence of instructions in a loop",
+        "A data visualization tool for representing algorithms, workflows, or processes",
+        "A graph that uses branching methods to illustrate every possible outcome of a decision",
+        "A machine learning model that predicts the value of a variable by learning simple decision rules inferred from data features"
+      ],
+      "answer": 3,
+      "question_id": "a82b0586-c5f7-499a-bf20-bdb536911d2f"
+    },
+    {
+      "choices": [
+        "To normalize input data before processing",
+        "To decide whether a neuron should be activated or not",
+        "To optimize the neural network's weights and biases",
+        "To partition data into clusters for unsupervised learning"
+      ],
+      "answer": 1,
+      "question_id": "2c2eeecf-bc8a-41e2-8ba8-e5022ab53d72"
+    },
+    {
+      "choices": [
+        "The fraction of discovered patterns that are irrelevant to the search.",
+        "The rate at which a model correctly identifies false positives.",
+        "The fraction of relevant instances among the retrieved instances.",
+        "The proportion of actual negatives that are correctly identified."
+      ],
+      "answer": 2,
+      "question_id": "9d648f3c-f682-4c1e-acf9-c7f7cc23fd74"
+    },
+    {
+      "choices": [
+        "A network protocol for securing internet traffic",
+        "A rule-based system for simulating human intelligence",
+        "A type of deep learning model used primarily for analyzing visual imagery",
+        "A data storage solution optimized for relational data"
+      ],
+      "answer": 2,
+      "question_id": "059de464-46a8-4771-8274-7a1c641a2f0d"
+    },
+    {
+      "choices": [
+        "A regularization technique to prevent overfitting by dropping units from the network",
+        "A method to speed up training by dropping the least important features from the input data",
+        "The process of reducing the learning rate during training",
+        "The act of removing layers from a deep neural network to reduce complexity"
+      ],
+      "answer": 0,
+      "question_id": "8076464b-0273-4fe1-8a96-eba13cd0277f"
+    },
+    {
+      "choices": [
+        "A recurrent neural network is exclusively used for image classification tasks",
+        "A recurrent neural network can process sequences of data, making it suitable for tasks like language modeling",
+        "Recurrent neural networks have a fixed number of layers, while traditional neural networks do not",
+        "Traditional neural networks require more computational power than recurrent neural networks"
+      ],
+      "answer": 1,
+      "question_id": "98e9683b-a6e0-4cad-8d8e-6cd9c861096d"
+    },
+    {
+      "choices": [
+        "The first layer that receives input data",
+        "A layer that is not influenced by the input data",
+        "The layer that connects the input and output layers",
+        "A preprocessing layer before the input layer"
+      ],
+      "answer": 2,
+      "question_id": "a83cfa30-6282-43f7-8c4a-f37790a99a88"
+    },
+    {
+      "choices": [
+        "The process of optimizing hyperparameters in a machine learning model",
+        "The transmission of signals in a neural network from the output layer to hidden layers",
+        "A form of supervised learning technique",
+        "A machine learning method for training artificial neural networks through error correction"
+      ],
+      "answer": 3,
+      "question_id": "67f4b013-4934-4b89-9c45-74b0cb9f9e13"
+    },
+    {
+      "choices": [
+        "It refers to the amount of data required for training.",
+        "It denotes the number of layers in a neural network.",
+        "It indicates the computational complexity of algorithms.",
+        "It represents the resolution of input images."
+      ],
+      "answer": 1,
+      "question_id": "dd18f915-93f9-40ab-a62b-3357fec6b280"
+    },
+    {
+      "choices": [
+        "A technique for data compression",
+        "A form of unsupervised learning",
+        "A method to represent discrete variables as continuous vectors",
+        "An algorithm for network security"
+      ],
+      "answer": 2,
+      "question_id": "d65552d7-35cb-4c81-ab8e-2d65907d6541"
+    },
+    {
+      "choices": [
+        "An external configuration for an algorithm that must be set before training",
+        "A parameter whose value is learned during the training process",
+        "A type of model specifically designed for hyperdimensional data",
+        "The highest parameter value achieved after model optimization"
+      ],
+      "answer": 0,
+      "question_id": "6e04b2e4-cf67-457f-bc30-5e16520fadfe"
+    },
+    {
+      "choices": [
+        "K-means clustering",
+        "Principal Component Analysis (PCA)",
+        "Support Vector Machine (SVM)",
+        "Reinforcement Learning"
+      ],
+      "answer": 1,
+      "question_id": "8c4fcada-d544-4d27-859b-d45a42c4403a"
+    },
+    {
+      "choices": [
+        "A programming interface that allows for the transfer of data between different AI models.",
+        "An AI's ability to improve its learning process by transferring knowledge from one task to less related tasks.",
+        "The method of taking a pre-trained model and reusing it on a new, similar problem.",
+        "A technique for transferring AI learning capabilities directly into robotic actuators."
+      ],
+      "answer": 2,
+      "question_id": "58aad447-2674-4ef6-b872-3c9e00782d7f"
+    },
+    {
+      "choices": [
+        "A computer vision technique for object recognition",
+        "A supervised learning method for classification",
+        "A framework for training deep learning models that generate new data samples",
+        "An optimization algorithm for reinforcement learning"
+      ],
+      "answer": 2,
+      "question_id": "63edc864-9d76-461b-88ef-af591c3146ce"
+    },
+    {
+      "choices": [
+        "By maximizing the model's accuracy on the training set",
+        "By iteratively adjusting parameters to minimize the cost function",
+        "By randomly selecting parameters to find the best fit",
+        "By dividing the dataset into smaller subsets and optimizing each one separately"
+      ],
+      "answer": 1,
+      "question_id": "f023e03a-2abe-4e1a-bfab-ac2325795027"
+    },
+    {
+      "choices": [
+        "A neural network architecture designed for sequence analysis",
+        "A type of machine learning algorithm for reinforcement learning",
+        "A technique for assessing how the results of a statistical analysis will generalize to an independent data set",
+        "A method to reduce the size of a dataset"
+      ],
+      "answer": 2,
+      "question_id": "0ecd01cf-4905-40ec-93a3-864d975831d9"
+    },
+    {
+      "choices": [
+        "A set of guidelines for ethical AI development",
+        "The process of combining the predictions from multiple machine learning models to improve accuracy",
+        "A method for reducing the dimensionality of datasets",
+        "An algorithm for real-time data processing"
+      ],
+      "answer": 1,
+      "question_id": "44e7204b-2cfa-4574-bd1b-424c53ee8a73"
+    },
+    {
+      "choices": [
+        "Increase the model's complexity",
+        "Manually input the most frequent values",
+        "Ignore the instances with missing data",
+        "Impute missing values using statistical methods"
+      ],
+      "answer": 3,
+      "question_id": "c344269f-3531-4990-955c-68ed7acd9965"
+    },
+    {
+      "choices": [
+        "The balance between underfitting and overfitting in machine learning models",
+        "The decision between using supervised or unsupervised learning",
+        "The choice of using neural networks over decision trees",
+        "The comparison between batch learning and online learning"
+      ],
+      "answer": 0,
+      "question_id": "265eae86-9a7f-457e-b539-d84f06b81a8a"
+    },
+    {
+      "choices": [
+        "A process for creating new models for AI algorithms",
+        "A technique for improving the interface of AI applications",
+        "The process of selecting, modifying, and creating features from the raw data to improve the performance of ML algorithms",
+        "The procedure of encrypting data to secure AI models"
+      ],
+      "answer": 2,
+      "question_id": "5dde8480-5bc7-42a6-b7c0-c8141f0ca00b"
+    },
+    {
+      "choices": [
+        "It sequences words chronologically to understand context.",
+        "It classifies text into predefined categories.",
+        "It represents text data as a set of tokens regardless of order.",
+        "It parses sentences into their grammatical components."
+      ],
+      "answer": 2,
+      "question_id": "bcc5e9f3-e692-4627-b970-a9f58b512804"
+    },
+    {
+      "choices": [
+        "A process for encrypting text data",
+        "A model for predicting the next word in a sentence",
+        "A technique to convert words into numerical vectors",
+        "A tool for correcting spelling errors in text"
+      ],
+      "answer": 2,
+      "question_id": "35a887b4-6f52-42cf-b9be-f63d728adcab"
+    },
+    {
+      "choices": [
+        "To calculate the algorithm's accuracy",
+        "To optimize the database queries",
+        "To determine how well the model is performing",
+        "To increase the speed of computation"
+      ],
+      "answer": 2,
+      "question_id": "cf398442-c9de-4184-a9e4-c673b0cb6da8"
+    },
+    {
+      "choices": [
+        "Batch gradient descent updates the model parameters after computing the gradients on the entire dataset, while stochastic gradient descent updates parameters after each training example.",
+        "Stochastic gradient descent uses a fixed learning rate, whereas batch gradient descent adapts the learning rate over time.",
+        "Batch gradient descent requires more memory than stochastic gradient descent, because it processes the entire dataset at once for every parameter update.",
+        "Stochastic gradient descent is less computationally efficient than batch gradient descent, as it takes longer to converge to the minimum of the loss function."
+      ],
+      "answer": 0,
+      "question_id": "84a7ea6a-e3a4-4a2b-aa7c-e898656994bd"
+    },
+    {
+      "choices": [
+        "A model that connects three or more unrelated data sets",
+        "A method for real-time data visualization",
+        "A process used for predicting the sequence of future events based on past data",
+        "A learning model that maps sequences to sequences"
+      ],
+      "answer": 3,
+      "question_id": "3852e9b0-24aa-491e-a6b0-b36adfd84422"
+    },
+    {
+      "choices": [
+        "An optimization strategy to prevent overfitting",
+        "A method to initialize neural network weights",
+        "Techniques to improve the interpretability of AI models",
+        "Models that selectively focus on certain parts of the input"
+      ],
+      "answer": 3,
+      "question_id": "c0937b00-9405-42f1-a7c9-97bae9fbd78b"
+    },
+    {
+      "choices": [
+        "A method for converting analog signals to digital",
+        "A data visualization technique",
+        "A process of converting categorical data into a form that could be provided to ML algorithms to do a better job in prediction",
+        "A technique for solving linear equations"
+      ],
+      "answer": 2,
+      "question_id": "b5c49123-f723-4ebc-b270-ed5f76e7c772"
+    },
+    {
+      "choices": [
+        "It enhances the resolution of images through upscaling techniques.",
+        "It learns efficient data codings in an unsupervised manner, typically for the purpose of dimensionality reduction.",
+        "It predicts the next word in a sequence based on the context of the words used before it.",
+        "It categorizes input data into predefined classes without any supervision."
+      ],
+      "answer": 1,
+      "question_id": "209e82cd-6b22-4456-bdf5-e088ca71127f"
+    },
+    {
+      "choices": [
+        "A technique to speed up the training process by using advanced hardware.",
+        "The process of converting a model into a more efficient format that's specific to a deployment platform.",
+        "A technique to prevent overfitting by imposing penalties on the size of the coefficients.",
+        "The use of additional data to improve the model's accuracy without changing its structure."
+      ],
+      "answer": 2,
+      "question_id": "e4099728-fa6a-4bb7-86a1-2b6c854a36bc"
+    },
+    {
+      "choices": [
+        "The loss of significant data during transfer from one node to another, fixed by increasing the network bandwidth.",
+        "A situation where model parameters grow beyond control, mitigated by gradient clipping or weight regularization.",
+        "An issue with underfitting models, addressed by collecting more data or choosing a more complex model.",
+        "The rapid growth of a machine learning model's size, controlled by implementing pruning techniques."
+      ],
+      "answer": 1,
+      "question_id": "5d318fcf-825e-4c14-912e-2e3d7e71df22"
+    },
+    {
+      "choices": [
+        "A network protocol for securing internet communication",
+        "A type of convolutional neural network (CNN) for image recognition",
+        "A variant of recurrent neural network (RNN) capable of learning long-term dependencies",
+        "An algorithm for sorting data in a database"
+      ],
+      "answer": 2,
+      "question_id": "bae17201-e818-41d3-b5ea-5f376c09eaaf"
+    },
+    {
+      "choices": [
+        "Splitting images into sets based on color profiles",
+        "Segmenting images into parts that are contextually associated with specific labels",
+        "Classifying individual pixels in an image as part of a binary classification problem",
+        "Reducing the resolution of images to enhance processing speeds"
+      ],
+      "answer": 1,
+      "question_id": "f614beed-bf08-41a8-a727-7fe19cdc0621"
+    },
+    {
+      "choices": [
+        "A process where an AI model is trained once and never updated",
+        "Learning to perform tasks without any examples",
+        "A technique to reduce the computational complexity of models",
+        "A method where models can correctly interpret unseen data"
+      ],
+      "answer": 3,
+      "question_id": "c9db6459-2aa5-4a7a-bd18-b270a67bbb47"
+    },
+    {
+      "choices": [
+        "Improving processing speed by reducing the number of layers in a neural network",
+        "Capturing spatial hierarchies between features",
+        "Reducing overfitting by randomly dropping units during training",
+        "Simplifying model architecture to improve interpretability"
+      ],
+      "answer": 1,
+      "question_id": "8ca5afde-acf8-4f07-b383-0caef92c8eda"
+    },
+    {
+      "choices": [
+        "An algorithm for optimizing over neural network architectures",
+        "A set of machine learning models specifically designed for NLP tasks",
+        "Learning how to learn by generalizing from a few examples",
+        "Developing AI systems capable of expressing emotions"
+      ],
+      "answer": 2,
+      "question_id": "ed22787a-743e-408b-9b96-10fe68799bea"
+    },
+    {
+      "choices": [
+        "End-to-end learning requires larger datasets, while traditional ML can work with smaller datasets",
+        "End-to-end learning relies solely on human-crafted features, whereas traditional ML uses raw data",
+        "Traditional ML workflows segment the problem into smaller tasks, while end-to-end learning solves it from input to output directly",
+        "End-to-end learning algorithms are always supervised, while traditional ML includes unsupervised algorithms"
+      ],
+      "answer": 2,
+      "question_id": "e75facf7-f3bf-4ad5-ba19-23c2515a513a"
+    },
+    {
+      "choices": [
+        "By parallel processing tasks across multiple servers for faster computation",
+        "Through iteratively updating a central model based on aggregated updates from distributed devices",
+        "Using a singular, powerful AI to control and optimize lesser AI units in a network",
+        "Leveraging quantum computing to solve AI problems more efficiently"
+      ],
+      "answer": 1,
+      "question_id": "74caf0d5-39cb-44a5-a67d-51093d6273f2"
+    },
+    {
+      "choices": [
+        "A branch of machine learning focused on developing algorithms to predict stock market trends",
+        "A subset of AI that deals with the creation of self-aware machines",
+        "The integration of quantum algorithms within machine learning methods",
+        "The study of machine learning techniques to improve quantum computing hardware"
+      ],
+      "answer": 2,
+      "question_id": "2ce67a8a-5809-48a6-9466-02aa57fb4daa"
+    },
+    {
+      "choices": [
+        "They speed up the training process",
+        "They are used for regularization",
+        "They cause the model to make incorrect inferences",
+        "They increase the model's accuracy on unseen data"
+      ],
+      "answer": 2,
+      "question_id": "64421eac-1532-4382-a72f-e2a9cd8533e8"
+    },
+    {
+      "choices": [
+        "A method for data encryption specific to AI models",
+        "A single-task machine learning model optimized for computational efficiency",
+        "A technique where the model learns several tasks at once using a shared representation",
+        "A machine learning model tuning process using multiple datasets sequentially"
+      ],
+      "answer": 2,
+      "question_id": "7c80b73e-60dd-4aab-88f2-d5c901cb94e4"
+    },
+    {
+      "choices": [
+        "Reducing the data needed for image recognition tasks",
+        "Optimizing algorithms for faster computation",
+        "Handling spatiotemporal data in video analysis",
+        "Facilitating understanding of context in text through self-attention mechanisms"
+      ],
+      "answer": 3,
+      "question_id": "cc024722-2167-439e-84b5-76b0277807c3"
+    },
+    {
+      "choices": [
+        "A method where an AI learns directly from human feedback",
+        "A paradigm where the AI learns to make decisions based on incomplete information from its environment",
+        "A process where an AI uses a large dataset to train its neural networks",
+        "A technique that involves pre-programming explicit rules for the AI to follow"
+      ],
+      "answer": 1,
+      "question_id": "0e300d0b-2616-43d5-bfcd-0d0ab5124d7a"
+    },
+    {
+      "choices": [
+        "It relies exclusively on labeled data to learn discriminative features.",
+        "It uses a triplet loss function to minimize intra-class variations.",
+        "Contrastive learning learns by comparing pairs of similar and dissimilar examples, whereas supervised learning learns from explicitly labeled examples.",
+        "It enhances model interpretability by focusing on feature importance."
+      ],
+      "answer": 2,
+      "question_id": "0f03bf37-8861-4bf3-8d4d-5749ffc5020d"
+    },
+    {
+      "choices": [
+        "The creation of neural networks using manual coding",
+        "The evolution of artificial neural structures in digital organisms",
+        "A technique for optimizing the parameters of a neural network through evolutionary algorithms",
+        "The study of human brain evolution through computational models"
+      ],
+      "answer": 2,
+      "question_id": "51a79a15-6ab3-4819-9888-3e8bdb5560e8"
+    },
+    {
+      "choices": [
+        "A method where the AI model is explicitly programmed with the actions it should take in every situation",
+        "A learning paradigm where models learn from raw data that hasn't been labeled by humans, effectively using the input data as its own supervision",
+        "A technique where robots learn from observing and mimicking human behavior",
+        "The use of reinforcement learning to teach AI systems decision-making through rewards and penalties"
+      ],
+      "answer": 1,
+      "question_id": "f39d5fa8-2c19-41da-a56b-46a9a56a8923"
+    },
+    {
+      "choices": [
+        "The process of making a model run faster by simplifying its architecture",
+        "The ability of a model to self-learn from data without being explicitly programmed",
+        "The ability to understand and trust the output of a machine learning model by knowing how it makes decisions",
+        "A measure of how accurately a model can predict outcomes on unseen data"
+      ],
+      "answer": 2,
+      "question_id": "6ccd4509-5512-484d-a044-8ca11c4eebbe"
+    },
+    {
+      "choices": [
+        "They enhance image recognition through pixel-by-pixel analysis.",
+        "By utilizing recursive partitioning to build decision trees.",
+        "They use matrix factorization techniques for recommendation systems.",
+        "They operate by propagating information along the edges of a graph and updating the representation of each node based on its neighbors."
+      ],
+      "answer": 3,
+      "question_id": "1311590a-d9e4-493b-86a1-d25a755c59d7"
+    },
+    {
+      "choices": [
+        "Reducing the energy consumption of AI models during training",
+        "Adapting a pre-trained model to work in a domain different from the one it was originally trained on",
+        "Improving the communication between different AI systems",
+        "Developing algorithms to solve NP-hard problems within polynomial time"
+      ],
+      "answer": 1,
+      "question_id": "5f1fc1ab-56f8-4470-ab7d-772dc779fc02"
+    },
+    {
+      "choices": [
+        "A method for optimizing machine learning algorithms",
+        "A technique for creating very deep neural networks",
+        "A strategy for training robots to make decisions",
+        "A framework that combines Bayesian methods with deep learning"
+      ],
+      "answer": 3,
+      "question_id": "fd45349e-d0da-4324-82ba-f00054093351"
+    },
+    {
+      "choices": [
+        "Improving computer hardware efficiency",
+        "Reducing the size of the dataset",
+        "Generating realistic synthetic data for training",
+        "Simplifying deep learning models"
+      ],
+      "answer": 2,
+      "question_id": "34276ff8-9ae2-428f-b667-e081fe690d0f"
+    },
+    {
+      "choices": [
+        "A computational model that learns without supervision.",
+        "A machine learning technique where the model is trained on a small set of labeled data, then iteratively selects the most informative samples to be manually labeled from the unlabeled dataset.",
+        "A method of optimizing machine learning algorithms by manually adjusting their parameters.",
+        "A form of machine learning that solely relies on reinforcement learning."
+      ],
+      "answer": 1,
+      "question_id": "4bbecbd0-dbf5-4c7a-8bc1-0e63b24b4a74"
+    },
+    {
+      "choices": [
+        "A method of programming AI to perform tasks without any prior examples",
+        "A technique where the AI learns from a large dataset to improve its accuracy over time",
+        "An approach in machine learning where a model is designed to learn from a very few examples",
+        "A process of continuously training AI models to keep them updated with the latest information"
+      ],
+      "answer": 2,
+      "question_id": "ca0c298d-5d4c-47fa-8c8c-628d80660de6"
+    },
+    {
+      "choices": [
+        "Interpreting statistical correlations as causal relationships without appropriate evidence",
+        "Ensuring that AI algorithms perform optimally on any hardware",
+        "Increasing the processing speed of AI models to real-time",
+        "Designing AI models that can operate without data"
+      ],
+      "answer": 0,
+      "question_id": "d7badc39-4e54-4abb-9c9a-b9e0cc205c4a"
+    },
+    {
+      "choices": [
+        "The speed at which an algorithm can process data",
+        "The ability of an AI system to improve its performance over time",
+        "A measure of how equitably an algorithm makes decisions across different groups",
+        "The process of optimizing an algorithm for faster execution"
+      ],
+      "answer": 2,
+      "question_id": "1eb7c464-7305-42c9-b0e8-2402413a79c9"
+    },
+    {
+      "choices": [
+        "A method to speed up training by parallelizing computations across multiple GPUs",
+        "A set of techniques used to prevent overfitting in neural networks",
+        "The process of modifying neural network architectures to improve interpretability",
+        "The idea that a model can learn to represent underlying factors of variation in the data independently"
+      ],
+      "answer": 3,
+      "question_id": "a11113e5-547d-42ce-abb9-eb28a86ad3bb"
+    },
+    {
+      "choices": [
+        "Multi-agent systems use only supervised learning methods, while single-agent systems use unsupervised methods.",
+        "In multi-agent systems, agents learn to predict actions of other agents, creating a dynamic environment; single-agent systems do not have this complexity.",
+        "Single-agent systems have the capability to learn from multiple environments simultaneously, unlike multi-agent systems.",
+        "There is no difference; both systems use the same learning algorithms and techniques."
+      ],
+      "answer": 1,
+      "question_id": "7071dd8e-cdd0-4bae-a86e-b4c2fa797186"
+    },
+    {
+      "choices": [
+        "A method for enhancing the security of a public key encryption system",
+        "A technique to optimize neural networks",
+        "A framework for quantifying the privacy guaranteed when releasing information",
+        "An AI system's ability to self-improve through differential analysis"
+      ],
+      "answer": 2,
+      "question_id": "c3ceb11b-6ca5-4cf7-812d-6b8900dbb1ad"
+    },
+    {
+      "choices": [
+        "Increasing the speed of AI computations",
+        "Making AI algorithms operate without human intervention",
+        "Ensuring AI provides reasons for its decisions or actions",
+        "Reducing the cost of AI technology development"
+      ],
+      "answer": 2,
+      "question_id": "756b1c36-34e1-4f81-9ef1-11c2138d57b0"
+    },
+    {
+      "choices": [
+        "A no-code platform for deploying machine learning models",
+        "The process of selecting individual neurons to be activated in a neural net",
+        "A technique for automating the design of artificial neural networks",
+        "The study of biological neural networks to improve AI algorithms"
+      ],
+      "answer": 2,
+      "question_id": "91526fff-1e53-4dd6-a3b1-70b312d77b8d"
+    },
+    {
+      "choices": [
+        "By optimizing models for high performance on a specific, single task",
+        "By focusing exclusively on unstructured data types like images and videos",
+        "By enabling models to perform well on unseen domains or datasets",
+        "By utilizing vast amounts of data for deep learning algorithms"
+      ],
+      "answer": 2,
+      "question_id": "a761e903-619d-4389-ab80-8fd5c9e0c4a8"
+    },
+    {
+      "choices": [
+        "AI systems that pause after each task to wait for human review",
+        "AI models focused exclusively on numerical data analysis",
+        "AI systems that improve their performance over time without being explicitly programmed for each task",
+        "AI frameworks that simulate human emotions in decision-making processes"
+      ],
+      "answer": 2,
+      "question_id": "4b448129-8621-40e1-909a-3daafd5b6ad9"
+    },
+    {
+      "choices": [
+        "Reduced demand for human jobs",
+        "Achieving superhuman intelligence in all domains",
+        "Ensuring the AI's actions align with human values and ethics",
+        "Creating AI that can operate independently of human control"
+      ],
+      "answer": 2,
+      "question_id": "6a86f38d-fe8f-496a-a049-62411395a532"
+    },
+    {
+      "choices": [
+        "AI that exists purely in virtual environments",
+        "AI that has achieved self-awareness",
+        "AI integrated into physical entities to interact with the real world",
+        "A type of AI that only exists in science fiction"
+      ],
+      "answer": 2,
+      "question_id": "a3b9ff6f-ca81-4e1e-a7a3-0b14f812d654"
+    }
+  ]
+}

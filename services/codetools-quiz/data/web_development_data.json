@@ -1,0 +1,485 @@
+{
+  "topic": "Web Development",
+  "questions": [
+    {
+      "id": "351d8e72-2a2e-4bf1-8041-842cd1d9e299",
+      "difficulty": 1,
+      "question": "What does HTML stand for?"
+    },
+    {
+      "id": "572c8901-65a7-4df1-a46d-cb10ae87cc41",
+      "difficulty": 1,
+      "question": "What is the purpose of CSS?"
+    },
+    {
+      "id": "eeac2b77-bf3d-443c-b654-23260807b4a2",
+      "difficulty": 1,
+      "question": "Which HTML tag is used to define an internal style sheet?"
+    },
+    {
+      "id": "94b1e584-d531-4ca5-8c04-ee53e1083c33",
+      "difficulty": 1,
+      "question": "What does HTTP stand for?"
+    },
+    {
+      "id": "15e597c1-2f5b-49a7-bbb6-aedce26a88b9",
+      "difficulty": 1,
+      "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?"
+    },
+    {
+      "id": "81c0ca5e-6103-473d-ac75-0b75c67dcfe1",
+      "difficulty": 1,
+      "question": "What is the correct HTML tag for inserting a line break?"
+    },
+    {
+      "id": "38e0c9e7-01f0-4678-86cd-c263294917ee",
+      "difficulty": 1,
+      "question": "How do you create a hyperlink in HTML?"
+    },
+    {
+      "id": "ba086816-15c3-4871-831f-8a1b4ca01d27",
+      "difficulty": 1,
+      "question": "Which property is used to change the background color in CSS?"
+    },
+    {
+      "id": "17d17bdb-7bab-4d52-b539-86ba1ccb52a5",
+      "difficulty": 1,
+      "question": "What is the purpose of JavaScript in web development?"
+    },
+    {
+      "id": "965fb8b4-2f92-4ef3-a8db-bb4e4c364863",
+      "difficulty": 1,
+      "question": "Which HTML element is used to specify a footer for a document or section?"
+    },
+    {
+      "id": "5c819a53-6f33-4c9d-888c-97f32850ab7d",
+      "difficulty": 1,
+      "question": "What is the correct CSS syntax to change the font size?"
+    },
+    {
+      "id": "f2f814bd-da56-4afb-99b9-1c0e144439a2",
+      "difficulty": 1,
+      "question": "How do you add a comment in a CSS file?"
+    },
+    {
+      "id": "883924d7-09da-4de4-9e43-fdcb756d006e",
+      "difficulty": 1,
+      "question": "Which doctype is correct for HTML5?"
+    },
+    {
+      "id": "0f711014-c111-48cb-bdbe-6ea5b54a5f54",
+      "difficulty": 1,
+      "question": "What is the default value of the position property in CSS?"
+    },
+    {
+      "id": "baf0e15c-1901-43b0-a544-899039b92f01",
+      "difficulty": 1,
+      "question": "How can you make a numbered list in HTML?"
+    },
+    {
+      "id": "f83e888d-6e3f-4e81-ace8-244f5e65894d",
+      "difficulty": 1,
+      "question": "What is the purpose of the <div> tag in HTML?"
+    },
+    {
+      "id": "713c12ca-cb55-40ff-9582-c2d993266e9a",
+      "difficulty": 1,
+      "question": "Which input type defines a slider control?"
+    },
+    {
+      "id": "b7795327-f7d5-4111-846e-0eb2867a8894",
+      "difficulty": 1,
+      "question": "How do you select an element with id 'demo' in CSS?"
+    },
+    {
+      "id": "1cc70f00-de14-4166-af20-b8b33ca68937",
+      "difficulty": 1,
+      "question": "What HTML attribute is used to define inline styles?"
+    },
+    {
+      "id": "252daceb-078f-4e55-aa99-3aca728eb0fd",
+      "difficulty": 1,
+      "question": "What does the 'href' attribute in an anchor tag specify?"
+    },
+    {
+      "id": "38e313c4-610e-48ac-bf32-81c569d0c043",
+      "difficulty": 2,
+      "question": "What is the difference between 'class' and 'id' attributes in HTML and CSS?"
+    },
+    {
+      "id": "d30e2cc0-de64-4575-8451-b366853ce3f9",
+      "difficulty": 2,
+      "question": "How do you make a list that lists its items with squares?"
+    },
+    {
+      "id": "c474cf3a-1408-401e-8b21-5832ce17a539",
+      "difficulty": 2,
+      "question": "How can you apply CSS to one HTML page only?"
+    },
+    {
+      "id": "50e87603-269a-4f0f-a31f-40e4338c6c42",
+      "difficulty": 2,
+      "question": "What does the 'alt' attribute in the <img> tag typically contain?"
+    },
+    {
+      "id": "a940ebeb-15f8-48ba-a9fb-7edf66c24c89",
+      "difficulty": 2,
+      "question": "Which CSS property controls the text size?"
+    },
+    {
+      "id": "75bdc866-19c0-4b98-8c5d-515c18eb52b9",
+      "difficulty": 2,
+      "question": "How are HTML comments added?"
+    },
+    {
+      "id": "a03d6ff9-a3ec-4212-8f31-1d1ae665b471",
+      "difficulty": 2,
+      "question": "What is the correct JavaScript syntax to change the content of the HTML element below? <p id='demo'>This is a demonstration.</p>"
+    },
+    {
+      "id": "74c30708-fd14-4ed4-b31f-0ef85ada678d",
+      "difficulty": 2,
+      "question": "Which event occurs when the user clicks on an HTML element?"
+    },
+    {
+      "id": "5cb53b39-d167-4c60-ac96-b7efb4bd6547",
+      "difficulty": 2,
+      "question": "How do you declare a JavaScript variable?"
+    },
+    {
+      "id": "2c30a946-07f1-4ae1-91ea-28e582670078",
+      "difficulty": 2,
+      "question": "What jQuery method is used to hide selected elements?"
+    },
+    {
+      "id": "654bacd1-b41b-455c-956f-4366a585b270",
+      "difficulty": 2,
+      "question": "What is the correct way to add a background color in HTML?"
+    },
+    {
+      "id": "3d8567bc-b0fa-4dce-955c-beafadd3cbdf",
+      "difficulty": 2,
+      "question": "How can you make a bulleted list in HTML?"
+    },
+    {
+      "id": "66231bbd-35a7-4c13-bcf6-ede483a98c02",
+      "difficulty": 2,
+      "question": "What does the z-index property do in CSS?"
+    },
+    {
+      "id": "5c33985e-6f72-4be3-9721-6893c8163529",
+      "difficulty": 2,
+      "question": "Which CSS property is used to change the font of an element?"
+    },
+    {
+      "id": "01e08b1d-253b-4490-9e8e-cf322487ebf5",
+      "difficulty": 2,
+      "question": "What is the purpose of the <nav> element in HTML?"
+    },
+    {
+      "id": "ed812e10-10a2-43de-9aa9-ec3d764caf71",
+      "difficulty": 2,
+      "question": "How do you insert a JavaScript into an HTML page?"
+    },
+    {
+      "id": "15f7d383-0e73-4d05-bb95-0cec971c417c",
+      "difficulty": 2,
+      "question": "Which HTML element is used for specifying a JavaScript source file?"
+    },
+    {
+      "id": "1f78ab5a-5603-48f5-a343-e5f81b5692c4",
+      "difficulty": 2,
+      "question": "How can the value of a CSS property be made important?"
+    },
+    {
+      "id": "a29eead2-5e99-4070-a9c4-bb301f0a524b",
+      "difficulty": 2,
+      "question": "Which tag is used to write JavaScript code in an HTML document?"
+    },
+    {
+      "id": "f1a40471-1b6d-41bc-a892-356a8c227cfc",
+      "difficulty": 2,
+      "question": "How can you redirect a user from one page to another using JavaScript?"
+    },
+    {
+      "id": "102b585b-1604-4eea-a3ac-d35037149b5e",
+      "difficulty": 3,
+      "question": "How do you select elements with a specific class in jQuery?"
+    },
+    {
+      "id": "45f6527e-e01f-4c58-9c86-8311002adedc",
+      "difficulty": 3,
+      "question": "What is the correct syntax to return the URL of a link in JavaScript?"
+    },
+    {
+      "id": "117e8231-6cad-4ff6-8d81-573bf1b80eb0",
+      "difficulty": 3,
+      "question": "What is a JavaScript Closure?"
+    },
+    {
+      "id": "913a9e8e-b825-4aa5-b6ae-9ed89a455bb1",
+      "difficulty": 3,
+      "question": "Which CSS property is used to make the text bold?"
+    },
+    {
+      "id": "7a5bae22-9858-40b2-8bf4-a4cb10e7b730",
+      "difficulty": 3,
+      "question": "How do you create a Flexbox container in CSS?"
+    },
+    {
+      "id": "d252aca3-9cc0-46fa-b4d3-507dbf50b363",
+      "difficulty": 3,
+      "question": "What is the purpose of the 'async' attribute in a <script> tag?"
+    },
+    {
+      "id": "ef42788c-2990-4ca2-91cb-21fa76fc6616",
+      "difficulty": 3,
+      "question": "How can you change the color of visited links in CSS?"
+    },
+    {
+      "id": "e70466ad-1eb6-423e-ae8a-408948088815",
+      "difficulty": 3,
+      "question": "In HTML, how can you open a link in a new tab?"
+    },
+    {
+      "id": "8597082b-1072-49bf-8634-4f52201c3df7",
+      "difficulty": 3,
+      "question": "What does the display property do in CSS?"
+    },
+    {
+      "id": "e7b6b6c6-adc1-4ee6-bbee-d3c20607ab20",
+      "difficulty": 3,
+      "question": "How can you detect the client's browser name in JavaScript?"
+    },
+    {
+      "id": "00f5913b-db3d-47e3-817a-865c25e0c319",
+      "difficulty": 3,
+      "question": "What HTML5 element is used to play video files?"
+    },
+    {
+      "id": "3a9c95eb-f7ee-4314-b8c3-ead5cd96eac2",
+      "difficulty": 3,
+      "question": "How do you round the number 7.25, to the nearest integer, in JavaScript?"
+    },
+    {
+      "id": "281309f3-094d-4558-a2ad-f01d3c7b9da4",
+      "difficulty": 3,
+      "question": "What is the use of localStorage in web development?"
+    },
+    {
+      "id": "3badaf5e-5133-455e-975c-abbbd842db95",
+      "difficulty": 3,
+      "question": "What does the 'viewport' meta tag do?"
+    },
+    {
+      "id": "3f9a76e9-4388-4a28-b00a-01a64a347e9d",
+      "difficulty": 3,
+      "question": "How do you declare a function in JavaScript?"
+    },
+    {
+      "id": "8a574f80-a61e-48e0-96dc-dd82b607c9e0",
+      "difficulty": 3,
+      "question": "Which selector is used to specify a rule for all elements in CSS?"
+    },
+    {
+      "id": "cd3f94ff-9702-499d-a9c6-75c49b1a39e9",
+      "difficulty": 3,
+      "question": "What is the purpose of the HTTP GET request?"
+    },
+    {
+      "id": "0bdf606f-b21f-43c6-b300-b06ae27c06ad",
+      "difficulty": 3,
+      "question": "How can you make a CSS style applicable to an element only on hover?"
+    },
+    {
+      "id": "73aca021-2235-4e42-bd6a-bf5e26622ff5",
+      "difficulty": 3,
+      "question": "What is the purpose of the aria-label attribute in HTML?"
+    },
+    {
+      "id": "945bf63d-14a3-4ca3-8552-8aa429efbd13",
+      "difficulty": 4,
+      "question": "What is the difference between Local Storage and Session Storage in web development?"
+    },
+    {
+      "id": "79f8f8a3-21e2-4cbf-814a-d0657b3697a2",
+      "difficulty": 4,
+      "question": "How do you apply a CSS rule to a small device size using media queries?"
+    },
+    {
+      "id": "602ab04c-e2fe-4227-9004-7df3ac863836",
+      "difficulty": 4,
+      "question": "What is the Promise object in JavaScript?"
+    },
+    {
+      "id": "3623a19c-72f8-4b36-9781-f9d7398109e5",
+      "difficulty": 4,
+      "question": "How do you create a CSS grid layout?"
+    },
+    {
+      "id": "749cc09d-8923-42ec-b622-f07b787db95f",
+      "difficulty": 4,
+      "question": "What is the use of the 'defer' attribute in a script tag?"
+    },
+    {
+      "id": "7cd6d2d9-64a7-4357-8483-c9daf2e7aa98",
+      "difficulty": 4,
+      "question": "What is a service worker in web development?"
+    },
+    {
+      "id": "9cb145fb-19b4-440a-a665-243134fdd8bb",
+      "difficulty": 4,
+      "question": "How can you prevent a form from being submitted using JavaScript?"
+    },
+    {
+      "id": "1b834a37-2963-45d3-a818-932f3e7c7e07",
+      "difficulty": 4,
+      "question": "What is the role of the <main> element in HTML?"
+    },
+    {
+      "id": "067a6590-6afd-4f75-8cd0-b401805daab2",
+      "difficulty": 4,
+      "question": "How can you optimize a website's performance?"
+    },
+    {
+      "id": "633cf663-0f62-4e30-92cc-31534b82f80b",
+      "difficulty": 4,
+      "question": "What is the purpose of the CSS box model?"
+    },
+    {
+      "id": "4254d088-0a23-4def-9565-fb10a220d749",
+      "difficulty": 4,
+      "question": "How do you create a shadow with CSS?"
+    },
+    {
+      "id": "0d82822b-f9c3-492c-8525-c7312e36d8eb",
+      "difficulty": 4,
+      "question": "What is the Vue.js framework used for?"
+    },
+    {
+      "id": "2485a677-9970-41ee-92b8-651ee256497f",
+      "difficulty": 4,
+      "question": "How do you handle errors in a JavaScript asynchronous function?"
+    },
+    {
+      "id": "30147921-dfb3-4bf2-95b7-732083f07bfb",
+      "difficulty": 4,
+      "question": "What is the purpose of the object-fit CSS property?"
+    },
+    {
+      "id": "84a9b075-7642-44f7-bac9-915d7c7c0c4c",
+      "difficulty": 4,
+      "question": "How can you improve the accessibility of a web application?"
+    },
+    {
+      "id": "cddc031f-3f8d-4464-a7ed-cff4b3032449",
+      "difficulty": 4,
+      "question": "How do you prevent CSS and JavaScript files from being cached by the browser?"
+    },
+    {
+      "id": "c1991547-36b2-449f-9b05-d2147599d72a",
+      "difficulty": 4,
+      "question": "What is the significance of the Document Object Model (DOM) in web development?"
+    },
+    {
+      "id": "afd05b77-351b-4e2a-a35e-0a4cbbb387e7",
+      "difficulty": 4,
+      "question": "How do you implement a Web Worker?"
+    },
+    {
+      "id": "ec59e5eb-5689-48d9-ba32-ff8214da5cd0",
+      "difficulty": 5,
+      "question": "What is Cross-Site Scripting (XSS) and how can it be prevented?"
+    },
+    {
+      "id": "400d5b9c-fa61-4782-b0f4-2a0ac13763f6",
+      "difficulty": 5,
+      "question": "How do you ensure your web applications are secure?"
+    },
+    {
+      "id": "9192c14c-038c-4ac5-8779-06f6abcec472",
+      "difficulty": 5,
+      "question": "What is a Progressive Web App (PWA) and what benefits does it offer?"
+    },
+    {
+      "id": "b3142de9-1224-4518-a89a-f4fc056e1a13",
+      "difficulty": 5,
+      "question": "How do you implement Server-Side Rendering (SSR) for a SPA (Single Page Application)?"
+    },
+    {
+      "id": "e48dc3bb-b2a4-4dc7-bf2d-03578ee10d7f",
+      "difficulty": 5,
+      "question": "What role does WebAssembly play in web development?"
+    },
+    {
+      "id": "4bd6ff0f-72c7-4075-a752-5701e7fde4cf",
+      "difficulty": 5,
+      "question": "What is the difference between a synchronous and an asynchronous function in JavaScript?"
+    },
+    {
+      "id": "59c71f9e-afdc-4201-bf0a-9cc43cd6423a",
+      "difficulty": 5,
+      "question": "How can you achieve state management in a JavaScript SPA?"
+    },
+    {
+      "id": "c718d5d2-11fc-4fd3-bd96-66dda4d33d33",
+      "difficulty": 5,
+      "question": "What are the principles of Responsive Web Design?"
+    },
+    {
+      "id": "6c8e4950-746f-4622-80d8-194052f114c5",
+      "difficulty": 5,
+      "question": "How do you optimize a website for SEO?"
+    },
+    {
+      "id": "59e69ab7-dd69-4bbb-888f-10428d813c54",
+      "difficulty": 5,
+      "question": "What is Continuous Integration/Continuous Deployment (CI/CD) in the context of web development?"
+    },
+    {
+      "id": "9d715660-e5a1-4bc4-b02b-422a010d0820",
+      "difficulty": 5,
+      "question": "What is the difference between GET and POST methods in HTTP requests?"
+    },
+    {
+      "id": "d7fe18b2-d5bc-4cd3-9a54-1a24ef71226d",
+      "difficulty": 5,
+      "question": "How do you perform accessibility testing on a web application?"
+    },
+    {
+      "id": "d86814c5-5fa3-45a6-8d77-dd198c481d19",
+      "difficulty": 5,
+      "question": "How do you configure a web application for internationalization?"
+    },
+    {
+      "id": "21011daf-14b2-4f60-84bf-c91165fb47d2",
+      "difficulty": 5,
+      "question": "What is the significance of HTTPS over HTTP?"
+    },
+    {
+      "id": "87327e16-4692-4e68-b023-9513ce3a275f",
+      "difficulty": 5,
+      "question": "How do you use WebSockets for real-time communication?"
+    },
+    {
+      "id": "b03a7a20-2a72-4856-a321-805cf3a7196b",
+      "difficulty": 5,
+      "question": "Describe the process of data binding in Angular."
+    },
+    {
+      "id": "1663f9b6-984f-4571-abb7-9888d3c50273",
+      "difficulty": 5,
+      "question": "What are Microfrontends and how do they affect architecture?"
+    },
+    {
+      "id": "681cb3d5-5533-4b32-a541-b1a4b05dd6a1",
+      "difficulty": 5,
+      "question": "What is the significance of the Same-Origin Policy in web security?"
+    },
+    {
+      "id": "2b452eb3-d997-453e-af4f-b5b82e47dc16",
+      "difficulty": 5,
+      "question": "How can you use CSS Custom Properties (variables)?"
+    }
+  ]
+}

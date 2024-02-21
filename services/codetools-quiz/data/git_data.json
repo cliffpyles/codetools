@@ -1,0 +1,1462 @@
+{
+  "topic": "Git",
+  "questions": [
+    {
+      "id": "cb9431e3-bfa7-40f3-8d57-cd9732a0635b",
+      "difficulty": 1,
+      "question": "What is Git?"
+    },
+    {
+      "id": "76fe0456-0aa2-4fb8-b997-277a94910771",
+      "difficulty": 1,
+      "question": "What command initializes a new Git repository?"
+    },
+    {
+      "id": "f7d8281a-99b8-47b3-a53f-be7a34931c82",
+      "difficulty": 1,
+      "question": "Which command shows the current state of the working directory and the staging area?"
+    },
+    {
+      "id": "a5da1c24-d22c-4fa3-b70e-69b97a718619",
+      "difficulty": 1,
+      "question": "How do you clone a repository?"
+    },
+    {
+      "id": "27511f3f-2258-4046-91eb-bb5f2255880f",
+      "difficulty": 1,
+      "question": "How do you add a file or changes to be committed?"
+    },
+    {
+      "id": "12e9c553-33a0-47fd-b6bf-0879ddf8c002",
+      "difficulty": 1,
+      "question": "What is the command to view the commit history?"
+    },
+    {
+      "id": "49fcaa8b-5fdf-45d5-b921-701b8293ba65",
+      "difficulty": 1,
+      "question": "Which command do you use to pull changes from a remote repository?"
+    },
+    {
+      "id": "4d8b8430-1e93-4ed6-9756-072be45ed02b",
+      "difficulty": 1,
+      "question": "How do you push your changes to a remote repository?"
+    },
+    {
+      "id": "44883a9c-2f74-4be9-9469-555785ed22aa",
+      "difficulty": 1,
+      "question": "Which command creates a new branch?"
+    },
+    {
+      "id": "6b9a0fa3-9ccf-4d22-b8af-5592324da016",
+      "difficulty": 1,
+      "question": "How do you switch to another branch?"
+    },
+    {
+      "id": "1f421ccf-b729-48f0-92e5-6c1fc6b21941",
+      "difficulty": 1,
+      "question": "What is a 'merge' in Git?"
+    },
+    {
+      "id": "950a10c7-b699-405c-86b1-1c8b2746701d",
+      "difficulty": 1,
+      "question": "How do you merge two branches?"
+    },
+    {
+      "id": "7ef3f12c-c713-4d90-ab35-b5ac9e58acd9",
+      "difficulty": 1,
+      "question": "What is a 'conflict' in Git?"
+    },
+    {
+      "id": "8d368bbd-8763-4e23-92ae-312cfd15a29a",
+      "difficulty": 1,
+      "question": "What command lists all branches?"
+    },
+    {
+      "id": "09e86cbe-14c8-4070-aa35-2beb402637a0",
+      "difficulty": 1,
+      "question": "How do you delete a branch?"
+    },
+    {
+      "id": "810ea7be-e04c-4caf-9da2-8c2b64085c81",
+      "difficulty": 1,
+      "question": "What command shows changes between commits, commit and working directory, etc.?"
+    },
+    {
+      "id": "c753feaf-7293-4871-9d48-e5a2b416636e",
+      "difficulty": 1,
+      "question": "How do you stash your changes?"
+    },
+    {
+      "id": "bc777b2f-1481-4287-847d-c3c4fda61ab2",
+      "difficulty": 1,
+      "question": "How do you apply stashed changes?"
+    },
+    {
+      "id": "768923c0-5279-4f4f-96f4-c49dde9496fe",
+      "difficulty": 1,
+      "question": "What is the command to fetch branches and/or tags from one or more other repositories?"
+    },
+    {
+      "id": "fc13f5ae-fd53-45c6-8db6-6d930d0217ac",
+      "difficulty": 1,
+      "question": "How do you create a tag for a specific commit?"
+    },
+    {
+      "id": "ce5ab561-f3d1-486d-aeae-60f478db8584",
+      "difficulty": 2,
+      "question": "What is a 'detached HEAD' in Git?"
+    },
+    {
+      "id": "a3e72071-c50d-4215-8720-a69bb8a04c2c",
+      "difficulty": 2,
+      "question": "How do you revert to a previous commit, discarding all changes after it?"
+    },
+    {
+      "id": "d4ce6a46-e149-4b3a-a450-9508d569d0c3",
+      "difficulty": 2,
+      "question": "What is the difference between 'git fetch' and 'git pull'?"
+    },
+    {
+      "id": "64116453-942f-4751-8eb2-48e0479f9d8a",
+      "difficulty": 2,
+      "question": "How do you create and switch to a new branch at the same time?"
+    },
+    {
+      "id": "d90b29e1-39db-4d4c-a8e1-9fa23d6c6b0a",
+      "difficulty": 2,
+      "question": "How do you combine all changes from another branch into the current branch without a merge commit?"
+    },
+    {
+      "id": "bfc4b739-a176-41d8-bda0-f301e58113fa",
+      "difficulty": 2,
+      "question": "What is the 'origin' in Git?"
+    },
+    {
+      "id": "03c1ca85-3a20-4238-a050-d60b0684c04b",
+      "difficulty": 2,
+      "question": "How do you rename a branch?"
+    },
+    {
+      "id": "384185b8-9ad5-4093-bbc1-33e4f0fbbd64",
+      "difficulty": 2,
+      "question": "How do you amend the last commit?"
+    },
+    {
+      "id": "692e508b-37dd-456f-a083-fcafc8f030e4",
+      "difficulty": 2,
+      "question": "What does 'git reset' do?"
+    },
+    {
+      "id": "5712d787-4ba5-47d4-accb-23413d545bf6",
+      "difficulty": 2,
+      "question": "How do you view changes in a file before committing?"
+    },
+    {
+      "id": "74c919af-799b-46c7-8bb7-cda7487644fb",
+      "difficulty": 2,
+      "question": "How do you list all the remote repositories configured?"
+    },
+    {
+      "id": "f793acb5-bc66-48dc-b977-b54e7e7942d0",
+      "difficulty": 2,
+      "question": "How do you remove a file from Git without deleting it from the file system?"
+    },
+    {
+      "id": "8d33e4a1-4bbe-4144-8e9f-958d198d5ef3",
+      "difficulty": 2,
+      "question": "How do you show the commit log as a graph?"
+    },
+    {
+      "id": "d233289c-4efe-4c2c-b2ae-dc62ebcdc01e",
+      "difficulty": 2,
+      "question": "How do you squash multiple commits into one?"
+    },
+    {
+      "id": "e1f1df3d-ff00-45b3-ba39-e61015319689",
+      "difficulty": 2,
+      "question": "What is a 'fast-forward' merge?"
+    },
+    {
+      "id": "9c5f9c61-ba3c-4cc3-a996-7b7b3dd7a3e2",
+      "difficulty": 2,
+      "question": "How do you revert a commit that has already been pushed to a remote repository?"
+    },
+    {
+      "id": "420cdd12-90f2-4030-84b9-e196945e1570",
+      "difficulty": 2,
+      "question": "How do you create a remote branch?"
+    },
+    {
+      "id": "e52b3b3d-be0b-46fa-b8bc-a54ad54cd2e6",
+      "difficulty": 2,
+      "question": "What is the command to compare two branches?"
+    },
+    {
+      "id": "6f6a1cee-cfd0-41a6-bb6d-0b5ef50d26b7",
+      "difficulty": 2,
+      "question": "How do you save changes to a temporary area without committing?"
+    },
+    {
+      "id": "6a77cb81-2b5c-459e-953f-3df4755a35c0",
+      "difficulty": 2,
+      "question": "How do you ignore files in a Git repository?"
+    },
+    {
+      "id": "faaac938-3d50-4879-a9c4-5e673a589a19",
+      "difficulty": 3,
+      "question": "What does 'git bisect' do?"
+    },
+    {
+      "id": "d856e376-97fb-41ae-b949-dc9a19a75e67",
+      "difficulty": 3,
+      "question": "How do you change the author of a commit?"
+    },
+    {
+      "id": "68524dc1-c528-4b82-b476-2a123c5d4b66",
+      "difficulty": 3,
+      "question": "What is 'git rebase' and how does it differ from 'git merge'?"
+    },
+    {
+      "id": "6c8e9c1f-5a3a-4ebd-891f-0550683d1ccb",
+      "difficulty": 3,
+      "question": "How do you cherry-pick a commit?"
+    },
+    {
+      "id": "2f8cbb7f-95c3-4a7c-92a2-1b55e5b4e40d",
+      "difficulty": 3,
+      "question": "How do you resolve merge conflicts manually?"
+    },
+    {
+      "id": "f5800ee7-f779-47b9-981e-a2a152f03900",
+      "difficulty": 3,
+      "question": "How do you find a commit that introduced a bug using 'git bisect'?"
+    },
+    {
+      "id": "e5e19832-c10a-412a-b264-2cba959181db",
+      "difficulty": 3,
+      "question": "What is the 'Git flow' workflow?"
+    },
+    {
+      "id": "f0bcff54-fadf-4644-8739-217c4fce08c9",
+      "difficulty": 3,
+      "question": "How do you push a local branch to a different remote branch?"
+    },
+    {
+      "id": "74ef3c51-d713-4a75-842e-ab23d607a254",
+      "difficulty": 3,
+      "question": "What does the 'git reflog' command show?"
+    },
+    {
+      "id": "9ba47c2a-f696-4b90-ab75-300e617f8082",
+      "difficulty": 3,
+      "question": "How do you revert the last N commits?"
+    },
+    {
+      "id": "4a43b5ed-e770-4ba1-8aeb-183faf257cd1",
+      "difficulty": 3,
+      "question": "What is a 'bare' Git repository?"
+    },
+    {
+      "id": "b0e79900-c746-417b-9f32-9cc861e8cf6b",
+      "difficulty": 3,
+      "question": "How do you rename a tag?"
+    },
+    {
+      "id": "6e6db813-37be-4d50-b0a0-5bc2cb4ec45a",
+      "difficulty": 3,
+      "question": "How do you integrate changes from a remote repository to the local copy?"
+    },
+    {
+      "id": "ad919281-c1b5-4973-890d-22e515d51f0c",
+      "difficulty": 3,
+      "question": "What is the purpose of 'git stash pop'?"
+    },
+    {
+      "id": "7828c0d1-647f-4aa6-9e63-4ad2d5650723",
+      "difficulty": 3,
+      "question": "How do you clean untracked files from your working directory?"
+    },
+    {
+      "id": "7eafa5b4-05f3-442b-91bd-f9bdc681f87d",
+      "difficulty": 3,
+      "question": "What are the benefits of using a 'rebase' instead of a 'merge'?"
+    },
+    {
+      "id": "e886a8b3-7482-47a0-8483-00aee8e09dc7",
+      "difficulty": 3,
+      "question": "How do you set up a Git repository to require signed commits?"
+    },
+    {
+      "id": "d68ab3cd-0c80-4d68-ab7d-f5e2ebcd648d",
+      "difficulty": 3,
+      "question": "How do you split a commit into smaller commits?"
+    },
+    {
+      "id": "8a673dfe-529f-4841-b1cc-9ec5d5924c00",
+      "difficulty": 3,
+      "question": "How do you set a remote repository's URL?"
+    },
+    {
+      "id": "24e23d41-a336-4f75-a4ec-863bd3d7d1c9",
+      "difficulty": 4,
+      "question": "What is the 'HEAD' in Git and how is it used?"
+    },
+    {
+      "id": "b2867fe8-a8d5-4811-93f7-b2dbdc5d9021",
+      "difficulty": 4,
+      "question": "How do you handle large files with Git?"
+    },
+    {
+      "id": "62d84c33-eafb-42c7-8066-6bbc028e1971",
+      "difficulty": 4,
+      "question": "What does 'git rebase -i' do?"
+    },
+    {
+      "id": "49fd885d-069b-49c0-9b0b-899ba6c0d00a",
+      "difficulty": 4,
+      "question": "How do you find which commit deleted a specific file?"
+    },
+    {
+      "id": "c001c94c-15f7-4ba5-a8ca-ed10c800e073",
+      "difficulty": 4,
+      "question": "How do you configure Git to ignore certain files globally?"
+    },
+    {
+      "id": "9846453b-e5bb-42a0-96a7-88f096ab602d",
+      "difficulty": 4,
+      "question": "What are the use cases for a 'pre-commit hook' in Git?"
+    },
+    {
+      "id": "35ffb385-49b9-4e51-bd91-b06059272831",
+      "difficulty": 4,
+      "question": "How do you repair a corrupt Git repository?"
+    },
+    {
+      "id": "6a47fe14-3996-42e6-9e74-e962a3e28cae",
+      "difficulty": 4,
+      "question": "What is 'git submodule' and how is it used?"
+    },
+    {
+      "id": "490a23d2-e6ac-4daa-a490-db60a8409520",
+      "difficulty": 4,
+      "question": "How do you set a specific commit to be the current state of a branch?"
+    },
+    {
+      "id": "aa9808a5-312b-4478-b08e-68420bd4d76e",
+      "difficulty": 4,
+      "question": "What are the implications of force pushing a commit?"
+    },
+    {
+      "id": "2ad13cda-eaf9-41c0-815a-e02d6b23ebca",
+      "difficulty": 4,
+      "question": "How do you integrate a GitHub pull request into your local repository?"
+    },
+    {
+      "id": "69c27c82-de46-4a8e-8cc8-0b380610bdf6",
+      "difficulty": 4,
+      "question": "What is a 'rebase conflict' and how do you resolve it?"
+    },
+    {
+      "id": "34ae513f-a801-4b41-9f0a-5cd09b7339ea",
+      "difficulty": 4,
+      "question": "How do you use 'git blame' to identify who changed each line of a file?"
+    },
+    {
+      "id": "1c565378-067f-4e56-8b4d-9f8409856895",
+      "difficulty": 4,
+      "question": "What is 'git bisect run' and how does it automate the bisection process?"
+    },
+    {
+      "id": "f675bc73-3e5b-4fc9-b959-68a183452a6e",
+      "difficulty": 4,
+      "question": "How do you manage multiple Git configurations on the same machine?"
+    },
+    {
+      "id": "860b9a00-bee8-4f89-b9a9-00874120bc69",
+      "difficulty": 4,
+      "question": "How does 'git hooks' enhance the workflow?"
+    },
+    {
+      "id": "dbeab7d9-68f5-460a-b691-97e929a44a19",
+      "difficulty": 4,
+      "question": "How do you prevent a file from being committed to the repository?"
+    },
+    {
+      "id": "b798ac9f-dfdd-4d32-8a18-5ebf383cea19",
+      "difficulty": 4,
+      "question": "How do you review the history of a file across different branches?"
+    },
+    {
+      "id": "a9df7d3e-1d14-418a-af9a-4d336dd12fa0",
+      "difficulty": 4,
+      "question": "How do you migrate a repo from another VCS to Git?"
+    },
+    {
+      "id": "bf0c63cc-9683-4c79-98ab-a83c6de3c460",
+      "difficulty": 5,
+      "question": "How do you implement a custom Git command?"
+    },
+    {
+      "id": "1bb87a91-6576-48e8-9ab4-6322886e62b0",
+      "difficulty": 5,
+      "question": "How do you manage dependencies between submodules in Git?"
+    },
+    {
+      "id": "3062ecce-7917-4631-b251-cd6f2eb2a589",
+      "difficulty": 5,
+      "question": "How do you automate deployment using Git hooks?"
+    },
+    {
+      "id": "7e7f190a-bbf0-4a6b-b071-22bb05f3397a",
+      "difficulty": 5,
+      "question": "How do you recover a branch that was deleted both locally and on the remote?"
+    },
+    {
+      "id": "ae890972-9b5e-4262-a3e3-795cacaa14cf",
+      "difficulty": 5,
+      "question": "What are the internals of a Git repository and how do they work?"
+    },
+    {
+      "id": "2a1c784e-e795-4ba4-8029-08da07ebaa78",
+      "difficulty": 5,
+      "question": "How do you find the performance bottlenecks in your Git workflow?"
+    },
+    {
+      "id": "ba1eaecf-2ecb-4d39-beeb-11c339a327d8",
+      "difficulty": 5,
+      "question": "How do you resolve a three-way merge conflict?"
+    },
+    {
+      "id": "cbb51680-cb74-4624-89a1-a7cebe0f975a",
+      "difficulty": 5,
+      "question": "What are Git's data structures and how are they useful?"
+    },
+    {
+      "id": "5489a0d1-67ef-43cf-883b-8845cb8021b3",
+      "difficulty": 5,
+      "question": "How do you troubleshoot SSH issues in Git operations?"
+    },
+    {
+      "id": "75c8e6e1-f5af-462f-b784-848443b83bf9",
+      "difficulty": 5,
+      "question": "How do you synchronize changes from a forked repository with its original repository?"
+    },
+    {
+      "id": "cc8aa13f-bdd3-4ce4-a920-2952ac9f7f48",
+      "difficulty": 5,
+      "question": "How do you enforce coding standards through Git?"
+    },
+    {
+      "id": "6942c7a7-b649-4743-8658-e8dba7905994",
+      "difficulty": 5,
+      "question": "How do you implement a branching strategy for a large team?"
+    },
+    {
+      "id": "34abb217-593b-423b-9ef6-5a99ff8183a1",
+      "difficulty": 5,
+      "question": "What is the role of 'git gc' (garbage collection)?"
+    },
+    {
+      "id": "8a9081e6-5892-439d-8a1a-3c2b14fd2243",
+      "difficulty": 5,
+      "question": "How do you use Git for binary files management?"
+    },
+    {
+      "id": "118160ee-5bec-463c-a197-0ac7c818aef6",
+      "difficulty": 5,
+      "question": "How do you perform a three-way merge outside of Git?"
+    },
+    {
+      "id": "e1a8ac02-ea87-4e08-8cec-377011508365",
+      "difficulty": 5,
+      "question": "How do you manage large binary files with Git LFS?"
+    },
+    {
+      "id": "64edac72-0838-4d0b-af51-d9f9b8c8a4f8",
+      "difficulty": 5,
+      "question": "How do you ensure atomic commits in Git?"
+    },
+    {
+      "id": "d617874f-b76e-4ed5-80aa-46c78964c98a",
+      "difficulty": 5,
+      "question": "How do you set up a CI/CD pipeline using Git?"
+    },
+    {
+      "id": "0ef9a1cd-299f-43aa-8962-142f3690f2ec",
+      "difficulty": 5,
+      "question": "How do you handle sensitive data in Git?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "A version control system for tracking changes in computer files and coordinating work on those files among multiple people",
+        "A programming language used primarily for web development",
+        "A database management system",
+        "An operating system based on Linux"
+      ],
+      "answer": 0,
+      "question_id": "cb9431e3-bfa7-40f3-8d57-cd9732a0635b"
+    },
+    {
+      "choices": [
+        "git add .",
+        "git commit",
+        "git init",
+        "git clone"
+      ],
+      "answer": 2,
+      "question_id": "76fe0456-0aa2-4fb8-b997-277a94910771"
+    },
+    {
+      "choices": [
+        "git commit -m 'message'",
+        "git status",
+        "git add .",
+        "git branch"
+      ],
+      "answer": 1,
+      "question_id": "f7d8281a-99b8-47b3-a53f-be7a34931c82"
+    },
+    {
+      "choices": [
+        "git init https://example.com/repo.git",
+        "git branch clone https://example.com/repo.git",
+        "git clone https://example.com/repo.git",
+        "git copy https://example.com/repo.git"
+      ],
+      "answer": 2,
+      "question_id": "a5da1c24-d22c-4fa3-b70e-69b97a718619"
+    },
+    {
+      "choices": [
+        "git add .",
+        "git commit -m 'Your message'",
+        "git push origin master",
+        "git clone <repository-url>"
+      ],
+      "answer": 0,
+      "question_id": "27511f3f-2258-4046-91eb-bb5f2255880f"
+    },
+    {
+      "choices": [
+        "git log",
+        "git status",
+        "git commit",
+        "git history"
+      ],
+      "answer": 0,
+      "question_id": "12e9c553-33a0-47fd-b6bf-0879ddf8c002"
+    },
+    {
+      "choices": [
+        "git commit",
+        "git fetch",
+        "git pull",
+        "git clone"
+      ],
+      "answer": 2,
+      "question_id": "49fcaa8b-5fdf-45d5-b921-701b8293ba65"
+    },
+    {
+      "choices": [
+        "git push origin main",
+        "git pull origin main",
+        "git clone https://example.com/repo.git",
+        "git commit -m 'Push changes'"
+      ],
+      "answer": 0,
+      "question_id": "4d8b8430-1e93-4ed6-9756-072be45ed02b"
+    },
+    {
+      "choices": [
+        "git commit -b new_branch",
+        "git branch new_branch",
+        "git init new_branch",
+        "git checkout new_branch"
+      ],
+      "answer": 1,
+      "question_id": "44883a9c-2f74-4be9-9469-555785ed22aa"
+    },
+    {
+      "choices": [
+        "git checkout <branch_name>",
+        "git switch <branch_name>",
+        "git branch <branch_name>",
+        "git merge <branch_name>"
+      ],
+      "answer": 1,
+      "question_id": "6b9a0fa3-9ccf-4d22-b8af-5592324da016"
+    },
+    {
+      "choices": [
+        "A command to switch between branches",
+        "A way to combine the history of two branches",
+        "A method to create a new branch",
+        "A tool to visualize the commit history"
+      ],
+      "answer": 1,
+      "question_id": "1f421ccf-b729-48f0-92e5-6c1fc6b21941"
+    },
+    {
+      "choices": [
+        "Use the 'git commit' command with both branch names",
+        "Use the 'git merge' command followed by the name of the branch to merge into the current branch",
+        "Delete one branch and automatically merge the changes into the remaining branch",
+        "Use the 'git clone' command on both branches"
+      ],
+      "answer": 1,
+      "question_id": "950a10c7-b699-405c-86b1-1c8b2746701d"
+    },
+    {
+      "choices": [
+        "A warning that Git is not installed",
+        "A result of two branches being merged seamlessly",
+        "A situation where changes from different branches cannot be merged automatically",
+        "An error generated when Git cannot connect to the remote repository"
+      ],
+      "answer": 2,
+      "question_id": "7ef3f12c-c713-4d90-ab35-b5ac9e58acd9"
+    },
+    {
+      "choices": [
+        "git checkout -b",
+        "git branch",
+        "git commit",
+        "git merge"
+      ],
+      "answer": 1,
+      "question_id": "8d368bbd-8763-4e23-92ae-312cfd15a29a"
+    },
+    {
+      "choices": [
+        "git branch -d",
+        "git remove branch",
+        "git delete --branch",
+        "git branch -remove"
+      ],
+      "answer": 0,
+      "question_id": "09e86cbe-14c8-4070-aa35-2beb402637a0"
+    },
+    {
+      "choices": [
+        "git diff",
+        "git status",
+        "git log",
+        "git branch"
+      ],
+      "answer": 0,
+      "question_id": "810ea7be-e04c-4caf-9da2-8c2b64085c81"
+    },
+    {
+      "choices": [
+        "git commit -m \"Stash\"",
+        "git save changes",
+        "git stash save",
+        "git add ."
+      ],
+      "answer": 2,
+      "question_id": "c753feaf-7293-4871-9d48-e5a2b416636e"
+    },
+    {
+      "choices": [
+        "git commit stash",
+        "git stash pop",
+        "git apply stash",
+        "git merge stash"
+      ],
+      "answer": 1,
+      "question_id": "bc777b2f-1481-4287-847d-c3c4fda61ab2"
+    },
+    {
+      "choices": [
+        "git merge",
+        "git clone",
+        "git fetch",
+        "git pull"
+      ],
+      "answer": 2,
+      "question_id": "768923c0-5279-4f4f-96f4-c49dde9496fe"
+    },
+    {
+      "choices": [
+        "git commit -m \"tagname\"",
+        "git tag -m commitID",
+        "git tag tagname commitID",
+        "git create tag commitID"
+      ],
+      "answer": 2,
+      "question_id": "fc13f5ae-fd53-45c6-8db6-6d930d0217ac"
+    },
+    {
+      "choices": [
+        "A state where changes to the code are ignored by Git",
+        "A repository that has lost its remote origin",
+        "A state where the HEAD reference points directly to a commit rather than a branch",
+        "A merge conflict that hasn't been resolved"
+      ],
+      "answer": 2,
+      "question_id": "ce5ab561-f3d1-486d-aeae-60f478db8584"
+    },
+    {
+      "choices": [
+        "git merge --abort",
+        "git revert HEAD",
+        "git reset --hard HEAD~1",
+        "git checkout previous-commit-id"
+      ],
+      "answer": 2,
+      "question_id": "a3e72071-c50d-4215-8720-a69bb8a04c2c"
+    },
+    {
+      "choices": [
+        "'git fetch' merges the changes into the current branch, while 'git pull' only downloads the changes.",
+        "'git pull' downloads and merges changes from a remote repository to the current branch, whereas 'git fetch' only downloads the changes.",
+        "'git fetch' deletes local changes, while 'git pull' merges changes without deletion.",
+        "'git pull' is used to create new branches, whereas 'git fetch' is not."
+      ],
+      "answer": 1,
+      "question_id": "d4ce6a46-e149-4b3a-a450-9508d569d0c3"
+    },
+    {
+      "choices": [
+        "git branch <name>",
+        "git create branch <name>",
+        "git checkout -b <name>",
+        "git switch create <name>"
+      ],
+      "answer": 2,
+      "question_id": "64116453-942f-4751-8eb2-48e0479f9d8a"
+    },
+    {
+      "choices": [
+        "git rebase",
+        "git pull --no-merge",
+        "git merge --no-commit",
+        "git add ."
+      ],
+      "answer": 0,
+      "question_id": "d90b29e1-39db-4d4c-a8e1-9fa23d6c6b0a"
+    },
+    {
+      "choices": [
+        "A remote branch where changes are pushed",
+        "The default name for the primary branch",
+        "The first commit in a repository",
+        "The default upstream repository"
+      ],
+      "answer": 3,
+      "question_id": "bfc4b739-a176-41d8-bda0-f301e58113fa"
+    },
+    {
+      "choices": [
+        "git branch -m <newname>",
+        "git rename <oldname> <newname>",
+        "git branch -r <oldname> <newname>",
+        "git checkout -b <newname>"
+      ],
+      "answer": 0,
+      "question_id": "03c1ca85-3a20-4238-a050-d60b0684c04b"
+    },
+    {
+      "choices": [
+        "git rebase HEAD~1",
+        "git commit --amend",
+        "git reset --hard HEAD^",
+        "git push --force"
+      ],
+      "answer": 1,
+      "question_id": "384185b8-9ad5-4093-bbc1-33e4f0fbbd64"
+    },
+    {
+      "choices": [
+        "Deletes the repository",
+        "Permanently modifies file permissions",
+        "Resets current HEAD to the specified state",
+        "Merges branches without commit history"
+      ],
+      "answer": 2,
+      "question_id": "692e508b-37dd-456f-a083-fcafc8f030e4"
+    },
+    {
+      "choices": [
+        "git status",
+        "git diff",
+        "git log",
+        "git checkout"
+      ],
+      "answer": 1,
+      "question_id": "5712d787-4ba5-47d4-accb-23413d545bf6"
+    },
+    {
+      "choices": [
+        "git list-all-remotes",
+        "git remote -v",
+        "git show remotes",
+        "git config --list"
+      ],
+      "answer": 1,
+      "question_id": "74c919af-799b-46c7-8bb7-cda7487644fb"
+    },
+    {
+      "choices": [
+        "git rm --cached <file>",
+        "git delete <file>",
+        "git remove <file>",
+        "rm <file>"
+      ],
+      "answer": 0,
+      "question_id": "f793acb5-bc66-48dc-b977-b54e7e7942d0"
+    },
+    {
+      "choices": [
+        "git log --graph",
+        "git show --tree",
+        "git display commits",
+        "git commits --show-graph"
+      ],
+      "answer": 0,
+      "question_id": "8d33e4a1-4bbe-4144-8e9f-958d198d5ef3"
+    },
+    {
+      "choices": [
+        "Use the 'git squash' command with the commit IDs you want to combine",
+        "Use the 'git rebase' command in interactive mode and choose the 'squash' option for the commits you want to combine",
+        "Create a new branch and cherry-pick the commits you want to squash",
+        "Use the 'git merge' command with a special 'squash' option"
+      ],
+      "answer": 1,
+      "question_id": "d233289c-4efe-4c2c-b2ae-dc62ebcdc01e"
+    },
+    {
+      "choices": [
+        "A merge where the base branch is rebased before merging",
+        "Creating a new commit in the feature branch before merging",
+        "Merging without creating a new merge commit when the feature branch is ahead of the base branch",
+        "Applying changes from one branch to another without commit history"
+      ],
+      "answer": 2,
+      "question_id": "e1f1df3d-ff00-45b3-ba39-e61015319689"
+    },
+    {
+      "choices": [
+        "git commit --amend",
+        "git revert <commit_hash>",
+        "git push --delete <remote_name> <branch_name>",
+        "git reset --hard <commit_hash>"
+      ],
+      "answer": 1,
+      "question_id": "9c5f9c61-ba3c-4cc3-a996-7b7b3dd7a3e2"
+    },
+    {
+      "choices": [
+        "git merge origin/new_branch",
+        "git branch new_branch",
+        "git push -u origin new_branch",
+        "git remote add branch new_branch"
+      ],
+      "answer": 2,
+      "question_id": "420cdd12-90f2-4030-84b9-e196945e1570"
+    },
+    {
+      "choices": [
+        "git diff",
+        "git merge",
+        "git compare",
+        "git checkout"
+      ],
+      "answer": 0,
+      "question_id": "e52b3b3d-be0b-46fa-b8bc-a54ad54cd2e6"
+    },
+    {
+      "choices": [
+        "git add .",
+        "git commit -m 'Save changes'",
+        "git stash",
+        "git save"
+      ],
+      "answer": 2,
+      "question_id": "6f6a1cee-cfd0-41a6-bb6d-0b5ef50d26b7"
+    },
+    {
+      "choices": [
+        "Using the .gitkeep file in each directory",
+        "Adding file names to the .gitignore file",
+        "Changing file permissions to 'ignore'",
+        "Deleting the files and committing the changes"
+      ],
+      "answer": 1,
+      "question_id": "6a77cb81-2b5c-459e-953f-3df4755a35c0"
+    },
+    {
+      "choices": [
+        "Merge two branches",
+        "Change the base of the current branch",
+        "Identify the commit that introduced a bug",
+        "Rebase the current branch onto another"
+      ],
+      "answer": 2,
+      "question_id": "faaac938-3d50-4879-a9c4-5e673a589a19"
+    },
+    {
+      "choices": [
+        "git commit --amend --no-edit",
+        "git commit --change-author",
+        "git config --global user.name 'New Author'",
+        "git commit --amend --author='New Author <email@address.com>'"
+      ],
+      "answer": 3,
+      "question_id": "d856e376-97fb-41ae-b949-dc9a19a75e67"
+    },
+    {
+      "choices": [
+        "A command to change the base color of your Git UI",
+        "A means of combining multiple sequences of commits into a single unified commit history without creating a new commit",
+        "A backup tool for saving changes in Git",
+        "The same as 'git merge' but requires fewer steps to complete"
+      ],
+      "answer": 1,
+      "question_id": "68524dc1-c528-4b82-b476-2a123c5d4b66"
+    },
+    {
+      "choices": [
+        "git reset --hard <commit>",
+        "git cherry-pick <commit>",
+        "git merge <commit>",
+        "git rebase <commit>"
+      ],
+      "answer": 1,
+      "question_id": "6c8e9c1f-5a3a-4ebd-891f-0550683d1ccb"
+    },
+    {
+      "choices": [
+        "Delete the repository and clone it again",
+        "Use the 'git conflict' command to automatically fix them",
+        "Edit the files to manually merge, then use 'git add' and 'git commit'",
+        "Revert all changes to the state of the last commit"
+      ],
+      "answer": 2,
+      "question_id": "2f8cbb7f-95c3-4a7c-92a2-1b55e5b4e40d"
+    },
+    {
+      "choices": [
+        "git checkout between two commits and manually test each",
+        "git bisect start; git bisect good [good_commit]; git bisect bad [bad_commit]",
+        "git log --oneline --graph",
+        "git merge [commit_hash]"
+      ],
+      "answer": 1,
+      "question_id": "f5800ee7-f779-47b9-981e-a2a152f03900"
+    },
+    {
+      "choices": [
+        "A method for automatically managing project dependencies",
+        "A web-based Git repository hosting service",
+        "A branching model for Git, designed around projects with a scheduled release cycle",
+        "An algorithm for fast-forward merging in Git repositories"
+      ],
+      "answer": 2,
+      "question_id": "e5e19832-c10a-412a-b264-2cba959181db"
+    },
+    {
+      "choices": [
+        "git push origin localBranch:remoteBranch",
+        "git commit -m 'Pushing to remote'",
+        "git merge origin localBranch:remoteBranch",
+        "git remote add branch localBranch"
+      ],
+      "answer": 0,
+      "question_id": "f0bcff54-fadf-4644-8739-217c4fce08c9"
+    },
+    {
+      "choices": [
+        "The list of all local commits in the current branch",
+        "A log of all the references to branches and tags in the repository",
+        "The current status of the working directory and staging area",
+        "A list of operations (e.g., commit, merge, rebase) made in the local repository"
+      ],
+      "answer": 3,
+      "question_id": "74ef3c51-d713-4a75-842e-ab23d607a254"
+    },
+    {
+      "choices": [
+        "git reset --hard HEAD^N",
+        "git revert HEAD~N",
+        "git commit --amend N",
+        "git rebase --onto HEAD~N"
+      ],
+      "answer": 1,
+      "question_id": "9ba47c2a-f696-4b90-ab75-300e617f8082"
+    },
+    {
+      "choices": [
+        "A repository that tracks only one branch",
+        "A repository initialized with a README",
+        "A repository without a working directory",
+        "A repository cloned with a shallow copy"
+      ],
+      "answer": 2,
+      "question_id": "4a43b5ed-e770-4ba1-8aeb-183faf257cd1"
+    },
+    {
+      "choices": [
+        "git rename-tag oldTagName newTagName",
+        "git tag -a oldTagName newTagName",
+        "git tag -d oldTagName && git tag newTagName",
+        "git tag -m oldTagName newTagName"
+      ],
+      "answer": 2,
+      "question_id": "b0e79900-c746-417b-9f32-9cc861e8cf6b"
+    },
+    {
+      "choices": [
+        "git merge origin/main",
+        "git commit -m 'Update'",
+        "git pull",
+        "git push origin master"
+      ],
+      "answer": 2,
+      "question_id": "6e6db813-37be-4d50-b0a0-5bc2cb4ec45a"
+    },
+    {
+      "choices": [
+        "To merge a specific stash into the current branch and keep it in the stash list",
+        "To list all currently stashed changesets",
+        "To apply changes from the most recent stash and remove it from the stash list",
+        "To clone a repository into a new directory"
+      ],
+      "answer": 2,
+      "question_id": "ad919281-c1b5-4973-890d-22e515d51f0c"
+    },
+    {
+      "choices": [
+        "git clean -df",
+        "git commit -am 'clean'",
+        "git reset --hard HEAD",
+        "git merge --abort"
+      ],
+      "answer": 0,
+      "question_id": "7828c0d1-647f-4aa6-9e63-4ad2d5650723"
+    },
+    {
+      "choices": [
+        "Creates a new combined commit at the current head of the branch",
+        "Eliminates the need for Git entirely",
+        "Keeps a cleaner, linear project history without merge commits",
+        "Automatically resolves merge conflicts without user intervention"
+      ],
+      "answer": 2,
+      "question_id": "7eafa5b4-05f3-442b-91bd-f9bdc681f87d"
+    },
+    {
+      "choices": [
+        "git config --global commit.verifySignatures true",
+        "git config --global user.signingkey <key-id>",
+        "git config --global commit.gpgsign true",
+        "git init --require-signature"
+      ],
+      "answer": 2,
+      "question_id": "e886a8b3-7482-47a0-8483-00aee8e09dc7"
+    },
+    {
+      "choices": [
+        "Use the git rebase -i command followed by the parent commit hash",
+        "Use the git split command on the target commit",
+        "Use the git divide command followed by the commit hash",
+        "Use the git merge --split option on the target commit"
+      ],
+      "answer": 0,
+      "question_id": "d68ab3cd-0c80-4d68-ab7d-f5e2ebcd648d"
+    },
+    {
+      "choices": [
+        "git push --set-remote URL",
+        "git config --global remote.origin.url URL",
+        "git remote add origin URL",
+        "git set-url --remote URL"
+      ],
+      "answer": 2,
+      "question_id": "8a673dfe-529f-4841-b1cc-9ec5d5924c00"
+    },
+    {
+      "choices": [
+        "The latest commit of the repository",
+        "A collection of all branch heads in the repository",
+        "The current working directory",
+        "A reference to the current branch in use or the current commit in that branch"
+      ],
+      "answer": 3,
+      "question_id": "24e23d41-a336-4f75-a4ec-863bd3d7d1c9"
+    },
+    {
+      "choices": [
+        "Use the --large-file option when adding files",
+        "Configure Git to automatically compress large files",
+        "Use Git Large File Storage (LFS)",
+        "Split large files into smaller chunks manually before adding"
+      ],
+      "answer": 2,
+      "question_id": "b2867fe8-a8d5-4811-93f7-b2dbdc5d9021"
+    },
+    {
+      "choices": [
+        "Changes the base of the current branch to another branch",
+        "Resets the current branch to the initial commit",
+        "Downloads objects and refs from another repository",
+        "Allows interactive rebasing of commits"
+      ],
+      "answer": 3,
+      "question_id": "62d84c33-eafb-42c7-8066-6bbc028e1971"
+    },
+    {
+      "choices": [
+        "git log --name-status | grep <filename>",
+        "git blame <filename>",
+        "git diff <filename>",
+        "git log --follow -- <filename>"
+      ],
+      "answer": 3,
+      "question_id": "49fd885d-069b-49c0-9b0b-899ba6c0d00a"
+    },
+    {
+      "choices": [
+        "git config --global core.exclude",
+        "git ignore --global files",
+        "git global --ignore files",
+        "git config --global core.excludesfile ~/.gitignore_global"
+      ],
+      "answer": 3,
+      "question_id": "c001c94c-15f7-4ba5-a8ca-ed10c800e073"
+    },
+    {
+      "choices": [
+        "Automatically deploying the code to production servers.",
+        "Sending an email notification to a developer.",
+        "Running tests or lint checks before a commit is finalized.",
+        "Changing the content of the commit message."
+      ],
+      "answer": 2,
+      "question_id": "9846453b-e5bb-42a0-96a7-88f096ab602d"
+    },
+    {
+      "choices": [
+        "Use the command 'git restore'",
+        "Delete the repository and clone it again",
+        "Use the command 'git fsck' and 'git reflog'",
+        "Modify the .git/config file manually"
+      ],
+      "answer": 2,
+      "question_id": "35ffb385-49b9-4e51-bd91-b06059272831"
+    },
+    {
+      "choices": [
+        "A tool to package and distribute Git repos for installation",
+        "A Git command to clone and track the history of an external repository within a host repository",
+        "A Git configuration manager for handling large files",
+        "A command to merge feature branches into the master branch automatically"
+      ],
+      "answer": 1,
+      "question_id": "6a47fe14-3996-42e6-9e74-e962a3e28cae"
+    },
+    {
+      "choices": [
+        "git reset --hard <commitID>",
+        "git commit --amend -m 'New message'",
+        "git merge <branchName>",
+        "git branch -d <branchName>"
+      ],
+      "answer": 0,
+      "question_id": "490a23d2-e6ac-4daa-a490-db60a8409520"
+    },
+    {
+      "choices": [
+        "It creates a new branch in the remote repository",
+        "It deletes all the preceding commits in the branch",
+        "It overwrites history in the remote repository, potentially causing lost commits for others",
+        "It sends an email notification to the team"
+      ],
+      "answer": 2,
+      "question_id": "aa9808a5-312b-4478-b08e-68420bd4d76e"
+    },
+    {
+      "choices": [
+        "git merge <branch-name>",
+        "git fetch <remote> <branch>",
+        "git clone <repository-url>",
+        "git pull <remote> <branch>"
+      ],
+      "answer": 3,
+      "question_id": "2ad13cda-eaf9-41c0-815a-e02d6b23ebca"
+    },
+    {
+      "choices": [
+        "An issue that occurs when merging branches, resolved by creating a new merge commit",
+        "A problem when switching between branches, fixed by resetting the HEAD to the desired commit",
+        "An error during the installation of Git, resolved through reinstalling",
+        "A conflict that happens during rebase when changes in the branches are incompatible, resolved by manually fixing the conflicts and continuing the rebase"
+      ],
+      "answer": 3,
+      "question_id": "69c27c82-de46-4a8e-8cc8-0b380610bdf6"
+    },
+    {
+      "choices": [
+        "git blame <file-name> to display the last user that modified each line in the specified file.",
+        "git check <file-name> to review each modification in the file.",
+        "git log <file-name> to see a log of changes made to the file.",
+        "git review <file-name> for a detailed examination of file changes."
+      ],
+      "answer": 0,
+      "question_id": "34ae513f-a801-4b41-9f0a-5cd09b7339ea"
+    },
+    {
+      "choices": [
+        "'git bisect run' is a command to duplicate repositories for backup purposes.",
+        "'git bisect run' is used to merge two branches automatically.",
+        "'git bisect run' automatically steps through the bisection process by using a script to determine which commits are good or bad.",
+        "'git bisect run' is a visualization tool to see the differences between commits."
+      ],
+      "answer": 2,
+      "question_id": "1c565378-067f-4e56-8b4d-9f8409856895"
+    },
+    {
+      "choices": [
+        "Modify the global .gitconfig file for each project",
+        "Use different user accounts for each Git configuration",
+        "Use the `git config --local` command to set configuration options for a single project",
+        "Rename the .git folder in each project"
+      ],
+      "answer": 2,
+      "question_id": "f675bc73-3e5b-4fc9-b959-68a183452a6e"
+    },
+    {
+      "choices": [
+        "Automatically updates the remote server's time",
+        "Enforces code review policies before merging",
+        "Allows execution of custom scripts at specific points in Git's lifecycle",
+        "Improves GUI performance of Git clients"
+      ],
+      "answer": 2,
+      "question_id": "860b9a00-bee8-4f89-b9a9-00874120bc69"
+    },
+    {
+      "choices": [
+        "Use the .gitignore file and list them there",
+        "Run git stop <filename>",
+        "Delete the file from the working directory",
+        "Add the file to .gitkeep"
+      ],
+      "answer": 0,
+      "question_id": "dbeab7d9-68f5-460a-b691-97e929a44a19"
+    },
+    {
+      "choices": [
+        "git log --follow [file]",
+        "git checkout [file]",
+        "git branch --show [file]",
+        "git file --history [file]"
+      ],
+      "answer": 0,
+      "question_id": "b798ac9f-dfdd-4d32-8a18-5ebf383cea19"
+    },
+    {
+      "choices": [
+        "Use the git clone command",
+        "Manually copy and paste the project files",
+        "Use the git import command",
+        "Use the git init command in the project directory and then use git remote add to connect to the existing VCS repository"
+      ],
+      "answer": 3,
+      "question_id": "a9df7d3e-1d14-418a-af9a-4d336dd12fa0"
+    },
+    {
+      "choices": [
+        "Use a Git hook script",
+        "Create a new branch with the command name",
+        "Add an alias in the Git configuration",
+        "Modify the Git source code"
+      ],
+      "answer": 2,
+      "question_id": "bf0c63cc-9683-4c79-98ab-a83c6de3c460"
+    },
+    {
+      "choices": [
+        "Use the 'git-merge' command in the parent repository",
+        "Manually update each submodule",
+        "Use the 'git submodule update --recursive' command",
+        "Dependencies between submodules cannot be managed in Git"
+      ],
+      "answer": 2,
+      "question_id": "1bb87a91-6576-48e8-9ab4-6322886e62b0"
+    },
+    {
+      "choices": [
+        "Use the git commit command with special flags",
+        "Update the .gitsettings file to include deployment scripts",
+        "Add a post-receive hook script in the repository's hooks directory",
+        "Configure deployment options in the .gitconfig file"
+      ],
+      "answer": 2,
+      "question_id": "3062ecce-7917-4631-b251-cd6f2eb2a589"
+    },
+    {
+      "choices": [
+        "git fetch origin && git checkout -b [branch-name] origin/[branch-name]",
+        "git branch -a && git checkout [branch-name]",
+        "git reflog && git checkout -b [branch-name] [last-known-good-commit]",
+        "git reset --hard [branch-name]"
+      ],
+      "answer": 2,
+      "question_id": "7e7f190a-bbf0-4a6b-b071-22bb05f3397a"
+    },
+    {
+      "choices": [
+        "A set of APIs for version control",
+        "A collection of user interfaces and tools for managing project tasks",
+        "A database of files and a set of tools to manage the version history of those files",
+        "A cloud storage service for code"
+      ],
+      "answer": 2,
+      "question_id": "ae890972-9b5e-4262-a3e3-795cacaa14cf"
+    },
+    {
+      "choices": [
+        "Using git merge --stat",
+        "Through git blame",
+        "Running git profile",
+        "Utilizing git bisect"
+      ],
+      "answer": 3,
+      "question_id": "2a1c784e-e795-4ba4-8029-08da07ebaa78"
+    },
+    {
+      "choices": [
+        "Delete the conflicting files and clone the repository again",
+        "Manually edit the files to resolve the conflicts, then commit the result",
+        "Use the 'git conflict' command to automatically resolve conflicts",
+        "Revert both branches to their previous commit to avoid conflict"
+      ],
+      "answer": 1,
+      "question_id": "ba1eaecf-2ecb-4d39-beeb-11c339a327d8"
+    },
+    {
+      "choices": [
+        "Lists and Queues, for managing commit queues and code reviews efficiently.",
+        "Binary Trees and Heaps, for maintaining a scalable project structure.",
+        "Graphs and Trees, essential for tracking changes in projects, branching, and merging.",
+        "Hash Tables and Linked Lists, for optimizing code retrieval and version control."
+      ],
+      "answer": 2,
+      "question_id": "cbb51680-cb74-4624-89a1-a7cebe0f975a"
+    },
+    {
+      "choices": [
+        "Change the repository's visibility settings",
+        "Check the network connection settings",
+        "Verify the SSH keys and their association with the Git account",
+        "Modify the Git configuration file"
+      ],
+      "answer": 2,
+      "question_id": "5489a0d1-67ef-43cf-883b-8845cb8021b3"
+    },
+    {
+      "choices": [
+        "Use the command 'git fork sync'",
+        "Create a pull request on the original repository",
+        "Use the command 'git merge upstream/main'",
+        "Configure a remote for the fork and pull the changes"
+      ],
+      "answer": 3,
+      "question_id": "75c8e6e1-f5af-462f-b784-848443b83bf9"
+    },
+    {
+      "choices": [
+        "By configuring server-side hooks",
+        "Through direct repository configuration options",
+        "By setting up a Git workflow policy",
+        "Using client-side hooks"
+      ],
+      "answer": 1,
+      "question_id": "cc8aa13f-bdd3-4ce4-a920-2952ac9f7f48"
+    },
+    {
+      "choices": [
+        "Use a single branch for all developments to simplify management",
+        "Implement feature toggles for every new feature instead of branching",
+        "Adopt a Git workflow like Gitflow or GitHub flow that best fits the team's needs",
+        "Make each developer work in their own fork of the repository"
+      ],
+      "answer": 2,
+      "question_id": "6942c7a7-b649-4743-8658-e8dba7905994"
+    },
+    {
+      "choices": [
+        "Merge all branches and remove the unnecessary ones.",
+        "Compress file revisions to reduce disk space and increase performance.",
+        "Change the base of the current branch to a new commit.",
+        "Revert the repository to a previous commit state."
+      ],
+      "answer": 1,
+      "question_id": "34abb217-593b-423b-9ef6-5a99ff8183a1"
+    },
+    {
+      "choices": [
+        "Use the `git-merge-binary` option",
+        "Convert binary files to text before adding to Git",
+        "Use the `git-lfs` (Git Large File Storage) extension",
+        "Use the `binary` attribute in .gitattributes file"
+      ],
+      "answer": 2,
+      "question_id": "8a9081e6-5892-439d-8a1a-3c2b14fd2243"
+    },
+    {
+      "choices": [
+        "Using the merge tool specified in your system's configuration",
+        "Applying a patch with the 'patch' command",
+        "Utilizing a third-party diff tool like Beyond Compare",
+        "You cannot perform a three-way merge outside of Git"
+      ],
+      "answer": 1,
+      "question_id": "118160ee-5bec-463c-a197-0ac7c818aef6"
+    },
+    {
+      "choices": [
+        "Increase Git's file size limit",
+        "Store them directly in the repository",
+        "Use Git LFS (Large File Storage)",
+        "Split the binary files into smaller chunks"
+      ],
+      "answer": 2,
+      "question_id": "e1a8ac02-ea87-4e08-8cec-377011508365"
+    },
+    {
+      "choices": [
+        "Use the 'git add --all' command before committing",
+        "Split the commit into multiple smaller commits",
+        "Use the 'git atomic' command",
+        "Bundle related changes into a single commit"
+      ],
+      "answer": 3,
+      "question_id": "64edac72-0838-4d0b-af51-d9f9b8c8a4f8"
+    },
+    {
+      "choices": [
+        "Use the 'git pipeline' command",
+        "Create a .gitconfig file with pipeline settings",
+        "Integrate with a CI/CD tool like Jenkins or GitHub Actions and define workflows",
+        "Directly push code to the master branch to automatically deploy"
+      ],
+      "answer": 2,
+      "question_id": "d617874f-b76e-4ed5-80aa-46c78964c98a"
+    },
+    {
+      "choices": [
+        "Use the git-ignore command to exclude files with sensitive data.",
+        "Store sensitive data in a separate public repository.",
+        "Delete the sensitive files and commit the changes.",
+        "Use the git-crypt tool to encrypt files with sensitive data."
+      ],
+      "answer": 3,
+      "question_id": "0ef9a1cd-299f-43aa-8962-142f3690f2ec"
+    }
+  ]
+}

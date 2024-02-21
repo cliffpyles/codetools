@@ -1,0 +1,1507 @@
+{
+  "topic": "JavaScript",
+  "questions": [
+    {
+      "id": "691add20-1f85-4f51-b2a8-886d3aebbc5a",
+      "difficulty": 1,
+      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?"
+    },
+    {
+      "id": "c8b2ef04-0fad-461f-8efc-4f974c4e5261",
+      "difficulty": 1,
+      "question": "Which event occurs when the user clicks on an HTML element?"
+    },
+    {
+      "id": "e37007ac-8980-47f2-82b3-f89c3cc55e7d",
+      "difficulty": 1,
+      "question": "How do you declare a JavaScript variable?"
+    },
+    {
+      "id": "e969358c-78b3-4310-ab4e-199add608367",
+      "difficulty": 1,
+      "question": "What is the correct syntax for changing the content of the following HTML element? <p id='demo'>This is a demonstration.</p>"
+    },
+    {
+      "id": "9db6c5b2-2b8f-4636-b99d-093401efca72",
+      "difficulty": 1,
+      "question": "Where is the correct place to insert a JavaScript?"
+    },
+    {
+      "id": "67760a8d-b771-4bf9-a3f7-752c27020788",
+      "difficulty": 1,
+      "question": "What operator is used to assign a value to a variable?"
+    },
+    {
+      "id": "43c7df66-4979-4ae0-becc-e1f8ae34ef9f",
+      "difficulty": 1,
+      "question": "How do you create a function in JavaScript?"
+    },
+    {
+      "id": "36c6e941-5f8c-4748-a5cc-2bcc87aa2765",
+      "difficulty": 1,
+      "question": "How do you call a function named 'myFunction'?"
+    },
+    {
+      "id": "aed84ded-e465-4f27-af44-935259023e97",
+      "difficulty": 1,
+      "question": "How to write an IF statement in JavaScript?"
+    },
+    {
+      "id": "c30c408b-224b-4e35-97c1-b11af0d85d92",
+      "difficulty": 1,
+      "question": "How does a WHILE loop start?"
+    },
+    {
+      "id": "5ed0b112-c694-4a31-803d-6562f1cacde5",
+      "difficulty": 1,
+      "question": "How can you add a comment in a JavaScript?"
+    },
+    {
+      "id": "9704dd9e-4a47-4f2f-8611-7b65ab2d9347",
+      "difficulty": 1,
+      "question": "What is the correct way to write a JavaScript array?"
+    },
+    {
+      "id": "24c8d1fd-62b4-4b3f-9cbc-cdf517c89d8b",
+      "difficulty": 1,
+      "question": "Which operator is used to test equality (including type) between two values?"
+    },
+    {
+      "id": "1c8c7bf2-78ee-4fc3-afa6-df03fba16db1",
+      "difficulty": 1,
+      "question": "How do you round the number 7.25, to the nearest integer?"
+    },
+    {
+      "id": "c75a71cc-d6e3-4e1b-a27e-05da069da8a9",
+      "difficulty": 1,
+      "question": "What method adds new items to the end of an array, and returns the new length?"
+    },
+    {
+      "id": "90070e28-cb49-4506-a53b-dde51506083c",
+      "difficulty": 1,
+      "question": "Which statement is used to stop a loop?"
+    },
+    {
+      "id": "a9ea39ea-2c75-441e-93b3-8fec7698af5d",
+      "difficulty": 1,
+      "question": "How can you detect the client's browser name?"
+    },
+    {
+      "id": "94e0d407-0912-485d-9d8b-5b7b9be78ab1",
+      "difficulty": 1,
+      "question": "What is the syntax for creating a promise?"
+    },
+    {
+      "id": "0ab9a06d-a8ea-4082-a3c3-51915c6545d6",
+      "difficulty": 1,
+      "question": "How do you find the number with the highest value of x and y?"
+    },
+    {
+      "id": "9ab26add-b935-4304-8a13-adbe2dd1541e",
+      "difficulty": 1,
+      "question": "Which method can be used to find elements by class name in a document?"
+    },
+    {
+      "id": "2b5c2f69-626a-4ede-9b4e-f7bc61377309",
+      "difficulty": 2,
+      "question": "What will the following code output? console.log(typeof NaN);"
+    },
+    {
+      "id": "f83990cd-6dc3-4d71-a61d-7ab9bade6287",
+      "difficulty": 2,
+      "question": "Which method would be used to convert a JSON text into a JavaScript object?"
+    },
+    {
+      "id": "a78c0578-682d-4b8d-be6d-05e6e831318a",
+      "difficulty": 2,
+      "question": "How can you get the total number of arguments passed to a function?"
+    },
+    {
+      "id": "c4607147-a781-429f-bd94-82636ce16c21",
+      "difficulty": 2,
+      "question": "Which JavaScript property returns the number of characters in a string?"
+    },
+    {
+      "id": "dbb54462-f039-4f1b-aa4d-2c83377c55be",
+      "difficulty": 2,
+      "question": "What will the following code return: Boolean(10 > 9)?"
+    },
+    {
+      "id": "bf5e7516-3716-4434-84da-93c3d5d96b89",
+      "difficulty": 2,
+      "question": "Which operator is used to concatenate two strings?"
+    },
+    {
+      "id": "f41ca44f-82c7-44bf-bf3b-5c65c843bec9",
+      "difficulty": 2,
+      "question": "What is the JavaScript syntax for printing values in Console?"
+    },
+    {
+      "id": "afda5448-9b9b-4493-b9a1-94d980ec6a97",
+      "difficulty": 2,
+      "question": "How do you declare a JavaScript variable that will not change?"
+    },
+    {
+      "id": "3c44b2a5-f32e-471f-8fe6-2d535d22df08",
+      "difficulty": 2,
+      "question": "What method is used to remove whitespace from both ends of a string?"
+    },
+    {
+      "id": "8b04fb51-df08-4bbd-9301-4cb57aed8a3a",
+      "difficulty": 2,
+      "question": "Which statement creates a new object?"
+    },
+    {
+      "id": "2275bc7e-eec0-4d6a-befd-9182d62ea601",
+      "difficulty": 2,
+      "question": "What is 'this' keyword in JavaScript?"
+    },
+    {
+      "id": "db6286a1-e6fd-4547-8fcf-a5ceed844681",
+      "difficulty": 2,
+      "question": "How do you find the minimum of x and y using JavaScript?"
+    },
+    {
+      "id": "41b46acb-1b56-4581-9a12-fc4ef79155db",
+      "difficulty": 2,
+      "question": "Which method would you use to search a string for a specified value and return its position?"
+    },
+    {
+      "id": "310287c7-be83-4070-95f1-dfda178080be",
+      "difficulty": 2,
+      "question": "What will this code return? 'Boolean(3 < 7)'"
+    },
+    {
+      "id": "68ccd906-7822-4aaa-a192-46c8cfed12ae",
+      "difficulty": 2,
+      "question": "How do you declare a JavaScript variable that can hold multiple values?"
+    },
+    {
+      "id": "6bc01c56-a98d-4282-9a17-e20cfc075779",
+      "difficulty": 2,
+      "question": "What does 'NaN' mean in JavaScript?"
+    },
+    {
+      "id": "b2425f16-849e-4add-8300-c3abbb3215dc",
+      "difficulty": 2,
+      "question": "How can you detect whether a variable is an array in JavaScript?"
+    },
+    {
+      "id": "28cb9de3-d6ff-4dac-970b-4322108ee262",
+      "difficulty": 2,
+      "question": "How is a forEach loop different from a for loop?"
+    },
+    {
+      "id": "d41da91b-6fca-4f0f-a496-3aa81d40e805",
+      "difficulty": 2,
+      "question": "What will the following code log? console.log(1 + '2' + '2');"
+    },
+    {
+      "id": "601ac9cd-6ae4-45b3-ac45-75ed80d0a35a",
+      "difficulty": 2,
+      "question": "How do you make a function wait for a certain amount of time before continuing to execute?"
+    },
+    {
+      "id": "61d30bb7-e81b-4f1d-b4be-f7e3b21e5e2d",
+      "difficulty": 3,
+      "question": "How do you handle exceptions in JavaScript?"
+    },
+    {
+      "id": "20022202-efd7-4292-9066-a637dfd4e9d5",
+      "difficulty": 3,
+      "question": "What is event bubbling in JavaScript?"
+    },
+    {
+      "id": "364368f7-e49d-4195-aeba-9e1905647a51",
+      "difficulty": 3,
+      "question": "What is the prototype chain?"
+    },
+    {
+      "id": "254d5b79-9b5e-4099-8d8b-18100e4a7360",
+      "difficulty": 3,
+      "question": "How do you change the style/color of an HTML element using JavaScript?"
+    },
+    {
+      "id": "ed412e4d-dbd1-4ef4-a410-305efe5acbf7",
+      "difficulty": 3,
+      "question": "What is an Immediately Invoked Function Expression (IIFE) in JavaScript?"
+    },
+    {
+      "id": "ec06ceca-fb86-4634-86da-75d2444768d3",
+      "difficulty": 3,
+      "question": "How to parse a string to an integer?"
+    },
+    {
+      "id": "4052186c-7b4f-4195-8de7-e66295a8b9d3",
+      "difficulty": 3,
+      "question": "What is the purpose of the Array method splice()?"
+    },
+    {
+      "id": "3f52d8cc-4d42-4357-adf1-5fa047596eee",
+      "difficulty": 3,
+      "question": "How do you create a private variable in JavaScript?"
+    },
+    {
+      "id": "2ef4724a-877e-45b4-b4f7-f67db6193111",
+      "difficulty": 3,
+      "question": "What is the difference between '==' and '===' in JavaScript?"
+    },
+    {
+      "id": "b68884c0-f987-42f4-953c-a3fca6d7e22f",
+      "difficulty": 3,
+      "question": "How do you copy an object in JavaScript?"
+    },
+    {
+      "id": "7bdcbf3d-a52c-4707-9f18-b937b88a9630",
+      "difficulty": 3,
+      "question": "What is a closure in JavaScript?"
+    },
+    {
+      "id": "79964c00-5158-460d-8fa8-72eb6010ed47",
+      "difficulty": 3,
+      "question": "How does the 'this' keyword work inside an arrow function?"
+    },
+    {
+      "id": "d27f9049-0b1b-466f-a5f5-74107636a60b",
+      "difficulty": 3,
+      "question": "What are template literals in JavaScript?"
+    },
+    {
+      "id": "8195585f-879c-4d03-acf3-43eaec4a74fb",
+      "difficulty": 3,
+      "question": "How can you prevent a form from being submitted?"
+    },
+    {
+      "id": "62e56b4b-2ed8-4dfd-962a-9ab2aec174d6",
+      "difficulty": 3,
+      "question": "How do you convert a Date object into a string?"
+    },
+    {
+      "id": "bc2bdaa5-c57c-499a-bd03-156151d618e4",
+      "difficulty": 3,
+      "question": "What will happen if you attempt to run this code? 'console.log(x); let x = 5;'"
+    },
+    {
+      "id": "596eade2-9a4e-4327-88af-20234a56ee68",
+      "difficulty": 3,
+      "question": "How can you check if a key exists within an object?"
+    },
+    {
+      "id": "ba48887f-a79f-452d-8177-a598ca2445be",
+      "difficulty": 3,
+      "question": "What are promises in JavaScript used for?"
+    },
+    {
+      "id": "42b1f918-7312-4b38-a37a-c794b2b011be",
+      "difficulty": 3,
+      "question": "What will the following code output? console.log(0.1 + 0.2 == 0.3);"
+    },
+    {
+      "id": "9fad4db1-abad-4dd4-88bb-47f350ffb1d4",
+      "difficulty": 3,
+      "question": "What is the execution context in JavaScript?"
+    },
+    {
+      "id": "6fd82186-8489-456c-b38f-ef270369db78",
+      "difficulty": 4,
+      "question": "How does JavaScript prototype inheritance work?"
+    },
+    {
+      "id": "f8f92f6a-7997-4403-b9a1-d787293391b0",
+      "difficulty": 4,
+      "question": "What is the difference between 'null' and 'undefined'?"
+    },
+    {
+      "id": "99068239-b522-4e35-9b52-ac5193316c32",
+      "difficulty": 4,
+      "question": "How do you create a class in JavaScript?"
+    },
+    {
+      "id": "c9b35476-9b8b-40a6-bbb9-ac2fdf47a571",
+      "difficulty": 4,
+      "question": "What are generators in JavaScript and how are they used?"
+    },
+    {
+      "id": "2d665442-1900-4939-92c7-658e0f44bbeb",
+      "difficulty": 4,
+      "question": "What is the event loop in JavaScript?"
+    },
+    {
+      "id": "5bd42ee3-c560-4a68-bf75-ba34597f179a",
+      "difficulty": 4,
+      "question": "What is the Function constructor?"
+    },
+    {
+      "id": "75181e3b-45af-4d92-a779-f8e4d2766d8f",
+      "difficulty": 4,
+      "question": "How can you prevent JavaScript code from running on Internet Explorer?"
+    },
+    {
+      "id": "f37bc6cf-904c-4a35-9277-62ebbec998ca",
+      "difficulty": 4,
+      "question": "What are Web Workers and why would you use them?"
+    },
+    {
+      "id": "231fe663-de6b-4155-9b4e-f6670a0ea1bb",
+      "difficulty": 4,
+      "question": "How do you debug JavaScript code?"
+    },
+    {
+      "id": "a0476157-2564-4d1a-892e-19fc3e93603b",
+      "difficulty": 4,
+      "question": "What is a Memory Leak in JavaScript and how can it be prevented?"
+    },
+    {
+      "id": "c82ffac2-6f54-4b01-a0d5-eb27d754cf68",
+      "difficulty": 4,
+      "question": "What are service workers and how do they function?"
+    },
+    {
+      "id": "beca1fe2-5e6f-4706-b152-f75faeee1165",
+      "difficulty": 4,
+      "question": "How can JavaScript achieve multithreading?"
+    },
+    {
+      "id": "8ac7d26a-698d-48bf-94c7-08d7608be5b6",
+      "difficulty": 4,
+      "question": "What is shadow DOM?"
+    },
+    {
+      "id": "c544f999-76c9-4d0f-8ffc-0cc4b98540a6",
+      "difficulty": 4,
+      "question": "How do you perform deep cloning of an object?"
+    },
+    {
+      "id": "0e163e98-c524-404b-a580-f90bc69a1e41",
+      "difficulty": 4,
+      "question": "What are Symbols in JavaScript?"
+    },
+    {
+      "id": "fd18f7b2-e556-4dda-a597-24553dd894f3",
+      "difficulty": 4,
+      "question": "How do you ensure your JavaScript code runs securely?"
+    },
+    {
+      "id": "5202dcc3-86b5-4cd3-9c68-fbcff992ef8b",
+      "difficulty": 4,
+      "question": "What is the significance of using WebAssembly in a JavaScript project?"
+    },
+    {
+      "id": "580cac07-5b6b-4430-863a-bbb28e832271",
+      "difficulty": 4,
+      "question": "What are async functions and how do they work?"
+    },
+    {
+      "id": "5c738557-9752-4ea0-bcec-c658cd14297e",
+      "difficulty": 4,
+      "question": "How does event delegation work in JavaScript?"
+    },
+    {
+      "id": "afa80958-97db-4920-a855-97eff1fdfa16",
+      "difficulty": 4,
+      "question": "What are the benefits of using the 'strict mode' in JavaScript?"
+    },
+    {
+      "id": "f51e9ea6-4748-425d-8418-2ab9b6a6100a",
+      "difficulty": 5,
+      "question": "How do you optimize JavaScript execution for high-performance website renderings?"
+    },
+    {
+      "id": "73702aea-af8d-445f-8d4d-2ea6c0347951",
+      "difficulty": 5,
+      "question": "Explain the concept of destructuring in JavaScript."
+    },
+    {
+      "id": "cb9ecfc1-dcbb-49ea-bff4-a5c3bee3b582",
+      "difficulty": 5,
+      "question": "How does the 'import' and 'export' work in ECMAScript 6?"
+    },
+    {
+      "id": "56ebe5e8-e97d-4992-9b65-d082c33b5152",
+      "difficulty": 5,
+      "question": "What are dynamic imports in JavaScript and when to use them?"
+    },
+    {
+      "id": "e0c68e04-7a3c-4b70-84c5-dd679860141f",
+      "difficulty": 5,
+      "question": "How does JavaScript handle module loading and dependencies?"
+    },
+    {
+      "id": "c3c12f11-a515-4407-b5f1-13e9ea7b1c89",
+      "difficulty": 5,
+      "question": "Explain the concept of Higher-Order Functions in JavaScript."
+    },
+    {
+      "id": "509b5b90-c392-401b-abbe-a333f78c8c35",
+      "difficulty": 5,
+      "question": "What are the different ways to securely handle user authentication in JavaScript?"
+    },
+    {
+      "id": "1ce7dd34-bb07-457e-b1d0-f32336e566e3",
+      "difficulty": 5,
+      "question": "Discuss the differences between Observables and Promises."
+    },
+    {
+      "id": "3372e0ea-ec9a-451c-8899-3c7af8bc4962",
+      "difficulty": 5,
+      "question": "How do Service Workers enhance the performance of a web application?"
+    },
+    {
+      "id": "5775e879-7266-4cff-ae8f-7c310db4b4e6",
+      "difficulty": 5,
+      "question": "What is tree shaking in JavaScript and how does it affect bundle size?"
+    },
+    {
+      "id": "e7168d13-b6e0-49f5-8e6c-540e9031e182",
+      "difficulty": 5,
+      "question": "Explain how closures work in detail and provide examples."
+    },
+    {
+      "id": "6af1ad92-80bc-4a10-8ebd-ad293b67363d",
+      "difficulty": 5,
+      "question": "What is the difference between virtual DOM and real DOM?"
+    },
+    {
+      "id": "74f5da54-43e6-4563-8d46-46de730f7548",
+      "difficulty": 5,
+      "question": "What are Proxy objects and how do they work?"
+    },
+    {
+      "id": "b7e74535-1b36-4f44-81ea-820efe7891c1",
+      "difficulty": 5,
+      "question": "Explain the concept of currying in JavaScript and provide a use case."
+    },
+    {
+      "id": "18de52d9-2fc0-4566-84bd-8e4f180c0233",
+      "difficulty": 5,
+      "question": "How does JavaScript handle memory management and garbage collection?"
+    },
+    {
+      "id": "b903c1e5-d1b5-467a-a1d7-cbf3405978a0",
+      "difficulty": 5,
+      "question": "Discuss the security implications of using eval() in JavaScript."
+    },
+    {
+      "id": "bf01e810-0924-4eae-bd87-57cd2d026c8c",
+      "difficulty": 5,
+      "question": "How does TypeScript enhance JavaScript development?"
+    },
+    {
+      "id": "a5364393-9183-417f-ba62-d201eb9659b2",
+      "difficulty": 5,
+      "question": "What are decorators in JavaScript and how are they used?"
+    },
+    {
+      "id": "30b9bc8d-c09e-459d-8f3f-0ea2246c5a4d",
+      "difficulty": 5,
+      "question": "What is the BigInt data type and what problem does it solve?"
+    },
+    {
+      "id": "0cbc080f-a68e-493e-9f24-f3fdcd839967",
+      "difficulty": 5,
+      "question": "Explain how the ES Module Loader works in JavaScript."
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "<script src='xxx.js'>",
+        "<script href='xxx.js'>",
+        "<script name='xxx.js'>",
+        "<script link='xxx.js'>"
+      ],
+      "answer": 0,
+      "question_id": "691add20-1f85-4f51-b2a8-886d3aebbc5a"
+    },
+    {
+      "choices": [
+        "onmouseover",
+        "onclick",
+        "onchange",
+        "onfocus"
+      ],
+      "answer": 1,
+      "question_id": "c8b2ef04-0fad-461f-8efc-4f974c4e5261"
+    },
+    {
+      "choices": [
+        "var myVar;",
+        "variable myVar;",
+        "v myVar;",
+        "declare myVar;"
+      ],
+      "answer": 0,
+      "question_id": "e37007ac-8980-47f2-82b3-f89c3cc55e7d"
+    },
+    {
+      "choices": [
+        "document.getElementById('demo').innerHTML = 'New content';",
+        "document.getElementByName('p').value = 'New content';",
+        "#demo.innerHTML = 'New content';",
+        "document.getElement('p#demo').innerHTML = 'New content';"
+      ],
+      "answer": 0,
+      "question_id": "e969358c-78b3-4310-ab4e-199add608367"
+    },
+    {
+      "choices": [
+        "In the 'head' section",
+        "Directly before the closing </body> tag",
+        "Anywhere in the HTML document",
+        "In the 'footer' section"
+      ],
+      "answer": 1,
+      "question_id": "9db6c5b2-2b8f-4636-b99d-093401efca72"
+    },
+    {
+      "choices": [
+        "=",
+        "==",
+        "===",
+        "->"
+      ],
+      "answer": 0,
+      "question_id": "67760a8d-b771-4bf9-a3f7-752c27020788"
+    },
+    {
+      "choices": [
+        "function:myFunction()",
+        "function myFunction()",
+        "create myFunction()",
+        "def myFunction()"
+      ],
+      "answer": 1,
+      "question_id": "43c7df66-4979-4ae0-becc-e1f8ae34ef9f"
+    },
+    {
+      "choices": [
+        "call myFunction()",
+        "myFunction()",
+        "myFunction call",
+        "execute myFunction()"
+      ],
+      "answer": 1,
+      "question_id": "36c6e941-5f8c-4748-a5cc-2bcc87aa2765"
+    },
+    {
+      "choices": [
+        "if a > b then",
+        "if (a > b)",
+        "if a > b:",
+        "IF a > b end if"
+      ],
+      "answer": 1,
+      "question_id": "aed84ded-e465-4f27-af44-935259023e97"
+    },
+    {
+      "choices": [
+        "while (i <= 10; i++)",
+        "while i = 1 to 10",
+        "while (i <= 10)",
+        "while i < 10"
+      ],
+      "answer": 2,
+      "question_id": "c30c408b-224b-4e35-97c1-b11af0d85d92"
+    },
+    {
+      "choices": [
+        "/* This is a comment */",
+        "<!-- This is a comment -->",
+        "// This is a comment",
+        "' This is a comment"
+      ],
+      "answer": 2,
+      "question_id": "5ed0b112-c694-4a31-803d-6562f1cacde5"
+    },
+    {
+      "choices": [
+        "var colors = \"red\", \"green\", \"blue\"",
+        "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+        "var colors = [\"red\", \"green\", \"blue\"]",
+        "var colors = {1:\"red\", 2:\"green\", 3:\"blue\"}"
+      ],
+      "answer": 2,
+      "question_id": "9704dd9e-4a47-4f2f-8611-7b65ab2d9347"
+    },
+    {
+      "choices": [
+        "==",
+        "!=",
+        "===",
+        "!=="
+      ],
+      "answer": 2,
+      "question_id": "24c8d1fd-62b4-4b3f-9cbc-cdf517c89d8b"
+    },
+    {
+      "choices": [
+        "Math.ceil(7.25)",
+        "7.25.toFixed(0)",
+        "Math.round(7.25)",
+        "Number.round(7.25)"
+      ],
+      "answer": 2,
+      "question_id": "1c8c7bf2-78ee-4fc3-afa6-df03fba16db1"
+    },
+    {
+      "choices": [
+        "unshift()",
+        "pop()",
+        "push()",
+        "splice()"
+      ],
+      "answer": 2,
+      "question_id": "c75a71cc-d6e3-4e1b-a27e-05da069da8a9"
+    },
+    {
+      "choices": [
+        "exit",
+        "stop",
+        "break",
+        "terminate"
+      ],
+      "answer": 2,
+      "question_id": "90070e28-cb49-4506-a53b-dde51506083c"
+    },
+    {
+      "choices": [
+        "window.client.name",
+        "navigator.appName",
+        "browser.name",
+        "client.browser"
+      ],
+      "answer": 1,
+      "question_id": "a9ea39ea-2c75-441e-93b3-8fec7698af5d"
+    },
+    {
+      "choices": [
+        "new Promise[]",
+        "Promise() => {}",
+        "new Promise()",
+        "promise: {}"
+      ],
+      "answer": 2,
+      "question_id": "94e0d407-0912-485d-9d8b-5b7b9be78ab1"
+    },
+    {
+      "choices": [
+        "Math.findHigh(x, y)",
+        "Math.max(x, y)",
+        "Math.highest(x, y)",
+        "x.max(y)"
+      ],
+      "answer": 1,
+      "question_id": "0ab9a06d-a8ea-4082-a3c3-51915c6545d6"
+    },
+    {
+      "choices": [
+        "getElementByClassName",
+        "querySelectorAll",
+        "findByClass",
+        "getElementsByClassName"
+      ],
+      "answer": 3,
+      "question_id": "9ab26add-b935-4304-8a13-adbe2dd1541e"
+    },
+    {
+      "choices": [
+        "undefined",
+        "number",
+        "NaN",
+        "object"
+      ],
+      "answer": 1,
+      "question_id": "2b5c2f69-626a-4ede-9b4e-f7bc61377309"
+    },
+    {
+      "choices": [
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.toObject()",
+        "JSON.decode()"
+      ],
+      "answer": 1,
+      "question_id": "f83990cd-6dc3-4d71-a61d-7ab9bade6287"
+    },
+    {
+      "choices": [
+        "By using the args.length property",
+        "By using the window.arguments property",
+        "By using the arguments.length property",
+        "By using the document.argCount attribute"
+      ],
+      "answer": 2,
+      "question_id": "a78c0578-682d-4b8d-be6d-05e6e831318a"
+    },
+    {
+      "choices": [
+        "length",
+        "charCount",
+        "getSize()",
+        "length()"
+      ],
+      "answer": 0,
+      "question_id": "c4607147-a781-429f-bd94-82636ce16c21"
+    },
+    {
+      "choices": [
+        "undefined",
+        "false",
+        "0",
+        "true"
+      ],
+      "answer": 3,
+      "question_id": "dbb54462-f039-4f1b-aa4d-2c83377c55be"
+    },
+    {
+      "choices": [
+        "+",
+        "*",
+        "-",
+        "/"
+      ],
+      "answer": 0,
+      "question_id": "bf5e7516-3716-4434-84da-93c3d5d96b89"
+    },
+    {
+      "choices": [
+        "println(value);",
+        "console.print(value);",
+        "document.log(value);",
+        "console.log(value);"
+      ],
+      "answer": 3,
+      "question_id": "f41ca44f-82c7-44bf-bf3b-5c65c843bec9"
+    },
+    {
+      "choices": [
+        "var myVar = 'constant';",
+        "const myVar = 'constant';",
+        "let myVar = 'constant';",
+        "myVar = 'constant';"
+      ],
+      "answer": 1,
+      "question_id": "afda5448-9b9b-4493-b9a1-94d980ec6a97"
+    },
+    {
+      "choices": [
+        "concat()",
+        "trim()",
+        "strip()",
+        "cut()"
+      ],
+      "answer": 1,
+      "question_id": "3c44b2a5-f32e-471f-8fe6-2d535d22df08"
+    },
+    {
+      "choices": [
+        "var obj = newObject();",
+        "var obj = Object();",
+        "var obj = new Object();",
+        "var obj = {};"
+      ],
+      "answer": 2,
+      "question_id": "8b04fb51-df08-4bbd-9301-4cb57aed8a3a"
+    },
+    {
+      "choices": [
+        "A name of a specific variable in global scope",
+        "A keyword referring to the global object",
+        "The object that is currently executing the function",
+        "A way to define new objects"
+      ],
+      "answer": 2,
+      "question_id": "2275bc7e-eec0-4d6a-befd-9182d62ea601"
+    },
+    {
+      "choices": [
+        "Math.min(x, y)",
+        "Math.minimum(x, y)",
+        "min(x, y)",
+        "x.min(y)"
+      ],
+      "answer": 0,
+      "question_id": "db6286a1-e6fd-4547-8fcf-a5ceed844681"
+    },
+    {
+      "choices": [
+        "findIndex()",
+        "search()",
+        "locate()",
+        "indexOf()"
+      ],
+      "answer": 3,
+      "question_id": "41b46acb-1b56-4581-9a12-fc4ef79155db"
+    },
+    {
+      "choices": [
+        "undefined",
+        "false",
+        "true",
+        "0"
+      ],
+      "answer": 2,
+      "question_id": "310287c7-be83-4070-95f1-dfda178080be"
+    },
+    {
+      "choices": [
+        "Use a string with comma-separated values",
+        "Declare a variable with the 'multi' keyword",
+        "Declare an array",
+        "Instantiate a new object"
+      ],
+      "answer": 2,
+      "question_id": "68ccd906-7822-4aaa-a192-46c8cfed12ae"
+    },
+    {
+      "choices": [
+        "Not a Name",
+        "Not a Number",
+        "Number at Null",
+        "New Array Name"
+      ],
+      "answer": 1,
+      "question_id": "6bc01c56-a98d-4282-9a17-e20cfc075779"
+    },
+    {
+      "choices": [
+        "Array.isArray(variable)",
+        "variable.isArray()",
+        "variable.type() === 'array'",
+        "typeof variable === 'array'"
+      ],
+      "answer": 0,
+      "question_id": "b2425f16-849e-4add-8300-c3abbb3215dc"
+    },
+    {
+      "choices": [
+        "A forEach loop can only be used with arrays, whereas a for loop can iterate over any iterable.",
+        "A forEach loop guarantees execution in reverse order, while a for loop does not.",
+        "A forEach loop increments a counter automatically, while a for loop requires manual incrementation.",
+        "A forEach loop does not exist in JavaScript."
+      ],
+      "answer": 0,
+      "question_id": "28cb9de3-d6ff-4dac-970b-4322108ee262"
+    },
+    {
+      "choices": [
+        "5",
+        "32",
+        "122",
+        "14"
+      ],
+      "answer": 2,
+      "question_id": "d41da91b-6fca-4f0f-a496-3aa81d40e805"
+    },
+    {
+      "choices": [
+        "setTimeout(function() { /* code here */ }, time_ms);",
+        "function.wait(time_ms);",
+        "delay(time_ms);",
+        "pause(time_ms);"
+      ],
+      "answer": 0,
+      "question_id": "601ac9cd-6ae4-45b3-ac45-75ed80d0a35a"
+    },
+    {
+      "choices": [
+        "Using the try...else...finally statement",
+        "Using the try...catch...finally statement",
+        "Using the onError() function",
+        "Using the detectError() method"
+      ],
+      "answer": 1,
+      "question_id": "61d30bb7-e81b-4f1d-b4be-f7e3b21e5e2d"
+    },
+    {
+      "choices": [
+        "A method for selecting DOM elements.",
+        "A technique to optimize JavaScript loading times.",
+        "A process whereby an event propagates from the target element up through the DOM tree.",
+        "A debugging method for JavaScript applications."
+      ],
+      "answer": 2,
+      "question_id": "20022202-efd7-4292-9066-a637dfd4e9d5"
+    },
+    {
+      "choices": [
+        "The process of searching for a property in an object's parent scopes",
+        "A design pattern used for creating objects in programming",
+        "The mechanism by which JavaScript objects inherit features from one another",
+        "A series of functions automatically called when an error occurs"
+      ],
+      "answer": 2,
+      "question_id": "364368f7-e49d-4195-aeba-9e1905647a51"
+    },
+    {
+      "choices": [
+        "document.getElement('p').style.color = 'red';",
+        "document.getElementById('p').color = 'red';",
+        "document.querySelector('p').style.color = 'red';",
+        "document.getElementsByTagName('p').setColor('red');"
+      ],
+      "answer": 2,
+      "question_id": "254d5b79-9b5e-4099-8d8b-18100e4a7360"
+    },
+    {
+      "choices": [
+        "A type of class in JavaScript.",
+        "A variable that stores all immediate functions.",
+        "A function that runs as soon as it is defined.",
+        "A library for asynchronous programming."
+      ],
+      "answer": 2,
+      "question_id": "ed412e4d-dbd1-4ef4-a410-305efe5acbf7"
+    },
+    {
+      "choices": [
+        "parseInt(string)",
+        "string.toInt()",
+        "Number.parse(string)",
+        "string.parseNumber()"
+      ],
+      "answer": 0,
+      "question_id": "ec06ceca-fb86-4634-86da-75d2444768d3"
+    },
+    {
+      "choices": [
+        "To loop through an array",
+        "To remove or replace existing elements and/or add new elements in place",
+        "To merge two or more arrays",
+        "To find the first element in the array that satisfies a provided testing function"
+      ],
+      "answer": 1,
+      "question_id": "4052186c-7b4f-4195-8de7-e66295a8b9d3"
+    },
+    {
+      "choices": [
+        "Using the # symbol before the variable name",
+        "Declaring the variable inside a function",
+        "Using the keyword private",
+        "Appending _ to the beginning of the variable name"
+      ],
+      "answer": 0,
+      "question_id": "3f52d8cc-4d42-4357-adf1-5fa047596eee"
+    },
+    {
+      "choices": [
+        "'==' checks for value equality, while '===' checks for both value and type equality.",
+        "'==' checks for type equality, while '===' checks for value equality.",
+        "'===' is a strict inequality operator, whereas '==' is a loose inequality operator.",
+        "There is no difference; they are used interchangeably."
+      ],
+      "answer": 0,
+      "question_id": "2ef4724a-877e-45b4-b4f7-f67db6193111"
+    },
+    {
+      "choices": [
+        "copyObj = Object.assign(obj)",
+        "copyObj = {...obj}",
+        "copyObj = JSON.parse(JSON.stringify(obj))",
+        "copyObj = obj.copy()"
+      ],
+      "answer": 2,
+      "question_id": "b68884c0-f987-42f4-953c-a3fca6d7e22f"
+    },
+    {
+      "choices": [
+        "A pattern for encapsulating private properties in an object",
+        "A function bundled together with references to its surrounding state (lexical environment)",
+        "A feature that allows JavaScript to execute a function after a specified period of time",
+        "An error thrown when a script requests too much memory"
+      ],
+      "answer": 1,
+      "question_id": "7bdcbf3d-a52c-4707-9f18-b937b88a9630"
+    },
+    {
+      "choices": [
+        "It is determined by the function's call site",
+        "It is lexically bound to the scope of the function where it is defined",
+        "It refers to the global object",
+        "It cannot be used inside an arrow function"
+      ],
+      "answer": 1,
+      "question_id": "79964c00-5158-460d-8fa8-72eb6010ed47"
+    },
+    {
+      "choices": [
+        "Keywords for defining asynchronous functions",
+        "A method for parsing JSON strings",
+        "Special strings that allow embedded expressions",
+        "Variables that store multiple values"
+      ],
+      "answer": 2,
+      "question_id": "d27f9049-0b1b-466f-a5f5-74107636a60b"
+    },
+    {
+      "choices": [
+        "Set the form's onsubmit to return false",
+        "Use the stopPropagation method",
+        "Remove the form's action attribute",
+        "Disable the submit button"
+      ],
+      "answer": 0,
+      "question_id": "8195585f-879c-4d03-acf3-43eaec4a74fb"
+    },
+    {
+      "choices": [
+        "dateObj.toString()",
+        "dateObj.toFixed()",
+        "dateObj.parseInt()",
+        "dateObj.toNumber()"
+      ],
+      "answer": 0,
+      "question_id": "62e56b4b-2ed8-4dfd-962a-9ab2aec174d6"
+    },
+    {
+      "choices": [
+        "It prints 'undefined'",
+        "It prints '5'",
+        "ReferenceError is thrown",
+        "SyntaxError is thrown"
+      ],
+      "answer": 2,
+      "question_id": "bc2bdaa5-c57c-499a-bd03-156151d618e4"
+    },
+    {
+      "choices": [
+        "object.exists('key')",
+        "key in object",
+        "'key' === object",
+        "object.includes('key')"
+      ],
+      "answer": 1,
+      "question_id": "596eade2-9a4e-4327-88af-20234a56ee68"
+    },
+    {
+      "choices": [
+        "Styling HTML elements",
+        "Performing asynchronous operations",
+        "Declaring variables",
+        "Creating loops"
+      ],
+      "answer": 1,
+      "question_id": "ba48887f-a79f-452d-8177-a598ca2445be"
+    },
+    {
+      "choices": [
+        "undefined",
+        "false",
+        "true",
+        "ReferenceError"
+      ],
+      "answer": 2,
+      "question_id": "42b1f918-7312-4b38-a37a-c794b2b011be"
+    },
+    {
+      "choices": [
+        "A mechanism for managing the state of variables within a function",
+        "The environment in which JavaScript code is executed and evaluated",
+        "A special object that contains the DOM tree of an HTML document",
+        "A feature that allows asynchronous execution of JavaScript code in intervals"
+      ],
+      "answer": 1,
+      "question_id": "9fad4db1-abad-4dd4-88bb-47f350ffb1d4"
+    },
+    {
+      "choices": [
+        "Every JavaScript function has a prototype property that is shared with every instance of the function, allowing for properties and methods to be shared across all instances.",
+        "JavaScript copies all properties and methods from a parent object to a child object, establishing a static inheritance chain.",
+        "JavaScript uses class-based inheritance similar to Java, where inheritance is defined using the 'class' and 'extends' keywords.",
+        "Inheritance in JavaScript is primarily done using the Cascade Style Sheets (CSS) inheritance mechanism, applying styles from parent to child elements."
+      ],
+      "answer": 0,
+      "question_id": "6fd82186-8489-456c-b38f-ef270369db78"
+    },
+    {
+      "choices": [
+        "'null' is an assignment value that means 'no value', and 'undefined' means a variable has been declared but not defined.",
+        "'null' and 'undefined' are interchangeable and mean the same thing.",
+        "'undefined' is a data type, but 'null' is not.",
+        "'null' is a primitive data type and 'undefined' is an object."
+      ],
+      "answer": 0,
+      "question_id": "f8f92f6a-7997-4403-b9a1-d787293391b0"
+    },
+    {
+      "choices": [
+        "function MyClassName() {}",
+        "class MyClassName {}",
+        "create MyClassName() {}",
+        "MyClassName -> class {}"
+      ],
+      "answer": 1,
+      "question_id": "99068239-b522-4e35-9b52-ac5193316c32"
+    },
+    {
+      "choices": [
+        "A tool for debugging JavaScript code effectively.",
+        "A feature that enables JavaScript to execute multi-threaded code.",
+        "A type of function that can be exited and later re-entered, preserving its context.",
+        "A syntax for specifying the color of text in JavaScript."
+      ],
+      "answer": 2,
+      "question_id": "c9b35476-9b8b-40a6-bbb9-ac2fdf47a571"
+    },
+    {
+      "choices": [
+        "A mechanism to handle multiple inheritance in object-oriented programming",
+        "A way to manage asynchronous operations and execute them at a later time",
+        "A technique for optimizing loops during compilation",
+        "A debugging tool for viewing the call stack"
+      ],
+      "answer": 1,
+      "question_id": "2d665442-1900-4939-92c7-658e0f44bbeb"
+    },
+    {
+      "choices": [
+        "A JavaScript method for creating a new array",
+        "A built-in constructor in JavaScript for creating new function objects",
+        "A syntax for declaring classes in JavaScript",
+        "A method to convert JSON data to a JavaScript object"
+      ],
+      "answer": 1,
+      "question_id": "5bd42ee3-c560-4a68-bf75-ba34597f179a"
+    },
+    {
+      "choices": [
+        "Place the JavaScript code inside a <nobrowser> tag.",
+        "Use the 'if' statement to check the browser version.",
+        "Add a 'Not Supported' message inside the <script> tags.",
+        "Use conditional comments to exclude script from IE."
+      ],
+      "answer": 3,
+      "question_id": "75181e3b-45af-4d92-a779-f8e4d2766d8f"
+    },
+    {
+      "choices": [
+        "A JavaScript feature that restricts operations that can run in a browser tab",
+        "A tool for debugging JavaScript code by stepping through it one line at a time",
+        "A method for writing style guides in JavaScript applications",
+        "A way to run scripts in background threads, allowing for web pages to perform tasks without interrupting the user interface"
+      ],
+      "answer": 3,
+      "question_id": "f37bc6cf-904c-4a35-9277-62ebbec998ca"
+    },
+    {
+      "choices": [
+        "Use the console.log() method",
+        "Use the <debug> tag",
+        "Restart your computer",
+        "Write comments in your code explaining the bug"
+      ],
+      "answer": 0,
+      "question_id": "231fe663-de6b-4155-9b4e-f6670a0ea1bb"
+    },
+    {
+      "choices": [
+        "A section of memory that is occupied forever when an application's memory space is continuously increased, it can be prevented by ensuring that listeners and global variables are limited.",
+        "An algorithm that compresses memory spaces to make the application faster, it is a built-in feature of JavaScript engines.",
+        "A tool in JavaScript for detecting unused variables and functions to reduce the file size.",
+        "A function in JavaScript that automatically deletes user data after a certain period to free up memory."
+      ],
+      "answer": 0,
+      "question_id": "a0476157-2564-4d1a-892e-19fc3e93603b"
+    },
+    {
+      "choices": [
+        "A set of APIs for managing files and directories in JavaScript",
+        "A collection of methods for optimizing network requests in a web application",
+        "A script that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction",
+        "A JavaScript library for creating user interfaces"
+      ],
+      "answer": 2,
+      "question_id": "c82ffac2-6f54-4b01-a0d5-eb27d754cf68"
+    },
+    {
+      "choices": [
+        "Using the setTimeout function",
+        "Implementing AJAX requests",
+        "Through the Web Workers API",
+        "By increasing the call stack size"
+      ],
+      "answer": 2,
+      "question_id": "beca1fe2-5e6f-4706-b152-f75faeee1165"
+    },
+    {
+      "choices": [
+        "A method to combine multiple DOM trees",
+        "A private, encapsulated DOM subtree attached to an element",
+        "An obsolete method for adding CSS to JavaScript",
+        "A debugging technique for examining DOM elements"
+      ],
+      "answer": 1,
+      "question_id": "8ac7d26a-698d-48bf-94c7-08d7608be5b6"
+    },
+    {
+      "choices": [
+        "JSON.parse(JSON.stringify(object))",
+        "Object.assign({}, object)",
+        "object.clone()",
+        "{ ...object }"
+      ],
+      "answer": 0,
+      "question_id": "c544f999-76c9-4d0f-8ffc-0cc4b98540a6"
+    },
+    {
+      "choices": [
+        "A function that converts objects into strings",
+        "A unique and immutable primitive value used to create private identifiers for object properties",
+        "A data structure that stores elements of different types",
+        "An operator used for string concatenations"
+      ],
+      "answer": 1,
+      "question_id": "0e163e98-c524-404b-a580-f90bc69a1e41"
+    },
+    {
+      "choices": [
+        "Using strict mode with 'use strict';",
+        "Including JavaScript code at the beginning of an HTML document",
+        "Regularly updating the JavaScript version used",
+        "Saving JavaScript files with a .secure extension"
+      ],
+      "answer": 0,
+      "question_id": "fd18f7b2-e556-4dda-a597-24553dd894f3"
+    },
+    {
+      "choices": [
+        "To integrate machine learning models directly into web pages",
+        "To enable multi-threading in JavaScript applications",
+        "To increase performance of JavaScript by allowing code to be executed faster than plain JavaScript",
+        "To replace JavaScript with a more modern programming language"
+      ],
+      "answer": 2,
+      "question_id": "5202dcc3-86b5-4cd3-9c68-fbcff992ef8b"
+    },
+    {
+      "choices": [
+        "A set of instructions that pause the execution of JavaScript code until an external resource loads",
+        "Special functions that return a Promise, allowing you to write asynchronous code in a more synchronous fashion",
+        "JavaScript functions that automatically synchronize all operations within them without needing callbacks",
+        "Functions that enhance the speed of JavaScript code execution by running multiple functions in parallel"
+      ],
+      "answer": 1,
+      "question_id": "580cac07-5b6b-4430-863a-bbb28e832271"
+    },
+    {
+      "choices": [
+        "By directly attaching an event listener to the individual DOM element",
+        "By attaching an event listener to a parent element instead of multiple child elements",
+        "By using a special library like jQuery to manage events",
+        "By invoking a function every time the page reloads"
+      ],
+      "answer": 1,
+      "question_id": "5c738557-9752-4ea0-bcec-c658cd14297e"
+    },
+    {
+      "choices": [
+        "Allows the use of undeclared variables",
+        "Enhances performance by optimizing the compiled code",
+        "Makes debugging easier by catching common coding bloopers",
+        "Enables the use of older, deprecated JavaScript features"
+      ],
+      "answer": 2,
+      "question_id": "afa80958-97db-4920-a855-97eff1fdfa16"
+    },
+    {
+      "choices": [
+        "Use inline JavaScript for all operations",
+        "Minimize DOM manipulation and batch updates",
+        "Store large data sets in global variables for easy access",
+        "Execute all JavaScript synchronously to maintain execution order"
+      ],
+      "answer": 1,
+      "question_id": "f51e9ea6-4748-425d-8418-2ab9b6a6100a"
+    },
+    {
+      "choices": [
+        "Storing data in multiple variables from arrays or objects in a concise manner",
+        "Breaking a complex problem into smaller, more manageable parts",
+        "A process to secure JavaScript code",
+        "Creating multiple copies of a JavaScript object"
+      ],
+      "answer": 0,
+      "question_id": "73702aea-af8d-445f-8d4d-2ea6c0347951"
+    },
+    {
+      "choices": [
+        "It allows JavaScript files to execute synchronously.",
+        "It creates a copy of the module's methods in the global scope.",
+        "It enables modules to load resources or variables from other modules asynchronously.",
+        "It declares global variables that can be used in different scripts."
+      ],
+      "answer": 2,
+      "question_id": "cb9ecfc1-dcbb-49ea-bff4-a5c3bee3b582"
+    },
+    {
+      "choices": [
+        "A syntax for multi-threading, allowing JavaScript to perform multiple operations in parallel.",
+        "A feature that allows importing JavaScript modules dynamically into your application at runtime.",
+        "A method to import all contents of a file at compile-time for better performance.",
+        "A tool for version management and ensuring that all dependencies are up to date."
+      ],
+      "answer": 1,
+      "question_id": "56ebe5e8-e97d-4992-9b65-d082c33b5152"
+    },
+    {
+      "choices": [
+        "Using the #include statement",
+        "Through the import/export statements",
+        "By employing the @module directive",
+        "Utilizing the <script> tag with a 'module' type attribute"
+      ],
+      "answer": 1,
+      "question_id": "e0c68e04-7a3c-4b70-84c5-dd679860141f"
+    },
+    {
+      "choices": [
+        "A procedure that takes a variable number of arguments",
+        "Functions that operate on other functions, either by taking them as arguments or by returning them",
+        "A method to implement inheritance in JavaScript",
+        "A technique to handle exceptions and errors in program execution"
+      ],
+      "answer": 1,
+      "question_id": "c3c12f11-a515-4407-b5f1-13e9ea7b1c89"
+    },
+    {
+      "choices": [
+        "Storing credentials in global variables",
+        "Using browser cookies with HttpOnly and Secure attributes",
+        "Embedding credentials in the source code",
+        "Sending credentials in every HTTP request header"
+      ],
+      "answer": 1,
+      "question_id": "509b5b90-c392-401b-abbe-a333f78c8c35"
+    },
+    {
+      "choices": [
+        "Observables and Promises are essentially the same but with different names in JavaScript.",
+        "Observables provide support for passing multiple values over time, whereas Promises deal with a single future value.",
+        "Promises are used for iterative computation while Observables are not suitable for this purpose.",
+        "Promises can handle multiple asynchronous operations simultaneously, unlike Observables."
+      ],
+      "answer": 1,
+      "question_id": "1ce7dd34-bb07-457e-b1d0-f32336e566e3"
+    },
+    {
+      "choices": [
+        "They increase the load on the server by requesting resources more frequently",
+        "They allow web applications to run JavaScript in multiple threads",
+        "They enable offline experiences and background syncing by intercepting network requests and caching resources",
+        "They compile JavaScript to machine code for faster execution"
+      ],
+      "answer": 2,
+      "question_id": "3372e0ea-ec9a-451c-8899-3c7af8bc4962"
+    },
+    {
+      "choices": [
+        "A practice of painting DOM trees for performance improvement",
+        "A method of optimizing load times by merging multiple script files",
+        "An optimization technique used to remove unused code from a bundle during the build process",
+        "The process of debugging and fixing circular dependencies in modules"
+      ],
+      "answer": 2,
+      "question_id": "5775e879-7266-4cff-ae8f-7c310db4b4e6"
+    },
+    {
+      "choices": [
+        "A function along with its lexical environment, where the function was declared. For instance, function makeAdder(x) { return function(y) { return x + y; }; } var add5 = makeAdder(5); console.log(add5(2));",
+        "A special type of object that keeps track of variables from other functions. For example, let obj = { name: 'Closure', getName: function() { return this.name; } };",
+        "A library or framework feature that automatically binds the values of variables for asynchronous programming. Usage example: asyncData.then(data => this.data = data);",
+        "An error-handling mechanism in JavaScript that traps exceptions in synchronous code. Example usage: try { nonExistentFunction(); } catch(error) { console.error('Caught:', error); }"
+      ],
+      "answer": 0,
+      "question_id": "e7168d13-b6e0-49f5-8e6c-540e9031e182"
+    },
+    {
+      "choices": [
+        "Virtual DOM allows direct modification and saves changes to the disk, while real DOM does not.",
+        "Virtual DOM can update individual elements without affecting the entire tree, while real DOM updates the entire tree.",
+        "Real DOM supports asynchronous operations, whereas Virtual DOM does not.",
+        "Virtual DOM uses less memory than real DOM because it is stored on the server."
+      ],
+      "answer": 1,
+      "question_id": "6af1ad92-80bc-4a10-8ebd-ad293b67363d"
+    },
+    {
+      "choices": [
+        "Objects that process requests to web servers to enhance privacy and security",
+        "Native JavaScript objects that serve as a base for all JavaScript objects",
+        "Custom user-defined objects that interact with the DOM",
+        "Special objects that allow you to customize fundamental operations (e.g., property lookup, assignment, enumeration, function invocation)"
+      ],
+      "answer": 3,
+      "question_id": "74f5da54-43e6-4563-8d46-46de730f7548"
+    },
+    {
+      "choices": [
+        "A programming technique that transforms a function with multiple arguments into a sequence of functions each taking a single argument.",
+        "A method used exclusively for iterating over arrays in JavaScript, similar to a for loop.",
+        "The process of converting JavaScript code into machine language directly before execution to improve performance.",
+        "A way to handle asynchronous operations in JavaScript that involves using a special 'curry' keyword."
+      ],
+      "answer": 0,
+      "question_id": "b7e74535-1b36-4f44-81ea-820efe7891c1"
+    },
+    {
+      "choices": [
+        "JavaScript uses manual memory allocation and requires developers to free up memory manually.",
+        "Memory management is handled through compilation, with the JavaScript engine optimizing during code compilation.",
+        "JavaScript uses a garbage collector automatically to find and delete objects that are no longer in use to free up memory.",
+        "Memory allocation and management is managed by external libraries, with no native support in JavaScript."
+      ],
+      "answer": 2,
+      "question_id": "18de52d9-2fc0-4566-84bd-8e4f180c0233"
+    },
+    {
+      "choices": [
+        "Increases load times for web pages",
+        "It can expose the application to code injection attacks",
+        "Reduces the execution speed of JavaScript code",
+        "Increases compatibility with older browsers"
+      ],
+      "answer": 1,
+      "question_id": "b903c1e5-d1b5-467a-a1d7-cbf3405978a0"
+    },
+    {
+      "choices": [
+        "Increases browser compatibility for all JavaScript code",
+        "Strictly enforces code execution at runtime",
+        "Adds static typing to the language",
+        "Automatically optimizes JavaScript performance"
+      ],
+      "answer": 2,
+      "question_id": "bf01e810-0924-4eae-bd87-57cd2d026c8c"
+    },
+    {
+      "choices": [
+        "Functions that accept a component and return a new component with additional properties",
+        "A tool for automatically updating the DOM when the state of an application changes",
+        "Syntax that allows you to manage the creation of service workers in web applications",
+        "A special syntax for exporting modules that are used in different parts of an application"
+      ],
+      "answer": 0,
+      "question_id": "a5364393-9183-417f-ba62-d201eb9659b2"
+    },
+    {
+      "choices": [
+        "A data type for representing fractions more accurately.",
+        "A data type used for large integers beyond the safe limit for Numbers.",
+        "A specialized data type for handling complex numbers.",
+        "A secure data type for handling sensitive numerical data."
+      ],
+      "answer": 1,
+      "question_id": "30b9bc8d-c09e-459d-8f3f-0ea2246c5a4d"
+    },
+    {
+      "choices": [
+        "It automatically compresses JavaScript files for optimal loading.",
+        "It loads modules asynchronously and executes them in a strict mode environment.",
+        "It interprets JavaScript code as binary to improve execution speed.",
+        "It uses a special compiler to convert ES6 modules to CommonJS modules at runtime."
+      ],
+      "answer": 1,
+      "question_id": "0cbc080f-a68e-493e-9f24-f3fdcd839967"
+    }
+  ]
+}

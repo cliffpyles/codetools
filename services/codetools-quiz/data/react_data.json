@@ -1,0 +1,1492 @@
+{
+  "topic": "React",
+  "questions": [
+    {
+      "id": "b8c6f906-dff4-4b80-883a-1c129b4c4d3c",
+      "difficulty": 1,
+      "question": "What is React?"
+    },
+    {
+      "id": "76fdc8db-a13b-418d-aa8e-73cc780b9fa3",
+      "difficulty": 1,
+      "question": "Who developed React?"
+    },
+    {
+      "id": "ce6c052d-978a-4b91-851b-4c4313101a48",
+      "difficulty": 1,
+      "question": "Which language is React primarily written in?"
+    },
+    {
+      "id": "139e6285-d43a-4b3c-b6e8-5db01e3bf341",
+      "difficulty": 1,
+      "question": "What is JSX?"
+    },
+    {
+      "id": "ea78d349-2d60-4d23-9a1f-06e912b0bbe0",
+      "difficulty": 1,
+      "question": "How do you create a component in React?"
+    },
+    {
+      "id": "8942d280-fb8f-41ca-8caa-66529672db73",
+      "difficulty": 1,
+      "question": "What is the virtual DOM?"
+    },
+    {
+      "id": "8c278a5e-9fe0-45d4-ad3e-dcc1311fa360",
+      "difficulty": 1,
+      "question": "What is the significance of the 'key' prop in lists in React?"
+    },
+    {
+      "id": "63c1434c-efae-4a98-b212-91f0b63c9156",
+      "difficulty": 1,
+      "question": "How do you pass data to a component from its parent in React?"
+    },
+    {
+      "id": "4a9944cc-7a90-4822-bfb5-6b7145e40723",
+      "difficulty": 1,
+      "question": "What hooks were introduced in React 16.8?"
+    },
+    {
+      "id": "d7ed6285-1b27-4047-b388-310d27428835",
+      "difficulty": 1,
+      "question": "How do you conditionally render components in React?"
+    },
+    {
+      "id": "2f723aaf-930d-4a41-a1f9-485479b20016",
+      "difficulty": 1,
+      "question": "What is a state in React?"
+    },
+    {
+      "id": "2c236e69-b36f-44aa-9f34-3839bf31a8ad",
+      "difficulty": 1,
+      "question": "What is a prop in React?"
+    },
+    {
+      "id": "9bf05d71-2bc5-4b27-9f1e-3d02012370a0",
+      "difficulty": 1,
+      "question": "How can you update the state of a component?"
+    },
+    {
+      "id": "8bc7be46-855f-4c88-a7e5-cf1cd67413a7",
+      "difficulty": 1,
+      "question": "What is the useContext hook used for?"
+    },
+    {
+      "id": "f953ce4f-bc6b-4bb7-b18b-5b3cb080e103",
+      "difficulty": 1,
+      "question": "What command is used to create a new React project?"
+    },
+    {
+      "id": "f819e7b2-6a0c-4478-a7b9-d77d634acf5c",
+      "difficulty": 1,
+      "question": "How is React different from Angular?"
+    },
+    {
+      "id": "3ddca435-fa78-4070-8fbb-51e01f6a41e6",
+      "difficulty": 1,
+      "question": "What is a higher-order component?"
+    },
+    {
+      "id": "1d20b7fd-17fa-418c-aced-d30141404c5d",
+      "difficulty": 1,
+      "question": "What is React Router?"
+    },
+    {
+      "id": "2e9ae742-1084-4438-b5c1-d8a7cd5844b9",
+      "difficulty": 1,
+      "question": "How do functional components differ from class components?"
+    },
+    {
+      "id": "52755303-fcaa-40d5-a731-5c776f620343",
+      "difficulty": 1,
+      "question": "What is Redux and how is it used with React?"
+    },
+    {
+      "id": "7c34e24d-f4ad-4788-bfbd-a53015446777",
+      "difficulty": 2,
+      "question": "How do you manage state in a class component?"
+    },
+    {
+      "id": "f0781e46-d1f4-402c-ab2a-9e4df61c694c",
+      "difficulty": 2,
+      "question": "Explain the lifecycle of a React component."
+    },
+    {
+      "id": "85bb2958-47ad-4449-aad9-55005c4eb452",
+      "difficulty": 2,
+      "question": "How does React implement a unidirectional data flow?"
+    },
+    {
+      "id": "f60603db-f340-4602-a59f-8f3104fa0653",
+      "difficulty": 2,
+      "question": "What is the purpose of the useRef hook?"
+    },
+    {
+      "id": "97304382-534f-450a-b191-6d1211ad5a5d",
+      "difficulty": 2,
+      "question": "How do you fetch data in a React component?"
+    },
+    {
+      "id": "a08637de-08a8-4246-b9ec-1a055ab047aa",
+      "difficulty": 2,
+      "question": "What is the use of the useEffect hook?"
+    },
+    {
+      "id": "b225c489-3f89-4424-ac8c-382ff8002cc4",
+      "difficulty": 2,
+      "question": "How do you handle form submissions in React?"
+    },
+    {
+      "id": "fc1047e8-c595-4017-9dee-ac8753e5b63a",
+      "difficulty": 2,
+      "question": "What is the Context API and how is it used?"
+    },
+    {
+      "id": "bfba162a-8229-4c84-beb4-4d264542830b",
+      "difficulty": 2,
+      "question": "How do you optimize React app performance?"
+    },
+    {
+      "id": "50772661-f83e-4142-8ff4-5cf9618269de",
+      "difficulty": 2,
+      "question": "Explain how conditional styling is implemented in React."
+    },
+    {
+      "id": "c0bce70c-b3e0-42d8-89f8-6e7a7a8d3f03",
+      "difficulty": 2,
+      "question": "How can you prevent unnecessary renders in React?"
+    },
+    {
+      "id": "3b97e17f-a93b-412b-a191-16ceeceaf906",
+      "difficulty": 2,
+      "question": "What is a fragment in React and when would you use it?"
+    },
+    {
+      "id": "f000c2fe-5000-4f1b-ad1b-60e83c7f5444",
+      "difficulty": 2,
+      "question": "How do you pass a method from a parent component to a child component in React?"
+    },
+    {
+      "id": "70d94054-b33c-4977-a1da-c333df9bdd0c",
+      "difficulty": 2,
+      "question": "Explain the concept of lifting state up in React."
+    },
+    {
+      "id": "7fb86d56-fe8a-41ce-8a8c-afe458ec459e",
+      "difficulty": 2,
+      "question": "What is the difference between controlled and uncontrolled components?"
+    },
+    {
+      "id": "2ee65748-480d-432f-a320-481a172142ef",
+      "difficulty": 2,
+      "question": "How can you integrate a third-party library in a React project?"
+    },
+    {
+      "id": "48fdfaad-b114-4a64-9061-bc9fc1f4a7dc",
+      "difficulty": 2,
+      "question": "What is the purpose of the useMemo hook?"
+    },
+    {
+      "id": "13af101c-4060-4e47-b49d-23abfe9bf228",
+      "difficulty": 2,
+      "question": "When would you use the useCallback hook?"
+    },
+    {
+      "id": "06ece452-a3cc-461a-9334-23ec1348d807",
+      "difficulty": 2,
+      "question": "What is server-side rendering and how does React support it?"
+    },
+    {
+      "id": "f5fbf6c5-775e-4292-85a3-ef6ecf8d6576",
+      "difficulty": 2,
+      "question": "Describe how React\u2019s reconciliation algorithm works."
+    },
+    {
+      "id": "f7aa828b-96fa-4e9d-884e-d74f02c74636",
+      "difficulty": 3,
+      "question": "What are pure components in React?"
+    },
+    {
+      "id": "9a0dc122-1faf-42c5-9c8b-1cab3f3b85f4",
+      "difficulty": 3,
+      "question": "How does React's shouldComponentUpdate method work?"
+    },
+    {
+      "id": "0a58fa41-121b-46d8-9274-cd46c68e81d0",
+      "difficulty": 3,
+      "question": "What is the significance of the render prop pattern?"
+    },
+    {
+      "id": "cb497a29-2328-42e5-ada2-af54305baf8c",
+      "difficulty": 3,
+      "question": "Explain how suspense and lazy loading work in React."
+    },
+    {
+      "id": "57d30116-2c39-4451-a7aa-4de6a735bdac",
+      "difficulty": 3,
+      "question": "What are hooks in React and why are they used?"
+    },
+    {
+      "id": "c801df1b-9721-47a2-9dc9-b8cca43ee4fa",
+      "difficulty": 3,
+      "question": "How do you create custom hooks in React?"
+    },
+    {
+      "id": "dcd77057-2890-4a8a-8c28-676d59f51b74",
+      "difficulty": 3,
+      "question": "What are the rules that must be followed when using hooks in React?"
+    },
+    {
+      "id": "a943f38f-f5e0-4f22-b82d-caedcbbd5f07",
+      "difficulty": 3,
+      "question": "How does React Router's Switch component work?"
+    },
+    {
+      "id": "0c5620f4-565d-44e9-9c5a-41ff9974cb2b",
+      "difficulty": 3,
+      "question": "Explain the difference between Real DOM and Virtual DOM."
+    },
+    {
+      "id": "568d6b46-e816-487f-a862-62882ab07651",
+      "difficulty": 3,
+      "question": "How do you implement error boundaries in React?"
+    },
+    {
+      "id": "50e196bf-8aaa-4ce8-80e2-37edeff25471",
+      "difficulty": 3,
+      "question": "What are the benefits of using TypeScript with React?"
+    },
+    {
+      "id": "2c1cd7c9-a943-4bde-a5dd-64bb1309c945",
+      "difficulty": 3,
+      "question": "Explain how to use the React Profiler for performance optimization."
+    },
+    {
+      "id": "62c7c698-0007-4f26-afa6-ff475bfb3298",
+      "difficulty": 3,
+      "question": "What is code-splitting in React and how do you achieve it?"
+    },
+    {
+      "id": "c19073bb-3f4a-4bb6-92a3-39b5f2168c3c",
+      "difficulty": 3,
+      "question": "How can you handle side effects in React Redux?"
+    },
+    {
+      "id": "66555cbb-9a73-4b97-bd80-1a8fd6a93194",
+      "difficulty": 3,
+      "question": "Explain the use of the Redux Thunk middleware."
+    },
+    {
+      "id": "1c876294-f0b7-4572-a240-b986acdc1c49",
+      "difficulty": 3,
+      "question": "What is the difference between shallow rendering and mount in React testing?"
+    },
+    {
+      "id": "380cca87-532e-4638-adf1-b38a0f63222f",
+      "difficulty": 3,
+      "question": "How can you test a React component that makes API calls?"
+    },
+    {
+      "id": "9faa3129-e1ff-4863-9444-38583e2e8da8",
+      "difficulty": 3,
+      "question": "What is the purpose of the React StrictMode?"
+    },
+    {
+      "id": "4ad42f74-55fb-43e1-a533-784e6719e8fa",
+      "difficulty": 3,
+      "question": "Describe the process of hydrating a React app."
+    },
+    {
+      "id": "d80ad111-9475-4092-bdcc-5d1c594e0e12",
+      "difficulty": 3,
+      "question": "Explain the concept of higher-order functions in React and provide examples."
+    },
+    {
+      "id": "bd754b85-00a5-4103-a006-ca9bb83ac807",
+      "difficulty": 4,
+      "question": "Describe the differences between Flux and Redux."
+    },
+    {
+      "id": "d6d3e8a5-cd51-49ff-8e58-069050242c57",
+      "difficulty": 4,
+      "question": "How do you handle asynchronous actions in Redux?"
+    },
+    {
+      "id": "b948838c-0018-4c69-bf4e-76a8d8274378",
+      "difficulty": 4,
+      "question": "Explain the concept of immutability in React and why it's important."
+    },
+    {
+      "id": "33816c02-836a-4690-b8df-b9c68bee52f1",
+      "difficulty": 4,
+      "question": "How can React be used in conjunction with WebSockets?"
+    },
+    {
+      "id": "1bc83d74-74b6-439a-afe2-aee6a5309301",
+      "difficulty": 4,
+      "question": "What are the common pitfalls in React performance optimization and how can you avoid them?"
+    },
+    {
+      "id": "adc99963-8952-4f14-9ea7-ab963eccb784",
+      "difficulty": 4,
+      "question": "Explain the role of middleware in Redux."
+    },
+    {
+      "id": "59d81c89-f28d-469e-95c7-8635d5742a65",
+      "difficulty": 4,
+      "question": "How do you secure a React application?"
+    },
+    {
+      "id": "8c998edc-23ce-4c5b-9625-b57fea7db34e",
+      "difficulty": 4,
+      "question": "How do you manage global state in a large React application?"
+    },
+    {
+      "id": "1cf187a3-7912-4f79-8437-a1863f0c1f92",
+      "difficulty": 4,
+      "question": "Discuss the implications of Server-Side Rendering (SSR) with SEO in React applications."
+    },
+    {
+      "id": "87e331ec-b4cf-443f-90d9-f4992f6ee956",
+      "difficulty": 4,
+      "question": "How do you implement internationalization (i18n) in React?"
+    },
+    {
+      "id": "99a42af3-b690-4ce5-bcc9-81f8fa065677",
+      "difficulty": 4,
+      "question": "Describe the process of migrating a React application from class components to functional components."
+    },
+    {
+      "id": "813645bf-48f3-4c0c-8c44-9a0485539e82",
+      "difficulty": 4,
+      "question": "What are the considerations when using React with mobile development (e.g., React Native)?"
+    },
+    {
+      "id": "8d1654e0-0c5f-40cd-a328-80c8e8024e8d",
+      "difficulty": 4,
+      "question": "How do you debug a React application?"
+    },
+    {
+      "id": "c32fe721-6415-49a3-8779-1a7a11000dc8",
+      "difficulty": 4,
+      "question": "Discuss the trade-offs of using inline styles vs. CSS modules in React."
+    },
+    {
+      "id": "7cfb0ce6-f5df-421c-b701-ea1d50a96830",
+      "difficulty": 4,
+      "question": "What strategies can you use to ensure your React application is accessible?"
+    },
+    {
+      "id": "c7e5dc8a-7b51-4a8f-bca6-5ad38ca1017e",
+      "difficulty": 4,
+      "question": "How does React's concurrent mode improve app performance?"
+    },
+    {
+      "id": "56add9ce-6280-4ff6-9c91-35b94d06888a",
+      "difficulty": 4,
+      "question": "Explain the concept and usage of portals in React."
+    },
+    {
+      "id": "d5ca737d-75a0-4f15-8c3f-f99b6fe5ddc7",
+      "difficulty": 4,
+      "question": "How can compound components in React improve code reuse and composition?"
+    },
+    {
+      "id": "2379f6f4-13a2-4f9a-934f-1961914a76db",
+      "difficulty": 4,
+      "question": "What are the best practices for form validation in React?"
+    },
+    {
+      "id": "b5bdac43-076d-4921-b927-4d219553da4a",
+      "difficulty": 5,
+      "question": "Describe a scenario where you would use a custom reducer hook in React."
+    },
+    {
+      "id": "c4531c17-0ecb-4d4e-aac2-91fc99c436c6",
+      "difficulty": 5,
+      "question": "How do you manage state across multiple reducers in Redux?"
+    },
+    {
+      "id": "b703d041-205f-4b1d-ae64-8f994a532bd0",
+      "difficulty": 5,
+      "question": "Discuss the pros and cons of using React Context API over Redux for state management."
+    },
+    {
+      "id": "7ee39f57-0d32-4e85-93d2-e1a4f6a30b06",
+      "difficulty": 5,
+      "question": "How can server-side rendering (SSR) in React affect app performance and UX?"
+    },
+    {
+      "id": "faeb5dac-9252-4e0e-803a-d29c9798ad5b",
+      "difficulty": 5,
+      "question": "What strategies would you use to dynamically load a component based on a condition in React?"
+    },
+    {
+      "id": "9e9b77e3-2390-4885-8347-8431715ddef9",
+      "difficulty": 5,
+      "question": "How can the React.memo() method improve your application's performance?"
+    },
+    {
+      "id": "3fc48e26-7e78-4bbe-bde9-a0dc8814d4eb",
+      "difficulty": 5,
+      "question": "What are the challenges of integrating React with a legacy system and how can they be addressed?"
+    },
+    {
+      "id": "da8ec3ff-ee2f-40fe-82eb-bc16bfcc0399",
+      "difficulty": 5,
+      "question": "Discuss the use cases for using GraphQL with React."
+    },
+    {
+      "id": "3ca23f69-fb54-4a30-93d4-9ba6cfe3ac77",
+      "difficulty": 5,
+      "question": "How do you optimize complex state logic in React applications?"
+    },
+    {
+      "id": "38eac075-2431-476d-bc76-75de3c46191d",
+      "difficulty": 5,
+      "question": "What are the implications of using third-party state management libraries in React?"
+    },
+    {
+      "id": "03ca1a3f-0627-4b60-a449-39cc856240d6",
+      "difficulty": 5,
+      "question": "Explain how to use React's context feature to pass data deeply through a component tree."
+    },
+    {
+      "id": "7239445d-3cda-47a6-8c67-67faef850466",
+      "difficulty": 5,
+      "question": "Discuss the benefits and drawbacks of using React Native for mobile development compared to traditional native development."
+    },
+    {
+      "id": "b875d87c-4505-43f3-ad74-c1a157a729ab",
+      "difficulty": 5,
+      "question": "How can you use React's Suspense component to improve loading states in your application?"
+    },
+    {
+      "id": "318d618a-8782-496a-b757-c335a260ed5c",
+      "difficulty": 5,
+      "question": "Describe the impact of the latest React updates on existing applications and how to adapt to these changes."
+    },
+    {
+      "id": "0522470a-eff2-44e5-8a98-8d5abad03d27",
+      "difficulty": 5,
+      "question": "How do you implement a focus trap for accessibility in a React application?"
+    },
+    {
+      "id": "0edf5bc6-3ba6-4f89-aa04-6835ea39fcfc",
+      "difficulty": 5,
+      "question": "What are the advanced techniques for form handling in React?"
+    },
+    {
+      "id": "de455762-681d-454a-aa68-5a974101feee",
+      "difficulty": 5,
+      "question": "Discuss the significance of the React 17 JSX transform."
+    },
+    {
+      "id": "bd86fb55-afce-4198-b9a8-82e258397005",
+      "difficulty": 5,
+      "question": "How would you architect a React application for scalability and maintainability?"
+    },
+    {
+      "id": "522b5f9d-78c7-4a5b-83c3-f21ce093e405",
+      "difficulty": 5,
+      "question": "Explain how to use environment variables in a React application for different deployment environments."
+    },
+    {
+      "id": "b4e43f28-95d1-4c22-a209-255d037ee93f",
+      "difficulty": 5,
+      "question": "How can the use of custom hooks make a React application more maintainable and readable?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "A database management system",
+        "A server-side scripting language",
+        "A JavaScript library for building user interfaces",
+        "A machine learning framework"
+      ],
+      "answer": 2,
+      "question_id": "b8c6f906-dff4-4b80-883a-1c129b4c4d3c"
+    },
+    {
+      "choices": [
+        "Facebook",
+        "Google",
+        "Microsoft",
+        "IBM"
+      ],
+      "answer": 0,
+      "question_id": "76fdc8db-a13b-418d-aa8e-73cc780b9fa3"
+    },
+    {
+      "choices": [
+        "Ruby",
+        "Java",
+        "JavaScript",
+        "C++"
+      ],
+      "answer": 2,
+      "question_id": "ce6c052d-978a-4b91-851b-4c4313101a48"
+    },
+    {
+      "choices": [
+        "A Java-based cross-platform framework",
+        "JavaScript syntax extension",
+        "A JavaScript-based database language",
+        "A CSS preprocessor"
+      ],
+      "answer": 1,
+      "question_id": "139e6285-d43a-4b3c-b6e8-5db01e3bf341"
+    },
+    {
+      "choices": [
+        "Use the createComponent function with JSX.",
+        "Call React.createElement() inside the render method.",
+        "Define a class that extends React.Component.",
+        "Import a component from another file using require()."
+      ],
+      "answer": 2,
+      "question_id": "ea78d349-2d60-4d23-9a1f-06e912b0bbe0"
+    },
+    {
+      "choices": [
+        "A real-time representation of the physical DOM",
+        "A concept used to improve performance in web development frameworks",
+        "A server-side rendering technique",
+        "A tool for managing browser cookies"
+      ],
+      "answer": 1,
+      "question_id": "8942d280-fb8f-41ca-8caa-66529672db73"
+    },
+    {
+      "choices": [
+        "It determines the CSS class for each item in the list.",
+        "It is a unique identifier used to re-render only the items that changed.",
+        "It specifies the order of elements in the list.",
+        "It increases the rendering speed of lists."
+      ],
+      "answer": 1,
+      "question_id": "8c278a5e-9fe0-45d4-ad3e-dcc1311fa360"
+    },
+    {
+      "choices": [
+        "Using a method called dataTransfer()",
+        "By assigning it to a global variable",
+        "Through props",
+        "By storing it in localStorage first"
+      ],
+      "answer": 2,
+      "question_id": "63c1434c-efae-4a98-b212-91f0b63c9156"
+    },
+    {
+      "choices": [
+        "useState and useContext",
+        "useEffect and useLayoutEffect",
+        "useReducer and useMemo",
+        "useState and useEffect"
+      ],
+      "answer": 3,
+      "question_id": "4a9944cc-7a90-4822-bfb5-6b7145e40723"
+    },
+    {
+      "choices": [
+        "Using the React Router library",
+        "Using a switch-case statement outside the JSX",
+        "Using the && operator or conditional (ternary) operator inside JSX",
+        "Using the Redux library to manage state"
+      ],
+      "answer": 2,
+      "question_id": "d7ed6285-1b27-4047-b388-310d27428835"
+    },
+    {
+      "choices": [
+        "A method of performing re-renders forcibly",
+        "An external storage library like Redux",
+        "An object that determines how a component renders and behaves",
+        "A way to style components"
+      ],
+      "answer": 2,
+      "question_id": "2f723aaf-930d-4a41-a1f9-485479b20016"
+    },
+    {
+      "choices": [
+        "A part of the component's state",
+        "A function to modify state",
+        "A read-only component configuration",
+        "A CSS file imported into the component"
+      ],
+      "answer": 2,
+      "question_id": "2c236e69-b36f-44aa-9f34-3839bf31a8ad"
+    },
+    {
+      "choices": [
+        "Modifying the state directly using this.state = value",
+        "Using the this.setState() method",
+        "Calling the useState() hook with the new state value inside a class component",
+        "Passing a new state object to the constructor of the component"
+      ],
+      "answer": 1,
+      "question_id": "9bf05d71-2bc5-4b27-9f1e-3d02012370a0"
+    },
+    {
+      "choices": [
+        "To memorize the result of a function component rendering to optimize performance",
+        "To create a global state that can be passed around the React component tree",
+        "To access the context for managing global state in React applications",
+        "To handle asynchronous operations in React components"
+      ],
+      "answer": 2,
+      "question_id": "8bc7be46-855f-4c88-a7e5-cf1cd67413a7"
+    },
+    {
+      "choices": [
+        "create-react-project",
+        "react-new-project",
+        "npm init react-app",
+        "npx create-react-app"
+      ],
+      "answer": 3,
+      "question_id": "f953ce4f-bc6b-4bb7-b18b-5b3cb080e103"
+    },
+    {
+      "choices": [
+        "React requires manual optimization for high-traffic applications, while Angular does not.",
+        "React is a JavaScript library for building user interfaces, while Angular is a full-fledged MVC framework.",
+        "React is primarily server-side, while Angular is client-side.",
+        "React uses the PHP language, while Angular uses JavaScript."
+      ],
+      "answer": 1,
+      "question_id": "f819e7b2-6a0c-4478-a7b9-d77d634acf5c"
+    },
+    {
+      "choices": [
+        "A component that renders all other components",
+        "A function that wraps a component to provide additional functionality",
+        "A CSS framework for React",
+        "A tool for managing global state in applications"
+      ],
+      "answer": 1,
+      "question_id": "3ddca435-fa78-4070-8fbb-51e01f6a41e6"
+    },
+    {
+      "choices": [
+        "A JavaScript library for building user interfaces",
+        "A tool for creating fast and scalable server applications using JavaScript",
+        "A framework for creating native applications using React",
+        "A collection of navigational components that compose declaratively with your application"
+      ],
+      "answer": 3,
+      "question_id": "1d20b7fd-17fa-418c-aced-d30141404c5d"
+    },
+    {
+      "choices": [
+        "Functional components do not support rendering, whereas class components do.",
+        "Functional components are stateless and class components are stateful.",
+        "Functional components can use hooks, whereas class components cannot.",
+        "There is no difference; they are just two ways to write components."
+      ],
+      "answer": 2,
+      "question_id": "2e9ae742-1084-4438-b5c1-d8a7cd5844b9"
+    },
+    {
+      "choices": [
+        "A JavaScript library for making HTTP requests in React components",
+        "A state management tool that enables predictable state updates in React applications",
+        "A hook provided by React for managing local component state",
+        "A CSS framework specifically designed for React components"
+      ],
+      "answer": 1,
+      "question_id": "52755303-fcaa-40d5-a731-5c776f620343"
+    },
+    {
+      "choices": [
+        "using a useReducer hook",
+        "with a useState hook",
+        "by defining state in the constructor",
+        "storing state in a database"
+      ],
+      "answer": 2,
+      "question_id": "7c34e24d-f4ad-4788-bfbd-a53015446777"
+    },
+    {
+      "choices": [
+        "Initialization, Mounting, Updating, Unmounting",
+        "Creation, Operation, Deletion",
+        "Build, Render, Reflow, Repaint",
+        "Setup, Execution, Termination"
+      ],
+      "answer": 0,
+      "question_id": "f0781e46-d1f4-402c-ab2a-9e4df61c694c"
+    },
+    {
+      "choices": [
+        "By using a two-way binding model",
+        "By directly manipulating the DOM in components",
+        "By allowing data to be passed from parent to child components through props",
+        "By using event handlers to update data in a global store"
+      ],
+      "answer": 2,
+      "question_id": "85bb2958-47ad-4449-aad9-55005c4eb452"
+    },
+    {
+      "choices": [
+        "To execute a side effect when a component renders",
+        "To memorize a value between renders",
+        "To persist values between re-renders without triggering a re-render",
+        "To fetch data asynchronously"
+      ],
+      "answer": 2,
+      "question_id": "f60603db-f340-4602-a59f-8f3104fa0653"
+    },
+    {
+      "choices": [
+        "Using a <fetch> component",
+        "With the useEffect hook and fetch API",
+        "By declaring a fetch() function inside the render method",
+        "Directly in the JSX"
+      ],
+      "answer": 1,
+      "question_id": "97304382-534f-450a-b191-6d1211ad5a5d"
+    },
+    {
+      "choices": [
+        "To optimize performance by memorizing complex functions",
+        "To directly manipulate the DOM",
+        "To handle asynchronous requests",
+        "To perform side effects in function components"
+      ],
+      "answer": 3,
+      "question_id": "a08637de-08a8-4246-b9ec-1a055ab047aa"
+    },
+    {
+      "choices": [
+        "Use the onSubmit event and prevent the default browser submit behavior using event.preventDefault()",
+        "Call a JavaScript function directly when the form is submitted",
+        "Submit the form using AJAX on the backend",
+        "Use the React Submit API to automatically handle form submissions"
+      ],
+      "answer": 0,
+      "question_id": "b225c489-3f89-4424-ac8c-382ff8002cc4"
+    },
+    {
+      "choices": [
+        "A library for handling animations in React applications.",
+        "A technique for optimizing performance by memoizing function results.",
+        "A way to manage state in an application using a global store.",
+        "A mechanism for passing data through the component tree without having to pass props down manually at every level."
+      ],
+      "answer": 3,
+      "question_id": "fc1047e8-c595-4017-9dee-ac8753e5b63a"
+    },
+    {
+      "choices": [
+        "Frequently reload the page to clear memory",
+        "Increase the number of class components",
+        "Use CSS animations instead of JavaScript animations",
+        "Utilize useMemo and useCallback to prevent unnecessary re-renders"
+      ],
+      "answer": 3,
+      "question_id": "bfba162a-8229-4c84-beb4-4d264542830b"
+    },
+    {
+      "choices": [
+        "Using the React Router to manage style changes",
+        "By importing CSS modules conditionally within components",
+        "Using conditional (ternary) operators inside inline styles or className attributes",
+        "Calling external APIs to determine styles at runtime"
+      ],
+      "answer": 2,
+      "question_id": "50772661-f83e-4142-8ff4-5cf9618269de"
+    },
+    {
+      "choices": [
+        "Using the shouldComponentUpdate lifecycle method",
+        "Renaming your components with a '$' prefix",
+        "Increasing the state object size",
+        "Making all components functional"
+      ],
+      "answer": 0,
+      "question_id": "c0bce70c-b3e0-42d8-89f8-6e7a7a8d3f03"
+    },
+    {
+      "choices": [
+        "A higher-order component that takes in props and returns new components",
+        "A tool for managing state globally across the entire application",
+        "A part of React's API for handling exceptions in components",
+        "A lightweight way to group a list of children without adding extra nodes to the DOM"
+      ],
+      "answer": 3,
+      "question_id": "3b97e17f-a93b-412b-a191-16ceeceaf906"
+    },
+    {
+      "choices": [
+        "By storing it in the global state",
+        "Using a higher-order component",
+        "Through props",
+        "With a React hook"
+      ],
+      "answer": 2,
+      "question_id": "f000c2fe-5000-4f1b-ad1b-60e83c7f5444"
+    },
+    {
+      "choices": [
+        "Storing all component states at the application level to improve performance.",
+        "A pattern where shared state is moved up to the closest common ancestor of the components that need it.",
+        "Automatically syncing state across all components to prevent prop drilling.",
+        "Dividing component state into smaller, more manageable states for better efficiency."
+      ],
+      "answer": 1,
+      "question_id": "70d94054-b33c-4977-a1da-c333df9bdd0c"
+    },
+    {
+      "choices": [
+        "Controlled components do not allow user input, whereas uncontrolled components do.",
+        "Uncontrolled components are not supported in React, only controlled components are.",
+        "In controlled components, form data is handled by the React component (state), while in uncontrolled components, data is handled by the DOM itself.",
+        "Controlled components are used for stateless components, whereas uncontrolled components are used for stateful components."
+      ],
+      "answer": 2,
+      "question_id": "7fb86d56-fe8a-41ce-8a8c-afe458ec459e"
+    },
+    {
+      "choices": [
+        "Directly modify the React source code to include the library",
+        "Use the 'import' statement to include the library in your components",
+        "Manually copy and paste the library's source code into your project files",
+        "Download the library to your computer and link it in your HTML file"
+      ],
+      "answer": 1,
+      "question_id": "2ee65748-480d-432f-a320-481a172142ef"
+    },
+    {
+      "choices": [
+        "To fetch data from an API",
+        "To memorize a computed value between renders",
+        "To create a new state within a component",
+        "To handle side effects in a function component"
+      ],
+      "answer": 1,
+      "question_id": "48fdfaad-b114-4a64-9061-bc9fc1f4a7dc"
+    },
+    {
+      "choices": [
+        "To memoize a value across component renders",
+        "To make HTTP requests in a functional component",
+        "To persist function instances across component renders",
+        "To manage state in a class component"
+      ],
+      "answer": 2,
+      "question_id": "13af101c-4060-4e47-b49d-23abfe9bf228"
+    },
+    {
+      "choices": [
+        "Creating static websites that don't require JavaScript, which React does not support.",
+        "Transferring all logic to the server, making the client a thin client without React support.",
+        "Pre-rendering a web page's content on the server before sending it to the browser, supported by React using frameworks like Next.js.",
+        "Compiling React components into native mobile applications, facilitated by React Native."
+      ],
+      "answer": 2,
+      "question_id": "06ece452-a3cc-461a-9334-23ec1348d807"
+    },
+    {
+      "choices": [
+        "It compares the incoming element with the previous one, and if they are different, React updates the DOM.",
+        "React creates a virtual DOM to compare against the actual DOM and updates only the objects that changed.",
+        "It directly modifies the DOM whenever a component's state or props change.",
+        "React uses a diff algorithm on component state changes to determine which components need re-rendering."
+      ],
+      "answer": 1,
+      "question_id": "f5fbf6c5-775e-4292-85a3-ef6ecf8d6576"
+    },
+    {
+      "choices": [
+        "Stateful components that manage their own state",
+        "Higher-order components for managing side-effects",
+        "Components that do not re-render unless their props or state change",
+        "Functional components that accept props and return HTML"
+      ],
+      "answer": 2,
+      "question_id": "f7aa828b-96fa-4e9d-884e-d74f02c74636"
+    },
+    {
+      "choices": [
+        "It triggers whenever the state changes, regardless of the props.",
+        "It is automatically called to determine if a component should be re-rendered.",
+        "It allows you to manually create components without JSX.",
+        "It sends HTTP requests to a server."
+      ],
+      "answer": 1,
+      "question_id": "9a0dc122-1faf-42c5-9c8b-1cab3f3b85f4"
+    },
+    {
+      "choices": [
+        "A technique to optimize database queries from a React application",
+        "A pattern for sharing code between React components using a prop whose value is a function",
+        "A React library for managing form state",
+        "A method to prevent re-renders by memoizing React components"
+      ],
+      "answer": 1,
+      "question_id": "0a58fa41-121b-46d8-9274-cd46c68e81d0"
+    },
+    {
+      "choices": [
+        "Suspense allows components to fetch data asynchronously and display a loading indicator, while lazy loading is used for splitting JavaScript bundles to reduce the load time.",
+        "Lazy loading is a React hook for managing global state, whereas Suspense synchronizes animation frames for smoother transitions.",
+        "Suspense is a CSS framework for React, and lazy loading is a method for conditionally rendering components based on screen size.",
+        "Both are methods for optimizing database queries in React applications to reduce server load and response times."
+      ],
+      "answer": 0,
+      "question_id": "cb497a29-2328-42e5-ada2-af54305baf8c"
+    },
+    {
+      "choices": [
+        "Functions that allow you to interact with the DOM directly from your React components.",
+        "A tool for managing state and lifecycle features in React function components.",
+        "A set of utility functions provided by React to easily query the DOM.",
+        "JavaScript functions that create connections between different components in a React application."
+      ],
+      "answer": 1,
+      "question_id": "57d30116-2c39-4451-a7aa-4de6a735bdac"
+    },
+    {
+      "choices": [
+        "Use the useState and useEffect functions inside a React component",
+        "Declare a function outside a React component and use any React hook inside it",
+        "Create a class that extends from React.Component and override the hooks method",
+        "Import the customHooks method from React library"
+      ],
+      "answer": 1,
+      "question_id": "c801df1b-9721-47a2-9dc9-b8cca43ee4fa"
+    },
+    {
+      "choices": [
+        "Hooks can be used inside class components.",
+        "Hooks must be called in the same order in every component render.",
+        "Hooks can be called conditionally inside React functions.",
+        "Hooks can only be used with stateless components."
+      ],
+      "answer": 1,
+      "question_id": "dcd77057-2890-4a8a-8c28-676d59f51b74"
+    },
+    {
+      "choices": [
+        "It enables conditional rendering based on the state.",
+        "It renders the first child <Route> or <Redirect> that matches the location.",
+        "It switches the application theme between light and dark mode.",
+        "It dynamically switches the layout of components based on screen size."
+      ],
+      "answer": 1,
+      "question_id": "a943f38f-f5e0-4f22-b82d-caedcbbd5f07"
+    },
+    {
+      "choices": [
+        "Real DOM allows direct manipulation and Virtual DOM doesn't exist in React.",
+        "Real DOM operations are faster because they update changes directly in the browser.",
+        "Virtual DOM is a concept implemented by React to improve performance; it is a lightweight copy of the Real DOM.",
+        "There is no difference; both terms are interchangeable in the context of React."
+      ],
+      "answer": 2,
+      "question_id": "0c5620f4-565d-44e9-9c5a-41ff9974cb2b"
+    },
+    {
+      "choices": [
+        "By using the componentDidCatch lifecycle method",
+        "With the React.ErrorBoundary component",
+        "By utilizing the catch() method in JavaScript promises",
+        "Implementing a try/catch block in the component render method"
+      ],
+      "answer": 0,
+      "question_id": "568d6b46-e816-487f-a862-62882ab07651"
+    },
+    {
+      "choices": [
+        "Increases runtime performance",
+        "Automatically generates UI components",
+        "Provides type checking and interfaces, improving code quality and maintainability",
+        "Reduces the bundle size of the app"
+      ],
+      "answer": 2,
+      "question_id": "50e196bf-8aaa-4ce8-80e2-37edeff25471"
+    },
+    {
+      "choices": [
+        "Wrap your components with <Profiler> tags and check the browser's console log.",
+        "Use React DevTools to access the Profiler and record performance metrics.",
+        "Include a Profiler component with a custom shouldComponentUpdate method for detailed analytics.",
+        "Install a separate React Profiler package and use annotations within your code."
+      ],
+      "answer": 1,
+      "question_id": "2c1cd7c9-a943-4bde-a5dd-64bb1309c945"
+    },
+    {
+      "choices": [
+        "Using state and props to manage component rendering.",
+        "Using the React.lazy function and <Suspense> component to dynamically load React components.",
+        "Splitting the app into smaller components for better state management.",
+        "Employing CSS modules to split CSS code."
+      ],
+      "answer": 1,
+      "question_id": "62c7c698-0007-4f26-afa6-ff475bfb3298"
+    },
+    {
+      "choices": [
+        "Using componentDidMount lifecycle method",
+        "Using a custom middleware",
+        "Directly in the reducer function",
+        "Using useEffect hook"
+      ],
+      "answer": 1,
+      "question_id": "c19073bb-3f4a-4bb6-92a3-39b5f2168c3c"
+    },
+    {
+      "choices": [
+        "To enable components to render faster by skipping unnecessary updates.",
+        "To enhance server-side rendering capabilities for React applications.",
+        "To allow actions creators to return a function instead of an action object.",
+        "To improve state management by allowing the store to handle multiple reducers."
+      ],
+      "answer": 2,
+      "question_id": "66555cbb-9a73-4b97-bd80-1a8fd6a93194"
+    },
+    {
+      "choices": [
+        "Shallow rendering tests components with hooks while mount does not",
+        "Mount tests a component's lifecycle methods while shallow rendering does not",
+        "Shallow rendering only renders the single component, not its children, while mount renders the component along with its children",
+        "Mount is used exclusively for functional components, while shallow rendering is for class components"
+      ],
+      "answer": 2,
+      "question_id": "1c876294-f0b7-4572-a240-b986acdc1c49"
+    },
+    {
+      "choices": [
+        "By directly invoking the API in each test case",
+        "Using a test runner and asserting the component's output",
+        "Mocking the API calls and observing the component's behavior",
+        "Testing only the API and assuming the component works"
+      ],
+      "answer": 2,
+      "question_id": "380cca87-532e-4638-adf1-b38a0f63222f"
+    },
+    {
+      "choices": [
+        "To make the React application's build process faster",
+        "To enforce best practices and identify components with unsafe lifecycles",
+        "To compile React code into native mobile applications",
+        "To enable automatic browser refresh when code changes"
+      ],
+      "answer": 1,
+      "question_id": "9faa3129-e1ff-4863-9444-38583e2e8da8"
+    },
+    {
+      "choices": [
+        "Splitting the app into smaller components to enhance performance",
+        "Generating static pages at build time for faster load times",
+        "Filling an already rendered HTML tree with event handlers and state",
+        "Using state management libraries like Redux to manage app state"
+      ],
+      "answer": 2,
+      "question_id": "4ad42f74-55fb-43e1-a533-784e6719e8fa"
+    },
+    {
+      "choices": [
+        "Functions that take a component and return a new component with additional props",
+        "A type of React component that renders UI based on props and state",
+        "JavaScript functions that exclusively operate on arrays to return new array instances",
+        "React lifecycle methods used to optimize component rendering"
+      ],
+      "answer": 0,
+      "question_id": "d80ad111-9475-4092-bdcc-5d1c594e0e12"
+    },
+    {
+      "choices": [
+        "Flux is a library for managing UI data flow developed by Facebook, utilizing a single-direction data flow; Redux is a predictable state container for JavaScript apps which implements a single immutable state tree across the entire application.",
+        "Redux is a protocol for securing network communications, while Flux is a tool for building responsive web designs.",
+        "Flux and Redux are both JavaScript-based UI frameworks developed by Google for building user interfaces, with no significant differences.",
+        "Redux is a library for database management in web applications, whereas Flux is a design pattern used for structuring JavaScript code."
+      ],
+      "answer": 0,
+      "question_id": "bd754b85-00a5-4103-a006-ca9bb83ac807"
+    },
+    {
+      "choices": [
+        "Using useState hook",
+        "Redux-Observable middleware",
+        "With useEffect hook",
+        "Redux-Thunk middleware"
+      ],
+      "answer": 3,
+      "question_id": "d6d3e8a5-cd51-49ff-8e58-069050242c57"
+    },
+    {
+      "choices": [
+        "It means React components should not change their inputs and always produce the same output for the same inputs to improve performance.",
+        "It allows React to directly manipulate the DOM for faster rendering cycles.",
+        "It refers to React's ability to change state values directly to trigger UI updates.",
+        "It ensures that all React components are stateful and can manage their own data effectively."
+      ],
+      "answer": 0,
+      "question_id": "b948838c-0018-4c69-bf4e-76a8d8274378"
+    },
+    {
+      "choices": [
+        "To render the UI only once when the WebSocket is opened",
+        "To automatically refresh the page upon receiving a WebSocket message",
+        "To update the UI in real-time as messages are received via WebSockets",
+        "To encrypt data sent over WebSockets using React's built-in libraries"
+      ],
+      "answer": 2,
+      "question_id": "33816c02-836a-4690-b8df-b9c68bee52f1"
+    },
+    {
+      "choices": [
+        "Ignoring server-side rendering, which can be avoided by pre-rendering your application's initial state.",
+        "Over-reliance on native HTML over React components, fixed by focusing on composite component development.",
+        "Using CSS for animations instead of JavaScript, which is more performant and can be avoided by utilizing libraries like React Spring.",
+        "Not using React's built-in optimization techniques, such as PureComponent, React.memo, and shouldComponentUpdate, which can prevent unnecessary re-renders."
+      ],
+      "answer": 3,
+      "question_id": "1bc83d74-74b6-439a-afe2-aee6a5309301"
+    },
+    {
+      "choices": [
+        "To enhance component styling",
+        "To manage side-effects in actions or asynchronous actions",
+        "To compile the application more efficiently",
+        "To directly mutate the application state"
+      ],
+      "answer": 1,
+      "question_id": "adc99963-8952-4f14-9ea7-ab963eccb784"
+    },
+    {
+      "choices": [
+        "Using HTTPS",
+        "Implementing CSS animations",
+        "Adding meta tags in HTML",
+        "Optimizing bundle size with Webpack"
+      ],
+      "answer": 0,
+      "question_id": "59d81c89-f28d-469e-95c7-8635d5742a65"
+    },
+    {
+      "choices": [
+        "Using React's useContext and useReducer hooks",
+        "Storing all state in the top-level App component",
+        "Making all state local to each component",
+        "Using only props to pass down state"
+      ],
+      "answer": 0,
+      "question_id": "8c998edc-23ce-4c5b-9625-b57fea7db34e"
+    },
+    {
+      "choices": [
+        "Improves the load time of pages but has no effect on SEO",
+        "Negatively impacts SEO as search engines cannot properly index content",
+        "Has no impact on SEO or the performance of React applications",
+        "Improves SEO as search engines can index the content more effectively"
+      ],
+      "answer": 3,
+      "question_id": "1cf187a3-7912-4f79-8437-a1863f0c1f92"
+    },
+    {
+      "choices": [
+        "Using the ReactIntl package",
+        "Importing the i18n library native to React",
+        "Using the useState hook for language selection",
+        "Directly translating text in the JSX code"
+      ],
+      "answer": 0,
+      "question_id": "87e331ec-b4cf-443f-90d9-f4992f6ee956"
+    },
+    {
+      "choices": [
+        "Using the React Context API to replace all class components directly",
+        "Creating HOCs for each class component to simulate functional behavior",
+        "Replacing class components with equivalent functional components that use hooks for state and lifecycle features",
+        "Converting all class components to use the new React Fibre architecture"
+      ],
+      "answer": 2,
+      "question_id": "99a42af3-b690-4ce5-bcc9-81f8fa065677"
+    },
+    {
+      "choices": [
+        "Optimizing for older mobile browsers rather than newer versions",
+        "Ensuring cross-platform compatibility",
+        "Using Java exclusively for complex components",
+        "Focusing primarily on desktop optimization"
+      ],
+      "answer": 1,
+      "question_id": "813645bf-48f3-4c0c-8c44-9a0485539e82"
+    },
+    {
+      "choices": [
+        "Use the Vue.js devtools extension",
+        "Utilize console.log() statements throughout the code",
+        "Employ the React Developer Tools extension",
+        "Run the application in Python's debug mode"
+      ],
+      "answer": 2,
+      "question_id": "8d1654e0-0c5f-40cd-a328-80c8e8024e8d"
+    },
+    {
+      "choices": [
+        "Inline styles offer greater flexibility and customization in styling components, while CSS modules improve maintainability and scope styles locally to prevent conflicts.",
+        "CSS modules offer more performance benefits compared to inline styles due to browser caching.",
+        "Inline styles are easier to debug than CSS modules since styles are directly applied within the component.",
+        "CSS modules require more setup and are less efficient than inline styles because they increase the bundle size significantly."
+      ],
+      "answer": 0,
+      "question_id": "c32fe721-6415-49a3-8779-1a7a11000dc8"
+    },
+    {
+      "choices": [
+        "Frequently changing element IDs for dynamic content",
+        "Using div elements instead of semantic HTML",
+        "Ensuring keyboard navigation support",
+        "Avoiding the use of ARIA roles"
+      ],
+      "answer": 2,
+      "question_id": "7cfb0ce6-f5df-421c-b701-ea1d50a96830"
+    },
+    {
+      "choices": [
+        "Increases the number of components rendered in the initial load",
+        "Allows synchronous rendering of all components",
+        "Prioritizes resource-intensive tasks over less critical tasks",
+        "Reduces the bundle size automatically"
+      ],
+      "answer": 2,
+      "question_id": "c7e5dc8a-7b51-4a8f-bca6-5ad38ca1017e"
+    },
+    {
+      "choices": [
+        "A new version of React designed to be faster and more scalable",
+        "A method to optimize React components for better performance",
+        "A way to render children into a DOM node that exists outside the DOM hierarchy of the parent component",
+        "A server-side rendering technique for React applications"
+      ],
+      "answer": 2,
+      "question_id": "56add9ce-6280-4ff6-9c91-35b94d06888a"
+    },
+    {
+      "choices": [
+        "They increase the bundle size, making the application faster",
+        "They allow for dividing UI into reusable pieces without regard to their internal state",
+        "They ensure strict data-typing, enhancing code security",
+        "They provide a mechanism for sharing state across components without using props"
+      ],
+      "answer": 1,
+      "question_id": "d5ca737d-75a0-4f15-8c3f-f99b6fe5ddc7"
+    },
+    {
+      "choices": [
+        "Validating forms on the backend only",
+        "Using inline styles for validation messages",
+        "Utilizing a combination of state, props, and React lifecycle methods",
+        "Refreshing the page upon form submission to check for errors"
+      ],
+      "answer": 2,
+      "question_id": "2379f6f4-13a2-4f9a-934f-1961914a76db"
+    },
+    {
+      "choices": [
+        "When needing to pass props to only one child component",
+        "For adding TypeScript annotations in a functional component",
+        "To manage complex state logic that involves multiple sub-values or when the next state depends on the previous one",
+        "When integrating a third-party API directly into a component"
+      ],
+      "answer": 2,
+      "question_id": "b5bdac43-076d-4921-b927-4d219553da4a"
+    },
+    {
+      "choices": [
+        "Use a combineReducers helper function",
+        "Connect reducers directly to the Redux store",
+        "Pass state through parent components",
+        "Utilize the Context API for state management"
+      ],
+      "answer": 0,
+      "question_id": "c4531c17-0ecb-4d4e-aac2-91fc99c436c6"
+    },
+    {
+      "choices": [
+        "Context API has better performance and is more appropriate for complex state management than Redux.",
+        "The Context API simplifies component tree structure by avoiding prop drilling, but might not be as efficient as Redux for frequent state updates across many components.",
+        "Redux requires less boilerplate code compared to Context API for initial setup and state management.",
+        "Context API is primarily designed for server-side rendering, while Redux is optimized for client-side."
+      ],
+      "answer": 1,
+      "question_id": "b703d041-205f-4b1d-ae64-8f994a532bd0"
+    },
+    {
+      "choices": [
+        "It increases the memory usage on the client-side, leading to slower performance",
+        "It causes the app to only be usable with JavaScript enabled browsers",
+        "It improves app performance and UX by allowing the initial page to be displayed before all JavaScript is loaded",
+        "It makes React apps inaccessible to search engine crawlers"
+      ],
+      "answer": 2,
+      "question_id": "7ee39f57-0d32-4e85-93d2-e1a4f6a30b06"
+    },
+    {
+      "choices": [
+        "Use the React.lazy function inside a useEffect hook",
+        "Utilize the componentDidMount lifecycle method to set state",
+        "Directly modify the DOM inside the render method",
+        "Conditional rendering inside the JSX using ternary operations or logical && operator"
+      ],
+      "answer": 3,
+      "question_id": "faeb5dac-9252-4e0e-803a-d29c9798ad5b"
+    },
+    {
+      "choices": [
+        "It enables server-side rendering for complex components.",
+        "It allows a component to skip rendering if its props have not changed.",
+        "It automatically compresses JavaScript files to reduce load times.",
+        "It increases the number of components that can be loaded asynchronously."
+      ],
+      "answer": 1,
+      "question_id": "9e9b77e3-2390-4885-8347-8431715ddef9"
+    },
+    {
+      "choices": [
+        "Performance degradation due to the size of React's library, which can be mitigated by code splitting and lazy loading",
+        "React's inability to coexist with other JavaScript frameworks, which cannot be resolved",
+        "Increased cost and time for the integration process, which is unavoidable in most scenarios",
+        "React does not support integration with legacy systems, making it impossible to address"
+      ],
+      "answer": 0,
+      "question_id": "3fc48e26-7e78-4bbe-bde9-a0dc8814d4eb"
+    },
+    {
+      "choices": [
+        "To enable offline storage of data in React applications",
+        "To manage the global state in large-scale React applications",
+        "To efficiently fetch nested data from a server in a single request",
+        "To dynamically load React components based on user actions"
+      ],
+      "answer": 2,
+      "question_id": "da8ec3ff-ee2f-40fe-82eb-bc16bfcc0399"
+    },
+    {
+      "choices": [
+        "Use shouldComponentUpdate to prevent unnecessary renders",
+        "Increase the number of class components in your project",
+        "Maintain all state in a single useState hook for efficiency",
+        "Utilize the useMemo hook to memorize expensive calculations"
+      ],
+      "answer": 3,
+      "question_id": "3ca23f69-fb54-4a30-93d4-9ba6cfe3ac77"
+    },
+    {
+      "choices": [
+        "Increase in application load time due to additional dependencies",
+        "Automatic code splitting for faster application performance",
+        "Limited to using class components only",
+        "Enables server-side rendering capabilities by default"
+      ],
+      "answer": 0,
+      "question_id": "38eac075-2431-476d-bc76-75de3c46191d"
+    },
+    {
+      "choices": [
+        "By creating a global variable outside of the component tree and accessing it in each component.",
+        "By using a higher-order component to wrap the entire tree and pass data through props.",
+        "By creating a Context with React.createContext() and using Provider and Consumer components to pass and receive values.",
+        "By storing the data in the top-level component's state and passing it through props to each child component."
+      ],
+      "answer": 2,
+      "question_id": "03ca1a3f-0627-4b60-a449-39cc856240d6"
+    },
+    {
+      "choices": [
+        "React Native offers more direct access to device hardware, leading to better performance compared to traditional native development.",
+        "Using React Native can significantly reduce development time and cost as it allows for cross-platform apps with a single codebase, instead of needing separate teams for iOS and Android.",
+        "React Native's ecosystem is smaller and less mature than the native development ecosystems, resulting in fewer available libraries and tools.",
+        "Traditional native development requires learning JavaScript, whereas React Native development can be done with familiar languages like Swift and Kotlin."
+      ],
+      "answer": 1,
+      "question_id": "7239445d-3cda-47a6-8c67-67faef850466"
+    },
+    {
+      "choices": [
+        "By providing real-time data updates without refreshing",
+        "To delay the rendering of the component tree until a condition is met",
+        "For error handling in component trees",
+        "To automatically memoize components for performance"
+      ],
+      "answer": 1,
+      "question_id": "b875d87c-4505-43f3-ad74-c1a157a729ab"
+    },
+    {
+      "choices": [
+        "Re-writing all components using Hooks since class components have been completely removed.",
+        "No impact, as React updates are always fully backward compatible and require no changes to existing applications.",
+        "Modifying state management strategies to exclusively use Context API, abandoning Redux or MobX.",
+        "Refactoring class components to function components where possible to leverage Hooks, and updating lifecycle methods for compatibility."
+      ],
+      "answer": 3,
+      "question_id": "318d618a-8782-496a-b757-c335a260ed5c"
+    },
+    {
+      "choices": [
+        "Using the onFocus and onBlur events to manage focus within a specified container",
+        "Implementing a focus trap using third-party libraries like focus-trap-react",
+        "Overriding the browser's default tab behavior with custom JavaScript",
+        "Applying the aria-hidden attribute to all elements outside the focus trap area"
+      ],
+      "answer": 1,
+      "question_id": "0522470a-eff2-44e5-8a98-8d5abad03d27"
+    },
+    {
+      "choices": [
+        "Using third-party libraries like Formik",
+        "Direct manipulation of the DOM via JavaScript",
+        "Applying CSS styles dynamically",
+        "Regular polling for data changes"
+      ],
+      "answer": 0,
+      "question_id": "0edf5bc6-3ba6-4f89-aa04-6835ea39fcfc"
+    },
+    {
+      "choices": [
+        "It increases the bundle size significantly for better performance.",
+        "It allows developers to use JSX without importing React into every file.",
+        "It deprecates functional components in favor of class components.",
+        "It restricts the use of Hooks within React components."
+      ],
+      "answer": 1,
+      "question_id": "de455762-681d-454a-aa68-5a974101feee"
+    },
+    {
+      "choices": [
+        "By tightly coupling state management and UI components for streamlined development",
+        "Utilizing global variables for state management to simplify state tracking",
+        "Adopting a modular architecture with a clear separation of concerns, utilizing Redux or Context API for state management",
+        "Assigning all business logic directly within React components to reduce the number of files"
+      ],
+      "answer": 2,
+      "question_id": "bd86fb55-afce-4198-b9a8-82e258397005"
+    },
+    {
+      "choices": [
+        "Save them in a .css file and reference it in your React components.",
+        "Define them in the JavaScript files where they are used, changing them before each deployment.",
+        "Use the dotenv package to load them from a .env file based on the NODE_ENV value.",
+        "Hard code them into the HTML file that serves your React application."
+      ],
+      "answer": 2,
+      "question_id": "522b5f9d-78c7-4a5b-83c3-f21ce093e405"
+    },
+    {
+      "choices": [
+        "By allowing direct manipulation of the DOM within components",
+        "By encouraging tighter coupling between components and their state logic",
+        "By providing a reusable way to share logic across components, reducing code duplication",
+        "By automatically optimizing the application for performance without any coding required"
+      ],
+      "answer": 2,
+      "question_id": "b4e43f28-95d1-4c22-a209-255d037ee93f"
+    }
+  ]
+}

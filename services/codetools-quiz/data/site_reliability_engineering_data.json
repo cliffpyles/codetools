@@ -1,0 +1,1507 @@
+{
+  "topic": "Site Reliability Engineering",
+  "questions": [
+    {
+      "id": "e5bab242-ffe9-41ae-862e-6d32e1f3a26e",
+      "difficulty": 1,
+      "question": "What is the primary goal of Site Reliability Engineering (SRE)?"
+    },
+    {
+      "id": "0281f954-a53b-42e2-8e07-989f5b1079fb",
+      "difficulty": 1,
+      "question": "Who coined the term Site Reliability Engineering?"
+    },
+    {
+      "id": "105c4362-8929-40cc-af1e-2e4f3956b823",
+      "difficulty": 1,
+      "question": "Which company is considered the birthplace of SRE?"
+    },
+    {
+      "id": "79e9caae-921e-4bb1-a661-b961d381cc15",
+      "difficulty": 1,
+      "question": "What is an SLO in the context of SRE?"
+    },
+    {
+      "id": "48520ef6-46e5-46c9-b9d9-b6858ce9d872",
+      "difficulty": 1,
+      "question": "What is a Service Level Indicator (SLI)?"
+    },
+    {
+      "id": "9e4153a5-7370-43e4-ae56-9de38c8ceda9",
+      "difficulty": 1,
+      "question": "What is the difference between SRE and traditional IT operations?"
+    },
+    {
+      "id": "9ec4058a-b32d-4366-82ca-b8247f1d8351",
+      "difficulty": 1,
+      "question": "What is a Service Level Agreement (SLA)?"
+    },
+    {
+      "id": "82dbb48b-9f19-4963-9795-4af1898371f3",
+      "difficulty": 1,
+      "question": "What is toil in SRE terminology?"
+    },
+    {
+      "id": "a94af16e-ced9-460a-8130-17db1142e176",
+      "difficulty": 1,
+      "question": "What is the Error Budget in SRE?"
+    },
+    {
+      "id": "33bb6582-c42d-4468-8d19-47474b522242",
+      "difficulty": 1,
+      "question": "What programming language is commonly associated with SRE for automation tasks?"
+    },
+    {
+      "id": "4c45475a-fcee-43e6-9e0c-04af51f0acc0",
+      "difficulty": 1,
+      "question": "What is the main focus of SRE?"
+    },
+    {
+      "id": "67be6662-995a-4f9a-becb-022c3d026796",
+      "difficulty": 1,
+      "question": "How does SRE approach software deployment?"
+    },
+    {
+      "id": "f3327912-ce27-413d-a649-0c958971a1eb",
+      "difficulty": 1,
+      "question": "What is the principle of 'You build it, you run it' in SRE?"
+    },
+    {
+      "id": "735a45c3-8ec6-49a0-9c77-a93e1c7210ea",
+      "difficulty": 1,
+      "question": "What is observability in the context of SRE?"
+    },
+    {
+      "id": "daacdb39-2ca5-41bb-a70c-2f5b0855d395",
+      "difficulty": 1,
+      "question": "What type of infrastructure management approach is preferred in SRE?"
+    },
+    {
+      "id": "d3f5875b-af52-4140-bb0e-5c4c672cec6f",
+      "difficulty": 1,
+      "question": "What are the four golden signals of monitoring in SRE?"
+    },
+    {
+      "id": "c2cb060e-c115-445a-be65-b30d58dc35bb",
+      "difficulty": 1,
+      "question": "What does MTTR stand for in SRE?"
+    },
+    {
+      "id": "e63725c0-88ee-4072-bd95-7bfdd31f39e1",
+      "difficulty": 1,
+      "question": "What is the purpose of blameless postmortems in SRE?"
+    },
+    {
+      "id": "651cca63-b140-41f5-9219-df95f61c6e69",
+      "difficulty": 1,
+      "question": "What does 'reliability' typically refer to in SRE?"
+    },
+    {
+      "id": "d0466c88-0e05-47ba-8d63-0726a7f99323",
+      "difficulty": 1,
+      "question": "What does 'automation' in SRE focus on?"
+    },
+    {
+      "id": "8ad27c5d-2ba2-4e23-a0d5-51e9085afbbb",
+      "difficulty": 2,
+      "question": "How do SRE teams typically handle incident management compared to traditional IT?"
+    },
+    {
+      "id": "8495e25c-ee2d-4ace-84bf-58b4e604dbc9",
+      "difficulty": 2,
+      "question": "What is a common tool used for configuration management in SRE?"
+    },
+    {
+      "id": "de77e224-4db7-4cd9-bc5d-b2df4ea2f52f",
+      "difficulty": 2,
+      "question": "What is the significance of 'toil reduction' in SRE?"
+    },
+    {
+      "id": "a709c0a2-bcb9-4dfd-849f-e145ac452e83",
+      "difficulty": 2,
+      "question": "How does SRE measure the reliability of a system?"
+    },
+    {
+      "id": "118a202f-316b-4707-bf86-ad489bc054c7",
+      "difficulty": 2,
+      "question": "What is a 'symptom-based alerting' in SRE?"
+    },
+    {
+      "id": "2c23f508-748e-44c0-b86f-5868a4ca3096",
+      "difficulty": 2,
+      "question": "What is Idempotence in the context of SRE and automation?"
+    },
+    {
+      "id": "5e527dca-ed21-425a-919a-1695bcd4de24",
+      "difficulty": 2,
+      "question": "What is the main difference between observability and monitoring in SRE?"
+    },
+    {
+      "id": "3988a338-7c9e-4e87-86e9-7c128759cf76",
+      "difficulty": 2,
+      "question": "How do SREs contribute to the software development lifecycle?"
+    },
+    {
+      "id": "f9df82f0-5753-42a4-85d2-3b61ca78643f",
+      "difficulty": 2,
+      "question": "What is the relationship between error budgets and feature development in SRE?"
+    },
+    {
+      "id": "8dcace19-2b47-4ca3-8cb5-5b43b4c3ed10",
+      "difficulty": 2,
+      "question": "What role do Service Level Objectives (SLOs) play in capacity planning?"
+    },
+    {
+      "id": "25c69565-ec1d-4b21-893e-4abf14f6107f",
+      "difficulty": 2,
+      "question": "How does SRE balance deployment speed and system stability?"
+    },
+    {
+      "id": "52bbc126-5828-4bcd-a516-ccd748baee4b",
+      "difficulty": 2,
+      "question": "What are some common strategies for managing and reducing toil in SRE?"
+    },
+    {
+      "id": "9dd4c428-9201-43e9-8243-dbee7afd4b56",
+      "difficulty": 2,
+      "question": "What is the purpose of an error budget policy in SRE?"
+    },
+    {
+      "id": "36acf0d8-7e3a-476d-b05d-a6e588b2c88b",
+      "difficulty": 2,
+      "question": "What is the role of automation in incident response within SRE?"
+    },
+    {
+      "id": "4e85657b-f0b9-49bc-8848-ee392bed95ca",
+      "difficulty": 2,
+      "question": "How does SRE integrate with DevOps practices?"
+    },
+    {
+      "id": "e6c52534-d6d6-4077-b5c0-3ea6157371dc",
+      "difficulty": 2,
+      "question": "What is the concept of 'fault tolerance' in SRE?"
+    },
+    {
+      "id": "d249163b-ea89-418c-85ec-de0448efff5b",
+      "difficulty": 2,
+      "question": "How does SRE use chaos engineering?"
+    },
+    {
+      "id": "60695922-4993-4d67-975d-c1e282d6dd76",
+      "difficulty": 2,
+      "question": "What is 'rate limiting' and its importance in SRE?"
+    },
+    {
+      "id": "3019d439-429a-44da-88b4-ec3ef4f10a8a",
+      "difficulty": 2,
+      "question": "How does SRE address technical debt?"
+    },
+    {
+      "id": "b0ea9877-265d-4b5f-b9cd-e3df2ed43617",
+      "difficulty": 2,
+      "question": "What are the challenges in measuring and achieving reliability in microservices architecture from an SRE perspective?"
+    },
+    {
+      "id": "0e3e0f0b-ae58-45e6-9b7b-80c1e5470019",
+      "difficulty": 3,
+      "question": "What is a Canary Release in the context of SRE?"
+    },
+    {
+      "id": "492350d3-d1b1-4abb-a45e-96d1b39fa7ac",
+      "difficulty": 3,
+      "question": "How does SRE approach database schema migrations in continuous delivery environments?"
+    },
+    {
+      "id": "4e13f6a1-be35-47b9-8f08-cf08f22d18e9",
+      "difficulty": 3,
+      "question": "What is the role of load testing in SRE?"
+    },
+    {
+      "id": "91a12960-7ac1-4ebc-8c9f-69ecfb576eb0",
+      "difficulty": 3,
+      "question": "How does SRE utilize service mesh technologies?"
+    },
+    {
+      "id": "5e40fb36-0858-47a2-a460-ad25e56b1758",
+      "difficulty": 3,
+      "question": "What is blue-green deployment, and how does it relate to SRE?"
+    },
+    {
+      "id": "c5ff2f6c-c1e6-41de-ab49-654c398ae6f9",
+      "difficulty": 3,
+      "question": "How does SRE ensure data consistency in distributed systems?"
+    },
+    {
+      "id": "7e5d6813-e751-4309-a09d-36b88cf8fd45",
+      "difficulty": 3,
+      "question": "What role does SRE play in disaster recovery planning?"
+    },
+    {
+      "id": "2bd65913-62b6-4a85-9413-38840e8f65a5",
+      "difficulty": 3,
+      "question": "How do SRE teams implement security best practices into their workflows?"
+    },
+    {
+      "id": "864dbea1-542b-4399-be4c-5ff737d59608",
+      "difficulty": 3,
+      "question": "In SRE, how are dependency failures managed in microservice architectures?"
+    },
+    {
+      "id": "ce3c10d0-7fb0-451c-8613-0278b25ac6c8",
+      "difficulty": 3,
+      "question": "What is the role of feature toggles in SRE?"
+    },
+    {
+      "id": "3ba8eee6-6e7a-4fac-a715-3fff6af6a4e3",
+      "difficulty": 3,
+      "question": "How does SRE handle rollback strategies for software releases?"
+    },
+    {
+      "id": "52109421-3324-48c1-8304-257796066d2e",
+      "difficulty": 3,
+      "question": "What are the specific challenges of managing stateful services in SRE?"
+    },
+    {
+      "id": "82491eb0-f75a-43a8-a9f3-cee0511330cd",
+      "difficulty": 3,
+      "question": "How does SRE use traffic shaping techniques?"
+    },
+    {
+      "id": "f17b1d5a-eabb-44f2-bc57-dc9e63bd85a1",
+      "difficulty": 3,
+      "question": "How do SRE teams use A/B testing?"
+    },
+    {
+      "id": "8b7b5bc3-a513-428d-914e-0689dbaa7739",
+      "difficulty": 3,
+      "question": "What is the concept of dark launches in SRE?"
+    },
+    {
+      "id": "83c5984b-5326-42d2-b948-52f3af7709a5",
+      "difficulty": 3,
+      "question": "How does SRE align with the principles of infrastructure as code (IaC)?"
+    },
+    {
+      "id": "e86bab3d-88ba-412c-83db-9d621e0edfee",
+      "difficulty": 3,
+      "question": "What considerations do SRE teams make for data privacy and compliance?"
+    },
+    {
+      "id": "83b0cb7c-8b1e-49f6-bf74-e98399f947fe",
+      "difficulty": 3,
+      "question": "How do SRE teams manage scalability challenges in a cloud-native environment?"
+    },
+    {
+      "id": "33d58376-a717-4401-b6e3-458a82126215",
+      "difficulty": 3,
+      "question": "What is the importance of capacity planning in SRE?"
+    },
+    {
+      "id": "de9dc369-bfa7-4577-89b6-efed56e59cdc",
+      "difficulty": 3,
+      "question": "How does SRE contribute to the design of resilient and fault-tolerant systems?"
+    },
+    {
+      "id": "792bddfc-ac28-4ebc-b7f0-693ec8a66ea1",
+      "difficulty": 4,
+      "question": "What are the advanced strategies for managing latency and performance in large-scale distributed systems as practiced in SRE?"
+    },
+    {
+      "id": "e652d449-89eb-4850-a9fd-d240b6286df1",
+      "difficulty": 4,
+      "question": "How do SRE teams use machine learning for predictive analysis in system reliability?"
+    },
+    {
+      "id": "e5666a1f-6cc7-45e4-9e7d-a43c525ac5b9",
+      "difficulty": 4,
+      "question": "What are the complexities involved in managing service dependencies in a global, multi-cloud infrastructure from an SRE perspective?"
+    },
+    {
+      "id": "b5c096ec-f9d2-421c-900c-b029235853bb",
+      "difficulty": 4,
+      "question": "How does SRE handle data replication and consistency across geographically distributed databases?"
+    },
+    {
+      "id": "ccbe7158-1760-409e-aedb-05a14f6b1292",
+      "difficulty": 4,
+      "question": "What methodologies do SRE use for advanced root cause analysis of systemic issues?"
+    },
+    {
+      "id": "3ebc82c5-dded-47d7-a422-79f3b5e90825",
+      "difficulty": 4,
+      "question": "How does SRE approach the challenge of real-time data streaming and processing systems reliability?"
+    },
+    {
+      "id": "c08ff243-1fb0-4bd1-8cd2-3b56e7b93dd9",
+      "difficulty": 4,
+      "question": "What are the strategies SRE employs for ensuring high availability in hybrid cloud environments?"
+    },
+    {
+      "id": "41a95fa2-b039-4db4-9cc1-17aada1af59e",
+      "difficulty": 4,
+      "question": "How does SRE integrate and manage serverless architectures?"
+    },
+    {
+      "id": "84b8846b-db59-408a-869a-076e44d36cf0",
+      "difficulty": 4,
+      "question": "What are the SRE best practices for container orchestration using Kubernetes?"
+    },
+    {
+      "id": "9630a2d9-85cd-4bd0-88b7-ab9abfec0dd5",
+      "difficulty": 4,
+      "question": "How does SRE address challenges in continuously evolving security threats?"
+    },
+    {
+      "id": "d6cafb0d-b91d-4366-9687-d6a632ee1f7e",
+      "difficulty": 4,
+      "question": "What is the role of artificial intelligence and automation in proactive issue resolution in SRE?"
+    },
+    {
+      "id": "bc23e3fa-d759-42af-ad7c-de18faeaec00",
+      "difficulty": 4,
+      "question": "How does SRE deal with the complexity and reliability challenges of service mesh implementations?"
+    },
+    {
+      "id": "a47e46a8-753e-4855-84be-b15c4ccb5049",
+      "difficulty": 4,
+      "question": "What advanced monitoring and observability tools are preferred by SREs for complex systems?"
+    },
+    {
+      "id": "e219eec8-0f56-4ea6-9041-62f8f1b6fe43",
+      "difficulty": 4,
+      "question": "What are the SRE practices for managing and optimizing cloud costs efficiently?"
+    },
+    {
+      "id": "29320a96-fe2f-4ef0-a937-d0a92d97daac",
+      "difficulty": 4,
+      "question": "How does SRE tackle the challenge of zero-downtime migrations in highly available systems?"
+    },
+    {
+      "id": "d04e12b1-bb30-49e3-8ca7-a2d8924e48a5",
+      "difficulty": 4,
+      "question": "What are the considerations for SRE in terms of global traffic management for multinational services?"
+    },
+    {
+      "id": "367fc68f-84b1-41d5-a627-2e4ff59326d4",
+      "difficulty": 4,
+      "question": "How does SRE approach the management of legacy systems and their integration into modern infrastructure?"
+    },
+    {
+      "id": "0d64e4c4-835f-4abe-9031-1b967630f7bb",
+      "difficulty": 4,
+      "question": "What are the specific strategies used by SRE to ensure data integrity during major system updates?"
+    },
+    {
+      "id": "83c8e4a3-ef77-4c9e-b6af-4251c797cf65",
+      "difficulty": 4,
+      "question": "How do SRE teams enhance system resiliency against distributed denial-of-service (DDoS) attacks?"
+    },
+    {
+      "id": "79fda2d9-2ce8-49a1-81c7-d0d51dfc8471",
+      "difficulty": 4,
+      "question": "What are the specialized SRE approaches for managing and ensuring the reliability of IoT (Internet of Things) devices and their data streams?"
+    },
+    {
+      "id": "7b6a15d4-5a82-429a-b561-313154494aae",
+      "difficulty": 5,
+      "question": "What are the cutting-edge technologies being explored by SREs for future-proofing system reliability?"
+    },
+    {
+      "id": "f99b4490-e68d-4853-8827-baa8525238c4",
+      "difficulty": 5,
+      "question": "How do SRE teams employ quantum computing concepts for solving reliability issues in high-performance computing scenarios?"
+    },
+    {
+      "id": "bdd7cb5b-981c-4f3a-816d-eb6355bf559b",
+      "difficulty": 5,
+      "question": "What are the SRE strategies for managing the complexities of edge computing infrastructure?"
+    },
+    {
+      "id": "dc9d21fa-51e6-42bd-aafd-bf75f1c119b1",
+      "difficulty": 5,
+      "question": "How does SRE address the challenges of maintaining reliability in blockchain-based systems?"
+    },
+    {
+      "id": "4c285ee9-6ed9-4427-a9e0-4c0779bdceb6",
+      "difficulty": 5,
+      "question": "What are the innovative solutions being developed by SRE for real-time anomaly detection in massive data sets?"
+    },
+    {
+      "id": "c0832672-216f-4aa2-94fa-939d1c70935c",
+      "difficulty": 5,
+      "question": "How do SREs tackle the reliability and scalability challenges in 5G networks?"
+    },
+    {
+      "id": "bf087c38-b56e-47d4-8c91-02b184560866",
+      "difficulty": 5,
+      "question": "What are the approaches SRE uses for automating compliance and security verification in CI/CD pipelines?"
+    },
+    {
+      "id": "dbda3d42-30b5-453f-b9cb-72bbb5d61146",
+      "difficulty": 5,
+      "question": "How are SRE teams adapting to the integration of augmented reality and virtual reality technologies?"
+    },
+    {
+      "id": "170814dc-c603-487c-bd3f-4a24a72f810f",
+      "difficulty": 5,
+      "question": "What advanced practices do SREs adopt for managing and optimizing resource allocation in containerized environments?"
+    },
+    {
+      "id": "466d4a12-766b-417f-acfb-6525fabfd92a",
+      "difficulty": 5,
+      "question": "What are the future directions for SRE in the context of AI-driven ops?"
+    },
+    {
+      "id": "26b18cd6-8662-4ef9-8396-40982bc99bd0",
+      "difficulty": 5,
+      "question": "How does SRE plan to handle the increasingly complex interdependencies in multicloud and hybrid cloud arrangements?"
+    },
+    {
+      "id": "6eae92cf-512e-40b0-b069-4d10ddb0cdc2",
+      "difficulty": 5,
+      "question": "What are the challenges and solutions for SRE in ensuring the reliability of microservices at a massive scale?"
+    },
+    {
+      "id": "91d04199-ec66-4ca9-bc06-216cbad7ece2",
+      "difficulty": 5,
+      "question": "How does SRE contribute to enhancing user experience through reliability improvements?"
+    },
+    {
+      "id": "7e4d7580-dc91-4859-b69f-58140d113a9b",
+      "difficulty": 5,
+      "question": "What are the latest trends in observability that SREs are focusing on to handle increasingly complex system architectures?"
+    },
+    {
+      "id": "63460c3d-9b6f-423a-845c-ecd9d58fa569",
+      "difficulty": 5,
+      "question": "How is SRE evolving to accommodate the growing need for sustainable and eco-friendly computing practices?"
+    },
+    {
+      "id": "3e5d195d-8723-4561-94e5-7bdccb2aa634",
+      "difficulty": 5,
+      "question": "What are the new paradigms in incident response and management being developed by SRE?"
+    },
+    {
+      "id": "e69de9b8-82ac-42c5-8874-2dfafc5c9c26",
+      "difficulty": 5,
+      "question": "How does Site Reliability Engineering incorporate privacy-by-design principles in system architecture?"
+    },
+    {
+      "id": "b2c7b464-16e2-4611-928f-68d0548b0c7a",
+      "difficulty": 5,
+      "question": "What role does SRE have in fostering a culture of innovation while maintaining system reliability?"
+    },
+    {
+      "id": "d5af9f49-ceaa-4f6a-b581-99d11a0991f9",
+      "difficulty": 5,
+      "question": "How do SRE teams utilize blockchain technology for enhancing system security and reliability?"
+    },
+    {
+      "id": "87f01564-ddc1-4df6-9fb7-436b49e82168",
+      "difficulty": 5,
+      "question": "What are the anticipated impacts of AI advancements on the future roles and practices of SRE?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "To ensure that software development projects are completed on time",
+        "To improve the scalability and performance of web applications",
+        "To create more engaging user interfaces",
+        "To create and maintain scalable and reliable software systems"
+      ],
+      "answer": 3,
+      "question_id": "e5bab242-ffe9-41ae-862e-6d32e1f3a26e"
+    },
+    {
+      "choices": [
+        "Ben Treynor Sloss",
+        "Jeff Dean",
+        "Mark Zuckerberg",
+        "Linus Torvalds"
+      ],
+      "answer": 0,
+      "question_id": "0281f954-a53b-42e2-8e07-989f5b1079fb"
+    },
+    {
+      "choices": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "Facebook"
+      ],
+      "answer": 1,
+      "question_id": "105c4362-8929-40cc-af1e-2e4f3956b823"
+    },
+    {
+      "choices": [
+        "Service Level Optimization",
+        "Simple Log Output",
+        "Service Level Objective",
+        "Security Lock Override"
+      ],
+      "answer": 2,
+      "question_id": "79e9caae-921e-4bb1-a661-b961d381cc15"
+    },
+    {
+      "choices": [
+        "A measure that quantifies the quality of the software development process.",
+        "A tool used for automating the deployment process.",
+        "A detailed report of incident response times and durations.",
+        "A metric that measures some aspect of the service's reliability."
+      ],
+      "answer": 3,
+      "question_id": "48520ef6-46e5-46c9-b9d9-b6858ce9d872"
+    },
+    {
+      "choices": [
+        "SRE focuses more on manual system adjustments while traditional IT operations use more automation.",
+        "SRE primarily deals with software development and has little to do with operations.",
+        "SRE uses software engineering to approach operations problems and automate tasks, while traditional IT operations focus more on manual setup and maintenance.",
+        "SRE and traditional IT operations are essentially the same in their methods and goals."
+      ],
+      "answer": 2,
+      "question_id": "9e4153a5-7370-43e4-ae56-9de38c8ceda9"
+    },
+    {
+      "choices": [
+        "A contract between a service provider and a client that specifies, usually in measurable terms, what services the service provider will furnish",
+        "A manual detailing a company's internal processes and policies",
+        "A programming interface specifically tailored for web services",
+        "A document outlining the strategic goals of a technology company"
+      ],
+      "answer": 0,
+      "question_id": "9ec4058a-b32d-4366-82ca-b8247f1d8351"
+    },
+    {
+      "choices": [
+        "A software tool used for automation",
+        "Manual, repetitive operational work that could be automated",
+        "The time it takes for a system to recover from failure",
+        "A metric used to measure reliability"
+      ],
+      "answer": 1,
+      "question_id": "82dbb48b-9f19-4963-9795-4af1898371f3"
+    },
+    {
+      "choices": [
+        "The total downtime allowed per year according to the SLA",
+        "The maximum amount of financial resources allocated for error resolution",
+        "A performance indicator related to the reliability of a system",
+        "The percentage of allowable errors that a service can incur while still meeting the agreed Service Level Objectives (SLOs)"
+      ],
+      "answer": 3,
+      "question_id": "a94af16e-ced9-460a-8130-17db1142e176"
+    },
+    {
+      "choices": [
+        "Ruby",
+        "Go",
+        "Java",
+        "C++"
+      ],
+      "answer": 1,
+      "question_id": "33bb6582-c42d-4468-8d19-47474b522242"
+    },
+    {
+      "choices": [
+        "Enhancing the graphical user interface of web applications",
+        "Reducing operational costs through automation",
+        "Creating marketing strategies for technology products",
+        "Ensuring scalability and reliability of systems"
+      ],
+      "answer": 3,
+      "question_id": "4c45475a-fcee-43e6-9e0c-04af51f0acc0"
+    },
+    {
+      "choices": [
+        "By following strict ITSM frameworks without flexibility",
+        "By prioritizing security over reliability",
+        "By balancing feature development with operational reliability",
+        "By focusing solely on manual testing before release"
+      ],
+      "answer": 2,
+      "question_id": "67be6662-995a-4f9a-becb-022c3d026796"
+    },
+    {
+      "choices": [
+        "Using automated tools to ensure reliability",
+        "Outsourcing system maintenance to external providers",
+        "Developers are responsible for the operations of their software in production",
+        "Splitting teams based on the technology stack"
+      ],
+      "answer": 2,
+      "question_id": "f3327912-ce27-413d-a649-0c958971a1eb"
+    },
+    {
+      "choices": [
+        "A process for managing site traffic and load balancing",
+        "A tool for automatic code deployment and integration",
+        "The ability to understand and debug a system's internal state based on its external outputs",
+        "A system for managing and automating cloud infrastructure provisioning"
+      ],
+      "answer": 2,
+      "question_id": "735a45c3-8ec6-49a0-9c77-a93e1c7210ea"
+    },
+    {
+      "choices": [
+        "Manual configuration management",
+        "Infrastructure as a Service (IaaS)",
+        "Infrastructure as Code (IaC)",
+        "Ad-hoc scripting"
+      ],
+      "answer": 2,
+      "question_id": "daacdb39-2ca5-41bb-a70c-2f5b0855d395"
+    },
+    {
+      "choices": [
+        "Throughput, Accuracy, Response time, Errors",
+        "Latency, Traffic, Errors, Saturation",
+        "Connectivity, Bandwidth, Latency, Errors",
+        "Response time, Availability, Throughput, Errors"
+      ],
+      "answer": 1,
+      "question_id": "d3f5875b-af52-4140-bb0e-5c4c672cec6f"
+    },
+    {
+      "choices": [
+        "Maximum Time to Repair",
+        "Mean Time to Recognize",
+        "Mean Time to Repair",
+        "Minimum Time to Response"
+      ],
+      "answer": 2,
+      "question_id": "c2cb060e-c115-445a-be65-b30d58dc35bb"
+    },
+    {
+      "choices": [
+        "To pinpoint individuals responsible for outages",
+        "To encourage continuous improvement by learning from mistakes without personal blame",
+        "To enforce stricter protocols on code deployment",
+        "To reduce the number of individuals involved in decision making"
+      ],
+      "answer": 1,
+      "question_id": "e63725c0-88ee-4072-bd95-7bfdd31f39e1"
+    },
+    {
+      "choices": [
+        "Speed of feature releases",
+        "Number of users a system can handle",
+        "Consistency and predictability in system performance",
+        "Frequency of code deployments"
+      ],
+      "answer": 2,
+      "question_id": "651cca63-b140-41f5-9219-df95f61c6e69"
+    },
+    {
+      "choices": [
+        "Increasing manual intervention for reliability",
+        "Automating documentation processes only",
+        "Reducing toil through software solutions",
+        "Focusing exclusively on automated customer support"
+      ],
+      "answer": 2,
+      "question_id": "d0466c88-0e05-47ba-8d63-0726a7f99323"
+    },
+    {
+      "choices": [
+        "By focusing solely on immediate problem resolution without tracking for future improvements",
+        "By setting up a detailed and inflexible protocol for every type of incident",
+        "By employing automated systems for all incident management processes, eliminating human intervention",
+        "By using a combination of automation, monitoring, and postmortem analysis to improve system reliability"
+      ],
+      "answer": 3,
+      "question_id": "8ad27c5d-2ba2-4e23-a0d5-51e9085afbbb"
+    },
+    {
+      "choices": [
+        "Docker",
+        "Jenkins",
+        "Ansible",
+        "Splunk"
+      ],
+      "answer": 2,
+      "question_id": "8495e25c-ee2d-4ace-84bf-58b4e604dbc9"
+    },
+    {
+      "choices": [
+        "Increasing the deployment frequency",
+        "Improving the productivity of engineers by automating repetitive tasks",
+        "Reducing the number of meetings",
+        "Expanding the scope of manual testing"
+      ],
+      "answer": 1,
+      "question_id": "de77e224-4db7-4cd9-bc5d-b2df4ea2f52f"
+    },
+    {
+      "choices": [
+        "By the number of features the system has",
+        "Through user satisfaction surveys",
+        "By the system's uptime and error rates",
+        "Using the speed of feature deployment"
+      ],
+      "answer": 2,
+      "question_id": "a709c0a2-bcb9-4dfd-849f-e145ac452e83"
+    },
+    {
+      "choices": [
+        "Alerts generated based on a prediction of future system failures",
+        "Alerts that trigger after a system component has failed",
+        "Alerts based on the deviation from typical user behavior patterns",
+        "Alerts triggered by signals that indicate a user-visible issue or an impending user-visible issue"
+      ],
+      "answer": 3,
+      "question_id": "118a202f-316b-4707-bf86-ad489bc054c7"
+    },
+    {
+      "choices": [
+        "A method for ensuring services automatically scale in response to demand",
+        "The property that a operation can be applied multiple times without changing the result beyond the initial application",
+        "A protocol for secure communication between microservices",
+        "A strategy for rolling back failed deployments automatically"
+      ],
+      "answer": 1,
+      "question_id": "2c23f508-748e-44c0-b86f-5868a4ca3096"
+    },
+    {
+      "choices": [
+        "Observability focuses on the collection of external inputs only, whereas monitoring focuses on system outputs.",
+        "Observability is about understanding the internal state of systems from external outputs, while monitoring is about gathering metrics and logs to watch for known issues.",
+        "Monitoring requires custom instrumentation for each application, whereas observability does not.",
+        "Observability can predict future system states, but monitoring cannot."
+      ],
+      "answer": 1,
+      "question_id": "5e527dca-ed21-425a-919a-1695bcd4de24"
+    },
+    {
+      "choices": [
+        "By designing promotional materials for software releases",
+        "By focusing solely on post-deployment bug fixes",
+        "By ensuring system reliability and performance through engineering and operational practices",
+        "By negotiating software feature scopes with clients"
+      ],
+      "answer": 2,
+      "question_id": "3988a338-7c9e-4e87-86e9-7c128759cf76"
+    },
+    {
+      "choices": [
+        "Error budgets restrict the amount of available financial resources for feature development.",
+        "Error budgets determine the amount of downtime acceptable before a new feature release.",
+        "Error budgets prioritize software performance over new feature development.",
+        "Error budgets balance the pace of new feature development with system reliability."
+      ],
+      "answer": 3,
+      "question_id": "f9df82f0-5753-42a4-85d2-3b61ca78643f"
+    },
+    {
+      "choices": [
+        "Determining the color scheme for user interfaces",
+        "Facilitating communication between development and business teams",
+        "Guiding decisions on when to scale resources to meet performance standards",
+        "Selecting the most energy-efficient hardware for deployment"
+      ],
+      "answer": 2,
+      "question_id": "8dcace19-2b47-4ca3-8cb5-5b43b4c3ed10"
+    },
+    {
+      "choices": [
+        "By focusing solely on automatic rollbacks",
+        "Through rigorous manual testing before deployment",
+        "By implementing a blameless postmortem culture",
+        "By balancing change failure rate and service level objectives"
+      ],
+      "answer": 3,
+      "question_id": "25c69565-ec1d-4b21-893e-4abf14f6107f"
+    },
+    {
+      "choices": [
+        "Increasing the number of team meetings to improve communication",
+        "Automating repetitive tasks",
+        "Reducing the time spent on documentation",
+        "Hiring more staff to handle operational work"
+      ],
+      "answer": 1,
+      "question_id": "52bbc126-5828-4bcd-a516-ccd748baee4b"
+    },
+    {
+      "choices": [
+        "To determine the feature development speed",
+        "To define the maximum allowable downtime",
+        "To outline the response procedure for security breaches",
+        "To balance the pace of innovation with the reliability of the system"
+      ],
+      "answer": 3,
+      "question_id": "9dd4c428-9201-43e9-8243-dbee7afd4b56"
+    },
+    {
+      "choices": [
+        "To manually review and address each incident individually",
+        "To increase the number of incidents by introducing more complex systems",
+        "To reduce the need for human intervention by automating repetitive tasks and responses",
+        "To completely eliminate the need for SRE teams"
+      ],
+      "answer": 2,
+      "question_id": "36acf0d8-7e3a-476d-b05d-a6e588b2c88b"
+    },
+    {
+      "choices": [
+        "By focusing solely on incident management and response",
+        "Through the cultural approach of sharing and delegation responsibilities",
+        "By replacing DevOps with more technical roles and responsibilities",
+        "Through exclusive use of automated deployment tools"
+      ],
+      "answer": 1,
+      "question_id": "4e85657b-f0b9-49bc-8848-ee392bed95ca"
+    },
+    {
+      "choices": [
+        "Frequent and mandatory system upgrades to prevent failures",
+        "The practice of predicting system failures through extensive testing",
+        "The capacity of a system to continue operating properly in the event of a failure of some of its components",
+        "Strict adherence to coding standards to prevent software bugs"
+      ],
+      "answer": 2,
+      "question_id": "e6c52534-d6d6-4077-b5c0-3ea6157371dc"
+    },
+    {
+      "choices": [
+        "To automate software delivery and infrastructure changes",
+        "To ensure high availability by simulating outages and testing system resilience",
+        "To monitor network traffic and prevent cyber attacks",
+        "To manage and scale cloud resources efficiently"
+      ],
+      "answer": 1,
+      "question_id": "d249163b-ea89-418c-85ec-de0448efff5b"
+    },
+    {
+      "choices": [
+        "A technique to prioritize system resources by importance",
+        "An approach for automating software deployments",
+        "A security practice to prevent unauthorized access",
+        "A method to control the amount of traffic or requests to a service to prevent overload"
+      ],
+      "answer": 3,
+      "question_id": "60695922-4993-4d67-975d-c1e282d6dd76"
+    },
+    {
+      "choices": [
+        "By reducing feature development speed",
+        "By documenting system designs thoroughly",
+        "By automating operational tasks and improving system reliability",
+        "By increasing manual oversight on deployments"
+      ],
+      "answer": 2,
+      "question_id": "3019d439-429a-44da-88b4-ec3ef4f10a8a"
+    },
+    {
+      "choices": [
+        "Lack of skilled personnel",
+        "Difficulty in isolating failures due to service dependencies",
+        "Increased security vulnerabilities",
+        "Higher upfront infrastructure costs"
+      ],
+      "answer": 1,
+      "question_id": "b0ea9877-265d-4b5f-b9cd-e3df2ed43617"
+    },
+    {
+      "choices": [
+        "A method of rolling back a release in case of failure",
+        "A feature toggle used for enabling new features",
+        "A deployment technique that releases a new version to a small subset of users before a full rollout",
+        "The process of merging new code into the main branch daily"
+      ],
+      "answer": 2,
+      "question_id": "0e3e0f0b-ae58-45e6-9b7b-80c1e5470019"
+    },
+    {
+      "choices": [
+        "By manually reviewing and applying schema changes during predefined maintenance windows",
+        "By automatically applying schema migrations as part of the deployment pipeline",
+        "By avoiding any schema changes in order to ensure reliability",
+        "By outsourcing database management to a third-party provider"
+      ],
+      "answer": 1,
+      "question_id": "492350d3-d1b1-4abb-a45e-96d1b39fa7ac"
+    },
+    {
+      "choices": [
+        "Identifying the most popular content on the website",
+        "Assessing a system's behavior under peak load conditions",
+        "Improving the SEO ranking of the website",
+        "Reducing the cost of cloud services"
+      ],
+      "answer": 1,
+      "question_id": "4e13f6a1-be35-47b9-8f08-cf08f22d18e9"
+    },
+    {
+      "choices": [
+        "To physically separate application components for security purposes",
+        "To automatically scale application resources based on demand",
+        "For routing and managing network traffic between microservices",
+        "To enhance the visual appearance of user interfaces"
+      ],
+      "answer": 2,
+      "question_id": "91a12960-7ac1-4ebc-8c9f-69ecfb576eb0"
+    },
+    {
+      "choices": [
+        "A process where two separate but identical environments are maintained, where one is live and the other is a standby for testing and preparation.",
+        "A deployment strategy that involves simultaneous scaling of applications to match user demand in real-time.",
+        "A technique for automatically managing and provisioning cloud resources through code.",
+        "A system of automated backups and restores used for disaster recovery purposes."
+      ],
+      "answer": 0,
+      "question_id": "5e40fb36-0858-47a2-a460-ad25e56b1758"
+    },
+    {
+      "choices": [
+        "By enforcing tight coupling between system components",
+        "Through automated system audits and corrections",
+        "Using a monolithic architecture for all system operations",
+        "Implementing strong consistency models or algorithms like Paxos or Raft"
+      ],
+      "answer": 3,
+      "question_id": "c5ff2f6c-c1e6-41de-ab49-654c398ae6f9"
+    },
+    {
+      "choices": [
+        "Overseeing user experience design",
+        "Directly managing customer support teams",
+        "Ensuring system scalability and performance",
+        "Developing and maintaining incident response plans"
+      ],
+      "answer": 3,
+      "question_id": "7e5d6813-e751-4309-a09d-36b88cf8fd45"
+    },
+    {
+      "choices": [
+        "By focusing solely on system uptime and reliability",
+        "By integrating security as part of the software development lifecycle (SDLC)",
+        "By outsourcing security tasks to specialized agencies",
+        "By performing manual security audits once a year"
+      ],
+      "answer": 1,
+      "question_id": "2bd65913-62b6-4a85-9413-38840e8f65a5"
+    },
+    {
+      "choices": [
+        "By increasing the number of instances for each service",
+        "By utilizing synchronous communication for all services",
+        "By implementing circuit breakers or fallback mechanisms",
+        "By limiting the number of API requests to each service"
+      ],
+      "answer": 2,
+      "question_id": "864dbea1-542b-4399-be4c-5ff737d59608"
+    },
+    {
+      "choices": [
+        "To enhance security by toggling features on and off for specific users.",
+        "To manage the deployment and rollback of features without deploying new code.",
+        "To increase the speed of the website by toggling off heavy features.",
+        "To monitor the performance of different website versions in real time."
+      ],
+      "answer": 1,
+      "question_id": "ce3c10d0-7fb0-451c-8613-0278b25ac6c8"
+    },
+    {
+      "choices": [
+        "Immediately increment the version number of the application",
+        "Through detailed pre-launch checklists to avoid any need for rollbacks",
+        "Automatically scale up the server resources",
+        "Automatically revert to the last stable version in the event of a failure"
+      ],
+      "answer": 3,
+      "question_id": "3ba8eee6-6e7a-4fac-a715-3fff6af6a4e3"
+    },
+    {
+      "choices": [
+        "Difficulty in automating scaling operations",
+        "Difficulty in tracking changes across distributed systems",
+        "Increased network latency for all services",
+        "Simpler backup processes compared to stateless services"
+      ],
+      "answer": 0,
+      "question_id": "52109421-3324-48c1-8304-257796066d2e"
+    },
+    {
+      "choices": [
+        "To increase page load times across all services",
+        "For automated scaling of infrastructure",
+        "To prioritize critical service traffic over less critical services",
+        "To reduce the quality of images and videos automatically"
+      ],
+      "answer": 2,
+      "question_id": "82491eb0-f75a-43a8-a9f3-cee0511330cd"
+    },
+    {
+      "choices": [
+        "To directly address security vulnerabilities",
+        "To streamline code deployment processes",
+        "To compare different versions of a system to optimize performance",
+        "To increase the capacity of their databases"
+      ],
+      "answer": 2,
+      "question_id": "f17b1d5a-eabb-44f2-bc57-dc9e63bd85a1"
+    },
+    {
+      "choices": [
+        "A practice of deploying new features only for internal teams before rolling out to the public",
+        "The process of shutting down services temporarily for maintenance purposes",
+        "Releasing new features to a small percentage of users to gauge the impact and performance",
+        "A security protocol to protect the site from DDoS attacks"
+      ],
+      "answer": 2,
+      "question_id": "8b7b5bc3-a513-428d-914e-0689dbaa7739"
+    },
+    {
+      "choices": [
+        "By promoting manual configuration of servers for reliability",
+        "By focusing solely on application code deployment strategies",
+        "By advocating for the automation of infrastructure management tasks",
+        "By discouraging version control for infrastructure definitions"
+      ],
+      "answer": 2,
+      "question_id": "83c5984b-5326-42d2-b948-52f3af7709a5"
+    },
+    {
+      "choices": [
+        "Optimizing server response times only",
+        "Implementing full disk encryption at all times",
+        "Ensuring all APIs return data in XML format for security",
+        "Adhering to regulatory standards and implementing data access controls"
+      ],
+      "answer": 3,
+      "question_id": "e86bab3d-88ba-412c-83db-9d621e0edfee"
+    },
+    {
+      "choices": [
+        "By manually scaling up resources during peak times",
+        "By using auto-scaling features based on load metrics",
+        "By reducing the application's feature set",
+        "By increasing the physical server capacity"
+      ],
+      "answer": 1,
+      "question_id": "83b0cb7c-8b1e-49f6-bf74-e98399f947fe"
+    },
+    {
+      "choices": [
+        "To ensure that design documentation is kept up-to-date",
+        "To minimize operational costs by optimizing resource utilization",
+        "To prioritize development tasks for the engineering team",
+        "To improve the marketing strategies for product launches"
+      ],
+      "answer": 1,
+      "question_id": "33d58376-a717-4401-b6e3-458a82126215"
+    },
+    {
+      "choices": [
+        "By ensuring that system upgrades are deployed promptly",
+        "By providing real-time user support to address complaints",
+        "By implementing feedback loops between operational issues and development",
+        "By increasing the number of features in each software release"
+      ],
+      "answer": 2,
+      "question_id": "de9dc369-bfa7-4577-89b6-efed56e59cdc"
+    },
+    {
+      "choices": [
+        "Regularly updating hardware components to the latest versions",
+        "Implementing a microservices architecture to simplify deployments",
+        "Utilizing detailed logging and monitoring to preemptively identify issues",
+        "Sharding databases to distribute load"
+      ],
+      "answer": 3,
+      "question_id": "792bddfc-ac28-4ebc-b7f0-693ec8a66ea1"
+    },
+    {
+      "choices": [
+        "By creating machine learning models to automate UI testing",
+        "By analyzing past system behaviors to predict future outages",
+        "By using machine learning to optimize website SEO rankings",
+        "By employing ML algorithms to directly fix code vulnerabilities in real-time"
+      ],
+      "answer": 1,
+      "question_id": "e652d449-89eb-4850-a9fd-d240b6286df1"
+    },
+    {
+      "choices": [
+        "Inconsistent data formats across services",
+        "Difficulty in tracking and updating software licenses",
+        "Challenges in ensuring high availability and reliability across different cloud platforms and regions",
+        "Uniform security policies easily applicable across all services"
+      ],
+      "answer": 2,
+      "question_id": "e5666a1f-6cc7-45e4-9e7d-a43c525ac5b9"
+    },
+    {
+      "choices": [
+        "By manually updating each database instance periodically",
+        "Using a centralized database management system that handles all locations",
+        "Employing a combination of techniques like sharding, eventual consistency, and read replicas",
+        "Relying solely on strong consistency models to ensure data integrity"
+      ],
+      "answer": 2,
+      "question_id": "b5c096ec-f9d2-421c-900c-b029235853bb"
+    },
+    {
+      "choices": [
+        "Waterfall development model",
+        "Service-Oriented Architecture",
+        "Blameless postmortems",
+        "Agile development process"
+      ],
+      "answer": 2,
+      "question_id": "ccbe7158-1760-409e-aedb-05a14f6b1292"
+    },
+    {
+      "choices": [
+        "By prioritizing system uptime over feature development",
+        "Through extensive manual testing of each component",
+        "Using chaos engineering to simulate unexpected system behavior",
+        "By increasing the frequency of data backups"
+      ],
+      "answer": 2,
+      "question_id": "3ebc82c5-dded-47d7-a422-79f3b5e90825"
+    },
+    {
+      "choices": [
+        "Using blockchain for data integrity",
+        "Leveraging load balancers for traffic distribution",
+        "Implementing chatbots for customer interaction",
+        "Applying deep learning models for predictive analytics"
+      ],
+      "answer": 1,
+      "question_id": "c08ff243-1fb0-4bd1-8cd2-3b56e7b93dd9"
+    },
+    {
+      "choices": [
+        "By manually scaling resources to match demand",
+        "Through custom hardware configurations for each serverless function",
+        "By designing and enforcing Service Level Objectives (SLOs) that align with serverless functionality",
+        "Using traditional server management techniques adapted for cloud environments"
+      ],
+      "answer": 2,
+      "question_id": "41a95fa2-b039-4db4-9cc1-17aada1af59e"
+    },
+    {
+      "choices": [
+        "Utilize a single large cluster for all deployments to simplify management",
+        "Manually adjust the number of replicas for each deployment according to load",
+        "Automate deployments using CI/CD pipelines and enforce resource limits and requests",
+        "Always assign containers to specific nodes to enhance performance"
+      ],
+      "answer": 2,
+      "question_id": "84b8846b-db59-408a-869a-076e44d36cf0"
+    },
+    {
+      "choices": [
+        "By strictly adhering to manual operations procedures without automation",
+        "By implementing a fixed set of security tools and protocols that never change",
+        "By incorporating security practices into software development life cycle and automating responses to security threats",
+        "By ignoring security threats that are considered insignificant"
+      ],
+      "answer": 2,
+      "question_id": "9630a2d9-85cd-4bd0-88b7-ab9abfec0dd5"
+    },
+    {
+      "choices": [
+        "To reduce the reliance on human intervention for system updates",
+        "Primarily to enhance the visual aesthetics of monitoring dashboards",
+        "To predict and resolve issues before they impact users or services",
+        "For generating automated reports for stakeholders"
+      ],
+      "answer": 2,
+      "question_id": "d6cafb0d-b91d-4366-9687-d6a632ee1f7e"
+    },
+    {
+      "choices": [
+        "By enforcing strict coding standards for all services",
+        "Through detailed upfront planning for capacity and performance",
+        "By implementing automated failover and robust monitoring",
+        "Focusing solely on increasing the number of replicas for each service"
+      ],
+      "answer": 2,
+      "question_id": "bc23e3fa-d759-42af-ad7c-de18faeaec00"
+    },
+    {
+      "choices": [
+        "Nagios",
+        "Splunk",
+        "Datadog",
+        "Zabbix"
+      ],
+      "answer": 2,
+      "question_id": "a47e46a8-753e-4855-84be-b15c4ccb5049"
+    },
+    {
+      "choices": [
+        "Frequently changing cloud service providers to get the best introductory offers",
+        "Implementing strict no-logs policy to reduce storage costs",
+        "Adopting Infrastructure as Code (IaC) to automate and optimize resource provisioning",
+        "Increasing the size of virtual machines to gain economies of scale"
+      ],
+      "answer": 2,
+      "question_id": "e219eec8-0f56-4ea6-9041-62f8f1b6fe43"
+    },
+    {
+      "choices": [
+        "By relying solely on blue-green deployments",
+        "By prioritizing feature development over system reliability",
+        "By using automation to ensure that changes are safe and reversible",
+        "By not performing updates during peak usage hours"
+      ],
+      "answer": 2,
+      "question_id": "29320a96-fe2f-4ef0-a937-d0a92d97daac"
+    },
+    {
+      "choices": [
+        "Prioritizing local content delivery only",
+        "Using a singular data center to simplify management",
+        "Implementing geolocation and network latency based routing",
+        "Increasing server capacity indiscriminately"
+      ],
+      "answer": 2,
+      "question_id": "d04e12b1-bb30-49e3-8ca7-a2d8924e48a5"
+    },
+    {
+      "choices": [
+        "By replacing legacy systems entirely with cloud-native solutions.",
+        "Through gradual phasing out without any considerations for integrating them into new environments.",
+        "By carefully evaluating the legacy systems and incrementally integrating them with modern practices and tools, ensuring minimal disruption.",
+        "Ignoring legacy systems until they become obsolete."
+      ],
+      "answer": 2,
+      "question_id": "367fc68f-84b1-41d5-a627-2e4ff59326d4"
+    },
+    {
+      "choices": [
+        "Prioritizing end-user experience through UI improvements",
+        "Automating rollback procedures in the event of failure",
+        "Increasing advertising to boost system use",
+        "Deploying patches during high traffic hours to ensure effectiveness"
+      ],
+      "answer": 1,
+      "question_id": "0d64e4c4-835f-4abe-9031-1b967630f7bb"
+    },
+    {
+      "choices": [
+        "Increasing web page load times",
+        "Reducing the number of servers in operation",
+        "Implementing rate limiting and traffic filtering",
+        "Decreasing the complexity of network infrastructure"
+      ],
+      "answer": 2,
+      "question_id": "83c8e4a3-ef77-4c9e-b6af-4251c797cf65"
+    },
+    {
+      "choices": [
+        "Regular software updates and patch management",
+        "Use of decentralized blockchain technologies",
+        "Application of Chaos Engineering principles to IoT ecosystems",
+        "Implementation of traditional database management systems"
+      ],
+      "answer": 2,
+      "question_id": "79fda2d9-2ce8-49a1-81c7-d0d51dfc8471"
+    },
+    {
+      "choices": [
+        "Blockchain for secure transactions",
+        "Augmented reality for system maintenance",
+        "AI and machine learning for predictive analysis",
+        "3D printing for hardware optimization"
+      ],
+      "answer": 2,
+      "question_id": "7b6a15d4-5a82-429a-b561-313154494aae"
+    },
+    {
+      "choices": [
+        "By leveraging entanglement to enhance server redundancy",
+        "Through the application of quantum cryptography to secure communication between distributed systems",
+        "Utilizing quantum simulations for predicting system failures",
+        "They generally do not use quantum computing concepts for solving reliability issues"
+      ],
+      "answer": 3,
+      "question_id": "f99b4490-e68d-4853-8827-baa8525238c4"
+    },
+    {
+      "choices": [
+        "Prioritizing security patches over feature development",
+        "Implementing a single, centralized management system",
+        "Automating as much as possible to ensure consistency and reliability",
+        "Focusing solely on hardware reliability and redundancy"
+      ],
+      "answer": 2,
+      "question_id": "bdd7cb5b-981c-4f3a-816d-eb6355bf559b"
+    },
+    {
+      "choices": [
+        "By prioritizing end-user experience metrics over infrastructure performance metrics",
+        "By automating the deployment of smart contracts",
+        "By increasing the block size for faster transaction processing",
+        "By implementing comprehensive monitoring and alerting systems for early detection of issues"
+      ],
+      "answer": 3,
+      "question_id": "dc9d21fa-51e6-42bd-aafd-bf75f1c119b1"
+    },
+    {
+      "choices": [
+        "Using deep learning algorithms for predictive maintenance",
+        "Implementing blockchain for secure data sharing",
+        "Leveraging quantum computing for faster data processing",
+        "Deploying specialized machine learning models for pattern recognition"
+      ],
+      "answer": 3,
+      "question_id": "4c285ee9-6ed9-4427-a9e0-4c0779bdceb6"
+    },
+    {
+      "choices": [
+        "Through rigorous manual testing regimes",
+        "By implementing machine learning algorithms for predictive analysis",
+        "By focusing exclusively on hardware upgrades",
+        "Using Service Level Objectives (SLOs) to manage risk and prioritize work"
+      ],
+      "answer": 3,
+      "question_id": "c0832672-216f-4aa2-94fa-939d1c70935c"
+    },
+    {
+      "choices": [
+        "Automated penetration tests during deployment",
+        "Manual code reviews for security at each stage",
+        "Utilizing AI for real-time vulnerability patching",
+        "Enforcing coding standards through peer programming"
+      ],
+      "answer": 0,
+      "question_id": "bf087c38-b56e-47d4-8c91-02b184560866"
+    },
+    {
+      "choices": [
+        "Focusing solely on increasing server capacity",
+        "Implementing machine learning algorithms for predictive maintenance",
+        "Developing proprietary hardware for AR/VR",
+        "Integrating real-time data analysis for incident response"
+      ],
+      "answer": 3,
+      "question_id": "dbda3d42-30b5-453f-b9cb-72bbb5d61146"
+    },
+    {
+      "choices": [
+        "Using manual scaling based on peak usage predictions",
+        "Implementing self-healing systems with automatic recovery protocols",
+        "Applying the Strangler Fig Pattern for application modernization",
+        "Adopting autoscaling based on service load and performance metrics"
+      ],
+      "answer": 3,
+      "question_id": "170814dc-c603-487c-bd3f-4a24a72f810f"
+    },
+    {
+      "choices": [
+        "Decreasing reliance on AI for operational tasks",
+        "Solely focusing on traditional infrastructure management",
+        "Integrating AI more deeply into automation and incident management",
+        "Scaling back on monitoring and alerting capabilities"
+      ],
+      "answer": 2,
+      "question_id": "466d4a12-766b-417f-acfb-6525fabfd92a"
+    },
+    {
+      "choices": [
+        "By ignoring cloud-specific features to ensure portability",
+        "Through detailed manual tracking of each component",
+        "Using centralized cloud management platforms",
+        "By implementing service level objectives (SLOs) and error budgets to manage reliability"
+      ],
+      "answer": 3,
+      "question_id": "26b18cd6-8662-4ef9-8396-40982bc99bd0"
+    },
+    {
+      "choices": [
+        "Optimizing server performance, ignoring deployment strategies",
+        "Implementing comprehensive logging and monitoring systems, managing service interdependencies complexity, and ensuring consistent deployment practices",
+        "Increasing the number of microservices without assessing their interdependencies",
+        "Focusing solely on increasing the hardware resources available"
+      ],
+      "answer": 1,
+      "question_id": "6eae92cf-512e-40b0-b069-4d10ddb0cdc2"
+    },
+    {
+      "choices": [
+        "By reducing the marketing costs associated with the application",
+        "By increasing the frequency of software updates",
+        "By ensuring high availability and minimizing downtime of services",
+        "By simplifying the user interface of the application"
+      ],
+      "answer": 2,
+      "question_id": "91d04199-ec66-4ca9-bc06-216cbad7ece2"
+    },
+    {
+      "choices": [
+        "Automated remediation of infrastructure issues",
+        "Integration of machine learning for predictive analysis",
+        "Using blockchain for enhanced security monitoring",
+        "Adopting container orchestration platforms universally"
+      ],
+      "answer": 1,
+      "question_id": "7e4d7580-dc91-4859-b69f-58140d113a9b"
+    },
+    {
+      "choices": [
+        "By prioritizing high-availability systems over energy efficiency",
+        "Focusing exclusively on reducing operational costs",
+        "Incorporating green computing principles into system design and operations",
+        "Shifting entirely to serverless architectures"
+      ],
+      "answer": 2,
+      "question_id": "63460c3d-9b6f-423a-845c-ecd9d58fa569"
+    },
+    {
+      "choices": [
+        "Advanced automated ticketing systems",
+        "AI-driven predictive outage prevention",
+        "Blameless postmortems and comprehensive service level objectives",
+        "Blockchain-based access control for systems"
+      ],
+      "answer": 2,
+      "question_id": "3e5d195d-8723-4561-94e5-7bdccb2aa634"
+    },
+    {
+      "choices": [
+        "By focusing solely on system reliability and uptime, leaving privacy concerns to the legal team",
+        "By ensuring systems are designed to automatically delete user data after a certain period",
+        "By designing systems with user privacy as a fundamental component, involving data encryption and secure data access protocols",
+        "By prioritizing the development of new features over privacy considerations"
+      ],
+      "answer": 2,
+      "question_id": "e69de9b8-82ac-42c5-8874-2dfafc5c9c26"
+    },
+    {
+      "choices": [
+        "Prioritizing system uptime over new features to ensure stability",
+        "Encouraging the use of manual processes over automation to maintain control",
+        "Balancing the pace of innovation with ensuring system reliability",
+        "Focusing solely on cost-cutting to improve system efficiency"
+      ],
+      "answer": 2,
+      "question_id": "b2c7b464-16e2-4611-928f-68d0548b0c7a"
+    },
+    {
+      "choices": [
+        "By using it as a decentralized storage for sensitive data to prevent tampering",
+        "For auto-scaling their infrastructure based on transaction load",
+        "To enhance UI/UX design for monitoring tools",
+        "As a method for automated code reviews and deployment"
+      ],
+      "answer": 0,
+      "question_id": "d5af9f49-ceaa-4f6a-b581-99d11a0991f9"
+    },
+    {
+      "choices": [
+        "Increased reliance on scripted responses for incident management",
+        "Diminished importance of SRE due to AI handling all reliability concerns",
+        "Enhanced predictive capabilities and automated incident response, reducing manual toil for SREs",
+        "Complete automation of code writing, eliminating the need for SREs"
+      ],
+      "answer": 2,
+      "question_id": "87f01564-ddc1-4df6-9fb7-436b49e82168"
+    }
+  ]
+}

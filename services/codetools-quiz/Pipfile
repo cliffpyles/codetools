@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+openai = "*"
+pyarrow = "*"
+ipykernel = "*"
+matplotlib = "*"
+seaborn = "*"
+wordcloud = "*"
+requests = "*"
+scikit-learn = "*"
+lxml = "*"
+html5lib = "*"
+bs4 = "*"
+streamlit = "*"
+streamlit-jupyter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.0"

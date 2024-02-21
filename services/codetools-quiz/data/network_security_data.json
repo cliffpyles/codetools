@@ -1,0 +1,1507 @@
+{
+  "topic": "Network Security",
+  "questions": [
+    {
+      "id": "9d130bd0-7fc8-47cc-9386-661e0bc9ff04",
+      "difficulty": 1,
+      "question": "Which term refers to the practice of monitoring and potentially restricting the flow of information outbound from one network to another?"
+    },
+    {
+      "id": "d092b7c4-8944-42d5-9bc0-beab15b3fbab",
+      "difficulty": 1,
+      "question": "What does VPN stand for?"
+    },
+    {
+      "id": "63756385-8cd8-4d78-923c-39b1e3fd1391",
+      "difficulty": 1,
+      "question": "Which technology is commonly used to secure and encrypt communications over less secure networks, such as the internet?"
+    },
+    {
+      "id": "c2b267f7-fb1f-445f-ad1f-ba6d0ed247df",
+      "difficulty": 1,
+      "question": "What is the primary purpose of a firewall in network security?"
+    },
+    {
+      "id": "b4f8a340-f6d4-41b0-b291-b8f31dd9ddfb",
+      "difficulty": 1,
+      "question": "What is the term for unwanted, unsolicited email?"
+    },
+    {
+      "id": "8ebd52b8-9427-4e8d-9402-00f3fe3ec492",
+      "difficulty": 1,
+      "question": "Which protocol is used to securely access a remote computer?"
+    },
+    {
+      "id": "cf25ec09-bf77-49a6-8d5e-2fa6d1d19f3a",
+      "difficulty": 1,
+      "question": "What is the basic form of network security that involves assigning a username and password?"
+    },
+    {
+      "id": "31c4cccb-c108-4a7d-8edf-07a6557ec6e4",
+      "difficulty": 1,
+      "question": "Which method helps to prevent eavesdropping on network communications by converting data into a format that cannot be easily interpreted?"
+    },
+    {
+      "id": "b765972a-e33b-48b9-a30d-f66118e9b765",
+      "difficulty": 1,
+      "question": "In network security, what does the 'S' in HTTPS stand for?"
+    },
+    {
+      "id": "7faaccb1-36cf-461f-8e50-c524b2736067",
+      "difficulty": 1,
+      "question": "What is a common method to protect against software vulnerabilities?"
+    },
+    {
+      "id": "3a7f5103-449d-48ab-a143-dbb8d865fc71",
+      "difficulty": 1,
+      "question": "What kind of malware is designed to replicate itself and spread to other computers?"
+    },
+    {
+      "id": "e2b0f078-34a9-4fad-91dd-b4b6d78303a7",
+      "difficulty": 1,
+      "question": "Which feature is NOT typically considered a direct function of a network-based firewall?"
+    },
+    {
+      "id": "750df7dd-ea8c-4f5f-8cd0-5d4ca740b48d",
+      "difficulty": 1,
+      "question": "The act of obtaining sensitive information by masquerading as a trustworthy entity in an electronic communication is known as what?"
+    },
+    {
+      "id": "d976d419-0cdc-4c3c-b2f8-da8c6f8a85b2",
+      "difficulty": 1,
+      "question": "What does ACL stand for in the context of network security?"
+    },
+    {
+      "id": "49e4086b-a045-4257-8e95-9b8a19c08578",
+      "difficulty": 1,
+      "question": "Which technique is commonly used to authenticate users connecting to a network resource, ensuring that they are who they say they are?"
+    },
+    {
+      "id": "0775daba-5a61-421b-b262-44ba67580e64",
+      "difficulty": 1,
+      "question": "Which layer of the OSI model do firewalls operate at primarily?"
+    },
+    {
+      "id": "6f9441f2-f58c-48f3-af3f-63a7438efd05",
+      "difficulty": 1,
+      "question": "What is the purpose of intrusion detection systems (IDS) in network security?"
+    },
+    {
+      "id": "3b2374ee-cbd7-465f-9c3e-418a4b08d2d6",
+      "difficulty": 1,
+      "question": "What does 'NAT' stand for, and why is it used in networks?"
+    },
+    {
+      "id": "9553f9e0-4833-45fc-81bc-f8d5f06af2f2",
+      "difficulty": 1,
+      "question": "Which type of attack involves overwhelming a network with a flood of internet traffic?"
+    },
+    {
+      "id": "3cc0ca7e-f303-44e3-8b22-32745a2e8d10",
+      "difficulty": 1,
+      "question": "In the context of cybersecurity, what is a 'honeypot'?"
+    },
+    {
+      "id": "9a198cf4-cf82-4dba-bc3b-8bad206c028c",
+      "difficulty": 2,
+      "question": "Which protocol is used for secure file transfer over the internet?"
+    },
+    {
+      "id": "58ab7ea8-8f00-4e54-8d3a-11dde2a1e473",
+      "difficulty": 2,
+      "question": "What is a Zero-Day vulnerability?"
+    },
+    {
+      "id": "b0d3d220-6de4-4aa0-be2d-ad55863aa794",
+      "difficulty": 2,
+      "question": "Which encryption algorithm is considered the current standard for securely encrypting data?"
+    },
+    {
+      "id": "f459a746-b1ad-4179-b591-d49b96acfb14",
+      "difficulty": 2,
+      "question": "What is the difference between symmetric and asymmetric encryption?"
+    },
+    {
+      "id": "b8cc25c5-5f6f-439f-83e8-dc14e27bf4fc",
+      "difficulty": 2,
+      "question": "Which cybersecurity framework focuses on improving the cybersecurity of critical infrastructure in the United States?"
+    },
+    {
+      "id": "536e3650-e453-4e77-9f7a-5c519cd492fb",
+      "difficulty": 2,
+      "question": "What is the principle of 'least privilege' in network security?"
+    },
+    {
+      "id": "b53b9531-b6e0-4625-aa3e-b7ba410d922e",
+      "difficulty": 2,
+      "question": "Which type of firewall examines the state of active connections and makes decisions based on the context of the traffic?"
+    },
+    {
+      "id": "05f92404-d20e-4094-a31b-1a03d202b6fe",
+      "difficulty": 2,
+      "question": "What is a DMZ in network security?"
+    },
+    {
+      "id": "e9839292-b4ff-4941-a56f-0a7cf1f3da4b",
+      "difficulty": 2,
+      "question": "What type of security attack is a 'Man in the Middle' (MitM)?"
+    },
+    {
+      "id": "33814a61-5917-4cba-af0f-4ccc39a87bae",
+      "difficulty": 2,
+      "question": "Which type of VPN is typically used to connect sites to each other over the Internet in a secure manner?"
+    },
+    {
+      "id": "e6e03f5c-8bad-49f6-a9f8-30e24af62e9e",
+      "difficulty": 2,
+      "question": "Which network security mechanism is designed to detect and prevent unauthorized access to networks?"
+    },
+    {
+      "id": "33ee60d9-c3d7-4cd6-828f-145a8a495986",
+      "difficulty": 2,
+      "question": "What does DDoS stand for, and how does it differ from a simple DoS attack?"
+    },
+    {
+      "id": "8cad2b41-a3b5-40ac-9e79-26c7cadc8ab2",
+      "difficulty": 2,
+      "question": "What is the primary advantage of using public key infrastructure (PKI) in network security?"
+    },
+    {
+      "id": "dae066d7-4890-4799-888b-913ff158566b",
+      "difficulty": 2,
+      "question": "Which type of cyber attack involves sending fraudulent emails that resemble emails from reputable sources to extract personal information from the recipient?"
+    },
+    {
+      "id": "d2885053-92c3-4884-bd0f-8ac4408aee5d",
+      "difficulty": 2,
+      "question": "Which device acts as a gatekeeper to enforce access control policy between networks?"
+    },
+    {
+      "id": "2fffcae2-ba6a-44fc-9e9a-82b63ac0ae05",
+      "difficulty": 2,
+      "question": "How does a WAF (Web Application Firewall) differ from a traditional firewall?"
+    },
+    {
+      "id": "9188b7af-25d0-49c1-92fd-2eeb92cca2a2",
+      "difficulty": 2,
+      "question": "What role does an SSL/TLS certificate play in web security?"
+    },
+    {
+      "id": "4559ba10-9648-49de-8acb-7b16208b2aa7",
+      "difficulty": 2,
+      "question": "In network security, what is a 'chain of trust'?"
+    },
+    {
+      "id": "4fbe3abc-0352-4c7a-867f-7028bc32e83f",
+      "difficulty": 2,
+      "question": "What is the primary function of an intrusion prevention system (IPS) as opposed to an IDS?"
+    },
+    {
+      "id": "d9802629-fdf9-40f8-9c89-20dc002befd2",
+      "difficulty": 2,
+      "question": "Which security concept involves dividing a network into multiple segments or tiers?"
+    },
+    {
+      "id": "c9fc9fe0-0ff8-4775-958a-cc182d22b551",
+      "difficulty": 3,
+      "question": "What is the purpose of port scanning in network security?"
+    },
+    {
+      "id": "77f61dbb-9eac-418f-beae-2de34e7d1868",
+      "difficulty": 3,
+      "question": "Which protocol provides a secure channel over an unsecured network in a client-server architecture?"
+    },
+    {
+      "id": "d4b435b4-dd22-409d-ba6f-8b73a029d709",
+      "difficulty": 3,
+      "question": "What is the significance of Endpoint Detection and Response (EDR) in security?"
+    },
+    {
+      "id": "4d49e976-780f-47aa-97de-8b94cf2f4258",
+      "difficulty": 3,
+      "question": "In terms of network security, what does SIEM stand for?"
+    },
+    {
+      "id": "1765e39b-f981-4155-b8eb-f5154185e6b0",
+      "difficulty": 3,
+      "question": "What is the main difference between a 'blacklist' and a 'whitelist' in network filtering?"
+    },
+    {
+      "id": "b37b27ad-1d91-4c8b-bea9-35c383f77e4c",
+      "difficulty": 3,
+      "question": "Which advanced encryption standard (AES) is an algorithm used in symmetric key cryptography for the protection of digital data?"
+    },
+    {
+      "id": "1a4ea026-94e6-4540-9f1a-3ff571f4d84d",
+      "difficulty": 3,
+      "question": "What methodology is commonly used for assessing the security of a computer system or network by simulating an attack from malicious outsiders?"
+    },
+    {
+      "id": "afb94574-ed7c-4004-b5ea-aa78807dcfc2",
+      "difficulty": 3,
+      "question": "Which network architectural concept involves the creation of security layers that ensure that data is secure at all levels of the network?"
+    },
+    {
+      "id": "ebf072c2-4fb5-4caa-b70b-80f30b0e7895",
+      "difficulty": 3,
+      "question": "What is Multi-Factor Authentication (MFA), and how does it enhance security?"
+    },
+    {
+      "id": "b16cc2a5-ba18-4101-8072-2ce913cfeeac",
+      "difficulty": 3,
+      "question": "In network security, what does FIM stand for, and why is it important?"
+    },
+    {
+      "id": "fae219a9-d431-47be-9835-3037e1c64ef6",
+      "difficulty": 3,
+      "question": "What is the main function of a certificate authority (CA) in a Public Key Infrastructure (PKI)?"
+    },
+    {
+      "id": "da0b4f54-9be6-4e80-90c1-20a41947c9bb",
+      "difficulty": 3,
+      "question": "Which type of attack involves injecting malicious scripts into web pages viewed by others?"
+    },
+    {
+      "id": "1894c572-8961-4d7e-9d02-66e114d21ce7",
+      "difficulty": 3,
+      "question": "What is the purpose of network segregation?"
+    },
+    {
+      "id": "3573d185-4bfe-49d7-b824-f8fe93c63a3e",
+      "difficulty": 3,
+      "question": "How does a 'sandbox' environment enhance cybersecurity?"
+    },
+    {
+      "id": "2e90f0a0-86cc-4de6-b7a2-53e817e02918",
+      "difficulty": 3,
+      "question": "What is the ISO 27001 standard generally associated with?"
+    },
+    {
+      "id": "3fbdaeb6-9a00-4043-8a04-8506fbd6e353",
+      "difficulty": 3,
+      "question": "What is an Advanced Persistent Threat (APT)?"
+    },
+    {
+      "id": "fa302204-5472-478c-9e2d-283082624d89",
+      "difficulty": 3,
+      "question": "Which protocol is designed to secure communications over the Internet through the use of digital certificates and public-key cryptography?"
+    },
+    {
+      "id": "dee4e881-2e23-427f-91e6-2a74e8eede54",
+      "difficulty": 3,
+      "question": "How does ransomware typically function within a network?"
+    },
+    {
+      "id": "4ef9e1dc-3ae3-45a4-be1f-eb38bdb7c088",
+      "difficulty": 3,
+      "question": "What is the main purpose of Security Information Management (SIM) in the context of SIEM?"
+    },
+    {
+      "id": "143d270b-131f-46a7-a0d0-a06a86e0b61a",
+      "difficulty": 3,
+      "question": "What role do network sniffers play in security assessments?"
+    },
+    {
+      "id": "5c319fee-5247-435d-8ebd-a0fbbfed0392",
+      "difficulty": 4,
+      "question": "In the MITRE ATT&CK framework, what does ATT&CK stand for?"
+    },
+    {
+      "id": "8116aba9-b5e3-439b-9c50-b0343bb1c6b4",
+      "difficulty": 4,
+      "question": "How do Network Access Control (NAC) systems enhance security?"
+    },
+    {
+      "id": "e6c338f4-ea56-4265-aa0e-408d05c73bae",
+      "difficulty": 4,
+      "question": "What are the key elements of a Zero Trust security model?"
+    },
+    {
+      "id": "3542739e-783f-4a11-bf56-d156e721d6ba",
+      "difficulty": 4,
+      "question": "Which type of encrypted tunneling provides a secure path for remote users via the untrusted network?"
+    },
+    {
+      "id": "51ed84f9-6c09-49df-9d2a-c24b4288684c",
+      "difficulty": 4,
+      "question": "What is the main goal of a Security Operations Center (SOC)?"
+    },
+    {
+      "id": "b8567b85-9c10-413b-bb83-804066aaec2c",
+      "difficulty": 4,
+      "question": "How do heuristic analysis techniques in antivirus software differ from signature-based methods?"
+    },
+    {
+      "id": "89a70a28-2775-455b-95bb-f3140114442b",
+      "difficulty": 4,
+      "question": "What does the 'kill chain' refer to in network security?"
+    },
+    {
+      "id": "803fd21c-7d56-4244-b2ae-ec50ad49d0ab",
+      "difficulty": 4,
+      "question": "How does threat intelligence benefit an organization\u2019s security posture?"
+    },
+    {
+      "id": "4c982881-e340-463f-8366-812ed8aa7653",
+      "difficulty": 4,
+      "question": "What is the difference between threat hunting and traditional network security practices?"
+    },
+    {
+      "id": "df2240f6-9ed7-475e-8b7f-d027cb7b3bd9",
+      "difficulty": 4,
+      "question": "In terms of encryption, what importance does 'forward secrecy' have?"
+    },
+    {
+      "id": "673313f3-52aa-4478-83fc-aef5b1841277",
+      "difficulty": 4,
+      "question": "Which cybersecurity certification focuses on teaching how to identify, counter, and recover from a wide range of cyberattacks?"
+    },
+    {
+      "id": "4a93f000-310e-45d8-b9fd-bf9266b91206",
+      "difficulty": 4,
+      "question": "How does a distributed denial of service (DDoS) attack amplify its impact compared to a DoS?"
+    },
+    {
+      "id": "6162c2f2-d15e-4a26-ac18-70b9b850906d",
+      "difficulty": 4,
+      "question": "What is the primary purpose of data loss prevention (DLP) technology?"
+    },
+    {
+      "id": "e67e57cb-3b04-4d27-968c-d2355d0df8f2",
+      "difficulty": 4,
+      "question": "What is the main objective of the Payment Card Industry Data Security Standard (PCI DSS)?"
+    },
+    {
+      "id": "62c921a0-ac1b-486b-8fa1-0f624cc3fdf4",
+      "difficulty": 4,
+      "question": "What are Indicators of Compromise (IoCs) used for in cybersecurity?"
+    },
+    {
+      "id": "2fe40e1c-43cc-484e-932d-2b0762bed36c",
+      "difficulty": 4,
+      "question": "How do virtual private networks (VPNs) contribute to network security when working remotely?"
+    },
+    {
+      "id": "9ff4590c-4a14-4b19-8446-357546e5eba5",
+      "difficulty": 4,
+      "question": "What does the principle of 'defense in depth' entail for network security?"
+    },
+    {
+      "id": "8c7a8df5-7797-4912-adaa-f258be25acba",
+      "difficulty": 4,
+      "question": "In cybersecurity, what does 'containment' refer to within the incident response process?"
+    },
+    {
+      "id": "2a28162c-3cc8-4432-9dcf-bd60f9229deb",
+      "difficulty": 4,
+      "question": "How do deception technologies, such as honeypots, contribute to network security?"
+    },
+    {
+      "id": "49fd6b50-c146-475e-8451-c239617181c7",
+      "difficulty": 4,
+      "question": "Which method is used to hide the existence of data within other files, communications, or data?"
+    },
+    {
+      "id": "0f68db20-27a2-494f-8ed7-10d4d6444fb6",
+      "difficulty": 5,
+      "question": "Explain the concept of 'cryptographic agility' in the context of network security."
+    },
+    {
+      "id": "c24e71fa-90aa-45cc-a0cf-fc2f97cc35c0",
+      "difficulty": 5,
+      "question": "What is the role of Quantum Computing in future encryption technologies?"
+    },
+    {
+      "id": "917d8949-a2ff-4bcb-97d0-09711992fdc7",
+      "difficulty": 5,
+      "question": "How does the concept of 'microsegmentation' enhance network security?"
+    },
+    {
+      "id": "f1cf6c5c-8718-46cc-998a-ee800d63a14b",
+      "difficulty": 5,
+      "question": "What are the challenges and solutions for securing Internet of Things (IoT) devices?"
+    },
+    {
+      "id": "20a68d37-c8e1-49c4-a8b9-12193052e9d4",
+      "difficulty": 5,
+      "question": "What is the significance of 'hardening' in network and system security?"
+    },
+    {
+      "id": "17f62e0f-a5e3-4d63-ac6f-60a873432642",
+      "difficulty": 5,
+      "question": "Describe the impact of Artificial Intelligence (AI) on cybersecurity."
+    },
+    {
+      "id": "c7c7b85c-dd3e-47cc-9a95-91e0f87513a1",
+      "difficulty": 5,
+      "question": "What is the role of behavioral analytics in detecting security anomalies?"
+    },
+    {
+      "id": "b87b6c12-807d-455c-8a39-feab31c5a145",
+      "difficulty": 5,
+      "question": "How do advanced persistent threats (APTs) utilize 'living off the land' techniques?"
+    },
+    {
+      "id": "1af5624c-f27d-48fe-b993-27c8e53679ac",
+      "difficulty": 5,
+      "question": "Explain the principle of continuous authentication and its importance in network security."
+    },
+    {
+      "id": "d25c69f1-209f-40c0-aa67-56ee8002f572",
+      "difficulty": 5,
+      "question": "What are the implications of Side-channel attacks on cryptographic systems?"
+    },
+    {
+      "id": "a1b49397-4036-498b-b73c-348bd7b3d37e",
+      "difficulty": 5,
+      "question": "How does blockchain technology contribute to network security?"
+    },
+    {
+      "id": "6acfe6f8-aa94-4fd4-8b5a-107f45e7d3de",
+      "difficulty": 5,
+      "question": "What are the security considerations for cloud computing environments?"
+    },
+    {
+      "id": "0e355426-0135-47e2-98bd-58b86b80f6d5",
+      "difficulty": 5,
+      "question": "Discuss the concept of a 'security by design' approach in software development."
+    },
+    {
+      "id": "11d1227f-38ca-4121-b09d-3c2998c90fec",
+      "difficulty": 5,
+      "question": "Explain the significance of 'zero-day exploits' in the context of cybersecurity."
+    },
+    {
+      "id": "a91f52a7-3a53-4a4c-a1eb-290141959110",
+      "difficulty": 5,
+      "question": "What are the primary concerns of 'shadow IT' within an organization's network?"
+    },
+    {
+      "id": "e154723f-b691-4d49-91ef-9142ac863da9",
+      "difficulty": 5,
+      "question": "How does federated identity management enhance network security?"
+    },
+    {
+      "id": "1d552fd7-9e32-4d96-bf54-6f0cb4e037cd",
+      "difficulty": 5,
+      "question": "Describe the role of a Security Information and Event Management (SIEM) system in real-time security monitoring."
+    },
+    {
+      "id": "5dac73bc-7289-4921-aa3f-cf83bf5dc65c",
+      "difficulty": 5,
+      "question": "What is the significance of 'supply chain attacks' in cybersecurity?"
+    },
+    {
+      "id": "cc2723f8-ad5c-45b9-8327-2365a9541e5b",
+      "difficulty": 5,
+      "question": "How do 'bug bounties' contribute to network security?"
+    },
+    {
+      "id": "9440b9a3-d96a-4b51-b98f-ddaa4c3ee0a7",
+      "difficulty": 5,
+      "question": "Explain the concept of 'security orchestration, automation, and response' (SOAR) and its importance."
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "Firewall Implementation",
+        "Intrusion Detection Systems",
+        "Data Loss Prevention",
+        "Secure Socket Layer"
+      ],
+      "answer": 2,
+      "question_id": "9d130bd0-7fc8-47cc-9386-661e0bc9ff04"
+    },
+    {
+      "choices": [
+        "Virtual Private Network",
+        "Variable Path Notation",
+        "Volatile Protocol Navigation",
+        "Visual Programming Node"
+      ],
+      "answer": 0,
+      "question_id": "d092b7c4-8944-42d5-9bc0-beab15b3fbab"
+    },
+    {
+      "choices": [
+        "WPA2",
+        "SSH",
+        "TLS",
+        "IPv6"
+      ],
+      "answer": 2,
+      "question_id": "63756385-8cd8-4d78-923c-39b1e3fd1391"
+    },
+    {
+      "choices": [
+        "To manage data flow to and from the internet",
+        "To provide a backup solution for data",
+        "To monitor the performance of network devices",
+        "To control the access between different networks and protect them from unauthorized access"
+      ],
+      "answer": 3,
+      "question_id": "c2b267f7-fb1f-445f-ad1f-ba6d0ed247df"
+    },
+    {
+      "choices": [
+        "Phishing",
+        "Spyware",
+        "Spam",
+        "Malware"
+      ],
+      "answer": 2,
+      "question_id": "b4f8a340-f6d4-41b0-b291-b8f31dd9ddfb"
+    },
+    {
+      "choices": [
+        "HTTP",
+        "FTP",
+        "SSH",
+        "SMTP"
+      ],
+      "answer": 2,
+      "question_id": "8ebd52b8-9427-4e8d-9402-00f3fe3ec492"
+    },
+    {
+      "choices": [
+        "Intrusion detection system",
+        "Two-factor authentication",
+        "Firewall",
+        "Authentication"
+      ],
+      "answer": 3,
+      "question_id": "cf25ec09-bf77-49a6-8d5e-2fa6d1d19f3a"
+    },
+    {
+      "choices": [
+        "Firewall implementation",
+        "Data encryption",
+        "Two-factor authentication",
+        "Intrusion detection system"
+      ],
+      "answer": 1,
+      "question_id": "31c4cccb-c108-4a7d-8edf-07a6557ec6e4"
+    },
+    {
+      "choices": [
+        "Secure",
+        "Socket",
+        "Signal",
+        "Syntax"
+      ],
+      "answer": 0,
+      "question_id": "b765972a-e33b-48b9-a30d-f66118e9b765"
+    },
+    {
+      "choices": [
+        "Using strong passwords",
+        "Implementing physical security measures",
+        "Regularly updating software",
+        "Encrypting file transfers"
+      ],
+      "answer": 2,
+      "question_id": "7faaccb1-36cf-461f-8e50-c524b2736067"
+    },
+    {
+      "choices": [
+        "Adware",
+        "Spyware",
+        "Virus",
+        "Ransomware"
+      ],
+      "answer": 2,
+      "question_id": "3a7f5103-449d-48ab-a143-dbb8d865fc71"
+    },
+    {
+      "choices": [
+        "Stateful packet inspection",
+        "User authentication",
+        "URL filtering",
+        "Intrusion prevention"
+      ],
+      "answer": 2,
+      "question_id": "e2b0f078-34a9-4fad-91dd-b4b6d78303a7"
+    },
+    {
+      "choices": [
+        "Phishing",
+        "Spoofing",
+        "Sniffing",
+        "Pharming"
+      ],
+      "answer": 0,
+      "question_id": "750df7dd-ea8c-4f5f-8cd0-5d4ca740b48d"
+    },
+    {
+      "choices": [
+        "Automatic Control List",
+        "Access Control List",
+        "Advanced Command Line",
+        "Application Configuration Layer"
+      ],
+      "answer": 1,
+      "question_id": "d976d419-0cdc-4c3c-b2f8-da8c6f8a85b2"
+    },
+    {
+      "choices": [
+        "Public key encryption",
+        "Digital signatures",
+        "Two-factor authentication",
+        "Firewall implementation"
+      ],
+      "answer": 2,
+      "question_id": "49e4086b-a045-4257-8e95-9b8a19c08578"
+    },
+    {
+      "choices": [
+        "Presentation layer",
+        "Network layer",
+        "Transport layer",
+        "Application layer"
+      ],
+      "answer": 1,
+      "question_id": "0775daba-5a61-421b-b262-44ba67580e64"
+    },
+    {
+      "choices": [
+        "To increase the speed of network traffic",
+        "To detect and prevent unauthorized access to a network",
+        "To assign IP addresses to devices on a network",
+        "To encrypt data being transmitted over a network"
+      ],
+      "answer": 1,
+      "question_id": "6f9441f2-f58c-48f3-af3f-63a7438efd05"
+    },
+    {
+      "choices": [
+        "Network Allocation Table, for assigning unique local IP addresses within a network",
+        "Network Access Technology, for controlling access to a network",
+        "Network Address Translation, for translating private IP addresses to a public IP address for internet access",
+        "New Age Telecommunication, for modernizing communication protocols"
+      ],
+      "answer": 2,
+      "question_id": "3b2374ee-cbd7-465f-9c3e-418a4b08d2d6"
+    },
+    {
+      "choices": [
+        "DNS poisoning",
+        "Man-in-the-middle attack",
+        "DDoS attack",
+        "SQL injection"
+      ],
+      "answer": 2,
+      "question_id": "9553f9e0-4833-45fc-81bc-f8d5f06af2f2"
+    },
+    {
+      "choices": [
+        "A tool that provides encryption services for data transmission",
+        "A high-speed network for connecting different data centers",
+        "A decoy system designed to lure and trap individuals attempting unauthorized access",
+        "A method of strengthening firewall protections"
+      ],
+      "answer": 2,
+      "question_id": "3cc0ca7e-f303-44e3-8b22-32745a2e8d10"
+    },
+    {
+      "choices": [
+        "HTTP",
+        "FTP",
+        "SSH",
+        "SFTP"
+      ],
+      "answer": 3,
+      "question_id": "9a198cf4-cf82-4dba-bc3b-8bad206c028c"
+    },
+    {
+      "choices": [
+        "A software update that greatly improves system security",
+        "A vulnerability unknown to the software vendor",
+        "A security patch applied on the same day a vulnerability is discovered",
+        "An antivirus software feature"
+      ],
+      "answer": 1,
+      "question_id": "58ab7ea8-8f00-4e54-8d3a-11dde2a1e473"
+    },
+    {
+      "choices": [
+        "Blowfish",
+        "RSA",
+        "Triple DES",
+        "AES"
+      ],
+      "answer": 3,
+      "question_id": "b0d3d220-6de4-4aa0-be2d-ad55863aa794"
+    },
+    {
+      "choices": [
+        "Symmetric encryption uses a single key for encryption and decryption, while asymmetric encryption uses a public key for encryption and a private key for decryption.",
+        "Symmetric encryption is primarily used for data at rest, while asymmetric encryption is exclusively for data in motion.",
+        "Asymmetric encryption algorithms are faster than symmetric ones for encrypting large amounts of data.",
+        "Symmetric encryption requires the distribution of keys over the internet, making it less secure than asymmetric encryption."
+      ],
+      "answer": 0,
+      "question_id": "f459a746-b1ad-4179-b591-d49b96acfb14"
+    },
+    {
+      "choices": [
+        "ISO/IEC 27002",
+        "NIST Cybersecurity Framework",
+        "CIS Controls",
+        "PCI DSS"
+      ],
+      "answer": 1,
+      "question_id": "b8cc25c5-5f6f-439f-83e8-dc14e27bf4fc"
+    },
+    {
+      "choices": [
+        "Encrypting all data transmissions",
+        "Assigning users the lowest level of access necessary",
+        "Implementing two-factor authentication for all users",
+        "Regularly updating antivirus software on all devices"
+      ],
+      "answer": 1,
+      "question_id": "536e3650-e453-4e77-9f7a-5c519cd492fb"
+    },
+    {
+      "choices": [
+        "Proxy Firewall",
+        "Packet Filtering Firewall",
+        "Stateful Inspection Firewall",
+        "Next-Generation Firewall"
+      ],
+      "answer": 2,
+      "question_id": "b53b9531-b6e0-4625-aa3e-b7ba410d922e"
+    },
+    {
+      "choices": [
+        "A protocol for secure communication over the internet",
+        "A firewall configuration for more secure web hosting",
+        "A dedicated boundary that separates an internal network from untrusted external networks",
+        "An encryption algorithm used to protect data in transit"
+      ],
+      "answer": 2,
+      "question_id": "05f92404-d20e-4094-a31b-1a03d202b6fe"
+    },
+    {
+      "choices": [
+        "A denial-of-service attack",
+        "A phishing attack",
+        "A man in the middle attack",
+        "A password attack"
+      ],
+      "answer": 2,
+      "question_id": "e9839292-b4ff-4941-a56f-0a7cf1f3da4b"
+    },
+    {
+      "choices": [
+        "SSL VPN",
+        "PPTP VPN",
+        "L2TP VPN",
+        "Site-to-Site VPN"
+      ],
+      "answer": 3,
+      "question_id": "33814a61-5917-4cba-af0f-4ccc39a87bae"
+    },
+    {
+      "choices": [
+        "Firewall",
+        "Network Attached Storage (NAS)",
+        "Simple Mail Transfer Protocol (SMTP)",
+        "Network Time Protocol (NTP)"
+      ],
+      "answer": 0,
+      "question_id": "e6e03f5c-8bad-49f6-a9f8-30e24af62e9e"
+    },
+    {
+      "choices": [
+        "Digital Demand of Service, where multiple infected networks are used to target a single system",
+        "Dedicated Denial of Service, a focused attack from a single location to exhaust resources",
+        "Distributed Denial of Service, where multiple systems are used to flood a target with traffic",
+        "Direct Data Overflow System, involving a singular intense data flow to cripple a network"
+      ],
+      "answer": 2,
+      "question_id": "33ee60d9-c3d7-4cd6-828f-145a8a495986"
+    },
+    {
+      "choices": [
+        "Increases the speed of the encryption and decryption processes",
+        "Allows for larger data transfers over the network",
+        "Enables secure data transmission through encryption and digital signatures",
+        "Reduces the need for physical security measures"
+      ],
+      "answer": 2,
+      "question_id": "8cad2b41-a3b5-40ac-9e79-26c7cadc8ab2"
+    },
+    {
+      "choices": [
+        "DDoS attack",
+        "Phishing",
+        "Malware",
+        "Man-in-the-middle attack"
+      ],
+      "answer": 1,
+      "question_id": "dae066d7-4890-4799-888b-913ff158566b"
+    },
+    {
+      "choices": [
+        "Modem",
+        "Firewall",
+        "Router",
+        "Switch"
+      ],
+      "answer": 1,
+      "question_id": "d2885053-92c3-4884-bd0f-8ac4408aee5d"
+    },
+    {
+      "choices": [
+        "A WAF operates at the network level to protect against unauthorized access.",
+        "A WAF specifically secures physical networking hardware.",
+        "A WAF is designed to inspect HTTP/HTTPS traffic to protect web applications from attacks like SQL injection, whereas traditional firewalls serve as a barrier between networks.",
+        "Traditional firewalls can perform deep packet inspection and application layer filtering, which WAFs cannot."
+      ],
+      "answer": 2,
+      "question_id": "2fffcae2-ba6a-44fc-9e9a-82b63ac0ae05"
+    },
+    {
+      "choices": [
+        "Increases the speed of website data transfer",
+        "Encrypts data transmitted between the web server and the user's browser",
+        "Decreases the website's load time",
+        "Automatically updates web content"
+      ],
+      "answer": 1,
+      "question_id": "9188b7af-25d0-49c1-92fd-2eeb92cca2a2"
+    },
+    {
+      "choices": [
+        "A sequence of authorized network connections",
+        "A methodology for intiating a secure network connection",
+        "A series of security mechanisms that ensure the integrity of a security infrastructure",
+        "A firewall configuration technique"
+      ],
+      "answer": 2,
+      "question_id": "4559ba10-9648-49de-8acb-7b16208b2aa7"
+    },
+    {
+      "choices": [
+        "To exclusively monitor network traffic for suspicious activity",
+        "To encrypt data packets to prevent unauthorized access",
+        "To actively prevent or block intrusions in real time",
+        "To serve as a firewall and filter content"
+      ],
+      "answer": 2,
+      "question_id": "4fbe3abc-0352-4c7a-867f-7028bc32e83f"
+    },
+    {
+      "choices": [
+        "Tokenization",
+        "Network Diversity",
+        "Network Segmentation",
+        "Encryption"
+      ],
+      "answer": 2,
+      "question_id": "d9802629-fdf9-40f8-9c89-20dc002befd2"
+    },
+    {
+      "choices": [
+        "To encrypt data packets for secure transmission",
+        "To identify vulnerable services on a network",
+        "To allocate IP addresses to devices",
+        "To increase the speed of network connections"
+      ],
+      "answer": 1,
+      "question_id": "c9fc9fe0-0ff8-4775-958a-cc182d22b551"
+    },
+    {
+      "choices": [
+        "FTPS",
+        "SMTP",
+        "SSH",
+        "HTTP"
+      ],
+      "answer": 2,
+      "question_id": "77f61dbb-9eac-418f-beae-2de34e7d1868"
+    },
+    {
+      "choices": [
+        "It is a protocol for secure file transfer over the internet.",
+        "It is a framework for managing enterprise IT infrastructure.",
+        "It enables real-time monitoring and detection of threats on endpoints.",
+        "It is a method for optimizing network traffic and reducing latency."
+      ],
+      "answer": 2,
+      "question_id": "d4b435b4-dd22-409d-ba6f-8b73a029d709"
+    },
+    {
+      "choices": [
+        "Security Incident Event Management",
+        "Secure Integrated Encryption Method",
+        "Security Integrated Event Monitoring",
+        "System Intrusion Evaluation Module"
+      ],
+      "answer": 0,
+      "question_id": "4d49e976-780f-47aa-97de-8b94cf2f4258"
+    },
+    {
+      "choices": [
+        "A blacklist allows all traffic except those explicitly denied, while a whitelist denies all traffic except those explicitly allowed.",
+        "A blacklist encrypts data packets, while a whitelist does not.",
+        "A whitelist is only used in wired networks, while a blacklist is used in both wired and wireless networks.",
+        "A blacklist uses more processing power than a whitelist."
+      ],
+      "answer": 0,
+      "question_id": "1765e39b-f981-4155-b8eb-f5154185e6b0"
+    },
+    {
+      "choices": [
+        "RSA",
+        "DES",
+        "SHA-256",
+        "AES"
+      ],
+      "answer": 3,
+      "question_id": "b37b27ad-1d91-4c8b-bea9-35c383f77e4c"
+    },
+    {
+      "choices": [
+        "Penetration Testing",
+        "Risk Analysis",
+        "Compliance Auditing",
+        "Vulnerability Scanning"
+      ],
+      "answer": 0,
+      "question_id": "1a4ea026-94e6-4540-9f1a-3ff571f4d84d"
+    },
+    {
+      "choices": [
+        "Peer-to-Peer Network",
+        "Virtual Private Network",
+        "Defense in Depth",
+        "Single Sign-On"
+      ],
+      "answer": 2,
+      "question_id": "afb94574-ed7c-4004-b5ea-aa78807dcfc2"
+    },
+    {
+      "choices": [
+        "A security system that encrypts data to protect it from unauthorized access",
+        "A method for improving system performance by distributing workloads across multiple devices",
+        "A security protocol that requires users to provide two or more verification factors to gain access to a resource",
+        "A technique for anonymizing personal data to comply with privacy regulations"
+      ],
+      "answer": 2,
+      "question_id": "ebf072c2-4fb5-4caa-b70b-80f30b0e7895"
+    },
+    {
+      "choices": [
+        "Fast Internet Movement - a protocol to speed up internet connection",
+        "File Integrity Monitoring - a security process that monitors and evaluates changes in files to detect unauthorized access or modifications",
+        "Final Internal Mechanism - the last line of defense in network security systems",
+        "Functionality Improvement Measure - a strategy for enhancing network performance and security"
+      ],
+      "answer": 1,
+      "question_id": "b16cc2a5-ba18-4101-8072-2ce913cfeeac"
+    },
+    {
+      "choices": [
+        "Encrypting and decrypting transmitted data",
+        "Monitoring network traffic for malicious activity",
+        "Issuing digital certificates to verify the ownership of a public key",
+        "Generating and distributing symmetric keys"
+      ],
+      "answer": 2,
+      "question_id": "fae219a9-d431-47be-9835-3037e1c64ef6"
+    },
+    {
+      "choices": [
+        "Denial of Service (DoS) attack",
+        "SQL Injection",
+        "Cross-Site Scripting (XSS)",
+        "Man-in-the-Middle (MitM) attack"
+      ],
+      "answer": 2,
+      "question_id": "da0b4f54-9be6-4e80-90c1-20a41947c9bb"
+    },
+    {
+      "choices": [
+        "To increase the complexity of the network",
+        "To allow all devices to directly communicate with each other",
+        "To improve the network's performance by reducing traffic",
+        "To enhance security by separating sensitive data and systems from other network segments"
+      ],
+      "answer": 3,
+      "question_id": "1894c572-8961-4d7e-9d02-66e114d21ce7"
+    },
+    {
+      "choices": [
+        "It increases the processing power of security applications",
+        "By isolating potentially harmful code execution from the main system environment",
+        "It encrypts data stored on the device",
+        "By providing automatic updates to security software"
+      ],
+      "answer": 1,
+      "question_id": "3573d185-4bfe-49d7-b824-f8fe93c63a3e"
+    },
+    {
+      "choices": [
+        "Project management methodologies",
+        "Information security management systems",
+        "Customer service standards",
+        "Quality management systems"
+      ],
+      "answer": 1,
+      "question_id": "2e90f0a0-86cc-4de6-b7a2-53e817e02918"
+    },
+    {
+      "choices": [
+        "A temporary malware infection designed to steal immediate financial data",
+        "A technique used in securing wireless networks",
+        "A multi-phased attack where the attacker gains access to a network and remains undetected for an extended period",
+        "A network scanning method used exclusively by government agencies"
+      ],
+      "answer": 2,
+      "question_id": "3fbdaeb6-9a00-4043-8a04-8506fbd6e353"
+    },
+    {
+      "choices": [
+        "Simple Mail Transfer Protocol (SMTP)",
+        "HyperText Transfer Protocol Secure (HTTPS)",
+        "Secure Shell (SSH)",
+        "Transport Layer Security (TLS)"
+      ],
+      "answer": 3,
+      "question_id": "fa302204-5472-478c-9e2d-283082624d89"
+    },
+    {
+      "choices": [
+        "By strengthening firewall settings to prevent unauthorized access",
+        "By encrypting files and demanding payment for the decryption key",
+        "By improving the network's encryption protocols to secure data transmission",
+        "By providing secure, anonymous browsing capabilities to protect user identity"
+      ],
+      "answer": 1,
+      "question_id": "dee4e881-2e23-427f-91e6-2a74e8eede54"
+    },
+    {
+      "choices": [
+        "To improve website load times through optimized content delivery",
+        "To monitor network traffic in real time to prevent unauthorized data breaches",
+        "To collect, analyze, and report on security data for compliance purposes",
+        "To oversee software development processes and ensure secure code"
+      ],
+      "answer": 2,
+      "question_id": "4ef9e1dc-3ae3-45a4-be1f-eb38bdb7c088"
+    },
+    {
+      "choices": [
+        "Encrypting data packets for secure transmission",
+        "Monitoring and analyzing network traffic",
+        "Preventing unauthorized network access",
+        "Generating network traffic for stress testing"
+      ],
+      "answer": 1,
+      "question_id": "143d270b-131f-46a7-a0d0-a06a86e0b61a"
+    },
+    {
+      "choices": [
+        "Advanced Threat Tactics and Cyber Knowledge",
+        "Adversarial Tactics, Techniques, and Common Knowledge",
+        "Attack Techniques, Threats, and Cyber Knowledge",
+        "Adversarial Tactics, Techniques, and Common Knowledge"
+      ],
+      "answer": 3,
+      "question_id": "5c319fee-5247-435d-8ebd-a0fbbfed0392"
+    },
+    {
+      "choices": [
+        "By encrypting data on the move",
+        "By optimizing network speed",
+        "By enforcing security policies on devices before they access the network",
+        "By increasing storage capacity on the network"
+      ],
+      "answer": 2,
+      "question_id": "8116aba9-b5e3-439b-9c50-b0343bb1c6b4"
+    },
+    {
+      "choices": [
+        "Encryption, Tokenization, and Firewall",
+        "Continuous monitoring and authentication",
+        "Passwords, Multi-factor authentication, and VPNs",
+        "Biometrics and Hardware security modules"
+      ],
+      "answer": 1,
+      "question_id": "e6c338f4-ea56-4265-aa0e-408d05c73bae"
+    },
+    {
+      "choices": [
+        "SSH",
+        "SSL",
+        "Virtual Private Network (VPN)",
+        "WPA2"
+      ],
+      "answer": 2,
+      "question_id": "3542739e-783f-4a11-bf56-d156e721d6ba"
+    },
+    {
+      "choices": [
+        "To design and develop network infrastructure",
+        "To monitor and ensure the physical security of an organization's premises",
+        "To manage and improve an organization's IT support processes",
+        "To detect, analyze, and respond to cybersecurity incidents"
+      ],
+      "answer": 3,
+      "question_id": "51ed84f9-6c09-49df-9d2a-c24b4288684c"
+    },
+    {
+      "choices": [
+        "Heuristic analysis requires a constant internet connection to compare files against known virus signatures.",
+        "Heuristic analysis techniques rely on comparing the suspected malware against a database of known issues, while signature-based methods analyze the behavior of the code.",
+        "Heuristic analysis techniques analyze the behavior of the code and predict its intent, whereas signature-based methods compare files to a database of known virus signatures.",
+        "Signature-based methods are more effective at detecting zero-day exploits than heuristic analysis."
+      ],
+      "answer": 2,
+      "question_id": "b8567b85-9c10-413b-bb83-804066aaec2c"
+    },
+    {
+      "choices": [
+        "A method for troubleshooting network issues",
+        "A type of hacking technique that completely disables a network",
+        "A series of steps that trace the stages of a cyberattack from early reconnaissance to data exfiltration",
+        "A tool used to disconnect rogue devices from a network"
+      ],
+      "answer": 2,
+      "question_id": "89a70a28-2775-455b-95bb-f3140114442b"
+    },
+    {
+      "choices": [
+        "Decreases network performance to improve security",
+        "Increases the workload on the IT department",
+        "It helps in preemptively identifying and mitigating potential threats",
+        "It eliminates the need for any other form of digital security measures"
+      ],
+      "answer": 2,
+      "question_id": "803fd21c-7d56-4244-b2ae-ec50ad49d0ab"
+    },
+    {
+      "choices": [
+        "Threat hunting relies solely on automated systems to detect threats, whereas traditional practices involve manual monitoring.",
+        "Traditional network security practices proactive search for cybersecurity threats that evade existing security solutions, unlike threat hunting.",
+        "Threat hunting is a proactive approach that searches for cyber threats that are not detected by existing security solutions, whereas traditional practices are reactive.",
+        "Both threat hunting and traditional network security practices focus primarily on strengthening firewalls."
+      ],
+      "answer": 2,
+      "question_id": "4c982881-e340-463f-8366-812ed8aa7653"
+    },
+    {
+      "choices": [
+        "It ensures that a unique key is used for every session, preventing previous session keys from being compromised if a future key is compromised.",
+        "It increases the encryption speed for large data transfers.",
+        "It refers to the ability of a system to resist future attempts at decryption, even with the knowledge of the requester.",
+        "It is a method for encrypting data stored at rest, ensuring only authorized users can access it."
+      ],
+      "answer": 0,
+      "question_id": "df2240f6-9ed7-475e-8b7f-d027cb7b3bd9"
+    },
+    {
+      "choices": [
+        "Certified Information Systems Security Professional (CISSP)",
+        "Certified Ethical Hacker (CEH)",
+        "CompTIA Security+",
+        "Network+"
+      ],
+      "answer": 2,
+      "question_id": "673313f3-52aa-4478-83fc-aef5b1841277"
+    },
+    {
+      "choices": [
+        "By targeting multiple systems instead of a single system",
+        "By using stronger encryption methods",
+        "By exploiting vulnerabilities in the TCP/IP protocol",
+        "By utilizing a network of compromised computers to flood the target"
+      ],
+      "answer": 3,
+      "question_id": "4a93f000-310e-45d8-b9fd-bf9266b91206"
+    },
+    {
+      "choices": [
+        "To monitor and control endpoint activities",
+        "To enforce a zero-trust network policy",
+        "To prevent unauthorized access to a network",
+        "To protect sensitive data from being lost, misused, or accessed by unauthorized users"
+      ],
+      "answer": 3,
+      "question_id": "6162c2f2-d15e-4a26-ac18-70b9b850906d"
+    },
+    {
+      "choices": [
+        "To enhance global broadband network connectivity",
+        "To ensure the secure handling of cardholder information by businesses",
+        "To regulate the use of digital currencies",
+        "To govern the data privacy laws across different countries"
+      ],
+      "answer": 1,
+      "question_id": "e67e57cb-3b04-4d27-968c-d2355d0df8f2"
+    },
+    {
+      "choices": [
+        "To outline the IT infrastructure architecture",
+        "To negotiate encryption algorithms in a network",
+        "To identify activities that might suggest a security breach",
+        "To increase the speed of the internet connection"
+      ],
+      "answer": 2,
+      "question_id": "62c921a0-ac1b-486b-8fa1-0f624cc3fdf4"
+    },
+    {
+      "choices": [
+        "By increasing the network's bandwidth for remote connections",
+        "By encrypting data transmitted over the internet",
+        "By physically securing the network infrastructure",
+        "By creating a direct physical connection between remote users and the network"
+      ],
+      "answer": 1,
+      "question_id": "2fe40e1c-43cc-484e-932d-2b0762bed36c"
+    },
+    {
+      "choices": [
+        "Relying solely on a single security measure",
+        "Periodically changing passwords across the network",
+        "Implementing a layered approach to security with multiple defenses",
+        "Encrypting all network traffic with a single algorithm"
+      ],
+      "answer": 2,
+      "question_id": "9ff4590c-4a14-4b19-8446-357546e5eba5"
+    },
+    {
+      "choices": [
+        "Preventing the spread of a threat to other systems",
+        "Detecting unauthorized access",
+        "Recovering data after a breach",
+        "Encrypting sensitive information"
+      ],
+      "answer": 0,
+      "question_id": "8c7a8df5-7797-4912-adaa-f258be25acba"
+    },
+    {
+      "choices": [
+        "By encrypting data in transit",
+        "By detecting and analyzing malware attacks",
+        "By increasing the speed of the network",
+        "By providing backup for data loss prevention"
+      ],
+      "answer": 1,
+      "question_id": "2a28162c-3cc8-4432-9dcf-bd60f9229deb"
+    },
+    {
+      "choices": [
+        "Firewall",
+        "Tokenization",
+        "Steganography",
+        "TLS Encryption"
+      ],
+      "answer": 2,
+      "question_id": "49fd6b50-c146-475e-8451-c239617181c7"
+    },
+    {
+      "choices": [
+        "The ability to switch between wired and wireless network connections seamlessly",
+        "The ability to quickly and efficiently recover from a network failure",
+        "The property of a system that can rapidly and cost-effectively switch between cryptographic algorithms and implementations without significant changes to the system's infrastructure",
+        "The mechanism by which data packets choose the fastest route across a network"
+      ],
+      "answer": 2,
+      "question_id": "0f68db20-27a2-494f-8ed7-10d4d6444fb6"
+    },
+    {
+      "choices": [
+        "Reducing the cost of data storage",
+        "Increasing the speed of Internet connections",
+        "Breaking current encryption methods and enabling new forms of secure communication",
+        "Improving the aesthetic design of computing devices"
+      ],
+      "answer": 2,
+      "question_id": "c24e71fa-90aa-45cc-a0cf-fc2f97cc35c0"
+    },
+    {
+      "choices": [
+        "By encrypting all data transmitted over the network",
+        "By implementing stronger password policies",
+        "By restricting the flow of traffic to defined secure zones within the network",
+        "By increasing the network's bandwidth to prevent data bottlenecks"
+      ],
+      "answer": 2,
+      "question_id": "917d8949-a2ff-4bcb-97d0-09711992fdc7"
+    },
+    {
+      "choices": [
+        "Focusing exclusively on hardware-level security",
+        "Implementing end-to-end encryption and regular software updates",
+        "Establishing strong passwords for device access only",
+        "Limiting IoT devices' functionality to reduce security risks"
+      ],
+      "answer": 1,
+      "question_id": "f1cf6c5c-8718-46cc-998a-ee800d63a14b"
+    },
+    {
+      "choices": [
+        "Installing security software packages to all systems",
+        "Configuring network devices to default settings to enhance compatibility",
+        "Strengthening a system's security to protect against attacks by reducing vulnerabilities",
+        "Increasing the bandwidth of the network to prevent denial of service attacks"
+      ],
+      "answer": 2,
+      "question_id": "20a68d37-c8e1-49c4-a8b9-12193052e9d4"
+    },
+    {
+      "choices": [
+        "Increases the complexity and cost of cybersecurity solutions",
+        "Reduces the effectiveness of traditional cybersecurity measures",
+        "Enhances the ability of cybersecurity systems to detect and respond to threats",
+        "Has no significant impact on the field of cybersecurity"
+      ],
+      "answer": 2,
+      "question_id": "17f62e0f-a5e3-4d63-ac6f-60a873432642"
+    },
+    {
+      "choices": [
+        "To enforce strict network access controls",
+        "To encrypt sensitive data in transit",
+        "To analyze user behavior and detect deviations from normal operation",
+        "To manage digital certificates and encryption keys"
+      ],
+      "answer": 2,
+      "question_id": "c7c7b85c-dd3e-47cc-9a95-91e0f87513a1"
+    },
+    {
+      "choices": [
+        "By exploiting known software vulnerabilities before they are patched",
+        "By using only custom malware to avoid detection",
+        "By leveraging existing, legitimate tools on the system to conduct malicious activities",
+        "By encrypting all data they steal immediately upon exfiltration"
+      ],
+      "answer": 2,
+      "question_id": "b87b6c12-807d-455c-8a39-feab31c5a145"
+    },
+    {
+      "choices": [
+        "A technique where user activity is monitored in real-time to prevent unauthorized data access",
+        "A process of installing firewalls to protect network boundaries",
+        "A method of encrypting all network communication",
+        "Regularly changing passwords to avoid unauthorized access"
+      ],
+      "answer": 0,
+      "question_id": "1af5624c-f27d-48fe-b993-27c8e53679ac"
+    },
+    {
+      "choices": [
+        "Increased efficiency in cryptographic computations",
+        "Strengthening of cryptographic algorithms",
+        "Leakage of sensitive information through indirect channels",
+        "Simplification of public-key infrastructure management"
+      ],
+      "answer": 2,
+      "question_id": "d25c69f1-209f-40c0-aa67-56ee8002f572"
+    },
+    {
+      "choices": [
+        "Provides encryption for email communications",
+        "Enhances the physical security of network hardware",
+        "Enables secure, transparent, and tamper-proof record-keeping",
+        "Increases the speed of data transmission"
+      ],
+      "answer": 2,
+      "question_id": "a1b49397-4036-498b-b73c-348bd7b3d37e"
+    },
+    {
+      "choices": [
+        "Ensuring all physical servers are locked",
+        "Maintaining a strong password policy across all cloud services",
+        "Installing local antivirus software on all cloud servers",
+        "Encrypting data in transit and at rest in the cloud"
+      ],
+      "answer": 3,
+      "question_id": "6acfe6f8-aa94-4fd4-8b5a-107f45e7d3de"
+    },
+    {
+      "choices": [
+        "Implementing security features only after the software has been developed and deployed",
+        "Focusing solely on physical security measures to protect the software",
+        "Integrating security considerations and practices throughout the software development lifecycle",
+        "Using only encryption as a means to secure the software"
+      ],
+      "answer": 2,
+      "question_id": "0e355426-0135-47e2-98bd-58b86b80f6d5"
+    },
+    {
+      "choices": [
+        "A software patch that improves network speed.",
+        "A technique for encrypting data packets.",
+        "A vulnerability that is unknown to the software vendor until it is exploited.",
+        "A firewall configuration protocol."
+      ],
+      "answer": 2,
+      "question_id": "11d1227f-38ca-4121-b09d-3c2998c90fec"
+    },
+    {
+      "choices": [
+        "Increased efficiency and productivity with unauthorized devices",
+        "Reduced costs for IT support and infrastructure",
+        "Security risks and lack of data governance due to unauthorized software and devices",
+        "Improved employee satisfaction with IT services"
+      ],
+      "answer": 2,
+      "question_id": "a91f52a7-3a53-4a4c-a1eb-290141959110"
+    },
+    {
+      "choices": [
+        "Increases the complexity of password management",
+        "Simplifies user access by reducing the number of passwords",
+        "Enables unrestricted access across different domains",
+        "Reduces the overall cost of network infrastructure"
+      ],
+      "answer": 1,
+      "question_id": "e154723f-b691-4d49-91ef-9142ac863da9"
+    },
+    {
+      "choices": [
+        "Automating software updates and patch management",
+        "Monitoring and analyzing security events and incidents in real-time",
+        "Encrypting data in transit and at rest",
+        "Managing network bandwidth and traffic flow"
+      ],
+      "answer": 1,
+      "question_id": "1d552fd7-9e32-4d96-bf54-6f0cb4e037cd"
+    },
+    {
+      "choices": [
+        "Increasing encryption standards for data in transit",
+        "Attacks that target physical hardware vulnerabilities",
+        "Compromises in a vendor's security that affect customers downstream",
+        "Introduction of stricter firewall rules and policies"
+      ],
+      "answer": 2,
+      "question_id": "5dac73bc-7289-4921-aa3f-cf83bf5dc65c"
+    },
+    {
+      "choices": [
+        "Bug bounties limit the number of people who can access the network.",
+        "Bug bounties reduce network bandwidth usage.",
+        "Bug bounties incentivize individuals to discover and report security vulnerabilities.",
+        "Bug bounties increase the speed of network traffic."
+      ],
+      "answer": 2,
+      "question_id": "cc2723f8-ad5c-45b9-8327-2365a9541e5b"
+    },
+    {
+      "choices": [
+        "A methodology for preventing unauthorized access to data within a network.",
+        "A set of strategies focused on improving internet connection speeds and reliability.",
+        "A suite of tools and practices for managing, configuring, and troubleshooting network devices.",
+        "An approach that enables organizations to collect data across various sources to automate responses and enhance security operations."
+      ],
+      "answer": 3,
+      "question_id": "9440b9a3-d96a-4b51-b98f-ddaa4c3ee0a7"
+    }
+  ]
+}

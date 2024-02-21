@@ -1,0 +1,1492 @@
+{
+  "topic": "Machine Learning",
+  "questions": [
+    {
+      "id": "ac7a479c-545e-4de5-9971-086e6bdead4a",
+      "difficulty": 1,
+      "question": "What does AI stand for?"
+    },
+    {
+      "id": "adcb480f-0f9c-47ac-8443-0ed3a7bdf212",
+      "difficulty": 1,
+      "question": "What is supervised learning?"
+    },
+    {
+      "id": "0aecf746-69f1-4a0b-a024-7e0c569327ac",
+      "difficulty": 1,
+      "question": "In machine learning, what is a model?"
+    },
+    {
+      "id": "9e29ff70-3a61-4861-a61f-62b4012e3f42",
+      "difficulty": 1,
+      "question": "What do the terms 'feature' and 'target' refer to in machine learning?"
+    },
+    {
+      "id": "cf71cd17-da9b-4f9e-82db-a39a3fc19717",
+      "difficulty": 1,
+      "question": "What is overfitting in machine learning?"
+    },
+    {
+      "id": "0c415f79-8ecf-421c-9871-53aa84b358db",
+      "difficulty": 1,
+      "question": "What is the main task of a classifier in machine learning?"
+    },
+    {
+      "id": "9aa2d3c8-c79e-46aa-97c7-4cf7af776abf",
+      "difficulty": 1,
+      "question": "What is the role of training data in machine learning?"
+    },
+    {
+      "id": "cb68716c-d216-441e-bc99-e009e29d2537",
+      "difficulty": 1,
+      "question": "In the context of machine learning, what does 'algorithm' refer to?"
+    },
+    {
+      "id": "b6db2f25-012d-42b0-a168-76be648a8c78",
+      "difficulty": 1,
+      "question": "What is the difference between regression and classification?"
+    },
+    {
+      "id": "2d96d502-e15e-4a84-abad-c0fb042e5e48",
+      "difficulty": 1,
+      "question": "Which of these is a popular Python library for machine learning?"
+    },
+    {
+      "id": "654581d4-b8a0-45af-97d8-e8e69b4a9bd4",
+      "difficulty": 1,
+      "question": "What does 'test set' mean in machine learning?"
+    },
+    {
+      "id": "37dac4aa-73ba-444b-824a-79ef1290d444",
+      "difficulty": 1,
+      "question": "What is cross-validation?"
+    },
+    {
+      "id": "0741bb18-d4c7-47cd-8075-5ae99be3b5bd",
+      "difficulty": 1,
+      "question": "What is a common metric to evaluate a classifier's performance?"
+    },
+    {
+      "id": "779b8172-71ab-4353-9cb0-4750ee1236a6",
+      "difficulty": 1,
+      "question": "What does the term 'bias' mean in machine learning?"
+    },
+    {
+      "id": "b34fcf65-dce7-43e2-90b8-46a8c300ba94",
+      "difficulty": 1,
+      "question": "How is a decision tree used in machine learning?"
+    },
+    {
+      "id": "98294b31-fce8-4d6f-872e-afccc0f21bb9",
+      "difficulty": 1,
+      "question": "What is the purpose of the training phase in machine learning?"
+    },
+    {
+      "id": "993c993b-8a10-480e-a2b8-b349d57de2cc",
+      "difficulty": 1,
+      "question": "What is meant by 'model accuracy'?"
+    },
+    {
+      "id": "fa0b43c5-281c-4bfa-8107-abf16ef09e7f",
+      "difficulty": 1,
+      "question": "In which type of machine learning would you use labeled data?"
+    },
+    {
+      "id": "2e0b02b6-5c6b-4068-a696-8c84b859bdca",
+      "difficulty": 1,
+      "question": "What is a neural network?"
+    },
+    {
+      "id": "956a1890-d95b-45ad-b33f-1e48fd86c161",
+      "difficulty": 1,
+      "question": "What does the 'learning rate' parameter control in many machine learning algorithms?"
+    },
+    {
+      "id": "13786077-95c3-4c79-883e-f7c546963b1c",
+      "difficulty": 2,
+      "question": "What is the difference between supervised and unsupervised learning?"
+    },
+    {
+      "id": "8cddd4db-aecd-44de-a290-fbf674aaa3dc",
+      "difficulty": 2,
+      "question": "How does a random forest algorithm work?"
+    },
+    {
+      "id": "38423945-e0eb-4618-bcbe-9ccbc3b7a08a",
+      "difficulty": 2,
+      "question": "In machine learning, what is 'feature scaling'?"
+    },
+    {
+      "id": "7db2d469-cc73-4580-9c38-27335c66df0c",
+      "difficulty": 2,
+      "question": "What is meant by 'hyperparameter tuning' in machine learning?"
+    },
+    {
+      "id": "cc50e4d6-7dcf-4368-91a8-b9d1d3fe7ece",
+      "difficulty": 2,
+      "question": "What is the 'confusion matrix' in classification problems?"
+    },
+    {
+      "id": "14446d88-1ac6-4c26-8004-8d1dc33128d7",
+      "difficulty": 2,
+      "question": "What is regularization in machine learning?"
+    },
+    {
+      "id": "9b44feab-d0a6-4f32-a624-f43e3415ea67",
+      "difficulty": 2,
+      "question": "For a given dataset, what is 'dimensionality reduction'?"
+    },
+    {
+      "id": "5d57d52b-e64f-4d6d-bdba-454c8bc3414a",
+      "difficulty": 2,
+      "question": "In machine learning, what is the 'Gradient Descent' algorithm?"
+    },
+    {
+      "id": "f7ba42ea-6d58-46cd-8856-fbaf43d4a257",
+      "difficulty": 2,
+      "question": "How can you handle missing data in a dataset?"
+    },
+    {
+      "id": "a9500f96-d994-410d-9269-c7993705a850",
+      "difficulty": 2,
+      "question": "What are the benefits of using ensemble methods in machine learning?"
+    },
+    {
+      "id": "a8dd6aa8-ea40-45a7-9013-4b1131bee65f",
+      "difficulty": 2,
+      "question": "What is a 'support vector machine'?"
+    },
+    {
+      "id": "a261c3b7-3d08-43f2-a00a-3fc136695cf9",
+      "difficulty": 2,
+      "question": "What does 'underfitting' mean in machine learning?"
+    },
+    {
+      "id": "3f40ac58-5b81-4867-9849-6abbfa386766",
+      "difficulty": 2,
+      "question": "How does the k-nearest neighbors algorithm work?"
+    },
+    {
+      "id": "4836390f-4cde-4b71-af60-f6f269e35290",
+      "difficulty": 2,
+      "question": "What is 'principal component analysis' used for?"
+    },
+    {
+      "id": "6eb8e18b-5a2b-41f3-83f3-25b027c740cb",
+      "difficulty": 2,
+      "question": "How do you evaluate the performance of a regression model?"
+    },
+    {
+      "id": "b4707249-a15d-4851-a466-3d607b318987",
+      "difficulty": 2,
+      "question": "What is a 'convolutional neural network'?"
+    },
+    {
+      "id": "ed63984e-df3a-4fdc-a9d0-ab4b273a3573",
+      "difficulty": 2,
+      "question": "How do you prevent overfitting in a machine learning model?"
+    },
+    {
+      "id": "be6f33ec-a227-4b87-8789-5d7ee6b42492",
+      "difficulty": 2,
+      "question": "What is 'batch normalization' in the context of neural networks?"
+    },
+    {
+      "id": "63eaf2a1-d208-4f98-97f2-c9f68c542687",
+      "difficulty": 2,
+      "question": "What are 'autoencoders' used for in machine learning?"
+    },
+    {
+      "id": "272d7930-4a1e-480d-a915-4808c414542c",
+      "difficulty": 2,
+      "question": "What is the 'F1 score' in the context of model evaluation?"
+    },
+    {
+      "id": "80214c17-48fc-43be-a163-f6181a2c2821",
+      "difficulty": 3,
+      "question": "What is 'dropout' in neural networks?"
+    },
+    {
+      "id": "77febc87-0eba-4741-b8c7-514ceb6dfb83",
+      "difficulty": 3,
+      "question": "How do 'attention mechanisms' in neural networks work?"
+    },
+    {
+      "id": "c3d1a8a4-cb44-464f-9179-e904effd5182",
+      "difficulty": 3,
+      "question": "What is 'transfer learning'?"
+    },
+    {
+      "id": "fe0015d4-bfa9-473d-8375-ab5853a819db",
+      "difficulty": 3,
+      "question": "What are 'Generative Adversarial Networks' (GANs)?"
+    },
+    {
+      "id": "545ec975-0cac-4c2c-b850-7919888a80b4",
+      "difficulty": 3,
+      "question": "What is the 'curse of dimensionality'?"
+    },
+    {
+      "id": "ae230e6e-1903-401c-bee1-f11e7f340fde",
+      "difficulty": 3,
+      "question": "How does 'feature importance' help in understanding a machine learning model?"
+    },
+    {
+      "id": "0a544317-7d9f-488d-ab0d-edd23c0ae97b",
+      "difficulty": 3,
+      "question": "What is 'data augmentation' in the context of machine learning?"
+    },
+    {
+      "id": "09b40ec9-4fab-4eb2-941f-3fe86e36bc8c",
+      "difficulty": 3,
+      "question": "How does 'early stopping' work as a form of regularization?"
+    },
+    {
+      "id": "ede74f9b-14fd-404f-aa96-0111b4ca81c3",
+      "difficulty": 3,
+      "question": "What is the 'ROC curve' and 'AUC' in model evaluation?"
+    },
+    {
+      "id": "f9a979f3-d792-4450-b36f-46af78a6b152",
+      "difficulty": 3,
+      "question": "What are 'recurrent neural networks' (RNNs)?"
+    },
+    {
+      "id": "f8110d0f-6373-4ce0-9905-1218723dbdad",
+      "difficulty": 3,
+      "question": "What does 'word embedding' mean in natural language processing?"
+    },
+    {
+      "id": "4700e54f-6eee-456c-a885-59bb90d26b28",
+      "difficulty": 3,
+      "question": "How do you handle imbalanced datasets in classification problems?"
+    },
+    {
+      "id": "55f0a550-93f0-4351-8f35-debb7eec4b98",
+      "difficulty": 3,
+      "question": "What is 'sequence to sequence learning'?"
+    },
+    {
+      "id": "c1dbe178-29ef-4eb1-ba48-77872c127022",
+      "difficulty": 3,
+      "question": "What are the implications of the 'No Free Lunch' theorem in machine learning?"
+    },
+    {
+      "id": "f50f047b-503e-4bd1-be87-8d30d7a30ce6",
+      "difficulty": 3,
+      "question": "How does 'grid search' aid in hyperparameter tuning?"
+    },
+    {
+      "id": "4ea0c188-ee07-488e-a010-e2006ecdbbe7",
+      "difficulty": 3,
+      "question": "What is the concept of 'model ensemble' and how does it improve model performance?"
+    },
+    {
+      "id": "f1ba1759-2b21-46ba-a6f7-94bba1bc29d6",
+      "difficulty": 3,
+      "question": "How do 'Long Short-Term Memory' (LSTM) networks differ from traditional RNNs?"
+    },
+    {
+      "id": "a54bb127-3efb-4775-82bd-03d91bd4560f",
+      "difficulty": 3,
+      "question": "What is 'feature hashing' and when would you use it?"
+    },
+    {
+      "id": "19418671-76f5-444f-ac74-91cf14fa7ca3",
+      "difficulty": 3,
+      "question": "What is the 'Boltzmann machine'?"
+    },
+    {
+      "id": "8526f5c5-63cd-45a3-bc1b-49955d7d7cf0",
+      "difficulty": 3,
+      "question": "What is 'reinforcement learning' and how is it different from supervised learning?"
+    },
+    {
+      "id": "d67e64e6-bafd-4683-aa3f-4efe7bcfe4a1",
+      "difficulty": 4,
+      "question": "How do 'convolutional layers' in CNNs extract features from input data?"
+    },
+    {
+      "id": "248d7e75-1e6c-4fef-b1e6-6adeab3e120c",
+      "difficulty": 4,
+      "question": "What is the 'attention mechanism' in the context of sequence modeling?"
+    },
+    {
+      "id": "e9ecf246-b833-4b1a-a198-f3ea192e4e2c",
+      "difficulty": 4,
+      "question": "Explain the concept of 'end-to-end learning' in machine learning models."
+    },
+    {
+      "id": "2a5c984f-b3f4-4816-bcf7-d89b9aa5264a",
+      "difficulty": 4,
+      "question": "How does 'batch gradient descent' differ from 'stochastic gradient descent'?"
+    },
+    {
+      "id": "d167c656-7f16-4511-b139-0180eecf98ad",
+      "difficulty": 4,
+      "question": "What is 'one-shot learning' and how does it relate to machine learning?"
+    },
+    {
+      "id": "e1d8cffe-641c-4303-a64c-c353a5aefa59",
+      "difficulty": 4,
+      "question": "How can 'neural style transfer' be implemented using deep learning?"
+    },
+    {
+      "id": "c02b8792-be28-4b1c-a113-4e8454171c6a",
+      "difficulty": 4,
+      "question": "What is the 'exploding gradients' problem and how can it be mitigated?"
+    },
+    {
+      "id": "4d1f1626-b0be-49c9-bfa3-df122b410ed7",
+      "difficulty": 4,
+      "question": "Discuss the role of 'replay memories' in reinforcement learning."
+    },
+    {
+      "id": "e169763d-64dc-4ec8-89c9-376f5235bc6a",
+      "difficulty": 4,
+      "question": "What is 'temporal difference learning' in the context of reinforcement learning?"
+    },
+    {
+      "id": "ef9124ca-40cd-4df8-9871-01ab3578c960",
+      "difficulty": 4,
+      "question": "How do 'embedding layers' work in neural networks for natural language processing?"
+    },
+    {
+      "id": "df6842df-fa09-4362-9527-0a8662755072",
+      "difficulty": 4,
+      "question": "What are 'Siamese networks' and how are they useful?"
+    },
+    {
+      "id": "c55b7435-9aac-468f-903d-19a5e1eb9596",
+      "difficulty": 4,
+      "question": "What is 'meta-learning' in machine learning?"
+    },
+    {
+      "id": "9bca91b0-3934-45c0-b7a3-8632abce1142",
+      "difficulty": 4,
+      "question": "How does 'spectral clustering' work and what are its applications?"
+    },
+    {
+      "id": "8602e68e-efe8-4583-a2a0-8d68ae0241c2",
+      "difficulty": 4,
+      "question": "What are the challenges of 'multi-task learning'?"
+    },
+    {
+      "id": "97a35760-b15f-468e-9d6c-3bca2b05f4e9",
+      "difficulty": 4,
+      "question": "How can 'adversarial examples' affect machine learning models?"
+    },
+    {
+      "id": "07738373-3345-4930-b6ac-d27b23b01631",
+      "difficulty": 4,
+      "question": "What is the 'beam search' algorithm and where is it used?"
+    },
+    {
+      "id": "4bb99795-e24e-41cb-b2d3-d1296fb6c3b3",
+      "difficulty": 4,
+      "question": "Explain the concept of 'self-supervised learning'."
+    },
+    {
+      "id": "7502468f-af7e-4437-83a1-6c189f5ade5e",
+      "difficulty": 4,
+      "question": "How does 'factorization machines' work in recommender systems?"
+    },
+    {
+      "id": "61ce4300-ad26-4fa5-8aa2-d3de68fd82c6",
+      "difficulty": 4,
+      "question": "What is 'deep reinforcement learning'?"
+    },
+    {
+      "id": "6fb92cb7-bc86-4a6e-86f9-55dc59a37128",
+      "difficulty": 4,
+      "question": "Discuss the use of 'capsule networks' in deep learning."
+    },
+    {
+      "id": "363f1380-f536-4be0-ac72-5ede747abeac",
+      "difficulty": 5,
+      "question": "What are the limitations of 'backpropagation' in neural networks?"
+    },
+    {
+      "id": "467144f3-61d1-4c3e-a586-3230cfb8e4f6",
+      "difficulty": 5,
+      "question": "How does 'quantum machine learning' differ from classical machine learning?"
+    },
+    {
+      "id": "dba5a140-c51f-4866-bb1e-36e767047c7c",
+      "difficulty": 5,
+      "question": "Discuss the concept of 'neural architecture search' (NAS)."
+    },
+    {
+      "id": "3cf54693-ad00-48ef-89cc-c842ea838d82",
+      "difficulty": 5,
+      "question": "What are 'differential privacy' techniques in the context of machine learning?"
+    },
+    {
+      "id": "99f169d9-535e-4050-9379-23657f87fbf7",
+      "difficulty": 5,
+      "question": "How does the 'Monte Carlo Tree Search' algorithm work in AI?"
+    },
+    {
+      "id": "96449584-5b52-457f-9a44-ed5f1f01ae37",
+      "difficulty": 5,
+      "question": "What is the significance of 'Transformer models' in natural language processing?"
+    },
+    {
+      "id": "1bec940b-2369-493b-880c-061a3eb97c57",
+      "difficulty": 5,
+      "question": "Explain the role of 'contrastive learning' in unsupervised learning models."
+    },
+    {
+      "id": "60113328-3809-4d8a-b7de-1ceb10a5644a",
+      "difficulty": 5,
+      "question": "What are the challenges and solutions in 'multimodal learning'?"
+    },
+    {
+      "id": "c27aa089-2d20-4ab3-ba02-0210a1fd0201",
+      "difficulty": 5,
+      "question": "How do 'dynamic neural networks' adapt over time?"
+    },
+    {
+      "id": "bf6b0dc6-015d-4ef3-be5d-f20317467a2d",
+      "difficulty": 5,
+      "question": "What is the 'zero-shot learning' approach in machine learning?"
+    },
+    {
+      "id": "9cc7bddb-dacc-474b-8dfd-4e1c4832325f",
+      "difficulty": 5,
+      "question": "How does 'federated learning' enable privacy in machine learning models?"
+    },
+    {
+      "id": "ab0dea42-8d14-4565-b19d-259bd576c095",
+      "difficulty": 5,
+      "question": "Discuss the implications of 'catastrophic forgetting' in neural networks."
+    },
+    {
+      "id": "1089fa65-5896-46c5-be41-d51573234f80",
+      "difficulty": 5,
+      "question": "What is 'graph neural networks' and its application?"
+    },
+    {
+      "id": "17915d1c-7687-4ce0-9bac-327225176bef",
+      "difficulty": 5,
+      "question": "How can 'counterfactual explanations' aid in understanding model decisions?"
+    },
+    {
+      "id": "591b1333-2caf-4467-9831-d81dc753e9db",
+      "difficulty": 5,
+      "question": "Explain the concept of 'knowledge distillation' in deep learning."
+    },
+    {
+      "id": "c4acccc4-9f19-4a76-a6fa-ac5bb5b4b7b1",
+      "difficulty": 5,
+      "question": "How does 'co-training' work in semi-supervised learning?"
+    },
+    {
+      "id": "eaa119d1-c6e4-4c33-b694-ca4e5ef3c339",
+      "difficulty": 5,
+      "question": "What is the 'Bayesian optimization' method for hyperparameter tuning?"
+    },
+    {
+      "id": "14c4d0f1-28b7-4e28-bf64-fee9529e11c2",
+      "difficulty": 5,
+      "question": "Discuss the challenges of 'scalability' in machine learning models."
+    },
+    {
+      "id": "59db2496-e270-4d5c-99fe-6ac864fc2b24",
+      "difficulty": 5,
+      "question": "How does the concept of 'neuroevolution' apply to machine learning?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "Adaptive Intelligence",
+        "Artificial Intelligence",
+        "Automated Information",
+        "Advanced Interaction"
+      ],
+      "answer": 1,
+      "question_id": "ac7a479c-545e-4de5-9971-086e6bdead4a"
+    },
+    {
+      "choices": [
+        "A technique where the model learns without any labeled training data",
+        "A method where the model is given labeled training data to learn the mapping function from input to output",
+        "A process where the algorithm learns the pattern from the data by enforcing rules",
+        "The use of neural networks to simulate human brain functions"
+      ],
+      "answer": 1,
+      "question_id": "adcb480f-0f9c-47ac-8443-0ed3a7bdf212"
+    },
+    {
+      "choices": [
+        "A programming language used for statistical computing",
+        "A variable in an algorithm that is adjusted during training",
+        "A representation of what an AI system has learned from the training data",
+        "A database management system optimized for storing large datasets"
+      ],
+      "answer": 2,
+      "question_id": "0aecf746-69f1-4a0b-a024-7e0c569327ac"
+    },
+    {
+      "choices": [
+        "Algorithms and data structures used to speed up training",
+        "Hardware components optimized for AI computations",
+        "Inputs to the model and the prediction output by the model",
+        "Programming languages and libraries commonly used in AI development"
+      ],
+      "answer": 2,
+      "question_id": "9e29ff70-3a61-4861-a61f-62b4012e3f42"
+    },
+    {
+      "choices": [
+        "The process of validating the model's accuracy on unseen data",
+        "When a model is too simple to capture the underlying pattern of the data",
+        "Improving a model's performance by adjusting its hyperparameters",
+        "When a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data"
+      ],
+      "answer": 3,
+      "question_id": "cf71cd17-da9b-4f9e-82db-a39a3fc19717"
+    },
+    {
+      "choices": [
+        "Process large datasets to find correlations",
+        "Categorize data into predefined labels",
+        "Create visual representations of data",
+        "Increase the efficiency of data storage"
+      ],
+      "answer": 1,
+      "question_id": "0c415f79-8ecf-421c-9871-53aa84b358db"
+    },
+    {
+      "choices": [
+        "To validate the model's accuracy after training",
+        "To determine the computational complexity of the model",
+        "To adjust the parameters of the model based on input-output pairs",
+        "To increase the execution time of algorithms"
+      ],
+      "answer": 2,
+      "question_id": "9aa2d3c8-c79e-46aa-97c7-4cf7af776abf"
+    },
+    {
+      "choices": [
+        "A programming language's framework",
+        "A series of steps for a computer program to accomplish a task",
+        "A type of computer hardware specialized for mathematical computations",
+        "A digital representation of neural networks in the human brain"
+      ],
+      "answer": 1,
+      "question_id": "cb68716c-d216-441e-bc99-e009e29d2537"
+    },
+    {
+      "choices": [
+        "Regression is used for predicting discrete outcomes, while classification predicts continuous outcomes.",
+        "Regression and classification are the same.",
+        "Regression predicts continuous outcomes, while classification is used for predicting discrete outcomes.",
+        "Both regression and classification are used for cluster analysis."
+      ],
+      "answer": 2,
+      "question_id": "b6db2f25-012d-42b0-a168-76be648a8c78"
+    },
+    {
+      "choices": [
+        "Lodash",
+        "numpy",
+        "React",
+        "scikit-learn"
+      ],
+      "answer": 3,
+      "question_id": "2d96d502-e15e-4a84-abad-c0fb042e5e48"
+    },
+    {
+      "choices": [
+        "A set of data used to give insights about the model's accuracy on unseen data",
+        "A collection of algorithms available for data training",
+        "The initial dataset used to train the model",
+        "A set of rules for feature selection in the model"
+      ],
+      "answer": 0,
+      "question_id": "654581d4-b8a0-45af-97d8-e8e69b4a9bd4"
+    },
+    {
+      "choices": [
+        "A technique to estimate the performance of AI models by partitioning the data into subsets, training the model on one subset, and validating it on another.",
+        "The process of increasing the size of the dataset by adding more variables.",
+        "A method for reducing the dimensionality of the dataset to improve model performance.",
+        "The practice of training a machine learning model on all available data without splitting it into training and test sets."
+      ],
+      "answer": 0,
+      "question_id": "37dac4aa-73ba-444b-824a-79ef1290d444"
+    },
+    {
+      "choices": [
+        "Mean Square Error (MSE)",
+        "Recall",
+        "Root Mean Square Error (RMSE)",
+        "Area Under the ROC Curve (AUC)"
+      ],
+      "answer": 3,
+      "question_id": "0741bb18-d4c7-47cd-8075-5ae99be3b5bd"
+    },
+    {
+      "choices": [
+        "The rate at which an algorithm learns over time",
+        "A pre-set configuration that is hard-coded into the algorithm",
+        "The error from erroneous assumptions in the learning algorithm",
+        "The amount of data required to train the algorithm"
+      ],
+      "answer": 2,
+      "question_id": "779b8172-71ab-4353-9cb0-4750ee1236a6"
+    },
+    {
+      "choices": [
+        "To calculate linear regression models",
+        "To cluster similar data points together",
+        "For feature scaling and normalization",
+        "To classify data or predict outcomes based on input variables"
+      ],
+      "answer": 3,
+      "question_id": "b34fcf65-dce7-43e2-90b8-46a8c300ba94"
+    },
+    {
+      "choices": [
+        "To repeatedly adjust the parameters of the model to minimize the difference between the predicted and actual outcomes",
+        "To increase the computational speed during model deployment",
+        "To select the most relevant features from the dataset",
+        "To manually set the parameters of the model for optimal performance"
+      ],
+      "answer": 0,
+      "question_id": "98294b31-fce8-4d6f-872e-afccc0f21bb9"
+    },
+    {
+      "choices": [
+        "The precision of input data fed to the model",
+        "The speed at which a model is able to make predictions",
+        "The percentage of correct predictions made by the model over the total predictions",
+        "The size of the model when saved on disk"
+      ],
+      "answer": 2,
+      "question_id": "993c993b-8a10-480e-a2b8-b349d57de2cc"
+    },
+    {
+      "choices": [
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Semi-supervised learning",
+        "Supervised learning"
+      ],
+      "answer": 3,
+      "question_id": "fa0b43c5-281c-4bfa-8107-abf16ef09e7f"
+    },
+    {
+      "choices": [
+        "A distributed computing framework for big data processing",
+        "A set of algorithms designed for fast searching and sorting",
+        "A computing system made up of interconnected units (neurons) that process information using a connectionist approach to computation",
+        "A storage system optimized for retrieving and indexing large volumes of data"
+      ],
+      "answer": 2,
+      "question_id": "2e0b02b6-5c6b-4068-a696-8c84b859bdca"
+    },
+    {
+      "choices": [
+        "The number of units in a hidden layer",
+        "The training data split ratio",
+        "The amount by which the model weights are updated during training",
+        "The maximum number of iterations over the training dataset"
+      ],
+      "answer": 2,
+      "question_id": "956a1890-d95b-45ad-b33f-1e48fd86c161"
+    },
+    {
+      "choices": [
+        "Unsupervised learning is guided by labeled data while supervised learning is not.",
+        "Supervised learning algorithms are trained using labeled data, unsupervised learning algorithms are trained using unlabeled data.",
+        "There is no difference; both terms are used interchangeably.",
+        "Supervised learning algorithms are designed for unsupervised tasks, and vice versa."
+      ],
+      "answer": 1,
+      "question_id": "13786077-95c3-4c79-883e-f7c546963b1c"
+    },
+    {
+      "choices": [
+        "It iteratively corrects the mistakes of the previous model and adds it to the ensemble.",
+        "It clusters the data into groups of similar data points.",
+        "It creates a large number of decision trees at training time and outputs the class that is the mode of the classes of the individual trees.",
+        "It finds a linear relationship between input and output variables."
+      ],
+      "answer": 2,
+      "question_id": "8cddd4db-aecd-44de-a290-fbf674aaa3dc"
+    },
+    {
+      "choices": [
+        "A process of converting categorical data into numerical data",
+        "The use of algorithms to categorize text",
+        "A method for improving the accuracy of predictions by balancing datasets",
+        "A technique to normalize the range of independent variables or features of data"
+      ],
+      "answer": 3,
+      "question_id": "38423945-e0eb-4618-bcbe-9ccbc3b7a08a"
+    },
+    {
+      "choices": [
+        "Increasing the number of layers in a neural network to improve accuracy",
+        "The process of adjusting the algorithm's parameters after the model is trained",
+        "Adjusting the model parameters before training to improve performance",
+        "Automatically selecting the type of algorithm for a specific data set"
+      ],
+      "answer": 2,
+      "question_id": "7db2d469-cc73-4580-9c38-27335c66df0c"
+    },
+    {
+      "choices": [
+        "A matrix that shows the computing time required for various algorithms",
+        "A technique for visualizing high dimensional data",
+        "A table that is used to describe the performance of a classification model",
+        "A method for calculating the support vectors in SVM"
+      ],
+      "answer": 2,
+      "question_id": "cc50e4d6-7dcf-4368-91a8-b9d1d3fe7ece"
+    },
+    {
+      "choices": [
+        "A method for dynamically adjusting the learning rate",
+        "A technique used to prevent overfitting by penalizing large weights",
+        "A process to increase the size of the training data",
+        "An algorithm to automatically select the best features for the model"
+      ],
+      "answer": 1,
+      "question_id": "14446d88-1ac6-4c26-8004-8d1dc33128d7"
+    },
+    {
+      "choices": [
+        "Increasing the number of features in the dataset",
+        "Reducing the size of the dataset by removing rows",
+        "Transforming high-dimensional data into a lower-dimensional form",
+        "Converting categorical data into numerical data"
+      ],
+      "answer": 2,
+      "question_id": "9b44feab-d0a6-4f32-a624-f43e3415ea67"
+    },
+    {
+      "choices": [
+        "An algorithm to increase the predictive accuracy by automatically adjusting weights.",
+        "A data structure used to store hierarchical data.",
+        "An optimization algorithm used to minimize some function by iteratively moving in the direction of steepest descent as defined by the negative of the gradient.",
+        "A machine learning model used for clustering."
+      ],
+      "answer": 2,
+      "question_id": "5d57d52b-e64f-4d6d-bdba-454c8bc3414a"
+    },
+    {
+      "choices": [
+        "Increase the dataset size by adding more variables",
+        "Remove rows with missing values",
+        "Transform all numerical data to categorical data",
+        "Apply a fixed value to replace missing entries"
+      ],
+      "answer": 1,
+      "question_id": "f7ba42ea-6d58-46cd-8856-fbaf43d4a257"
+    },
+    {
+      "choices": [
+        "Decreases model interpretability significantly",
+        "Increases computational complexity without improving performance",
+        "Improves model performance by combining multiple weak models",
+        "Limits the model to linear decision boundaries"
+      ],
+      "answer": 2,
+      "question_id": "a9500f96-d994-410d-9269-c7993705a850"
+    },
+    {
+      "choices": [
+        "A supervised learning model used for classification and regression analysis",
+        "A database management system optimized for retrieving information",
+        "A programming paradigm based on the concept of objects",
+        "An algorithm for finding the shortest paths between nodes in a graph"
+      ],
+      "answer": 0,
+      "question_id": "a8dd6aa8-ea40-45a7-9013-4b1131bee65f"
+    },
+    {
+      "choices": [
+        "When a model is excessively complex, capturing noise in the data.",
+        "A condition where the model performs exceptionally on the training data but poorly on new data.",
+        "The process of selecting a smaller set of features for a model.",
+        "A scenario where the model is too simple, capturing neither the underlying trend nor the complexity of the data."
+      ],
+      "answer": 3,
+      "question_id": "a261c3b7-3d08-43f2-a00a-3fc136695cf9"
+    },
+    {
+      "choices": [
+        "It divides the dataset into a predefined number of clusters.",
+        "It calculates the distance between different data points and assigns a new data point to the class of its closest neighbor.",
+        "It works by building decision trees from historical data and making decisions based on those trees.",
+        "It automatically adjusts weights in a network of computational nodes based on input data."
+      ],
+      "answer": 1,
+      "question_id": "3f40ac58-5b81-4867-9849-6abbfa386766"
+    },
+    {
+      "choices": [
+        "Improving the security of machine learning models",
+        "Reducing the dimensionality of data",
+        "Increasing the number of features for model training",
+        "Converting unstructured data into structured data"
+      ],
+      "answer": 1,
+      "question_id": "4836390f-4cde-4b71-af60-f6f269e35290"
+    },
+    {
+      "choices": [
+        "By checking the precision and recall",
+        "By calculating the F1 score",
+        "By computing the area under the ROC curve",
+        "By measuring the mean squared error (MSE)"
+      ],
+      "answer": 3,
+      "question_id": "6eb8e18b-5a2b-41f3-83f3-25b027c740cb"
+    },
+    {
+      "choices": [
+        "A network model inspired by biological processes, used primarily for categorizing time-series data.",
+        "A deep learning algorithm used for processing structured arrays of data, primarily images.",
+        "A type of neural network that specializes in predicting financial markets.",
+        "A machine learning model designed for sequence prediction problems."
+      ],
+      "answer": 1,
+      "question_id": "b4707249-a15d-4851-a466-3d607b318987"
+    },
+    {
+      "choices": [
+        "Increasing the model's complexity",
+        "Reducing the amount of training data",
+        "Using regularization techniques",
+        "Adding noise to the training data"
+      ],
+      "answer": 2,
+      "question_id": "ed63984e-df3a-4fdc-a9d0-ab4b273a3573"
+    },
+    {
+      "choices": [
+        "A method to prevent overfitting by randomly dropping units from the neural network during training",
+        "A technique used to automatically adjust the learning rate during training",
+        "A technique to make the neural network faster and more stable through normalization of the input layer by re-centering and re-scaling",
+        "A process where the algorithm iteratively adjusts the weights of input connections based on the error rate"
+      ],
+      "answer": 2,
+      "question_id": "be6f33ec-a227-4b87-8789-5d7ee6b42492"
+    },
+    {
+      "choices": [
+        "To cluster data by similarity",
+        "To increase the speed of model training",
+        "For dimensionality reduction and feature learning",
+        "To classify images into predefined categories"
+      ],
+      "answer": 2,
+      "question_id": "63eaf2a1-d208-4f98-97f2-c9f68c542687"
+    },
+    {
+      "choices": [
+        "The average of a model's precision and recall, weighted by its variance",
+        "The square root of the model's accuracy",
+        "The harmonic mean of precision and recall",
+        "The percentage of correctly predicted instances out of all predictions"
+      ],
+      "answer": 2,
+      "question_id": "272d7930-4a1e-480d-a915-4808c414542c"
+    },
+    {
+      "choices": [
+        "A process to randomly delete weights from the neural network to prevent overfitting",
+        "A technique to increase the number of neurons in hidden layers dynamically",
+        "An optimization algorithm used to speed up training",
+        "The process of normalizing input data to the network"
+      ],
+      "answer": 0,
+      "question_id": "80214c17-48fc-43be-a163-f6181a2c2821"
+    },
+    {
+      "choices": [
+        "They randomly deactivate neurons to prevent overfitting.",
+        "They adjust the learning rate based on the error gradient.",
+        "They allow neural networks to focus on different parts of the input sequentially.",
+        "They increase the size of the neural network dynamically based on the complexity of the task."
+      ],
+      "answer": 2,
+      "question_id": "77febc87-0eba-4741-b8c7-514ceb6dfb83"
+    },
+    {
+      "choices": [
+        "A process of filtering out noise from datasets to enhance model accuracy",
+        "A model that predicts the time required to transfer data from one point to another",
+        "Using a pre-trained model as the starting point on a new task",
+        "An algorithm that transfers data between different database schemas"
+      ],
+      "answer": 2,
+      "question_id": "c3d1a8a4-cb44-464f-9179-e904effd5182"
+    },
+    {
+      "choices": [
+        "Networks set up to optimize logistics and supply chain algorithms.",
+        "Models designed for density estimation and population sampling.",
+        "A class of machine learning frameworks where two models are trained simultaneously by an adversarial process.",
+        "A technique for reducing the dimensionality of datasets while preserving as much variance as possible."
+      ],
+      "answer": 2,
+      "question_id": "fe0015d4-bfa9-473d-8375-ab5853a819db"
+    },
+    {
+      "choices": [
+        "A phenomenon where algorithms gain efficiency as the number of dimensions increases.",
+        "A term describing the exponential increase in volume associated with adding extra dimensions to Euclidean space.",
+        "The process by which machines become cursed when trying to interpret high-dimensional data.",
+        "The idea that adding more dimensions to a dataset always increases its predictive accuracy."
+      ],
+      "answer": 1,
+      "question_id": "545ec975-0cac-4c2c-b850-7919888a80b4"
+    },
+    {
+      "choices": [
+        "It determines the rate of learning for the model's training process.",
+        "It specifies the type of machine learning model to use for a given problem.",
+        "It identifies the features most relevant to the model's predictions.",
+        "It calculates the amount of data needed to train the model."
+      ],
+      "answer": 2,
+      "question_id": "ae230e6e-1903-401c-bee1-f11e7f340fde"
+    },
+    {
+      "choices": [
+        "The process of cleaning data to remove outliers and errors",
+        "Adding more layers to a neural network to improve its accuracy",
+        "The technique of increasing the diversity of your training set by applying random (but realistic) transformations",
+        "The process of selecting the best machine learning model for your data"
+      ],
+      "answer": 2,
+      "question_id": "0a544317-7d9f-488d-ab0d-edd23c0ae97b"
+    },
+    {
+      "choices": [
+        "By increasing the model's complexity when validation error decreases",
+        "By adding a penalty to the loss function based on model complexity",
+        "By monitoring the model's performance on a separate validation set and stopping training when performance deteriorates",
+        "By randomly dropping out nodes in a neural network during training"
+      ],
+      "answer": 2,
+      "question_id": "09b40ec9-4fab-4eb2-941f-3fe86e36bc8c"
+    },
+    {
+      "choices": [
+        "A protocol for splitting datasets into training and test sets",
+        "A process for encoding categorical data into numerical format",
+        "A graph showing the performance of a classification model at all classification thresholds, with AUC representing the model's ability to discriminate between positive and negative classes",
+        "A technique for feature scaling and normalization"
+      ],
+      "answer": 2,
+      "question_id": "ede74f9b-14fd-404f-aa96-0111b4ca81c3"
+    },
+    {
+      "choices": [
+        "Algorithms based on the structure and functions of the brain",
+        "Neural networks designed for processing sequences, utilizing their internal state (memory) to process sequences of inputs",
+        "Computer systems modeled on the human immune system",
+        "Networks that consist of a chain of repeating units of binary logic"
+      ],
+      "answer": 1,
+      "question_id": "f9a979f3-d792-4450-b36f-46af78a6b152"
+    },
+    {
+      "choices": [
+        "A technique for reducing the number of features in a dataset",
+        "A method for representing words as vectors of real numbers to capture their meanings",
+        "A process for automatically correcting spelling errors in text data",
+        "An algorithm for classifying texts based on their syntax"
+      ],
+      "answer": 1,
+      "question_id": "f8110d0f-6373-4ce0-9905-1218723dbdad"
+    },
+    {
+      "choices": [
+        "Increase the size of the dataset by collecting more data",
+        "Use a simple linear regression model for better prediction",
+        "Oversample the minority class or undersample the majority class",
+        "Apply a uniform scaling transformation on all features"
+      ],
+      "answer": 2,
+      "question_id": "4700e54f-6eee-456c-a885-59bb90d26b28"
+    },
+    {
+      "choices": [
+        "A technique for optimizing database queries automatically",
+        "A type of learning where the model learns to map sequences to sequences",
+        "A method for compressing data sequences without loss",
+        "An approach to speed up sequence alignment in bioinformatics"
+      ],
+      "answer": 1,
+      "question_id": "55f0a550-93f0-4351-8f35-debb7eec4b98"
+    },
+    {
+      "choices": [
+        "One algorithm is always the best choice for every problem.",
+        "Every machine learning algorithm performs equally well on average across all problems.",
+        "The amount of data available nullifies the need for choosing the appropriate algorithm.",
+        "The choice of algorithm does not matter as long as it is complex enough."
+      ],
+      "answer": 1,
+      "question_id": "c1dbe178-29ef-4eb1-ba48-77872c127022"
+    },
+    {
+      "choices": [
+        "It selects the best subset of data for training models.",
+        "It automatically adjusts model architecture for optimal performance.",
+        "It iteratively explores a range of parameter combinations and selects the best one.",
+        "It increases the speed of model training by parallelizing computations."
+      ],
+      "answer": 2,
+      "question_id": "f50f047b-503e-4bd1-be87-8d30d7a30ce6"
+    },
+    {
+      "choices": [
+        "A process of dividing the dataset into smaller parts for parallel processing",
+        "The practice of combining the predictions from multiple machine learning models to produce a single prediction",
+        "A method of optimizing the hyperparameters of a single model for better performance",
+        "Increasing the size of the training data to improve a model's accuracy"
+      ],
+      "answer": 1,
+      "question_id": "4ea0c188-ee07-488e-a010-e2006ecdbbe7"
+    },
+    {
+      "choices": [
+        "LSTM networks have a fixed-length memory, whereas RNNs have a variable-length memory.",
+        "LSTM networks require more training data than traditional RNNs.",
+        "LSTM networks are designed to remember long-term dependencies, while traditional RNNs struggle with this.",
+        "LSTM networks use a feedforward architecture, unlike traditional RNNs."
+      ],
+      "answer": 2,
+      "question_id": "f1ba1759-2b21-46ba-a6f7-94bba1bc29d6"
+    },
+    {
+      "choices": [
+        "A method for reducing the dimensionality of images for faster processing",
+        "A security technique for encrypting feature names",
+        "A technique to convert categorical variables into a one-hot encoding scheme",
+        "A technique to transform features into a fixed size even if the original space is very large"
+      ],
+      "answer": 3,
+      "question_id": "a54bb127-3efb-4775-82bd-03d91bd4560f"
+    },
+    {
+      "choices": [
+        "A deep learning framework used primarily for natural language processing tasks",
+        "A supervised learning algorithm designed for classification and regression tasks",
+        "A type of recurrent neural network used for sequence prediction",
+        "A type of stochastic recurrent neural network"
+      ],
+      "answer": 3,
+      "question_id": "19418671-76f5-444f-ac74-91cf14fa7ca3"
+    },
+    {
+      "choices": [
+        "A machine learning model that primarily focuses on parsing and understanding human languages.",
+        "A machine learning paradigm where models learn to make decisions by trying to minimize a given cost function.",
+        "A type of machine learning where the model learns to make decisions through trial and error, receiving feedback from its actions, different from supervised learning which relies on labeled data.",
+        "A branch of machine learning where algorithms are designed to automatically detect the features to be used for classification."
+      ],
+      "answer": 2,
+      "question_id": "8526f5c5-63cd-45a3-bc1b-49955d7d7cf0"
+    },
+    {
+      "choices": [
+        "By applying activation functions linearly across the input data",
+        "By performing dimensionality reduction using autoencoders",
+        "By sliding over the input data and applying a convolution operation",
+        "By using decision trees to classify input data into features"
+      ],
+      "answer": 2,
+      "question_id": "d67e64e6-bafd-4683-aa3f-4efe7bcfe4a1"
+    },
+    {
+      "choices": [
+        "A method to prevent overfitting by ignoring less important data points",
+        "A technique used to improve the accuracy of random forests",
+        "A technique that allows a model to focus on particular parts of a sequence more than others",
+        "A method for initializing neural network weights for better convergence"
+      ],
+      "answer": 2,
+      "question_id": "248d7e75-1e6c-4fef-b1e6-6adeab3e120c"
+    },
+    {
+      "choices": [
+        "The process of manually selecting features from the dataset before feeding them into the model.",
+        "The division of a dataset into training, validation, and test sets for model evaluation.",
+        "A way of automatically scaling features to improve model performance.",
+        "A learning process where a model learns to perform tasks from input to output, processing the raw data through its layers."
+      ],
+      "answer": 3,
+      "question_id": "e9ecf246-b833-4b1a-a198-f3ea192e4e2c"
+    },
+    {
+      "choices": [
+        "Batch gradient descent computes the gradient of the cost function w.r.t. to the parameters for the entire training dataset, while stochastic gradient descent updates the parameters for each training example.",
+        "Stochastic gradient descent requires more memory than batch gradient descent.",
+        "Batch gradient descent is guaranteed to find the global minimum, while stochastic gradient descent is not.",
+        "There is no difference; both are just different terms for the same algorithm."
+      ],
+      "answer": 0,
+      "question_id": "2a5c984f-b3f4-4816-bcf7-d89b9aa5264a"
+    },
+    {
+      "choices": [
+        "A method to significantly reduce the power consumption of machine learning models.",
+        "A technique in machine learning where a model is trained from only a small number of examples, typically just one.",
+        "The process of incrementally updating a model's weights with each new data example.",
+        "A strategy for splitting a dataset into training and testing sets using a single iteration."
+      ],
+      "answer": 1,
+      "question_id": "d167c656-7f16-4511-b139-0180eecf98ad"
+    },
+    {
+      "choices": [
+        "By applying gradient descent to minimize the distance between the feature distributions of two images",
+        "Using a simple linear regression model to predict the style coefficients",
+        "Employing decision trees to classify the style and content separately",
+        "Utilizing a support vector machine to differentiate between styles"
+      ],
+      "answer": 0,
+      "question_id": "e1d8cffe-641c-4303-a64c-c353a5aefa59"
+    },
+    {
+      "choices": [
+        "An issue where model parameters become too large, leading to model underfitting. It can be mitigated by using smaller batch sizes.",
+        "A problem where gradients during backpropagation become too small, causing training to stall. Clip gradients to a threshold to mitigate.",
+        "An issue where gradient values during training become excessively large, leading to numerical instability. It can be mitigated by using gradient clipping.",
+        "A situation where the learning rate is too high, causing the model to skip optimal solutions. It can be mitigated by adaptive learning rates."
+      ],
+      "answer": 2,
+      "question_id": "c02b8792-be28-4b1c-a113-4e8454171c6a"
+    },
+    {
+      "choices": [
+        "They are used to retain important past experiences for future use, allowing algorithms to learn from them multiple times.",
+        "They define the reward function in reinforcement learning models.",
+        "Replay memories store the weights of the neural network for backpropagation.",
+        "They encrypt data to secure agent-environment interactions in reinforcement learning settings."
+      ],
+      "answer": 0,
+      "question_id": "4d1f1626-b0be-49c9-bfa3-df122b410ed7"
+    },
+    {
+      "choices": [
+        "A method for solving supervised learning problems",
+        "An optimization technique for hyperparameter tuning",
+        "A reinforcement learning method that updates the value of states based on the difference between estimated future rewards",
+        "A data preprocessing technique for time series analysis"
+      ],
+      "answer": 2,
+      "question_id": "e169763d-64dc-4ec8-89c9-376f5235bc6a"
+    },
+    {
+      "choices": [
+        "They compress images into smaller dimensions suitable for network training.",
+        "They are used exclusively for regularization to prevent overfitting.",
+        "They transform categorical inputs into fixed-size vectors in a high-dimensional space.",
+        "They adjust the learning rate dynamically during training."
+      ],
+      "answer": 2,
+      "question_id": "ef9124ca-40cd-4df8-9871-01ab3578c960"
+    },
+    {
+      "choices": [
+        "A type of recurrent neural network optimized for image captioning",
+        "Networks that combine supervised and unsupervised learning for data labeling",
+        "Neural networks that are specifically designed to solve similarity and matching tasks",
+        "A method for training distributed networks simultaneously over different datasets"
+      ],
+      "answer": 2,
+      "question_id": "df6842df-fa09-4362-9527-0a8662755072"
+    },
+    {
+      "choices": [
+        "The practice of using pre-trained models for new tasks with minimal adjustments",
+        "A subset of reinforcement learning focused on real-time decision making",
+        "Learning to learn by understanding different algorithms and their applicability",
+        "A type of supervised learning that requires massive datasets for training"
+      ],
+      "answer": 2,
+      "question_id": "c55b7435-9aac-468f-903d-19a5e1eb9596"
+    },
+    {
+      "choices": [
+        "By defining a graph of similarities between data points and cutting the graph into groups to form clusters, primarily used in image and speech segmentation.",
+        "By using a fixed number of pre-determined clusters to partition the dataset based on the mean distance to the centroid, mainly applied in customer segmentation.",
+        "By creating clusters based on the density of data points, useful for anomaly detection in unsupervised learning tasks.",
+        "By incrementally building clusters using a set of decision trees, often applied for feature importance evaluation."
+      ],
+      "answer": 0,
+      "question_id": "9bca91b0-3934-45c0-b7a3-8632abce1142"
+    },
+    {
+      "choices": [
+        "Overfitting on tasks with small datasets",
+        "Increased computational power for single tasks",
+        "Reduced model flexibility",
+        "Simplification of data preprocessing steps"
+      ],
+      "answer": 0,
+      "question_id": "8602e68e-efe8-4583-a2a0-8d68ae0241c2"
+    },
+    {
+      "choices": [
+        "They increase the accuracy of the model on unseen data",
+        "They can cause the model to make highly confident incorrect predictions",
+        "They result in faster convergence during model training",
+        "They enhance the model's ability to generalize from the training data"
+      ],
+      "answer": 1,
+      "question_id": "97a35760-b15f-468e-9d6c-3bca2b05f4e9"
+    },
+    {
+      "choices": [
+        "A heuristic optimization technique used in the training of deep neural networks",
+        "A sequence generation algorithm typically used in natural language processing applications",
+        "A supervised machine learning algorithm used for binary classification tasks",
+        "An unsupervised learning method for clustering high-dimensional data"
+      ],
+      "answer": 1,
+      "question_id": "07738373-3345-4930-b6ac-d27b23b01631"
+    },
+    {
+      "choices": [
+        "A machine learning approach where the algorithm generates its own labels from the input data",
+        "Using external supervisors to correct algorithm outputs in real time",
+        "A technique where multiple models supervise each other to ensure accuracy",
+        "The use of pre-labeled datasets to train machine learning models"
+      ],
+      "answer": 0,
+      "question_id": "4bb99795-e24e-41cb-b2d3-d1296fb6c3b3"
+    },
+    {
+      "choices": [
+        "By classifying images based on their pixel similarity",
+        "Using decision trees to predict user preferences",
+        "Through layer-by-layer analysis of user-item matrices",
+        "By capturing interactions between variables in high-dimensional sparse datasets"
+      ],
+      "answer": 3,
+      "question_id": "7502468f-af7e-4437-83a1-6c189f5ade5e"
+    },
+    {
+      "choices": [
+        "A machine learning technique based on rewarding desired behaviors and/or punishing undesired ones.",
+        "A subclass of machine learning where the algorithm is given raw data and must find patterns without being explicitly programmed to.",
+        "A form of machine learning that uses deep neural networks to train agents to make decisions in complex environments.",
+        "A feedback loop in neural networks where the output layer's data is fed back into the input layer for recursive learning."
+      ],
+      "answer": 2,
+      "question_id": "61ce4300-ad26-4fa5-8aa2-d3de68fd82c6"
+    },
+    {
+      "choices": [
+        "Improving the efficiency of data storage systems",
+        "Enhancing security protocols for network communications",
+        "Reducing the computational complexity of deep neural networks",
+        "Addressing spatial hierarchies and pose information in images"
+      ],
+      "answer": 3,
+      "question_id": "6fb92cb7-bc86-4a6e-86f9-55dc59a37128"
+    },
+    {
+      "choices": [
+        "It can lead to local minima",
+        "It increases model accuracy",
+        "It decreases computation time",
+        "It automatically prunes unnecessary features"
+      ],
+      "answer": 0,
+      "question_id": "363f1380-f536-4be0-ac72-5ede747abeac"
+    },
+    {
+      "choices": [
+        "Quantum machine learning uses classical algorithms to process data stored in quantum bits.",
+        "Quantum machine learning algorithms run on traditional CPU-based systems exclusively.",
+        "Quantum machine learning leverages quantum computational principles to process and analyze data, offering potentially exponential speedups for some tasks.",
+        "Quantum machine learning requires the use of special, high-temperature superconducting materials for data storage."
+      ],
+      "answer": 2,
+      "question_id": "467144f3-61d1-4c3e-a586-3230cfb8e4f6"
+    },
+    {
+      "choices": [
+        "A machine learning approach to pre-process data automatically",
+        "An AI method for optimizing marketing strategies",
+        "A machine learning technique to automatically design the architecture of a neural network",
+        "A search algorithm for finding the shortest path in a graph"
+      ],
+      "answer": 2,
+      "question_id": "dba5a140-c51f-4866-bb1e-36e767047c7c"
+    },
+    {
+      "choices": [
+        "Algorithms that automatically differentiate between datasets",
+        "Techniques ensuring models are robust against adversarial attacks",
+        "Methods to protect individual data privacy while allowing for aggregate data analysis",
+        "Approaches to increase the speed of training machine learning models"
+      ],
+      "answer": 2,
+      "question_id": "3cf54693-ad00-48ef-89cc-c842ea838d82"
+    },
+    {
+      "choices": [
+        "It adjusts the weights of a neural network to minimize prediction error.",
+        "It searches for the most promising move in a game by expanding and exploring the search tree based on random sampling.",
+        "It clusters data points into predefined number of clusters.",
+        "It operates by constructing a decision tree and calculating the entropy for each node."
+      ],
+      "answer": 1,
+      "question_id": "99f169d9-535e-4050-9379-23657f87fbf7"
+    },
+    {
+      "choices": [
+        "Enhancing the speed of internet connections",
+        "Improving image resolution in computer vision",
+        "Reducing the size of machine learning models",
+        "Facilitating understanding of context and relationships in text"
+      ],
+      "answer": 3,
+      "question_id": "96449584-5b52-457f-9a44-ed5f1f01ae37"
+    },
+    {
+      "choices": [
+        "To increase the efficiency of data labeling by using semi-supervised techniques",
+        "To enhance feature extraction through reinforcement learning strategies",
+        "To reduce the dimensionality of the input data set",
+        "To learn representations by contrasting positive examples against negative ones"
+      ],
+      "answer": 3,
+      "question_id": "1bec940b-2369-493b-880c-061a3eb97c57"
+    },
+    {
+      "choices": [
+        "Decreasing model accuracy by combining unscaled data and using regularization techniques",
+        "Integrating and interpreting data from multiple sources to improve model robustness and employing transfer learning and multi-task learning approaches",
+        "Limiting the model to single-task learning for simplicity and increased performance",
+        "Focusing solely on structured data to avoid the complexity of unstructured data sources"
+      ],
+      "answer": 1,
+      "question_id": "60113328-3809-4d8a-b7de-1ceb10a5644a"
+    },
+    {
+      "choices": [
+        "By increasing the number of layers automatically",
+        "They don't adapt; the architecture is fixed post-training",
+        "By dynamically adjusting their learning rate based on the input",
+        "By modifying their structure in response to the changing data patterns"
+      ],
+      "answer": 3,
+      "question_id": "c27aa089-2d20-4ab3-ba02-0210a1fd0201"
+    },
+    {
+      "choices": [
+        "A learning method that requires a large labeled dataset for training.",
+        "A technique where models are trained with data from unrelated tasks.",
+        "An approach where a model learns to label unseen classes without any training examples.",
+        "A method where data is manually labeled after model training."
+      ],
+      "answer": 2,
+      "question_id": "bf6b0dc6-015d-4ef3-be5d-f20317467a2d"
+    },
+    {
+      "choices": [
+        "By encrypting data before it is processed by the model",
+        "By training models directly on users' devices and only sharing model updates",
+        "By anonymizing the dataset before model training",
+        "By limiting the amount of data each model is trained on"
+      ],
+      "answer": 1,
+      "question_id": "9cc7bddb-dacc-474b-8dfd-4e1c4832325f"
+    },
+    {
+      "choices": [
+        "It refers to the decrease in storage costs over time due to advancements in technology.",
+        "It describes a situation where a neural network significantly overfits the training data, resulting in poor generalization.",
+        "It is the phenomenon where a neural network forgets previously learned information upon learning new information.",
+        "It relates to the short-circuiting of neurons leading to a breakdown of the entire network infrastructure."
+      ],
+      "answer": 2,
+      "question_id": "ab0dea42-8d14-4565-b19d-259bd576c095"
+    },
+    {
+      "choices": [
+        "A method for deep learning on edge devices like smartphones",
+        "A network security protocol for safeguarding data",
+        "A type of neural network that uses graph structures for data processing",
+        "A new programming language optimized for machine learning"
+      ],
+      "answer": 2,
+      "question_id": "1089fa65-5896-46c5-be41-d51573234f80"
+    },
+    {
+      "choices": [
+        "By reducing the complexity of the model to simple if-then rules",
+        "By visualizing the data points in a 3D space to identify clusters",
+        "By providing examples of the minimal changes needed to alter a prediction",
+        "By increasing the model's accuracy through cross-validation techniques"
+      ],
+      "answer": 2,
+      "question_id": "17915d1c-7687-4ce0-9bac-327225176bef"
+    },
+    {
+      "choices": [
+        "A method for reducing the size of a data set before training a model",
+        "A process of creating shallow neural networks that approximate the performance of deeper networks",
+        "A technique used for transferring the knowledge from a large, complex model to a smaller, more efficient one",
+        "A strategy for optimizing the hyperparameters of a model based on its performance on a validation set"
+      ],
+      "answer": 2,
+      "question_id": "591b1333-2caf-4467-9831-d81dc753e9db"
+    },
+    {
+      "choices": [
+        "By augmenting the original dataset with unlabeled data and assuming it is similar to the labeled data",
+        "By training two models separately on the same dataset and averaging their outputs",
+        "By using two classifiers to independently learn from labeled data and then each classifier labels unlabeled data for the other to learn from",
+        "By combining the outputs of multiple models trained on different subsets of the data"
+      ],
+      "answer": 2,
+      "question_id": "c4acccc4-9f19-4a76-a6fa-ac5bb5b4b7b1"
+    },
+    {
+      "choices": [
+        "A method that tunes hyperparameters based on the past evaluation results to choose the next set of hyperparameters to evaluate.",
+        "A linear regression model used to predict the value of a variable based on the input value of another variable.",
+        "The practice of manually adjusting the hyperparameters of a model until the desired performance is achieved.",
+        "An optimization technique that uses gradient descent to minimize the cost function of a model by updating its hyperparameters."
+      ],
+      "answer": 0,
+      "question_id": "eaa119d1-c6e4-4c33-b694-ca4e5ef3c339"
+    },
+    {
+      "choices": [
+        "Inability to process real-time data efficiently",
+        "Difficulty in handling high-dimensional data and large datasets effectively",
+        "Lack of open-source software packages for model development",
+        "Consistent model performance across different platforms"
+      ],
+      "answer": 1,
+      "question_id": "14c4d0f1-28b7-4e28-bf64-fee9529e11c2"
+    },
+    {
+      "choices": [
+        "It refers to the use of genetic algorithms to optimize neural network model parameters.",
+        "It's a technique for data preprocessing before feeding it into a machine learning model.",
+        "It involves the encryption of data using neural network architectures.",
+        "It denotes the process of increasing the size of a neural network to improve its accuracy."
+      ],
+      "answer": 0,
+      "question_id": "59db2496-e270-4d5c-99fe-6ac864fc2b24"
+    }
+  ]
+}

@@ -1,0 +1,1492 @@
+{
+  "topic": "Enterprise Architecture",
+  "questions": [
+    {
+      "id": "eda493f4-d06b-4245-86ea-8058cf106853",
+      "difficulty": 1,
+      "question": "What is the primary goal of Enterprise Architecture?"
+    },
+    {
+      "id": "841aba9a-4c9f-414d-a68e-48e6b2b423f0",
+      "difficulty": 1,
+      "question": "Which framework is widely used in Enterprise Architecture for managing IT infrastructure?"
+    },
+    {
+      "id": "8c47787f-53ad-4037-a692-e640d18fa984",
+      "difficulty": 1,
+      "question": "Enterprise Architecture is primarily concerned with aligning what two aspects of a business?"
+    },
+    {
+      "id": "04f664ba-1c20-4a6a-8be9-dd5990e9ef94",
+      "difficulty": 1,
+      "question": "What is the name of the document that describes the baseline architecture of an enterprise?"
+    },
+    {
+      "id": "c5dafc3a-2a48-4fa8-b0db-86b0ce9455c4",
+      "difficulty": 1,
+      "question": "Which role is typically responsible for the oversight of an enterprise's architecture?"
+    },
+    {
+      "id": "7dadd367-8bab-4f39-9128-51d69c9eb3a0",
+      "difficulty": 1,
+      "question": "What does TOGAF stand for?"
+    },
+    {
+      "id": "363ed82f-5154-49d0-abee-6d453cc88053",
+      "difficulty": 1,
+      "question": "In Enterprise Architecture, what is a 'blueprint'?"
+    },
+    {
+      "id": "572f1912-1a2e-44be-92a3-6a6c294d70c1",
+      "difficulty": 1,
+      "question": "Which standard provides a language for describing the structure and behavior of enterprise architectures?"
+    },
+    {
+      "id": "ca055ad2-df54-456d-8812-e8e03a401a1f",
+      "difficulty": 1,
+      "question": "What does EA stand for in the context of business and technology?"
+    },
+    {
+      "id": "76a54f4f-79a2-4f2f-8da6-8fd1abf08aa8",
+      "difficulty": 1,
+      "question": "Enterprise Architecture frameworks often include which of the following perspectives: Business, Application, Data, and what else?"
+    },
+    {
+      "id": "7a8c5b77-f9d1-43df-8067-5c2bfe2134bb",
+      "difficulty": 1,
+      "question": "What is the primary purpose of using an EA framework?"
+    },
+    {
+      "id": "6fec7ba6-a476-4f47-b0e6-3e159c7e6d86",
+      "difficulty": 1,
+      "question": "How does Enterprise Architecture support business strategy?"
+    },
+    {
+      "id": "9808ae7b-4b92-4437-852a-a3e3bb95f0bd",
+      "difficulty": 1,
+      "question": "What layer in an EA framework typically deals with the user interface and user experience?"
+    },
+    {
+      "id": "9ae78924-7704-4625-a45b-972b81fda5c9",
+      "difficulty": 1,
+      "question": "In EA, what is the term for the future state of the architecture that an organization aims to achieve?"
+    },
+    {
+      "id": "50ba9d28-6458-4460-b46c-cd3df3459711",
+      "difficulty": 1,
+      "question": "Enterprise Architecture frameworks generally divide an organization into how many domains?"
+    },
+    {
+      "id": "58cac7d6-26c1-4748-afd5-58a09dc1865e",
+      "difficulty": 1,
+      "question": "What is the Zachman Framework primarily used for?"
+    },
+    {
+      "id": "7d5ddf0e-4825-46db-bc98-886504cb1245",
+      "difficulty": 1,
+      "question": "Which document describes the approach and process of the EA work?"
+    },
+    {
+      "id": "83196e07-994e-44ae-ba6b-c93128e285e5",
+      "difficulty": 1,
+      "question": "What is the purpose of a 'roadmap' in Enterprise Architecture?"
+    },
+    {
+      "id": "56242422-0d00-4468-be55-f6b33c960af0",
+      "difficulty": 1,
+      "question": "In which phase of the TOGAF ADM do stakeholders validate and buy-in to the Enterprise Architecture?"
+    },
+    {
+      "id": "0a0eb856-d3a5-426b-b79b-7f1e583f7035",
+      "difficulty": 1,
+      "question": "What is a 'capability' in the context of Enterprise Architecture?"
+    },
+    {
+      "id": "ab712660-d545-47ca-ac5a-a63bd98350b6",
+      "difficulty": 2,
+      "question": "How does the concept of 'service-oriented architecture' (SOA) relate to Enterprise Architecture?"
+    },
+    {
+      "id": "ec93d485-714d-4850-babe-6b4962d37173",
+      "difficulty": 2,
+      "question": "What role does a 'Solution Architect' play in the context of Enterprise Architecture?"
+    },
+    {
+      "id": "76886ad5-c636-4b9a-a6e5-28f790b87135",
+      "difficulty": 2,
+      "question": "In Enterprise Architecture, what is the difference between 'tactical' and 'strategic' planning?"
+    },
+    {
+      "id": "0c6e1583-541e-42f8-85b4-2a0c0d1b160a",
+      "difficulty": 2,
+      "question": "Which Enterprise Architecture domain would focus on cloud computing, servers, and networks?"
+    },
+    {
+      "id": "372b0c37-61bf-460e-a598-43e1f741cc20",
+      "difficulty": 2,
+      "question": "How do maturity models relate to Enterprise Architecture?"
+    },
+    {
+      "id": "81db3bec-3194-4a61-a3dd-d1d185bd5294",
+      "difficulty": 2,
+      "question": "Describe the relationship between Business Process Management (BPM) and Enterprise Architecture."
+    },
+    {
+      "id": "d474673b-c559-49d0-bfbc-27f089fe2469",
+      "difficulty": 2,
+      "question": "In TOGAF, what is the purpose of the Architecture Development Method (ADM)?"
+    },
+    {
+      "id": "5e7bd266-384d-4911-8e2c-23dceb5054ea",
+      "difficulty": 2,
+      "question": "What is a 'view' and a 'viewpoint' in the context of Enterprise Architecture?"
+    },
+    {
+      "id": "acd9deed-a7ea-43de-8e70-2b27aa67dbfd",
+      "difficulty": 2,
+      "question": "Which EA domain is primarily concerned with the storage, management, and governance of data?"
+    },
+    {
+      "id": "ecdf63de-8d31-4242-a8e4-3311ca58b314",
+      "difficulty": 2,
+      "question": "How does the concept of 'modularity' apply to Enterprise Architecture?"
+    },
+    {
+      "id": "ba139c39-7521-4393-92ff-46c274814e43",
+      "difficulty": 2,
+      "question": "What is the significance of 'governance' in Enterprise Architecture?"
+    },
+    {
+      "id": "3a5cbcbc-eee3-4529-a4f0-4937bbc29fa0",
+      "difficulty": 2,
+      "question": "Describe how Enterprise Architecture supports IT Investment Management."
+    },
+    {
+      "id": "4498ea9f-0d90-44cf-b6ec-7db386558817",
+      "difficulty": 2,
+      "question": "What kind of tools are typically used by Enterprise Architects?"
+    },
+    {
+      "id": "700bfd15-dff3-45e6-b251-c68b3d42cc78",
+      "difficulty": 2,
+      "question": "How does Enterprise Architecture contribute to risk management?"
+    },
+    {
+      "id": "6fd09cf9-dab7-4b4f-b93a-35762ce5c255",
+      "difficulty": 2,
+      "question": "What is the difference between Enterprise Architecture (EA) and IT Architecture?"
+    },
+    {
+      "id": "a2e5f30d-a812-4e65-ba55-ce743d36a392",
+      "difficulty": 2,
+      "question": "Describe the role of 'stakeholders' in the Enterprise Architecture process."
+    },
+    {
+      "id": "35a70313-e5f6-4bae-bd36-2e01f94bb01a",
+      "difficulty": 2,
+      "question": "How do Enterprise Architects use the concept of 'architectural principles'?"
+    },
+    {
+      "id": "fde5dce6-6714-4a83-b07e-8dd172095011",
+      "difficulty": 2,
+      "question": "What is 'business alignment' in the context of Enterprise Architecture?"
+    },
+    {
+      "id": "d12c2b0a-b083-43eb-9d3b-436e634406b9",
+      "difficulty": 2,
+      "question": "In what ways does Enterprise Architecture drive innovation within an organization?"
+    },
+    {
+      "id": "8e40c3bb-e052-48ce-ab9c-741e9f351617",
+      "difficulty": 2,
+      "question": "How is 'change management' incorporated into the Enterprise Architecture process?"
+    },
+    {
+      "id": "6b0d7c2b-dcc6-49eb-8acf-25db0303443e",
+      "difficulty": 3,
+      "question": "How do 'Enterprise Architecture Patterns' facilitate the design of an organization's IT landscape?"
+    },
+    {
+      "id": "6b112ac4-9a42-4efe-a957-fcd3938c2fcd",
+      "difficulty": 3,
+      "question": "Explain the term 'Enterprise Architecture artifact' and give examples."
+    },
+    {
+      "id": "05801951-4dde-4ed3-b7fd-c54dd588baf6",
+      "difficulty": 3,
+      "question": "Describe the significance of 'information architecture' within Enterprise Architecture."
+    },
+    {
+      "id": "93f39ef5-c0dd-4d54-b1d0-f5dddcf1153b",
+      "difficulty": 3,
+      "question": "How does Enterprise Architecture influence the selection of technology standards within an organization?"
+    },
+    {
+      "id": "3fe2a889-518d-42d4-a1ba-47afb95856ed",
+      "difficulty": 3,
+      "question": "Discuss the relationship between Enterprise Security Architecture and overall Enterprise Architecture."
+    },
+    {
+      "id": "5abb6f69-608b-4c8f-a9d3-3a1d5a88a4f1",
+      "difficulty": 3,
+      "question": "How do Enterprise Architects manage technology obsolescence through architecture planning?"
+    },
+    {
+      "id": "ee80126c-1722-4f8e-8c1d-c7b4b0ff9bcb",
+      "difficulty": 3,
+      "question": "What is the role of Enterprise Architecture in facilitating digital transformation?"
+    },
+    {
+      "id": "9b3dea0a-e372-432b-b5e6-cb43157d6465",
+      "difficulty": 3,
+      "question": "Explain how 'interoperability' is addressed within Enterprise Architecture frameworks."
+    },
+    {
+      "id": "a7060518-fae8-443d-9733-b837ec3aee62",
+      "difficulty": 3,
+      "question": "What are the challenges in aligning IT architecture with Business Strategy?"
+    },
+    {
+      "id": "bb2cf9be-ad97-4540-bd01-4530f768f4f3",
+      "difficulty": 3,
+      "question": "How is 'scalability' considered in Enterprise Architecture design?"
+    },
+    {
+      "id": "d686023b-87b4-4359-9fde-146088e90d28",
+      "difficulty": 3,
+      "question": "What tools or methods are used for Enterprise Architecture assessment and review?"
+    },
+    {
+      "id": "e55db1fd-6c11-4851-824b-7f2a77cfba8e",
+      "difficulty": 3,
+      "question": "Discuss the impact of regulatory compliance on Enterprise Architecture planning."
+    },
+    {
+      "id": "93828a5d-04c6-4fbd-9de8-6cb9b9520433",
+      "difficulty": 3,
+      "question": "How do organizational culture and structure affect Enterprise Architecture implementation?"
+    },
+    {
+      "id": "9ff72d11-fa7f-4d69-ac40-1b22caa826dc",
+      "difficulty": 3,
+      "question": "Explain the role of Enterprise Architecture in vendor and technology selection."
+    },
+    {
+      "id": "f9bb7a03-9381-44e3-909d-4225daacdb60",
+      "difficulty": 3,
+      "question": "How does Enterprise Architecture promote the use of shared services?"
+    },
+    {
+      "id": "bfc95320-ee5b-4610-a4b0-02be9cda324e",
+      "difficulty": 3,
+      "question": "What are 'Enterprise Architecture standards' and how are they established?"
+    },
+    {
+      "id": "128ddc9c-8120-4216-81b4-351e4d9d4447",
+      "difficulty": 3,
+      "question": "Discuss the evolution of Enterprise Architecture practices over time."
+    },
+    {
+      "id": "84e3d8c4-bac2-419f-b8c5-cfbf3330da32",
+      "difficulty": 3,
+      "question": "How is the success of an Enterprise Architecture initiative measured?"
+    },
+    {
+      "id": "dfcf95a7-ac9c-4f90-9a14-dda6b9957764",
+      "difficulty": 3,
+      "question": "Explain the concept of 'architecture debt' and its implications."
+    },
+    {
+      "id": "30097484-b88e-40b4-9d00-931efa8e43c0",
+      "difficulty": 4,
+      "question": "Discuss the role of artificial intelligence in shaping the future of Enterprise Architecture."
+    },
+    {
+      "id": "7233cb6e-0d43-43d2-abc6-172831d0a788",
+      "difficulty": 4,
+      "question": "How does Enterprise Architecture support the management of complex IT portfolios?"
+    },
+    {
+      "id": "37bd0a61-68c2-4fd8-9eb9-f2e88b1e8d23",
+      "difficulty": 4,
+      "question": "What methodologies exist for integrating Lean principles into Enterprise Architecture?"
+    },
+    {
+      "id": "ee648e38-05cb-4143-ac9a-a8cec6f92392",
+      "difficulty": 4,
+      "question": "Discuss the impact of cloud computing trends on Enterprise Architecture strategies."
+    },
+    {
+      "id": "a583431c-2848-49c9-af4e-04f796d5ff53",
+      "difficulty": 4,
+      "question": "How can Enterprise Architecture be used to facilitate business agility?"
+    },
+    {
+      "id": "814dfa0b-5aa8-450a-991c-16f53add4c96",
+      "difficulty": 4,
+      "question": "Explain the concept of 'Digital Twin' in the context of Enterprise Architecture."
+    },
+    {
+      "id": "7298cbdb-b4bd-4205-a1ce-afc8287ff4b0",
+      "difficulty": 4,
+      "question": "How do concepts from Big Data and Analytics integrate into Enterprise Architecture?"
+    },
+    {
+      "id": "67961b91-6d98-41a0-a2a4-3aed3e85e8ef",
+      "difficulty": 4,
+      "question": "What are the considerations for Enterprise Architecture in a multi-cloud environment?"
+    },
+    {
+      "id": "649baf18-e97e-4a4b-aa03-29933ea87cc6",
+      "difficulty": 4,
+      "question": "Discuss the role of Enterprise Architecture in building a cybersecurity strategy."
+    },
+    {
+      "id": "a788d8af-eb51-4d6d-86b6-f18524926ae5",
+      "difficulty": 4,
+      "question": "How can Enterprise Architects ensure the sustainability of IT systems?"
+    },
+    {
+      "id": "6a043fe0-2f38-45c8-8737-44c16a5a6c0a",
+      "difficulty": 4,
+      "question": "Describe the process for managing architectural change within an Enterprise Architecture framework."
+    },
+    {
+      "id": "308d3113-597b-4a57-ac15-688e5a3b9b5a",
+      "difficulty": 4,
+      "question": "How does Enterprise Architecture relate to the Internet of Things (IoT)?"
+    },
+    {
+      "id": "a960a26a-3bfb-45ac-b9f0-709841f063b6",
+      "difficulty": 4,
+      "question": "Explain the role of machine learning and data science in Enterprise Architecture."
+    },
+    {
+      "id": "a3024f7a-db93-47d9-95ed-6865e56f13cb",
+      "difficulty": 4,
+      "question": "Discuss the future challenges that Enterprise Architecture may face."
+    },
+    {
+      "id": "fc5b997e-9897-4524-aabd-0bec1545bd8c",
+      "difficulty": 4,
+      "question": "How does Enterprise Architecture contribute to customer experience management?"
+    },
+    {
+      "id": "1e912dbe-425d-472b-9070-0d8dd9fac2c4",
+      "difficulty": 4,
+      "question": "Describe the implications of blockchain technology for Enterprise Architecture."
+    },
+    {
+      "id": "39675494-1cd0-46c1-8e9f-bb248be01d71",
+      "difficulty": 4,
+      "question": "How can Enterprise Architecture help in managing IT outsourcing and cloud services?"
+    },
+    {
+      "id": "30784cde-f430-48e6-83a0-cda27e6a994b",
+      "difficulty": 4,
+      "question": "What strategies can be employed to drive organizational change through Enterprise Architecture?"
+    },
+    {
+      "id": "d750dd10-9c9b-46ad-9fc1-ba6a84a95d6c",
+      "difficulty": 4,
+      "question": "Discuss the integration of social media technologies within Enterprise Architecture."
+    },
+    {
+      "id": "b6c8dac3-31a4-4b22-8aaa-37e7d6e7e1eb",
+      "difficulty": 4,
+      "question": "How can Enterprise Architecture frameworks be adapted for startups and small businesses?"
+    },
+    {
+      "id": "b14c9dad-360d-4a4f-921e-2bccd8427a10",
+      "difficulty": 5,
+      "question": "Explain how quantum computing could impact Enterprise Architecture practices in the future."
+    },
+    {
+      "id": "54d86c5b-ab47-4edd-8089-3c88dec98c97",
+      "difficulty": 5,
+      "question": "Discuss the role of Edge Computing in Enterprise Architecture strategies."
+    },
+    {
+      "id": "c20eedaf-7160-452c-876e-2598d06c4dc9",
+      "difficulty": 5,
+      "question": "How do Enterprise Architecture frameworks accommodate emerging technologies like 5G?"
+    },
+    {
+      "id": "d291e74b-c2a0-4a22-a538-a063bfd446a8",
+      "difficulty": 5,
+      "question": "Analyze the potential of Augmented Reality (AR) and Virtual Reality (VR) within Enterprise Architecture."
+    },
+    {
+      "id": "f9aacd48-a2fb-497d-a474-240ded0201f7",
+      "difficulty": 5,
+      "question": "What are the ethical considerations in Enterprise Architecture management?"
+    },
+    {
+      "id": "72e2da67-f4ce-4904-8bf2-4f11663cd942",
+      "difficulty": 5,
+      "question": "Discuss the impact of autonomous systems on Enterprise Architecture."
+    },
+    {
+      "id": "9b577bb1-a5a0-47fb-a017-af81149a3669",
+      "difficulty": 5,
+      "question": "How can global regulatory differences be managed within an Enterprise Architecture framework?"
+    },
+    {
+      "id": "55ad132f-62b4-44d3-aec1-40480d59691d",
+      "difficulty": 5,
+      "question": "What are the challenges of integrating decentralized technologies (e.g., blockchain) into existing Enterprise Architectures?"
+    },
+    {
+      "id": "581e7c4c-a589-4b47-b66a-c835f0abd825",
+      "difficulty": 5,
+      "question": "How do advanced analytics and predictive modeling influence Enterprise Architecture strategies?"
+    },
+    {
+      "id": "a4fa5469-8da1-458e-8a34-3745991f38f4",
+      "difficulty": 5,
+      "question": "Discuss the role of cultural and linguistic diversity in global Enterprise Architecture deployments."
+    },
+    {
+      "id": "e6be80bd-04ab-4a2f-84f9-08ce726b2e21",
+      "difficulty": 5,
+      "question": "How can organizations ensure data sovereignty in their Enterprise Architecture?"
+    },
+    {
+      "id": "65ad68bd-e0f5-4ec3-bf1f-f3fda4425028",
+      "difficulty": 5,
+      "question": "Explore the relationship between Enterprise Architecture and open source software."
+    },
+    {
+      "id": "fde86b11-8139-41f7-acef-ac0efe67a48a",
+      "difficulty": 5,
+      "question": "What are the challenges and solutions for maintaining legacy systems within a modern Enterprise Architecture?"
+    },
+    {
+      "id": "7949ca6c-a0b2-40cb-b414-13dc5e835607",
+      "difficulty": 5,
+      "question": "Discuss strategies for Enterprise Architecture to support continuous delivery and DevOps."
+    },
+    {
+      "id": "85e83163-c45a-4492-89e4-7e69090147c8",
+      "difficulty": 5,
+      "question": "How can Enterprise Architecture frameworks be utilized for crisis management and business continuity planning?"
+    },
+    {
+      "id": "7850aa8b-b3ae-4afc-876c-64d5b328cf00",
+      "difficulty": 5,
+      "question": "What are the implications of IoT proliferation for Enterprise Security Architecture?"
+    },
+    {
+      "id": "d98f0cd1-8d1c-48ea-b9eb-d811df0d57fe",
+      "difficulty": 5,
+      "question": "Explore the potential for using AI to automate elements of Enterprise Architecture planning."
+    },
+    {
+      "id": "4383df73-e332-4995-8a16-fa5a8f74d788",
+      "difficulty": 5,
+      "question": "How does Enterprise Architecture intersect with user experience (UX) design?"
+    },
+    {
+      "id": "844915a9-6ca7-4ac4-be90-31c5a603c11f",
+      "difficulty": 5,
+      "question": "Discuss the integration of biometric technologies into Enterprise Architecture."
+    },
+    {
+      "id": "ff48e65e-6335-427b-9115-afd777410ddb",
+      "difficulty": 5,
+      "question": "What are the governance challenges of implementing a distributed ledger technology within Enterprise Architecture?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "To manage IT budget effectively",
+        "To enforce technology standards across the organization",
+        "To ensure that IT investments align with business goals",
+        "To speed up software development processes"
+      ],
+      "answer": 2,
+      "question_id": "eda493f4-d06b-4245-86ea-8058cf106853"
+    },
+    {
+      "choices": [
+        "Six Sigma",
+        "Agile Methodology",
+        "TOGAF",
+        "Scrum Framework"
+      ],
+      "answer": 2,
+      "question_id": "841aba9a-4c9f-414d-a68e-48e6b2b423f0"
+    },
+    {
+      "choices": [
+        "Product design and marketing strategies",
+        "Hardware specifications and software performance",
+        "Business processes and technology infrastructure",
+        "Employee skill sets and job roles"
+      ],
+      "answer": 2,
+      "question_id": "8c47787f-53ad-4037-a692-e640d18fa984"
+    },
+    {
+      "choices": [
+        "Business Model Canvas",
+        "Strategic Plan",
+        "Architecture Blueprint",
+        "Operational Guide"
+      ],
+      "answer": 2,
+      "question_id": "04f664ba-1c20-4a6a-8be9-dd5990e9ef94"
+    },
+    {
+      "choices": [
+        "Chief Financial Officer",
+        "Enterprise Architect",
+        "Marketing Manager",
+        "Human Resources Director"
+      ],
+      "answer": 1,
+      "question_id": "c5dafc3a-2a48-4fa8-b0db-86b0ce9455c4"
+    },
+    {
+      "choices": [
+        "Total Organization & Governance Architecture Framework",
+        "The Open Group Architecture Framework",
+        "Technical Organization Governance & Framework",
+        "Topology Organization Guide for Architectural Framework"
+      ],
+      "answer": 1,
+      "question_id": "7dadd367-8bab-4f39-9128-51d69c9eb3a0"
+    },
+    {
+      "choices": [
+        "A document outlining company policies",
+        "A detailed plan of a building or machine",
+        "A high-level diagram and description of a company's IT systems and infrastructure",
+        "A financial plan for the company\u2019s next fiscal year"
+      ],
+      "answer": 2,
+      "question_id": "363ed82f-5154-49d0-abee-6d453cc88053"
+    },
+    {
+      "choices": [
+        "ITIL",
+        "COBIT",
+        "The Open Group Architecture Framework (TOGAF)",
+        "Six Sigma"
+      ],
+      "answer": 2,
+      "question_id": "572f1912-1a2e-44be-92a3-6a6c294d70c1"
+    },
+    {
+      "choices": [
+        "Environmental Analysis",
+        "End-user Agreement",
+        "Enterprise Architecture",
+        "Economic Assessment"
+      ],
+      "answer": 2,
+      "question_id": "ca055ad2-df54-456d-8812-e8e03a401a1f"
+    },
+    {
+      "choices": [
+        "Technology",
+        "User Experience",
+        "Financial Management",
+        "Operational Process"
+      ],
+      "answer": 0,
+      "question_id": "76a54f4f-79a2-4f2f-8da6-8fd1abf08aa8"
+    },
+    {
+      "choices": [
+        "To reduce the complexity of data analysis",
+        "To ensure proper project management methodologies are followed",
+        "To guide organizations in the structuring of their IT infrastructure and processes",
+        "To increase the speed of software development"
+      ],
+      "answer": 2,
+      "question_id": "7a8c5b77-f9d1-43df-8067-5c2bfe2134bb"
+    },
+    {
+      "choices": [
+        "By strictly enforcing IT governance policies",
+        "Through detailed technical specifications for coding practices",
+        "By aligning IT infrastructure and operations with business goals",
+        "Focusing solely on cutting IT costs"
+      ],
+      "answer": 2,
+      "question_id": "6fec7ba6-a476-4f47-b0e6-3e159c7e6d86"
+    },
+    {
+      "choices": [
+        "Data Layer",
+        "Application Layer",
+        "Technology Layer",
+        "Business Layer"
+      ],
+      "answer": 1,
+      "question_id": "9808ae7b-4b92-4437-852a-a3e3bb95f0bd"
+    },
+    {
+      "choices": [
+        "Baseline Architecture",
+        "Current State Architecture",
+        "Strategic Plan",
+        "Target Architecture"
+      ],
+      "answer": 3,
+      "question_id": "9ae78924-7704-4625-a45b-972b81fda5c9"
+    },
+    {
+      "choices": [
+        "Two",
+        "Four",
+        "Six",
+        "Three"
+      ],
+      "answer": 1,
+      "question_id": "50ba9d28-6458-4460-b46c-cd3df3459711"
+    },
+    {
+      "choices": [
+        "Guiding Agile Software Development processes",
+        "Mapping organizational data flow",
+        "Providing a structured approach to enterprise architecture",
+        "Automating business processes"
+      ],
+      "answer": 2,
+      "question_id": "58cac7d6-26c1-4748-afd5-58a09dc1865e"
+    },
+    {
+      "choices": [
+        "Enterprise Architecture Framework",
+        "Solution Architecture Document",
+        "Enterprise Architecture Strategy",
+        "IT Project Plan"
+      ],
+      "answer": 2,
+      "question_id": "7d5ddf0e-4825-46db-bc98-886504cb1245"
+    },
+    {
+      "choices": [
+        "To provide a detailed technical documentation for developers",
+        "To outline the historical evolution of the company's technology stack",
+        "To guide the organization's transition from its current to its future state",
+        "To conduct a security assessment of the current IT infrastructure"
+      ],
+      "answer": 2,
+      "question_id": "83196e07-994e-44ae-ba6b-c93128e285e5"
+    },
+    {
+      "choices": [
+        "Phase E: Opportunities and Solutions",
+        "Phase B: Business Architecture",
+        "Phase G: Implementation Governance",
+        "Phase A: Architecture Vision"
+      ],
+      "answer": 3,
+      "question_id": "56242422-0d00-4468-be55-f6b33c960af0"
+    },
+    {
+      "choices": [
+        "A process for managing IT services",
+        "A set of business activities",
+        "An abstraction of the business that describes what the business does",
+        "A framework for IT governance"
+      ],
+      "answer": 2,
+      "question_id": "0a0eb856-d3a5-426b-b79b-7f1e583f7035"
+    },
+    {
+      "choices": [
+        "SOA is a competing concept to Enterprise Architecture, focusing solely on IT infrastructure.",
+        "SOA refers to the physical layout of hardware used within an Enterprise Architecture.",
+        "SOA is a design principle used in Enterprise Architecture focusing on providing services through APIs.",
+        "SOA is exclusive to cloud computing and does not integrate with broader Enterprise Architecture strategies."
+      ],
+      "answer": 2,
+      "question_id": "ab712660-d545-47ca-ac5a-a63bd98350b6"
+    },
+    {
+      "choices": [
+        "Focuses mainly on database management and storage solutions",
+        "Ensures that IT systems align with organizational goals",
+        "Responsible for the physical layout of the IT infrastructure",
+        "Designs specific technical solutions to meet business needs"
+      ],
+      "answer": 3,
+      "question_id": "ec93d485-714d-4850-babe-6b4962d37173"
+    },
+    {
+      "choices": [
+        "Strategic planning is focused on specific departmental goals, while tactical planning is about overall business vision.",
+        "Tactical planning is short-term and specific, while strategic planning is long-term and broad.",
+        "Tactical planning involves higher management, whereas strategic planning involves mid-level managers.",
+        "Strategic planning is about day-to-day operations, while tactical planning focuses on long-term goals."
+      ],
+      "answer": 1,
+      "question_id": "76886ad5-c636-4b9a-a6e5-28f790b87135"
+    },
+    {
+      "choices": [
+        "Application Architecture",
+        "Business Architecture",
+        "Technical Architecture",
+        "Data Architecture"
+      ],
+      "answer": 2,
+      "question_id": "0c6e1583-541e-42f8-85b4-2a0c0d1b160a"
+    },
+    {
+      "choices": [
+        "They predict the future trends of technological advancements.",
+        "They describe the lifecycle of data management processes.",
+        "They provide a framework for measuring the progression of an organization's architecture capabilities.",
+        "They outline the legal regulations across different industries."
+      ],
+      "answer": 2,
+      "question_id": "372b0c37-61bf-460e-a598-43e1f741cc20"
+    },
+    {
+      "choices": [
+        "BPM and Enterprise Architecture compete for resources and are usually managed by separate departments with little collaboration.",
+        "Enterprise Architecture is a subset of BPM, focusing solely on the IT processes and systems.",
+        "BPM is a subset of Enterprise Architecture, focusing solely on the improvement and management of business processes.",
+        "BPM and Enterprise Architecture are complementary, with BPM focusing on the improvement of business processes and Enterprise Architecture ensuring that IT systems align with business goals."
+      ],
+      "answer": 3,
+      "question_id": "81db3bec-3194-4a61-a3dd-d1d185bd5294"
+    },
+    {
+      "choices": [
+        "To define a standard for enterprise software development",
+        "To provide a structured approach for designing, planning, implementing, and governing enterprise information architecture",
+        "To outline the process for selecting enterprise software applications",
+        "To document the roles and responsibilities within an IT department"
+      ],
+      "answer": 1,
+      "question_id": "d474673b-c559-49d0-bfbc-27f089fe2469"
+    },
+    {
+      "choices": [
+        "A view is a technique for data analysis, and a viewpoint is the perspective from which analysis is conducted.",
+        "A view is a specification of a system from the perspective of a related concern, and a viewpoint is the stance or perspective from which the view is developed.",
+        "A view and a viewpoint are software development methodologies focused on user interface design.",
+        "A view is a database schema agreement, and a viewpoint is a specific type of database query."
+      ],
+      "answer": 1,
+      "question_id": "5e7bd266-384d-4911-8e2c-23dceb5054ea"
+    },
+    {
+      "choices": [
+        "Application Architecture",
+        "Technical Architecture",
+        "Data Architecture",
+        "Business Architecture"
+      ],
+      "answer": 2,
+      "question_id": "acd9deed-a7ea-43de-8e70-2b27aa67dbfd"
+    },
+    {
+      "choices": [
+        "Modularity refers to the physical layout of an organization's office spaces to encourage collaboration.",
+        "It pertains to the organization of business processes to minimize overlaps and redundancies.",
+        "Modularity in Enterprise Architecture means designing systems as a set of distinct components that can be developed, modified, and replaced independently.",
+        "It is a financial principle that involves the strategic distribution of a company's assets to maximize ROI."
+      ],
+      "answer": 2,
+      "question_id": "ecdf63de-8d31-4242-a8e4-3311ca58b314"
+    },
+    {
+      "choices": [
+        "To ensure IT investments align with business goals",
+        "To increase the speed of software development",
+        "To manage social media presence",
+        "To design user interfaces"
+      ],
+      "answer": 0,
+      "question_id": "ba139c39-7521-4393-92ff-46c274814e43"
+    },
+    {
+      "choices": [
+        "By enabling businesses to forecast technological trends and invest accordingly",
+        "By providing a structured framework for IT procurement only",
+        "By mapping only the financial aspects of IT resources",
+        "By improving communication between IT and marketing teams"
+      ],
+      "answer": 0,
+      "question_id": "3a5cbcbc-eee3-4529-a4f0-4937bbc29fa0"
+    },
+    {
+      "choices": [
+        "Image editing software",
+        "3D modeling software",
+        "Enterprise architecture tools",
+        "Word processors"
+      ],
+      "answer": 2,
+      "question_id": "4498ea9f-0d90-44cf-b6ec-7db386558817"
+    },
+    {
+      "choices": [
+        "By increasing operational costs to mitigate potential risks",
+        "By documenting and planning IT processes to prevent data breaches",
+        "By ensuring the use of cutting-edge technologies regardless of cost",
+        "By focusing exclusively on software development improvements"
+      ],
+      "answer": 1,
+      "question_id": "700bfd15-dff3-45e6-b251-c68b3d42cc78"
+    },
+    {
+      "choices": [
+        "EA is focused solely on infrastructure, whereas IT Architecture covers software development and management.",
+        "EA deals with high-level strategic alignment between IT and business goals, while IT Architecture focuses on specific IT solutions.",
+        "IT Architecture is a subset of EA that deals only with data management and analysis.",
+        "There is no difference; both terms are used interchangeably."
+      ],
+      "answer": 1,
+      "question_id": "6fd09cf9-dab7-4b4f-b93a-35762ce5c255"
+    },
+    {
+      "choices": [
+        "They provide the technical solution to architecture problems.",
+        "They are responsible for coding the software according to the architecture.",
+        "They have interest or stake in the architecture and its impact on organizational goals.",
+        "They only fund the enterprise architecture projects without further involvement."
+      ],
+      "answer": 2,
+      "question_id": "a2e5f30d-a812-4e65-ba55-ce743d36a392"
+    },
+    {
+      "choices": [
+        "To create detailed design blueprints for software development",
+        "To enforce strict coding standards across all projects",
+        "To establish foundational guidelines for decision-making and design",
+        "To conduct performance analysis of deployed applications"
+      ],
+      "answer": 2,
+      "question_id": "35a70313-e5f6-4bae-bd36-2e01f94bb01a"
+    },
+    {
+      "choices": [
+        "The process of designing IT infrastructure to be environmentally friendly",
+        "The strategy for managing and updating software applications company-wide",
+        "The alignment of IT strategy with business goals to drive innovation and improve business performance",
+        "The method for reducing operational costs through IT optimizations"
+      ],
+      "answer": 2,
+      "question_id": "fde5dce6-6714-4a83-b07e-8dd172095011"
+    },
+    {
+      "choices": [
+        "By strictly adhering to current technologies and processes",
+        "By reducing the focus on strategic planning",
+        "By enabling better decision-making through an understanding of technology and business alignment",
+        "By increasing the complexity of IT infrastructure"
+      ],
+      "answer": 2,
+      "question_id": "d12c2b0a-b083-43eb-9d3b-436e634406b9"
+    },
+    {
+      "choices": [
+        "Through regular updates to technology standards",
+        "By enforcing strict compliance with initial project scopes",
+        "Integrating stakeholder feedback at every project phase",
+        "By limiting the number of projects in progress at any given time"
+      ],
+      "answer": 2,
+      "question_id": "8e40c3bb-e052-48ce-ab9c-741e9f351617"
+    },
+    {
+      "choices": [
+        "By promoting standardization across personal computing devices only",
+        "By providing a generic solution to a recurring design problem within a given context",
+        "By solely focusing on aesthetic aspects of system interfaces",
+        "By decreasing the interoperability between different systems"
+      ],
+      "answer": 1,
+      "question_id": "6b0d7c2b-dcc6-49eb-8acf-25db0303443e"
+    },
+    {
+      "choices": [
+        "A document that describes a specific aspect of a module within an application, such as flowcharts or UML diagrams",
+        "A high-level blueprint that provides a comprehensive overview of an organization's processes, systems, and technologies for strategic planning",
+        "A policy or procedure adopted by an organization to govern its operations and decision-making processes",
+        "An artifact in Enterprise Architecture refers to any document, model, or piece of information that is produced during the creation of an enterprise architecture. Examples include architecture diagrams, data models, and standards."
+      ],
+      "answer": 3,
+      "question_id": "6b112ac4-9a42-4efe-a957-fcd3938c2fcd"
+    },
+    {
+      "choices": [
+        "It deals primarily with the physical components of the IT infrastructure.",
+        "It is focused on the management and use of data analytics tools.",
+        "It outlines the structure of an organization's logical and physical data assets and data management resources.",
+        "It specifies the roadmap for software development within an organization."
+      ],
+      "answer": 2,
+      "question_id": "05801951-4dde-4ed3-b7fd-c54dd588baf6"
+    },
+    {
+      "choices": [
+        "By dictating the personal preferences of the technology leaders",
+        "Through ensuring that the latest technologies are adopted regardless of compatibility",
+        "By aligning technology standards with the organization's strategic objectives and requirements",
+        "By selecting the most cost-effective options without considering strategic fit"
+      ],
+      "answer": 2,
+      "question_id": "93f39ef5-c0dd-4d54-b1d0-f5dddcf1153b"
+    },
+    {
+      "choices": [
+        "Enterprise Security Architecture operates independently and does not intersect with the broader Enterprise Architecture.",
+        "Enterprise Security Architecture is a subset of Enterprise Architecture, focusing on security policies and technologies to protect enterprise information.",
+        "Enterprise Security Architecture and Enterprise Architecture are competing frameworks that must be balanced by an organization.",
+        "Enterprise Security Architecture is primarily concerned with physical security measures, while Enterprise Architecture deals with information systems."
+      ],
+      "answer": 1,
+      "question_id": "3fe2a889-518d-42d4-a1ba-47afb95856ed"
+    },
+    {
+      "choices": [
+        "By focusing solely on the latest technology trends",
+        "Through rigorous cost-benefit analysis of current systems",
+        "By maintaining high levels of redundancy in technology stacks",
+        "By incorporating technology lifecycle management into architecture roadmaps"
+      ],
+      "answer": 3,
+      "question_id": "5abb6f69-608b-4c8f-a9d3-3a1d5a88a4f1"
+    },
+    {
+      "choices": [
+        "Providing legal guidance on digital contracting",
+        "Ensuring operational maintenance of digital tools",
+        "Guiding the organization through structural changes for digital adoption",
+        "Managing the company's social media presence"
+      ],
+      "answer": 2,
+      "question_id": "ee80126c-1722-4f8e-8c1d-c7b4b0ff9bcb"
+    },
+    {
+      "choices": [
+        "By using a mix of programming languages to ensure flexibility",
+        "Through the implementation of standardized protocols and interfaces to ensure systems can work together",
+        "By ensuring all software is developed in-house to maintain control",
+        "Focusing solely on the security aspect to ensure data integrity"
+      ],
+      "answer": 1,
+      "question_id": "9b3dea0a-e372-432b-b5e6-cb43157d6465"
+    },
+    {
+      "choices": [
+        "Lack of skilled IT personnel",
+        "Difficulty in predicting future technology trends accurately",
+        "Miscommunication between IT and business departments",
+        "High cost of IT infrastructure maintenance"
+      ],
+      "answer": 3,
+      "question_id": "a7060518-fae8-443d-9733-b837ec3aee62"
+    },
+    {
+      "choices": [
+        "Through the color schematics of the Enterprise dashboard",
+        "By ensuring the architecture supports only current demand with no future expansion",
+        "Through the implementation of standardized protocols across all departments",
+        "By ensuring the architecture can support growth in users, data volume, and transaction frequency"
+      ],
+      "answer": 3,
+      "question_id": "bb2cf9be-ad97-4540-bd01-4530f768f4f3"
+    },
+    {
+      "choices": [
+        "Scalability Testing Tools",
+        "Enterprise Architecture Frameworks such as TOGAF",
+        "Network Speed Test Tools",
+        "Database Management Systems"
+      ],
+      "answer": 1,
+      "question_id": "d686023b-87b4-4359-9fde-146088e90d28"
+    },
+    {
+      "choices": [
+        "Increases overhead costs with minimal impact on strategic alignment",
+        "Forces architectural designs to be flexible and adaptable to new technologies",
+        "Restricts the scope of technology options, pushing for a more standardized environment",
+        "Has no significant impact on the architectural planning process"
+      ],
+      "answer": 2,
+      "question_id": "e55db1fd-6c11-4851-824b-7f2a77cfba8e"
+    },
+    {
+      "choices": [
+        "They have minimal impact as Enterprise Architecture focuses primarily on technology.",
+        "Organizational culture and structure dictate the pace and direction of Enterprise Architecture implementation.",
+        "They affect only the initial planning phase of Enterprise Architecture implementation.",
+        "Enterprise Architecture should be adapted to match the organizational culture and structure, not the other way around."
+      ],
+      "answer": 1,
+      "question_id": "93828a5d-04c6-4fbd-9de8-6cb9b9520433"
+    },
+    {
+      "choices": [
+        "To design and implement user interface designs for applications",
+        "To negotiate pricing and contracts with vendors",
+        "To ensure the technology aligns with the business strategy and meets the organization's needs",
+        "To provide technical support for selected technologies"
+      ],
+      "answer": 2,
+      "question_id": "9ff72d11-fa7f-4d69-ac40-1b22caa826dc"
+    },
+    {
+      "choices": [
+        "By mandating proprietary technology standards",
+        "Eliminating redundant processes",
+        "Increasing the complexity of IT infrastructure",
+        "By enabling better decision-making practices"
+      ],
+      "answer": 1,
+      "question_id": "f9bb7a03-9381-44e3-909d-4225daacdb60"
+    },
+    {
+      "choices": [
+        "Guidelines for social media use within the enterprise, determined through employee consensus.",
+        "Mandatory legal frameworks all enterprises must follow, set by international governing bodies.",
+        "Principles and practices for IT infrastructure, governance, and development efforts within an organization, usually established by a governing body such as The Open Group.",
+        "A set of recommended color schemes and logo designs for company branding, decided by the marketing department."
+      ],
+      "answer": 2,
+      "question_id": "bfc95320-ee5b-4610-a4b0-02be9cda324e"
+    },
+    {
+      "choices": [
+        "From technology-focused to value-focused",
+        "From cloud-based architectures to on-premises solutions",
+        "From decentralized systems to centralized management",
+        "From manual processes to fully automated systems"
+      ],
+      "answer": 0,
+      "question_id": "128ddc9c-8120-4216-81b4-351e4d9d4447"
+    },
+    {
+      "choices": [
+        "Number of new technologies adopted",
+        "Increase in IT spending",
+        "Alignment of IT strategy with business goals",
+        "Frequency of system outages"
+      ],
+      "answer": 2,
+      "question_id": "84e3d8c4-bac2-419f-b8c5-cfbf3330da32"
+    },
+    {
+      "choices": [
+        "The total amount of money spent on IT infrastructure within an enterprise.",
+        "The result of outdated or poorly designed systems, leading to inefficiency and increased costs for maintenance and integration.",
+        "A detailed plan for the physical construction of a company's new headquarters.",
+        "An advanced form of digital currency used exclusively by architects."
+      ],
+      "answer": 1,
+      "question_id": "dfcf95a7-ac9c-4f90-9a14-dda6b9957764"
+    },
+    {
+      "choices": [
+        "Primarily reducing the need for human employees in enterprise environments",
+        "Enhancing cybersecurity measures and response times",
+        "Focusing solely on automating customer service interactions",
+        "Improving the efficiency of supply chain management through predictive analytics"
+      ],
+      "answer": 2,
+      "question_id": "30097484-b88e-40b4-9d00-931efa8e43c0"
+    },
+    {
+      "choices": [
+        "By reducing the emphasis on IT governance",
+        "Through detailed technical specifications for each IT component",
+        "By aligning IT infrastructure and business goals",
+        "By promoting the adoption of the latest technology trends indiscriminately"
+      ],
+      "answer": 2,
+      "question_id": "7233cb6e-0d43-43d2-abc6-172831d0a788"
+    },
+    {
+      "choices": [
+        "Waterfall Development",
+        "Agile Software Development",
+        "TOGAF with Agile",
+        "Scrum Framework"
+      ],
+      "answer": 2,
+      "question_id": "37bd0a61-68c2-4fd8-9eb9-f2e88b1e8d23"
+    },
+    {
+      "choices": [
+        "Reduction in the need for skilled IT personnel",
+        "Increase in on-premises hardware investments",
+        "Facilitating a shift towards a more agile and scalable IT infrastructure",
+        "Decrease in data security and compliance capabilities"
+      ],
+      "answer": 2,
+      "question_id": "ee648e38-05cb-4143-ac9a-a8cec6f92392"
+    },
+    {
+      "choices": [
+        "By focusing solely on IT infrastructure optimization",
+        "By providing a strategic planning framework that aligns IT infrastructure with business goals",
+        "By limiting business process variations to maintain consistency",
+        "By enforcing rigid technological standards across the organization"
+      ],
+      "answer": 1,
+      "question_id": "a583431c-2848-49c9-af4e-04f796d5ff53"
+    },
+    {
+      "choices": [
+        "A method for rapid application development",
+        "A type of blockchain technology used for data security",
+        "A virtual representation of a physical process, product or service",
+        "A digital marketing strategy for promoting enterprise services"
+      ],
+      "answer": 2,
+      "question_id": "814dfa0b-5aa8-450a-991c-16f53add4c96"
+    },
+    {
+      "choices": [
+        "By primarily enhancing aesthetic website features",
+        "Through streamlining office communication systems only",
+        "Enhancing decision-making and strategic planning with actionable insights",
+        "Solely focusing on hardware upgrades"
+      ],
+      "answer": 2,
+      "question_id": "7298cbdb-b4bd-4205-a1ce-afc8287ff4b0"
+    },
+    {
+      "choices": [
+        "Prioritizing single-cloud strategies over multi-cloud",
+        "Ensuring compatibility and interoperability between different cloud services",
+        "Focusing exclusively on cost savings",
+        "Neglecting security and compliance requirements"
+      ],
+      "answer": 1,
+      "question_id": "67961b91-6d98-41a0-a2a4-3aed3e85e8ef"
+    },
+    {
+      "choices": [
+        "Facilitates communication between IT and marketing teams",
+        "Defines the organizational structure and operational processes",
+        "Guides the integration of cybersecurity measures into the organizational infrastructure",
+        "Focuses solely on the aesthetic aspects of system interfaces"
+      ],
+      "answer": 2,
+      "question_id": "649baf18-e97e-4a4b-aa03-29933ea87cc6"
+    },
+    {
+      "choices": [
+        "By focusing solely on short-term goals",
+        "Through regular system updates and adopting emerging technologies",
+        "By increasing the system's complexity",
+        "Limiting access to the system to a few users"
+      ],
+      "answer": 1,
+      "question_id": "a788d8af-eb51-4d6d-86b6-f18524926ae5"
+    },
+    {
+      "choices": [
+        "Updating business processes as technological solutions evolve without a structured approach",
+        "Conducting regular security audits and ensuring compliance with industry regulations",
+        "Using a change management process, such as the ADM cycle in TOGAF, to address and incorporate changes systematically",
+        "Randomly adopting new technologies as they become available to keep the IT infrastructure modern"
+      ],
+      "answer": 2,
+      "question_id": "6a043fe0-2f38-45c8-8737-44c16a5a6c0a"
+    },
+    {
+      "choices": [
+        "It oversees the aesthetic design of IoT devices.",
+        "It ensures IoT devices have the latest entertainment features.",
+        "It defines how IoT devices communicate and collaborate within business systems.",
+        "It limits the data that IoT devices can collect to ensure privacy."
+      ],
+      "answer": 2,
+      "question_id": "308d3113-597b-4a57-ac15-688e5a3b9b5a"
+    },
+    {
+      "choices": [
+        "Primarily for enhancing cybersecurity and threat detection",
+        "To streamline HR processes and improve talent management",
+        "To predict market trends and enable data-driven decision-making",
+        "For automating administrative tasks like scheduling and email management"
+      ],
+      "answer": 2,
+      "question_id": "a960a26a-3bfb-45ac-b9f0-709841f063b6"
+    },
+    {
+      "choices": [
+        "Integration of quantum computing into existing architecture",
+        "Reduction in the need for data storage solutions",
+        "Decrease in software development lifecycle times",
+        "Lower emphasis on cybersecurity measures due to improved AI"
+      ],
+      "answer": 0,
+      "question_id": "a3024f7a-db93-47d9-95ed-6865e56f13cb"
+    },
+    {
+      "choices": [
+        "By streamlining operational processes to reduce costs",
+        "By predicting future market trends to stay ahead of competitors",
+        "By aligning IT infrastructure with business goals to improve service delivery",
+        "By solely focusing on the implementation of new technologies"
+      ],
+      "answer": 2,
+      "question_id": "fc5b997e-9897-4524-aabd-0bec1545bd8c"
+    },
+    {
+      "choices": [
+        "Simplifies regulatory compliance due to its centralized nature",
+        "Reduces the need for transparent and tamper-proof record-keeping",
+        "Increases dependency on a single server architecture",
+        "Promotes decentralized control, enhancing security and transparency"
+      ],
+      "answer": 3,
+      "question_id": "1e912dbe-425d-472b-9070-0d8dd9fac2c4"
+    },
+    {
+      "choices": [
+        "By ensuring compliance with data protection laws",
+        "Reducing the effectiveness of communication between departments",
+        "Increasing the overall IT costs",
+        "Enhancing the security risks associated with external services"
+      ],
+      "answer": 0,
+      "question_id": "39675494-1cd0-46c1-8e9f-bb248be01d71"
+    },
+    {
+      "choices": [
+        "Focusing solely on technical optimization",
+        "Adopting an agile methodology in IT processes",
+        "Strictly adhering to pre-defined IT budgets",
+        "Using architectural principles to align IT strategy with business goals"
+      ],
+      "answer": 3,
+      "question_id": "30784cde-f430-48e6-83a0-cda27e6a994b"
+    },
+    {
+      "choices": [
+        "Redesigning enterprise websites to emulate social media interfaces",
+        "Integrating enterprise systems with social media platforms to enhance brand presence and customer engagement",
+        "Increasing the bandwidth of enterprise networks to handle social media traffic",
+        "Using social media analytics solely for targeted advertising"
+      ],
+      "answer": 1,
+      "question_id": "d750dd10-9c9b-46ad-9fc1-ba6a84a95d6c"
+    },
+    {
+      "choices": [
+        "By applying the full framework without modification to ensure comprehensive coverage",
+        "By focusing only on technology architecture, ignoring business, data, and application architectures",
+        "By customizing frameworks to focus on agility and scalability, tailoring them to specific business needs",
+        "By adopting only the documentation standards from the frameworks, forgoing architectural processes"
+      ],
+      "answer": 2,
+      "question_id": "b6c8dac3-31a4-4b22-8aaa-37e7d6e7e1eb"
+    },
+    {
+      "choices": [
+        "It will streamline user interface design processes.",
+        "Quantum computing will enable the solving of complex problems much faster than classical computing, potentially transforming data analysis and decision-making processes.",
+        "It will reduce the cost of cloud storage solutions significantly.",
+        "Quantum computing will primarily improve the speed of internet connections worldwide."
+      ],
+      "answer": 1,
+      "question_id": "b14c9dad-360d-4a4f-921e-2bccd8427a10"
+    },
+    {
+      "choices": [
+        "Reduces the need for centralized computing power",
+        "Increases data storage requirements at central locations",
+        "Ensures that all computing is done within cloud-based data centers",
+        "Limits the speed of data analysis and processing"
+      ],
+      "answer": 0,
+      "question_id": "54d86c5b-ab47-4edd-8089-3c88dec98c97"
+    },
+    {
+      "choices": [
+        "By predicting future technological advances and pre-emptively incorporating them",
+        "Through flexible and adaptable design principles that can incorporate new technologies as they emerge",
+        "By focusing solely on current technologies and updating the framework every 10 years",
+        "Requiring a complete overhaul of the architecture when a new technology is introduced"
+      ],
+      "answer": 1,
+      "question_id": "c20eedaf-7160-452c-876e-2598d06c4dc9"
+    },
+    {
+      "choices": [
+        "They mostly serve gaming industries and have limited application in enterprise architecture.",
+        "AR and VR technologies are primarily used for marketing and have no significant impact on enterprise architecture.",
+        "AR and VR can revolutionize enterprise training, simulation, design processes, and enhance user experience.",
+        "They are too costly to implement and maintain for any practical use in enterprise settings."
+      ],
+      "answer": 2,
+      "question_id": "d291e74b-c2a0-4a22-a538-a063bfd446a8"
+    },
+    {
+      "choices": [
+        "Maximizing shareholder profits at all costs",
+        "Using architecture artifacts without proper licensing",
+        "Ensuring transparency and accountability in decision-making",
+        "Choosing vendors based solely on cost"
+      ],
+      "answer": 2,
+      "question_id": "f9aacd48-a2fb-497d-a474-240ded0201f7"
+    },
+    {
+      "choices": [
+        "They introduce data management complexities requiring new storage solutions.",
+        "They reduce the need for Enterprise Architecture by automating all planning.",
+        "They have no significant impact on Enterprise Architecture.",
+        "They increase the relevance of cloud computing strategies."
+      ],
+      "answer": 0,
+      "question_id": "72e2da67-f4ce-4904-8bf2-4f11663cd942"
+    },
+    {
+      "choices": [
+        "By developing separate architecture models for each regulatory environment",
+        "By disregarding local regulations in favor of a universal set of company policies",
+        "By implementing a centralized IT infrastructure only",
+        "By incorporating regulatory requirements into the governance component of the architecture framework"
+      ],
+      "answer": 3,
+      "question_id": "9b577bb1-a5a0-47fb-a017-af81149a3669"
+    },
+    {
+      "choices": [
+        "Lack of skilled professionals to manage the technologies",
+        "High implementation costs but with guaranteed high ROI",
+        "Easier regulatory compliance compared to traditional systems",
+        "Reduced data security risks and vulnerabilities"
+      ],
+      "answer": 0,
+      "question_id": "55ad132f-62b4-44d3-aec1-40480d59691d"
+    },
+    {
+      "choices": [
+        "By reducing the dependency on cloud platforms",
+        "Through enhancing resource allocation and forecasting future trends",
+        "By eliminating the need for data security and governance",
+        "Through decreasing the complexity of IT infrastructure"
+      ],
+      "answer": 1,
+      "question_id": "581e7c4c-a589-4b47-b66a-c835f0abd825"
+    },
+    {
+      "choices": [
+        "It limits the adaptability of global enterprise systems, making them less effective.",
+        "It has no significant impact on the deployment of global Enterprise Architecture.",
+        "Cultural and linguistic diversity enhances creativity and innovation in global Enterprise Architecture deployments, making solutions more adaptable and inclusive.",
+        "It increases the cost of global deployments without adding value."
+      ],
+      "answer": 2,
+      "question_id": "a4fa5469-8da1-458e-8a34-3745991f38f4"
+    },
+    {
+      "choices": [
+        "Migrate all data processing to a public cloud",
+        "Implement strict access controls",
+        "Store and process data exclusively in its country of origin",
+        "Use a single, centralized data storage location"
+      ],
+      "answer": 2,
+      "question_id": "e6be80bd-04ab-4a2f-84f9-08ce726b2e21"
+    },
+    {
+      "choices": [
+        "Open source software undermines the principles of Enterprise Architecture by promoting decentralized decision-making.",
+        "Enterprise Architecture predominantly focuses on proprietary solutions, making open source software incompatible.",
+        "Enterprise Architecture leverages open source software to reduce costs and increase interoperability.",
+        "Open source software is largely irrelevant to Enterprise Architecture discussions."
+      ],
+      "answer": 2,
+      "question_id": "65ad68bd-e0f5-4ec3-bf1f-f3fda4425028"
+    },
+    {
+      "choices": [
+        "Streamlining communication between disparate systems with middleware solutions",
+        "Increasing social media engagement to mitigate system obsolescence",
+        "Focusing solely on emerging technologies and disregarding legacy systems",
+        "Reducing marketing efforts to allocate budget for new system development"
+      ],
+      "answer": 0,
+      "question_id": "fde86b11-8139-41f7-acef-ac0efe67a48a"
+    },
+    {
+      "choices": [
+        "Prioritizing security protocols over deployment speed",
+        "Maintaining rigid, siloed team structures between development and operations",
+        "Integrating automated deployment pipelines to enable frequent, reliable releases",
+        "Decreasing the frequency of integration to ensure higher code quality"
+      ],
+      "answer": 2,
+      "question_id": "7949ca6c-a0b2-40cb-b414-13dc5e835607"
+    },
+    {
+      "choices": [
+        "To delegate technical tasks to non-technical employees",
+        "To automate customer support services exclusively",
+        "To identify critical business processes and technology dependencies",
+        "To increase marketing efforts and customer outreach"
+      ],
+      "answer": 2,
+      "question_id": "85e83163-c45a-4492-89e4-7e69090147c8"
+    },
+    {
+      "choices": [
+        "Reduced need for network security due to decentralized nature of devices",
+        "Increased challenge in managing user identities and access",
+        "IoT has no significant impact on Enterprise Security Architecture",
+        "Simplification of security protocols due to standardized IoT communication"
+      ],
+      "answer": 1,
+      "question_id": "7850aa8b-b3ae-4afc-876c-64d5b328cf00"
+    },
+    {
+      "choices": [
+        "Leverage AI for predictive analytics in resource allocation",
+        "Increase social media marketing campaigns efficiency",
+        "Enhance physical security systems at enterprise facilities",
+        "Reduce electricity consumption in non-IT domains"
+      ],
+      "answer": 0,
+      "question_id": "d98f0cd1-8d1c-48ea-b9eb-d811df0d57fe"
+    },
+    {
+      "choices": [
+        "By focusing primarily on the financial aspects of a business, ensuring cost-effectiveness in UX investments",
+        "By dictating the color schemes and design patterns that UX designers must use in their interfaces",
+        "By aligning IT strategy with business goals to ensure that the UX design supports overall business objectives",
+        "By exclusively managing backend system designs without considering the impact on UX design"
+      ],
+      "answer": 2,
+      "question_id": "4383df73-e332-4995-8a16-fa5a8f74d788"
+    },
+    {
+      "choices": [
+        "Enhances customer personalization and security but increases privacy concerns.",
+        "Significantly reduces the complexity of the IT infrastructure.",
+        "Negatively impacts the scalability of enterprise systems.",
+        "Leads to a decrease in operational efficiency."
+      ],
+      "answer": 0,
+      "question_id": "844915a9-6ca7-4ac4-be90-31c5a603c11f"
+    },
+    {
+      "choices": [
+        "High cost and complexity of data migration from existing systems",
+        "Simplified regulatory compliance and monitoring",
+        "Easier integration with traditional databases and ERP systems",
+        "Reduced need for ongoing technical support and upgrades"
+      ],
+      "answer": 0,
+      "question_id": "ff48e65e-6335-427b-9115-afd777410ddb"
+    }
+  ]
+}

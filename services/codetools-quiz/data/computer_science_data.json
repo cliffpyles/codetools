@@ -1,0 +1,1507 @@
+{
+  "topic": "Computer Science",
+  "questions": [
+    {
+      "id": "53f9fead-b795-4fd9-a798-1221bc8aea29",
+      "difficulty": 1,
+      "question": "What is the primary function of a CPU in a computer system?"
+    },
+    {
+      "id": "07cbd164-34ef-4572-8325-64f12ab5bd06",
+      "difficulty": 1,
+      "question": "In which language is the operating system kernel primarily written?"
+    },
+    {
+      "id": "7966cec6-a7ba-4445-ae11-57dc5a1a497c",
+      "difficulty": 1,
+      "question": "What does 'RAM' stand for in the context of computer hardware?"
+    },
+    {
+      "id": "f471487a-5886-4fdf-b1a8-571df5c24057",
+      "difficulty": 1,
+      "question": "Which data storage device uses a spinning disk to read and write data?"
+    },
+    {
+      "id": "35ba1045-d215-42d9-adeb-736c7758fe6f",
+      "difficulty": 1,
+      "question": "What is the term for software designed to perform malicious actions?"
+    },
+    {
+      "id": "870f07b5-1216-48ab-a37a-8ff01092f288",
+      "difficulty": 1,
+      "question": "What does 'HTTP' stand for in web technology?"
+    },
+    {
+      "id": "b250eec5-6eaa-4250-91c8-d74c55dd0aa8",
+      "difficulty": 1,
+      "question": "What is the binary representation of the decimal number 5?"
+    },
+    {
+      "id": "adf6cb93-44dd-4255-b37a-0968f0610b46",
+      "difficulty": 1,
+      "question": "Which programming paradigm involves the concept of classes and objects?"
+    },
+    {
+      "id": "8476ecda-06db-4772-8d8e-2f4d4136b030",
+      "difficulty": 1,
+      "question": "What does 'GUI' stand for in computing?"
+    },
+    {
+      "id": "0f51f6c9-7611-49c8-a06e-99ba74f64ee5",
+      "difficulty": 1,
+      "question": "Which operation system is known for its open-source nature?"
+    },
+    {
+      "id": "4ba2bdee-d5ae-4041-a95d-76d07935bd57",
+      "difficulty": 1,
+      "question": "What is the purpose of a network router?"
+    },
+    {
+      "id": "376b03b7-7325-46d7-a4e3-7bee12ce9113",
+      "difficulty": 1,
+      "question": "What is the fundamental unit of data in computing termed as?"
+    },
+    {
+      "id": "b3d9e506-d32d-4b86-9080-ac73dea45011",
+      "difficulty": 1,
+      "question": "What do you call a list of instructions that a computer follows to perform a specific task?"
+    },
+    {
+      "id": "0f260f72-ec0f-43c3-95d1-2e6b58595081",
+      "difficulty": 1,
+      "question": "In computing, what is 'source code'?"
+    },
+    {
+      "id": "15cab45e-a22a-401c-b72e-3fd7bc08e2a0",
+      "difficulty": 1,
+      "question": "What type of software application allows a user to browse the internet?"
+    },
+    {
+      "id": "baf05a14-8478-458a-b8a7-deea8cd31ca3",
+      "difficulty": 1,
+      "question": "What does 'IP' stand for in computer networking?"
+    },
+    {
+      "id": "32d90b54-df29-49f4-bd51-a0efc7ad53d5",
+      "difficulty": 1,
+      "question": "Which computer component is responsible for graphical output?"
+    },
+    {
+      "id": "af1367d3-6076-49f5-829c-57696e56b798",
+      "difficulty": 1,
+      "question": "What is the primary function of an operating system?"
+    },
+    {
+      "id": "cd32317e-5c8b-4d73-9ccf-839d7eca255d",
+      "difficulty": 1,
+      "question": "In which data structure are elements added and removed from the top?"
+    },
+    {
+      "id": "7db2f7c6-8365-497e-add5-6d78748073e2",
+      "difficulty": 1,
+      "question": "What does 'BIOS' stand for in computer systems?"
+    },
+    {
+      "id": "cd16c73f-4c1c-4596-8a5c-036fcf4878b2",
+      "difficulty": 2,
+      "question": "What algorithmic complexity represents the best case scenario for a quicksort algorithm?"
+    },
+    {
+      "id": "77f6b4af-183c-4a44-b971-77b153683fa3",
+      "difficulty": 2,
+      "question": "In object-oriented programming, what term describes a subroutine associated with a class?"
+    },
+    {
+      "id": "43f23d07-4532-4817-bfb1-9aec59bf7c29",
+      "difficulty": 2,
+      "question": "Which data structure uses a FIFO method?"
+    },
+    {
+      "id": "bfdc13fd-f191-4761-a640-0b63cbb92f76",
+      "difficulty": 2,
+      "question": "What is the process of finding and fixing errors in software code called?"
+    },
+    {
+      "id": "3d860375-968a-442b-8cdc-58764cf4a340",
+      "difficulty": 2,
+      "question": "Which sorting algorithm has the average time complexity of O(n log n)?"
+    },
+    {
+      "id": "00a8f96f-dcf7-4fad-80cf-a6733287bb03",
+      "difficulty": 2,
+      "question": "What is meant by software 'localization'?"
+    },
+    {
+      "id": "ee185987-17b8-48e0-91e5-bf9f72157bae",
+      "difficulty": 2,
+      "question": "In databases, what is a 'primary key'?"
+    },
+    {
+      "id": "fef4ef54-1dd4-446a-8f82-6faaa5bab1d3",
+      "difficulty": 2,
+      "question": "What does 'DRY' principle in software development stand for?"
+    },
+    {
+      "id": "56bdef3c-565b-49d3-86b2-da5fde928f5c",
+      "difficulty": 2,
+      "question": "What term describes the illegal copying or use of software?"
+    },
+    {
+      "id": "43c209d5-ce08-4792-a8bb-194fe7b4d961",
+      "difficulty": 2,
+      "question": "What is 'agile methodology' in software development?"
+    },
+    {
+      "id": "9f68d04c-e24a-4fb7-97bc-f42f5c8755a2",
+      "difficulty": 2,
+      "question": "In networking, what does 'TCP/IP' stand for?"
+    },
+    {
+      "id": "29e2df2f-fb7d-4a5c-bc87-2155fafb8000",
+      "difficulty": 2,
+      "question": "Which software development principle emphasizes regular delivery of small increments of the product?"
+    },
+    {
+      "id": "15661d9e-0893-466a-848c-731d9ab39915",
+      "difficulty": 2,
+      "question": "What is 'virtual memory' in computer systems?"
+    },
+    {
+      "id": "211cff50-79ab-4c09-8aec-aa06e2d12ccd",
+      "difficulty": 2,
+      "question": "What data structure would you use to implement a browser's back button functionality?"
+    },
+    {
+      "id": "3021865a-f287-4cc7-bade-b30175e52443",
+      "difficulty": 2,
+      "question": "What is 'polymorphism' in object-oriented programming?"
+    },
+    {
+      "id": "b4d59acd-5c0d-452d-951d-f07f1fd5973e",
+      "difficulty": 2,
+      "question": "What does the 'MVC' design pattern stand for?"
+    },
+    {
+      "id": "b6389911-7c32-4d0a-b8ce-75660b4c4c77",
+      "difficulty": 2,
+      "question": "What is the purpose of a firewall in a network?"
+    },
+    {
+      "id": "f75d06ec-c08c-47a1-b5d2-15209e6e148b",
+      "difficulty": 2,
+      "question": "What does 'SEO' stand for in the context of web development?"
+    },
+    {
+      "id": "eb18d9e0-ea80-4f6d-829a-e67a658672fd",
+      "difficulty": 2,
+      "question": "Which memory type is non-volatile and used in USB flash drives?"
+    },
+    {
+      "id": "06923e8c-3115-4a9d-a1ef-16607f1e7ada",
+      "difficulty": 2,
+      "question": "What is 'public key encryption'?"
+    },
+    {
+      "id": "c001f5a7-a0a4-417d-8bf3-01467b2094df",
+      "difficulty": 3,
+      "question": "What is the name given to the algorithm design principle that involves solving a problem by breaking it down into smaller sub-problems?"
+    },
+    {
+      "id": "06b1ac86-3a5f-44e0-94b9-7f530ef409ba",
+      "difficulty": 3,
+      "question": "In context with web development, what does 'AJAX' stand for?"
+    },
+    {
+      "id": "beda253d-3b28-45c8-b2e9-60f106e871f3",
+      "difficulty": 3,
+      "question": "In computer graphics, what does 'anti-aliasing' refer to?"
+    },
+    {
+      "id": "90e799ab-0818-40d4-a604-ca6f077db846",
+      "difficulty": 3,
+      "question": "Which process scheduling algorithm uses a time quantum?"
+    },
+    {
+      "id": "29e3abe4-55a6-4175-8d5f-06fef439a7f2",
+      "difficulty": 3,
+      "question": "What is the significance of the 'CAP theorem' in distributed systems?"
+    },
+    {
+      "id": "8516d192-a132-49ce-9a1a-7cd5a681f5ef",
+      "difficulty": 3,
+      "question": "What programming concept involves a function calling itself?"
+    },
+    {
+      "id": "8a608931-e8f4-4330-acd2-c92ec3498e39",
+      "difficulty": 3,
+      "question": "What is 'deadlock' in the context of operating systems?"
+    },
+    {
+      "id": "198e7951-f04a-4493-b593-66cfacfeb0a9",
+      "difficulty": 3,
+      "question": "In which software licensing model is the source code made available to the public?"
+    },
+    {
+      "id": "08073a41-406f-4081-900b-95043522a4e6",
+      "difficulty": 3,
+      "question": "What is a 'hash function' used for in computer science?"
+    },
+    {
+      "id": "01131216-ee7d-4086-aa29-33cceaa5d482",
+      "difficulty": 3,
+      "question": "What is the primary security concern with 'buffer overflows'?"
+    },
+    {
+      "id": "445482d9-e0b8-4294-b129-43d9eabe5fdb",
+      "difficulty": 3,
+      "question": "What does 'REST' stand for, in the context of web APIs?"
+    },
+    {
+      "id": "fef84d60-9a3a-41a4-85bb-6cdca24dbdfc",
+      "difficulty": 3,
+      "question": "What principle describes the separation of data structure from the details of how it is implemented?"
+    },
+    {
+      "id": "9c9dbd3e-e67a-44e7-8de6-bf0650cb4d05",
+      "difficulty": 3,
+      "question": "What is a 'Big O Notation' used to describe?"
+    },
+    {
+      "id": "67b95bdf-0e19-4c91-9fd6-464640d7ccac",
+      "difficulty": 3,
+      "question": "What is 'refactoring' in software development?"
+    },
+    {
+      "id": "2f83bb59-3be8-473c-b3d3-07f082ee9aa1",
+      "difficulty": 3,
+      "question": "In which layer of the OSI model does routing occur?"
+    },
+    {
+      "id": "a3a98880-e363-4da8-a5ac-c66f819a32bf",
+      "difficulty": 3,
+      "question": "What does 'SOLID' principles refer to in object-oriented design?"
+    },
+    {
+      "id": "c1b608fb-8793-48eb-bc6e-2aa58b759273",
+      "difficulty": 3,
+      "question": "What is the purpose of 'garbage collection' in programming languages?"
+    },
+    {
+      "id": "7ac92b16-e008-4706-9f37-3b51bfed9140",
+      "difficulty": 3,
+      "question": "Which principle involves designing systems to handle growth?"
+    },
+    {
+      "id": "4d5c190f-0ccb-4490-9c70-9cb66c062244",
+      "difficulty": 3,
+      "question": "What is the difference between 'symmetric' and 'asymmetric' encryption?"
+    },
+    {
+      "id": "a85c301b-895b-429a-afd8-d064ebebde81",
+      "difficulty": 3,
+      "question": "What is 'feature creep' in project management?"
+    },
+    {
+      "id": "675fc87f-dcc3-4da3-a476-3804ee13d1b0",
+      "difficulty": 4,
+      "question": "What does 'P = NP' problem address in computational theory?"
+    },
+    {
+      "id": "d871a805-8115-4001-bdeb-d48919285f4c",
+      "difficulty": 4,
+      "question": "In machine learning, what is 'overfitting'?"
+    },
+    {
+      "id": "1158e8ff-e7b7-48a9-9163-e369be807ee9",
+      "difficulty": 4,
+      "question": "Which algorithm is used to find the shortest path in a graph?"
+    },
+    {
+      "id": "2a677cd0-838d-4fb5-8f0d-449de2eb4c32",
+      "difficulty": 4,
+      "question": "What is 'quantum computing' primarily based on?"
+    },
+    {
+      "id": "bb0d59c5-e1f1-4f72-8a55-baf9d8c2ef5e",
+      "difficulty": 4,
+      "question": "What does 'CI/CD' stand for in software development practices?"
+    },
+    {
+      "id": "1466a75a-78c0-445d-b9de-b6680dba1bb8",
+      "difficulty": 4,
+      "question": "What is a 'neural network' in artificial intelligence?"
+    },
+    {
+      "id": "c591733c-794b-49bb-99b8-265067e8f880",
+      "difficulty": 4,
+      "question": "What does 'DevSecOps' integrate into the traditional DevOps practices?"
+    },
+    {
+      "id": "546dcbec-8d1d-41a1-aa56-139258d54d40",
+      "difficulty": 4,
+      "question": "In blockchain technology, what is a 'smart contract'?"
+    },
+    {
+      "id": "cf7f6931-20db-450d-85dd-c671bc30c5fd",
+      "difficulty": 4,
+      "question": "What is 'Kubernetes' primarily used for?"
+    },
+    {
+      "id": "87a64332-8eb5-4788-8277-7ff94cab0d60",
+      "difficulty": 4,
+      "question": "What paradigm does 'functional programming' emphasize?"
+    },
+    {
+      "id": "b622874e-3d43-4bc7-87cf-00fd09b9f850",
+      "difficulty": 4,
+      "question": "In databases, what does 'ACID' properties stand for?"
+    },
+    {
+      "id": "b1bb785b-b2a3-4006-bb00-d8db5ff0c0ce",
+      "difficulty": 4,
+      "question": "What does 'OAuth' provide in the context of online services?"
+    },
+    {
+      "id": "9d7fd956-b1e2-4112-afee-b84be6f26e09",
+      "difficulty": 4,
+      "question": "What is 'serverless computing'?"
+    },
+    {
+      "id": "e4fb0173-c400-4a12-9dd4-99b2c6ec80ce",
+      "difficulty": 4,
+      "question": "What does 'IoT' stand for, and what does it refer to?"
+    },
+    {
+      "id": "b9f2b1bc-afb7-4095-8009-ccf03cde181b",
+      "difficulty": 4,
+      "question": "What is 'TDD' in software development?"
+    },
+    {
+      "id": "17875eb5-5db1-41b8-963c-e92703c918f1",
+      "difficulty": 4,
+      "question": "Which technology is primarily associated with 'cryptocurrency'?"
+    },
+    {
+      "id": "177a3a12-e04f-4230-875c-5ca78a503955",
+      "difficulty": 4,
+      "question": "What is 'Natural Language Processing (NLP)' used for in AI?"
+    },
+    {
+      "id": "123c3aff-9bad-4ea1-b3bb-3a7d5996bd5b",
+      "difficulty": 4,
+      "question": "What does the 'Git' software primarily manage?"
+    },
+    {
+      "id": "ef7377f5-a88e-43c5-911e-80e5fcaeabfd",
+      "difficulty": 4,
+      "question": "What does 'scrum' methodology involve?"
+    },
+    {
+      "id": "9bca2bd6-db15-40fc-abc7-2579cf37307b",
+      "difficulty": 4,
+      "question": "What is 'containerization' in software engineering?"
+    },
+    {
+      "id": "492facd7-2a61-4036-beab-e682743b981b",
+      "difficulty": 5,
+      "question": "What is the Halting Problem in computer science?"
+    },
+    {
+      "id": "db87b351-8995-44d2-8d7c-b49fb275e5bc",
+      "difficulty": 5,
+      "question": "What is the theoretical model of computation that can simulate any Turing machine called?"
+    },
+    {
+      "id": "cfdb212e-5cfb-4d12-afa8-d4eab872280d",
+      "difficulty": 5,
+      "question": "In the context of distributed systems, explain 'Paxos' algorithm?"
+    },
+    {
+      "id": "56c48727-8e20-44dc-9e2e-1a6d929fa335",
+      "difficulty": 5,
+      "question": "What does 'GPUs' stand for, and why are they particularly effective in AI computations?"
+    },
+    {
+      "id": "16d2d586-a8da-42ed-9d01-afe7276caa5f",
+      "difficulty": 5,
+      "question": "Describe 'sharding' in the context of databases?"
+    },
+    {
+      "id": "db876e3b-48da-41f4-bb4b-b3b4b21149b5",
+      "difficulty": 5,
+      "question": "What is 'Microservices Architecture'?"
+    },
+    {
+      "id": "6150a3ca-cf35-4a71-bb8b-95b832658264",
+      "difficulty": 5,
+      "question": "What distinguishes 'quantum entanglement' from classical physical phenomena?"
+    },
+    {
+      "id": "ee85c51d-2e35-4d3a-b145-8b267e1fda6a",
+      "difficulty": 5,
+      "question": "What are 'Zettabytes', and in what context are they used?"
+    },
+    {
+      "id": "9cfc903a-6656-480f-8cf0-f2641d26cbb8",
+      "difficulty": 5,
+      "question": "Explain 'end-to-end encryption'."
+    },
+    {
+      "id": "5fd6222a-9d49-4903-8af3-7ac5d9a151f7",
+      "difficulty": 5,
+      "question": "What is 'Deep Learning', and how does it differ from traditional machine learning?"
+    },
+    {
+      "id": "115445c7-367b-4804-aae4-f79301796a7c",
+      "difficulty": 5,
+      "question": "What is 'Blockchain Consensus Algorithms'?"
+    },
+    {
+      "id": "7ed45918-193c-4d04-9f67-97efe3ca6ce3",
+      "difficulty": 5,
+      "question": "Explain the concept of 'Zero Trust' in cybersecurity?"
+    },
+    {
+      "id": "a92cf58f-1f1c-43ca-bff0-eb21bac99292",
+      "difficulty": 5,
+      "question": "What is 'Federated Learning' in AI?"
+    },
+    {
+      "id": "4a203ae4-8e89-411a-a596-3b6546ab7385",
+      "difficulty": 5,
+      "question": "What does 'Edge Computing' optimize compared to traditional cloud computing?"
+    },
+    {
+      "id": "717ec305-24cb-4dfc-b938-7689c4cb5699",
+      "difficulty": 5,
+      "question": "Explain 'Reinforcement Learning' in the context of AI."
+    },
+    {
+      "id": "d9b7a0b7-1199-453d-aaaa-6c025f4411f1",
+      "difficulty": 5,
+      "question": "What are 'Directed Acyclic Graphs (DAGs)' and their significance in new-generation blockchain technologies?"
+    },
+    {
+      "id": "8df08c55-dbeb-4379-aebe-ec84cb0cd5aa",
+      "difficulty": 5,
+      "question": "What is the significance of 'Quantum Supremacy'?"
+    },
+    {
+      "id": "b4558f81-d5a2-4189-aa9f-d2f2be97882e",
+      "difficulty": 5,
+      "question": "Describe 'Homomorphic Encryption'."
+    },
+    {
+      "id": "c921904f-7282-406b-b6aa-744d6466d87b",
+      "difficulty": 5,
+      "question": "Explain 'Generative Adversarial Networks (GANs)'."
+    },
+    {
+      "id": "1653c7d1-a6b1-4738-b231-0b9d85506fce",
+      "difficulty": 5,
+      "question": "What challenges does 'IoT Security' present?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "Managing connected peripherals",
+        "Hosting websites",
+        "Executing instructions from programs",
+        "Storing data permanently"
+      ],
+      "answer": 2,
+      "question_id": "53f9fead-b795-4fd9-a798-1221bc8aea29"
+    },
+    {
+      "choices": [
+        "Ruby",
+        "C",
+        "Python",
+        "JavaScript"
+      ],
+      "answer": 1,
+      "question_id": "07cbd164-34ef-4572-8325-64f12ab5bd06"
+    },
+    {
+      "choices": [
+        "Random Access Memory",
+        "Readily Allocated Machine",
+        "Rapid Action Memory",
+        "Reserved Algorithm Mechanism"
+      ],
+      "answer": 0,
+      "question_id": "7966cec6-a7ba-4445-ae11-57dc5a1a497c"
+    },
+    {
+      "choices": [
+        "Solid State Drive (SSD)",
+        "Magnetic Tape",
+        "Hard Disk Drive (HDD)",
+        "Flash Drive"
+      ],
+      "answer": 2,
+      "question_id": "f471487a-5886-4fdf-b1a8-571df5c24057"
+    },
+    {
+      "choices": [
+        "Freeware",
+        "Antivirus",
+        "Malware",
+        "Utility software"
+      ],
+      "answer": 2,
+      "question_id": "35ba1045-d215-42d9-adeb-736c7758fe6f"
+    },
+    {
+      "choices": [
+        "High-Transfer Protocol Technology",
+        "HyperText Transfer Protocol",
+        "Hyperlink Tracking Protocol",
+        "High-Tech Transmission Protocol"
+      ],
+      "answer": 1,
+      "question_id": "870f07b5-1216-48ab-a37a-8ff01092f288"
+    },
+    {
+      "choices": [
+        "00000101",
+        "00101010",
+        "00000100",
+        "10101010"
+      ],
+      "answer": 0,
+      "question_id": "b250eec5-6eaa-4250-91c8-d74c55dd0aa8"
+    },
+    {
+      "choices": [
+        "Procedural Programming",
+        "Functional Programming",
+        "Object-Oriented Programming",
+        "Logic Programming"
+      ],
+      "answer": 2,
+      "question_id": "adf6cb93-44dd-4255-b37a-0968f0610b46"
+    },
+    {
+      "choices": [
+        "Guided User Interface",
+        "Graphical User Interface",
+        "General Unified Interface",
+        "Generic User Input"
+      ],
+      "answer": 1,
+      "question_id": "8476ecda-06db-4772-8d8e-2f4d4136b030"
+    },
+    {
+      "choices": [
+        "Windows 10",
+        "iOS",
+        "Ubuntu",
+        "MacOS"
+      ],
+      "answer": 2,
+      "question_id": "0f51f6c9-7611-49c8-a06e-99ba74f64ee5"
+    },
+    {
+      "choices": [
+        "To provide security against malware",
+        "To act as an interface between the user and the computer",
+        "To direct traffic between different networks",
+        "To enhance the graphics of computer games"
+      ],
+      "answer": 2,
+      "question_id": "4ba2bdee-d5ae-4041-a95d-76d07935bd57"
+    },
+    {
+      "choices": [
+        "Byte",
+        "Bit",
+        "Binary",
+        "Baud"
+      ],
+      "answer": 1,
+      "question_id": "376b03b7-7325-46d7-a4e3-7bee12ce9113"
+    },
+    {
+      "choices": [
+        "Algorithm",
+        "Compiler",
+        "Interpreter",
+        "Protocol"
+      ],
+      "answer": 0,
+      "question_id": "b3d9e506-d32d-4b86-9080-ac73dea45011"
+    },
+    {
+      "choices": [
+        "A machine-readable instruction set for executing a task",
+        "A high-level policy document for system administration",
+        "A collection of computer instructions and definitions written in a programming language",
+        "The binary code that specifies how a program will run on a computer"
+      ],
+      "answer": 2,
+      "question_id": "0f260f72-ec0f-43c3-95d1-2e6b58595081"
+    },
+    {
+      "choices": [
+        "Spreadsheet software",
+        "Word processor",
+        "Web browser",
+        "Database management system"
+      ],
+      "answer": 2,
+      "question_id": "15cab45e-a22a-401c-b72e-3fd7bc08e2a0"
+    },
+    {
+      "choices": [
+        "Intelligent Processing",
+        "Internet Protocol",
+        "Internal Pathway",
+        "Input Processor"
+      ],
+      "answer": 1,
+      "question_id": "baf05a14-8478-458a-b8a7-deea8cd31ca3"
+    },
+    {
+      "choices": [
+        "Solid State Drive (SSD)",
+        "Central Processing Unit (CPU)",
+        "Graphics Processing Unit (GPU)",
+        "Random Access Memory (RAM)"
+      ],
+      "answer": 2,
+      "question_id": "32d90b54-df29-49f4-bd51-a0efc7ad53d5"
+    },
+    {
+      "choices": [
+        "To provide a graphical interface for users",
+        "To manage computer hardware and software resources",
+        "To enhance the computer's gaming performance",
+        "To connect computers over a network"
+      ],
+      "answer": 1,
+      "question_id": "af1367d3-6076-49f5-829c-57696e56b798"
+    },
+    {
+      "choices": [
+        "Queue",
+        "Linked List",
+        "Stack",
+        "Array"
+      ],
+      "answer": 2,
+      "question_id": "cd32317e-5c8b-4d73-9ccf-839d7eca255d"
+    },
+    {
+      "choices": [
+        "Basic Input/Output Source",
+        "Binary Integrated Operating System",
+        "Basic Integrated Overdrive System",
+        "Basic Input/Output System"
+      ],
+      "answer": 3,
+      "question_id": "7db2f7c6-8365-497e-add5-6d78748073e2"
+    },
+    {
+      "choices": [
+        "O(n log n)",
+        "O(n^2)",
+        "O(n)",
+        "O(log n)"
+      ],
+      "answer": 0,
+      "question_id": "cd16c73f-4c1c-4596-8a5c-036fcf4878b2"
+    },
+    {
+      "choices": [
+        "Function",
+        "Procedure",
+        "Method",
+        "Segment"
+      ],
+      "answer": 2,
+      "question_id": "77f6b4af-183c-4a44-b971-77b153683fa3"
+    },
+    {
+      "choices": [
+        "Binary Tree",
+        "Stack",
+        "Queue",
+        "Linked List"
+      ],
+      "answer": 2,
+      "question_id": "43f23d07-4532-4817-bfb1-9aec59bf7c29"
+    },
+    {
+      "choices": [
+        "Compilation",
+        "Debugging",
+        "Encryption",
+        "Version control"
+      ],
+      "answer": 1,
+      "question_id": "bfdc13fd-f191-4761-a640-0b63cbb92f76"
+    },
+    {
+      "choices": [
+        "Bubble Sort",
+        "Merge Sort",
+        "Quick Sort",
+        "Insertion Sort"
+      ],
+      "answer": 1,
+      "question_id": "3d860375-968a-442b-8cdc-58764cf4a340"
+    },
+    {
+      "choices": [
+        "Enhancing software performance by integrating local servers",
+        "Adapting software to meet local taxation laws",
+        "Translating software interfaces and adapting them to the cultural norms of specific regions",
+        "Restricting software usage to local networks for security reasons"
+      ],
+      "answer": 2,
+      "question_id": "00a8f96f-dcf7-4fad-80cf-a6733287bb03"
+    },
+    {
+      "choices": [
+        "A column that uniquely identifies each row in a table",
+        "The most important key in a database",
+        "A key used to encrypt database information",
+        "A key that opens physical databases"
+      ],
+      "answer": 0,
+      "question_id": "ee185987-17b8-48e0-91e5-bf9f72157bae"
+    },
+    {
+      "choices": [
+        "Do Repeat Yourself",
+        "Directly Reuse Your code",
+        "Don't Repeat Yourself",
+        "Duplicate and Recycle Yesterday's work"
+      ],
+      "answer": 2,
+      "question_id": "fef4ef54-1dd4-446a-8f82-6faaa5bab1d3"
+    },
+    {
+      "choices": [
+        "Phishing",
+        "Infringement",
+        "Piracy",
+        "Spoofing"
+      ],
+      "answer": 2,
+      "question_id": "56bdef3c-565b-49d3-86b2-da5fde928f5c"
+    },
+    {
+      "choices": [
+        "A system of software version control",
+        "A plan-driven software development process",
+        "A set of practices for early delivery and evolutionary development",
+        "A documentation-heavy project management framework"
+      ],
+      "answer": 2,
+      "question_id": "43c209d5-ce08-4792-a8bb-194fe7b4d961"
+    },
+    {
+      "choices": [
+        "Technical Control Protocol/Internet Protocol",
+        "Transmission Control Protocol/Internet Protocol",
+        "Transfer Cipher Protocol/International Protocol",
+        "Telecommunication Computer Protocol/Intranet Protocol"
+      ],
+      "answer": 1,
+      "question_id": "9f68d04c-e24a-4fb7-97bc-f42f5c8755a2"
+    },
+    {
+      "choices": [
+        "Waterfall Model",
+        "Big Bang Model",
+        "Agile Methodology",
+        "Spiral Model"
+      ],
+      "answer": 2,
+      "question_id": "29e2df2f-fb7d-4a5c-bc87-2155fafb8000"
+    },
+    {
+      "choices": [
+        "A continuous stream of data processed by the CPU",
+        "A storage area for frequently used data to speed up processing",
+        "A section of the hard drive that is set up to emulate computer RAM",
+        "A type of non-volatile memory used for temporary data storage in smartphones"
+      ],
+      "answer": 2,
+      "question_id": "15661d9e-0893-466a-848c-731d9ab39915"
+    },
+    {
+      "choices": [
+        "Queue",
+        "Array",
+        "Stack",
+        "Linked List"
+      ],
+      "answer": 2,
+      "question_id": "211cff50-79ab-4c09-8aec-aa06e2d12ccd"
+    },
+    {
+      "choices": [
+        "The ability of different classes to respond differently to the same message",
+        "A programming paradigm based on the concept of 'objects'",
+        "A feature that allows a function to have more than one form",
+        "The process of wrapping data and code together into a single unit"
+      ],
+      "answer": 0,
+      "question_id": "3021865a-f287-4cc7-bade-b30175e52443"
+    },
+    {
+      "choices": [
+        "Model View Controller",
+        "Multiple View Configurator",
+        "Model Vector Constructor",
+        "Memory Vector Control"
+      ],
+      "answer": 0,
+      "question_id": "b4d59acd-5c0d-452d-951d-f07f1fd5973e"
+    },
+    {
+      "choices": [
+        "To increase the network speed",
+        "To filter outgoing emails",
+        "To monitor WiFi usage",
+        "To control network traffic based on predefined security rules"
+      ],
+      "answer": 3,
+      "question_id": "b6389911-7c32-4d0a-b8ce-75660b4c4c77"
+    },
+    {
+      "choices": [
+        "System Engine Optimization",
+        "Search Engine Optimization",
+        "Secure Encryption Operation",
+        "Software Engineering Orientation"
+      ],
+      "answer": 1,
+      "question_id": "f75d06ec-c08c-47a1-b5d2-15209e6e148b"
+    },
+    {
+      "choices": [
+        "DRAM",
+        "SRAM",
+        "NAND Flash",
+        "SDRAM"
+      ],
+      "answer": 2,
+      "question_id": "eb18d9e0-ea80-4f6d-829a-e67a658672fd"
+    },
+    {
+      "choices": [
+        "A software development methodology",
+        "A type of symmetric encryption algorithm",
+        "A compression technique for large files",
+        "A cryptographic system that uses a pair of keys"
+      ],
+      "answer": 3,
+      "question_id": "06923e8c-3115-4a9d-a1ef-16607f1e7ada"
+    },
+    {
+      "choices": [
+        "Polymorphism",
+        "Divide and Conquer",
+        "Encapsulation",
+        "Dynamic Programming"
+      ],
+      "answer": 1,
+      "question_id": "c001f5a7-a0a4-417d-8bf3-01467b2094df"
+    },
+    {
+      "choices": [
+        "Asynchronous JavaScript And XML",
+        "Automatic Java Application Xtension",
+        "Advanced JavaScript Application Xcode",
+        "Asynchronous Java And XHTML"
+      ],
+      "answer": 0,
+      "question_id": "06b1ac86-3a5f-44e0-94b9-7f530ef409ba"
+    },
+    {
+      "choices": [
+        "Increasing the screen brightness for clearer images",
+        "Enhancing the network speed for faster image processing",
+        "Smoothing out the edges of pixels to reduce the jagged appearance",
+        "Doubling the frame rate for smoother animation"
+      ],
+      "answer": 2,
+      "question_id": "beda253d-3b28-45c8-b2e9-60f106e871f3"
+    },
+    {
+      "choices": [
+        "Shortest Job First (SJF)",
+        "Least Time to Go",
+        "Round-Robin (RR)",
+        "Priority Scheduling"
+      ],
+      "answer": 2,
+      "question_id": "90e799ab-0818-40d4-a604-ca6f077db846"
+    },
+    {
+      "choices": [
+        "It ensures that any network protocol can provide consistency, availability, and partition tolerance simultaneously.",
+        "It establishes the maximum computational power achievable with quantum computing.",
+        "It outlines that distributed systems can only provide two out of three guarantees: consistency, availability, and partition tolerance.",
+        "It defines the optimal algorithm for sorting data in a distributed database."
+      ],
+      "answer": 2,
+      "question_id": "29e3abe4-55a6-4175-8d5f-06fef439a7f2"
+    },
+    {
+      "choices": [
+        "Polymorphism",
+        "Encapsulation",
+        "Recursion",
+        "Inheritance"
+      ],
+      "answer": 2,
+      "question_id": "8516d192-a132-49ce-9a1a-7cd5a681f5ef"
+    },
+    {
+      "choices": [
+        "A temporary pause of processes due to system updates",
+        "A condition where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process",
+        "An error in programming causing the system to crash unexpectedly",
+        "A security breach in the system allowing unauthorized access"
+      ],
+      "answer": 1,
+      "question_id": "8a608931-e8f4-4330-acd2-c92ec3498e39"
+    },
+    {
+      "choices": [
+        "Proprietary Software",
+        "Freemium",
+        "Open Source",
+        "Shareware"
+      ],
+      "answer": 2,
+      "question_id": "198e7951-f04a-4493-b593-66cfacfeb0a9"
+    },
+    {
+      "choices": [
+        "To convert a string of characters into a fixed-size value or key that represents the original string",
+        "To increase the speed of data retrieval from a database",
+        "To encrypt and decrypt secure messages",
+        "To directly access elements in a data array"
+      ],
+      "answer": 0,
+      "question_id": "08073a41-406f-4081-900b-95043522a4e6"
+    },
+    {
+      "choices": [
+        "Data corruption due to incorrect input validation",
+        "Unrestricted file access",
+        "The ability to execute arbitrary code on a system",
+        "Leaking of user credentials"
+      ],
+      "answer": 2,
+      "question_id": "01131216-ee7d-4086-aa29-33cceaa5d482"
+    },
+    {
+      "choices": [
+        "Rapid Elastic Search Transfer",
+        "Representational State Transfer",
+        "Realtime Echo Server Test",
+        "Runtime Environment System Task"
+      ],
+      "answer": 1,
+      "question_id": "445482d9-e0b8-4294-b129-43d9eabe5fdb"
+    },
+    {
+      "choices": [
+        "Polymorphism",
+        "Data Hiding",
+        "Abstraction",
+        "Encapsulation"
+      ],
+      "answer": 2,
+      "question_id": "fef84d60-9a3a-41a4-85bb-6cdca24dbdfc"
+    },
+    {
+      "choices": [
+        "The maximum potential size of a database",
+        "The encryption strength of a cryptographic algorithm",
+        "The time complexity of an algorithm",
+        "The physical size of data storage units"
+      ],
+      "answer": 2,
+      "question_id": "9c9dbd3e-e67a-44e7-8de6-bf0650cb4d05"
+    },
+    {
+      "choices": [
+        "Expanding the functionality of software without modifying its external behavior",
+        "The process of improving software code without changing its external behavior",
+        "The practice of renaming variables for better readability",
+        "Converting software code from one programming language to another"
+      ],
+      "answer": 1,
+      "question_id": "67b95bdf-0e19-4c91-9fd6-464640d7ccac"
+    },
+    {
+      "choices": [
+        "Data Link Layer",
+        "Network Layer",
+        "Transport Layer",
+        "Presentation Layer"
+      ],
+      "answer": 1,
+      "question_id": "2f83bb59-3be8-473c-b3d3-07f082ee9aa1"
+    },
+    {
+      "choices": [
+        "Five design patterns for system development",
+        "A set of five principles intended to make software designs more understandable, flexible, and maintainable",
+        "A software testing methodology",
+        "The types of data storage in computing"
+      ],
+      "answer": 1,
+      "question_id": "a3a98880-e363-4da8-a5ac-c66f819a32bf"
+    },
+    {
+      "choices": [
+        "To reduce a program's execution time",
+        "To delete unused variables from memory",
+        "To increase the security of a program",
+        "To enhance the programming language syntax"
+      ],
+      "answer": 1,
+      "question_id": "c1b608fb-8793-48eb-bc6e-2aa58b759273"
+    },
+    {
+      "choices": [
+        "Abstraction",
+        "Modularity",
+        "Scalability",
+        "Polymorphism"
+      ],
+      "answer": 2,
+      "question_id": "7ac92b16-e008-4706-9f37-3b51bfed9140"
+    },
+    {
+      "choices": [
+        "Symmetric encryption uses a single key for encryption and decryption, while asymmetric encryption uses a public key for encryption and a private key for decryption.",
+        "Asymmetric encryption is faster than symmetric encryption.",
+        "Symmetric encryption uses a public key for encryption and a private key for decryption.",
+        "There is no difference; they are terms for the same encryption process."
+      ],
+      "answer": 0,
+      "question_id": "4d5c190f-0ccb-4490-9c70-9cb66c062244"
+    },
+    {
+      "choices": [
+        "The reduction of features in a product during its development due to budget constraints",
+        "The gradual improvement of product features based on user feedback",
+        "The uncontrolled addition of features to a product, often leading to project delays and budget overruns",
+        "The process of removing outdated features from a product before its release"
+      ],
+      "answer": 2,
+      "question_id": "a85c301b-895b-429a-afd8-d064ebebde81"
+    },
+    {
+      "choices": [
+        "The procedure for encoding and decoding information",
+        "The relationship between the class of problems solved by polynomial time algorithms and the class of decision problems where the solution can be verified in polynomial time",
+        "The best method for sorting a list of integers",
+        "The algorithm for efficiently finding prime numbers"
+      ],
+      "answer": 1,
+      "question_id": "675fc87f-dcc3-4da3-a476-3804ee13d1b0"
+    },
+    {
+      "choices": [
+        "When a model is too simple, leading to underperformance on both training and test sets",
+        "A graphical representation of all possible states of a system",
+        "The loss of data due to too much compression",
+        "When a model learns the detail and noise in the training data to the extent that it negatively impacts the performance of the model on new data"
+      ],
+      "answer": 3,
+      "question_id": "d871a805-8115-4001-bdeb-d48919285f4c"
+    },
+    {
+      "choices": [
+        "Merge Sort",
+        "Binary Search",
+        "Dijkstra's Algorithm",
+        "Quick Sort"
+      ],
+      "answer": 2,
+      "question_id": "1158e8ff-e7b7-48a9-9163-e369be807ee9"
+    },
+    {
+      "choices": [
+        "Quantum computing is primarily based on the principles of quantum mechanics.",
+        "Quantum computing is primarily based on enhanced silicon chip technology.",
+        "Quantum computing is primarily based on binary digit systems only.",
+        "Quantum computing is primarily based on classical Newtonian physics."
+      ],
+      "answer": 0,
+      "question_id": "2a677cd0-838d-4fb5-8f0d-449de2eb4c32"
+    },
+    {
+      "choices": [
+        "Continuous Inclusion/Continuous Deployment",
+        "Continuous Integration/Continuous Deployment",
+        "Compiled Input/Compiled Delivery",
+        "Constant Integration/Constant Delivery"
+      ],
+      "answer": 1,
+      "question_id": "bb0d59c5-e1f1-4f72-8a55-baf9d8c2ef5e"
+    },
+    {
+      "choices": [
+        "A programming paradigm based on classes and objects",
+        "A type of algorithm for sorting data in databases",
+        "A computing system designed to simulate the way the human brain analyzes and processes information",
+        "A security protocol used in wireless networks"
+      ],
+      "answer": 2,
+      "question_id": "1466a75a-78c0-445d-b9de-b6680dba1bb8"
+    },
+    {
+      "choices": [
+        "Customer Relations Management",
+        "Security practices and tools",
+        "Direct marketing strategies",
+        "Financial accounting procedures"
+      ],
+      "answer": 1,
+      "question_id": "c591733c-794b-49bb-99b8-265067e8f880"
+    },
+    {
+      "choices": [
+        "A type of cryptocurrency",
+        "A digital agreement with self-executing code",
+        "A secure method for password encryption",
+        "An algorithm for mining new coins"
+      ],
+      "answer": 1,
+      "question_id": "546dcbec-8d1d-41a1-aa56-139258d54d40"
+    },
+    {
+      "choices": [
+        "Real-time data analysis",
+        "Container orchestration",
+        "Machine learning model training",
+        "Encrypting data"
+      ],
+      "answer": 1,
+      "question_id": "cf7f6931-20db-450d-85dd-c671bc30c5fd"
+    },
+    {
+      "choices": [
+        "Object-oriented programming",
+        "Procedural programming",
+        "Functional programming",
+        "Logic programming"
+      ],
+      "answer": 2,
+      "question_id": "87a64332-8eb5-4788-8277-7ff94cab0d60"
+    },
+    {
+      "choices": [
+        "Atomicity, Consistency, Isolation, Durability",
+        "Agility, Clarity, Integrity, Density",
+        "Accuracy, Confidentiality, Integrity, Dedication",
+        "Authentication, Consistency, Isolation, Distribution"
+      ],
+      "answer": 0,
+      "question_id": "b622874e-3d43-4bc7-87cf-00fd09b9f850"
+    },
+    {
+      "choices": [
+        "A data serialization format",
+        "A protocol for wireless network security",
+        "An authorization framework",
+        "A routing algorithm for networks"
+      ],
+      "answer": 2,
+      "question_id": "b1bb785b-b2a3-4006-bb00-d8db5ff0c0ce"
+    },
+    {
+      "choices": [
+        "A computing model that requires physical servers to be managed by the user",
+        "A service provided by cloud platforms that runs code in response to events without requiring the user to manage a server",
+        "A new technology that eliminates the need for computers",
+        "A type of computing where servers are hidden from users, but still need to be managed manually"
+      ],
+      "answer": 1,
+      "question_id": "9d7fd956-b1e2-4112-afee-b84be6f26e09"
+    },
+    {
+      "choices": [
+        "International online Template",
+        "Inside our Tech",
+        "Internet of Things",
+        "Innovation of Technology"
+      ],
+      "answer": 2,
+      "question_id": "e4fb0173-c400-4a12-9dd4-99b2c6ec80ce"
+    },
+    {
+      "choices": [
+        "Time-Driven Development",
+        "Test-Driven Development",
+        "Task-Driven Development",
+        "Technology-Driven Development"
+      ],
+      "answer": 1,
+      "question_id": "b9f2b1bc-afb7-4095-8009-ccf03cde181b"
+    },
+    {
+      "choices": [
+        "Artificial Neural Networks",
+        "Blockchain",
+        "Quantum Computing",
+        "Virtual Reality"
+      ],
+      "answer": 1,
+      "question_id": "17875eb5-5db1-41b8-963c-e92703c918f1"
+    },
+    {
+      "choices": [
+        "Improving computer graphics",
+        "Designing electronic circuits",
+        "Understanding and interpreting human language",
+        "Enhancing computational speed"
+      ],
+      "answer": 2,
+      "question_id": "177a3a12-e04f-4230-875c-5ca78a503955"
+    },
+    {
+      "choices": [
+        "Project documentation",
+        "Version control",
+        "Website deployment",
+        "Database design"
+      ],
+      "answer": 1,
+      "question_id": "123c3aff-9bad-4ea1-b3bb-3a7d5996bd5b"
+    },
+    {
+      "choices": [
+        "A sequential design process",
+        "A type of software",
+        "A framework for managing software projects",
+        "A data storage technique"
+      ],
+      "answer": 2,
+      "question_id": "ef7377f5-a88e-43c5-911e-80e5fcaeabfd"
+    },
+    {
+      "choices": [
+        "The process of implementing SSL certificates for secure communication.",
+        "The act of compressing software to reduce its size.",
+        "The process of encapsulating an application and its dependencies into a container that can run on any computing environment.",
+        "The technique of converting high-level programming code into machine language."
+      ],
+      "answer": 2,
+      "question_id": "9bca2bd6-db15-40fc-abc7-2579cf37307b"
+    },
+    {
+      "choices": [
+        "A protocol for encrypting data over the Internet",
+        "A problem of determining if a program will complete execution or continue to run indefinitely",
+        "The issue of detecting syntax errors in source code before compilation",
+        "A method for efficiently sorting numerical data"
+      ],
+      "answer": 1,
+      "question_id": "492facd7-2a61-4036-beab-e682743b981b"
+    },
+    {
+      "choices": [
+        "Finite Automaton",
+        "Pushdown Automaton",
+        "Universal Turing Machine",
+        "Von Neumann Architecture"
+      ],
+      "answer": 2,
+      "question_id": "db87b351-8995-44d2-8d7c-b49fb275e5bc"
+    },
+    {
+      "choices": [
+        "A consensus protocol for distributed systems",
+        "A database query optimization algorithm",
+        "A machine learning model for classification",
+        "A compression algorithm for large data sets"
+      ],
+      "answer": 0,
+      "question_id": "cfdb212e-5cfb-4d12-afa8-d4eab872280d"
+    },
+    {
+      "choices": [
+        "General Programming Units - because of their ability to handle multiple tasks simultaneously",
+        "Graphical Processing Units - because of their efficient parallel processing capabilities",
+        "Gigabit Processing Units - because of their high-speed computation power",
+        "Geometry Processing Units - because they are optimized for geometric calculations"
+      ],
+      "answer": 1,
+      "question_id": "56c48727-8e20-44dc-9e2e-1a6d929fa335"
+    },
+    {
+      "choices": [
+        "Merging multiple databases into a single database to improve performance",
+        "Encrypting database entries for increased security",
+        "Partitioning a database into smaller, more manageable pieces, distributed across several machines",
+        "Replicating the database across multiple servers for backup purposes"
+      ],
+      "answer": 2,
+      "question_id": "16d2d586-a8da-42ed-9d01-afe7276caa5f"
+    },
+    {
+      "choices": [
+        "A distributed system architecture where all processes run on a single server",
+        "A single monolithic application that handles all aspects of a system",
+        "A design approach to build a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms",
+        "A computing architecture that focuses exclusively on microprocessors"
+      ],
+      "answer": 2,
+      "question_id": "db876e3b-48da-41f4-bb4b-b3b4b21149b5"
+    },
+    {
+      "choices": [
+        "It describes the phenomenon where two particles interact in a way that the state of one cannot be described without the state of the other, no matter the distance between them.",
+        "It refers to the classical magnetic attraction between two bodies in space.",
+        "It is the process by which quantum computers simulate classical physical systems.",
+        "It is a theory that explains gravity as a quantum phenomenon."
+      ],
+      "answer": 0,
+      "question_id": "6150a3ca-cf35-4a71-bb8b-95b832658264"
+    },
+    {
+      "choices": [
+        "A unit of speed used in quantum computing",
+        "A security protocol for internet communications",
+        "A machine learning model architecture",
+        "A unit of digital information storage"
+      ],
+      "answer": 3,
+      "question_id": "ee85c51d-2e35-4d3a-b145-8b267e1fda6a"
+    },
+    {
+      "choices": [
+        "A method of secure communication that prevents third-parties from accessing data while it's transferred from one end system or device to another.",
+        "A form of encryption where only the communicating users can decrypt the messages.",
+        "Encrypting data only when it is stored at the endpoints, not while in transit.",
+        "A networking protocol that ensures data integrity, but not privacy or security."
+      ],
+      "answer": 0,
+      "question_id": "9cfc903a-6656-480f-8cf0-f2641d26cbb8"
+    },
+    {
+      "choices": [
+        "A technique for waterproofing computers",
+        "Using deep underground facilities to run machine learning models",
+        "A subset of machine learning that uses neural networks with three or more layers",
+        "A method for teaching computers to learn by using extremely large datasets"
+      ],
+      "answer": 2,
+      "question_id": "5fd6222a-9d49-4903-8af3-7ac5d9a151f7"
+    },
+    {
+      "choices": [
+        "A set of rules for updating blockchain state changes",
+        "Methods to encrypt data stored on the blockchain",
+        "Algorithms designed to reach agreement on a single data value among distributed processes or systems",
+        "Programming languages used to develop smart contracts on the blockchain"
+      ],
+      "answer": 2,
+      "question_id": "115445c7-367b-4804-aae4-f79301796a7c"
+    },
+    {
+      "choices": [
+        "A security model that relies entirely on antivirus software and firewalls for protection",
+        "A framework that requires all users, whether in or outside the organization's network, to be authenticated, authorized, and continuously validating security configuration and posture, before being granted or keeping access to applications and data",
+        "An approach that emphasizes the physical security of servers and network equipment over software and protocol security",
+        "A strategy that involves using a single, strong password across all systems and platforms for simplicity and ease of remembering"
+      ],
+      "answer": 1,
+      "question_id": "7ed45918-193c-4d04-9f67-97efe3ca6ce3"
+    },
+    {
+      "choices": [
+        "A system where AI algorithms make decisions based solely on data located on a central server",
+        "A deep learning framework specifically for text and voice data processing",
+        "A collaborative machine learning approach without centralizing data, allowing models to be trained across multiple devices or servers",
+        "An algorithm that increases the efficiency of data transfer in neural networks by reducing the size of the data packets"
+      ],
+      "answer": 2,
+      "question_id": "a92cf58f-1f1c-43ca-bff0-eb21bac99292"
+    },
+    {
+      "choices": [
+        "Central data processing",
+        "Data storage costs",
+        "Speed of data processing by bringing computation closer to data sources",
+        "Scalability of centralized computing resources"
+      ],
+      "answer": 2,
+      "question_id": "4a203ae4-8e89-411a-a596-3b6546ab7385"
+    },
+    {
+      "choices": [
+        "A learning paradigm concerned with algorithms that learn from actions and consequences to achieve a goal",
+        "The process of cleaning and organizing large datasets for efficient analysis",
+        "A subset of machine learning where the algorithm is trained on labelled data",
+        "The study of social behaviors and structures within computer networks"
+      ],
+      "answer": 0,
+      "question_id": "717ec305-24cb-4dfc-b938-7689c4cb5699"
+    },
+    {
+      "choices": [
+        "A programming model for processing parallel data",
+        "A linear data structure that uses a sequence of nodes",
+        "Graphs where connections between nodes have no direction",
+        "Structures that prevent any possibility of forming cycles, creating a forward-only path in data arrangement, particularly useful in blockchain for maintaining transaction records without conflicts"
+      ],
+      "answer": 3,
+      "question_id": "d9b7a0b7-1199-453d-aaaa-6c025f4411f1"
+    },
+    {
+      "choices": [
+        "The creation of the first supercomputer.",
+        "The use of quantum computing to solve problems that classical computers practically cannot solve.",
+        "The development of the internet.",
+        "A theory in computer science that quantifies the supremacy of quantum algorithms over classical ones."
+      ],
+      "answer": 1,
+      "question_id": "8df08c55-dbeb-4379-aebe-ec84cb0cd5aa"
+    },
+    {
+      "choices": [
+        "A method of data compression that reduces file size without losing any information",
+        "A technique that allows for operations on ciphertexts that generate an encrypted result matching the result of operations performed on plaintext",
+        "A process of converting assembly language into machine executable code",
+        "A protocol for secure communication over a computer network"
+      ],
+      "answer": 1,
+      "question_id": "b4558f81-d5a2-4189-aa9f-d2f2be97882e"
+    },
+    {
+      "choices": [
+        "Algorithms that optimize search queries for large databases",
+        "Networks that enhance the security of data transmission",
+        "Deep learning-based approaches for generating new data that resembles the training data",
+        "Models designed to improve the speed of computer processors"
+      ],
+      "answer": 2,
+      "question_id": "c921904f-7282-406b-b6aa-744d6466d87b"
+    },
+    {
+      "choices": [
+        "Simplified data processing",
+        "Limited device interoperability",
+        "Increased energy consumption in IoT devices",
+        "Diverse security vulnerabilities due to the vast number of devices"
+      ],
+      "answer": 3,
+      "question_id": "1653c7d1-a6b1-4738-b231-0b9d85506fce"
+    }
+  ]
+}

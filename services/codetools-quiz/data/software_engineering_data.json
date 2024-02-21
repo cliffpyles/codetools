@@ -1,0 +1,1492 @@
+{
+  "topic": "Software Engineering",
+  "questions": [
+    {
+      "id": "2dffb041-1c44-4b31-90ba-bb89da16f46f",
+      "difficulty": 1,
+      "question": "What does AI stand for?"
+    },
+    {
+      "id": "f6bc19f6-905e-4c5b-9d5d-3dbd8a1937d6",
+      "difficulty": 1,
+      "question": "Which language is predominantly used for web development?"
+    },
+    {
+      "id": "2a017b88-1d59-4742-9080-c2fb5ff6e8e2",
+      "difficulty": 1,
+      "question": "What is the primary purpose of a compiler?"
+    },
+    {
+      "id": "f1d49b4e-cfdc-4aa9-9666-ab5528fc1fff",
+      "difficulty": 1,
+      "question": "What does HTML stand for?"
+    },
+    {
+      "id": "9500c9a6-b722-48e5-9472-47f6c9f47f09",
+      "difficulty": 1,
+      "question": "What is GitHub used for?"
+    },
+    {
+      "id": "9016e107-c77e-43de-8f4d-3ea19bf3b423",
+      "difficulty": 1,
+      "question": "What is the difference between == and === in JavaScript?"
+    },
+    {
+      "id": "b0996b43-d115-4bb8-a71c-c0989909f711",
+      "difficulty": 1,
+      "question": "What does CSS stand for?"
+    },
+    {
+      "id": "045aeddf-7439-4127-a4dd-82904917bb6c",
+      "difficulty": 1,
+      "question": "Which protocol is used to send emails?"
+    },
+    {
+      "id": "f028a277-3229-4039-8923-b10fca1cf13f",
+      "difficulty": 1,
+      "question": "What is the primary function of DNS on the internet?"
+    },
+    {
+      "id": "a4805586-3294-4bb0-a270-de272635cf85",
+      "difficulty": 1,
+      "question": "What does API stand for?"
+    },
+    {
+      "id": "fadeffda-f467-4091-8402-fbb72f919e9b",
+      "difficulty": 1,
+      "question": "Name a popular version control system."
+    },
+    {
+      "id": "2cfdfe27-5d75-4d5b-80fc-026a56677635",
+      "difficulty": 1,
+      "question": "What is the main purpose of an operating system?"
+    },
+    {
+      "id": "189ae08f-de44-4eca-97b7-196140d580d8",
+      "difficulty": 1,
+      "question": "What is a programming paradigm focused on using functions?"
+    },
+    {
+      "id": "5fca15e1-b03b-4960-ba68-a471ec13dd70",
+      "difficulty": 1,
+      "question": "What is the term for making a system work on multiple types of devices or with various software?"
+    },
+    {
+      "id": "42a2e4f3-fea9-4662-bda0-4e7cce4ae9c7",
+      "difficulty": 1,
+      "question": "What file format is commonly used to structure and store data over the internet?"
+    },
+    {
+      "id": "0eed2c80-382a-4057-a2f5-aa0a9aa52aa0",
+      "difficulty": 1,
+      "question": "What does SQL stand for?"
+    },
+    {
+      "id": "c7ca0361-df6c-465f-b89f-2e707598c25a",
+      "difficulty": 1,
+      "question": "What is the purpose of a firewall?"
+    },
+    {
+      "id": "6da95830-01ac-4b73-b9c9-98df003b9555",
+      "difficulty": 1,
+      "question": "Which programming language is known for its use in data science?"
+    },
+    {
+      "id": "565cb7c5-6441-4862-80c0-1275a1b06dec",
+      "difficulty": 1,
+      "question": "What is a common tool for virtualization?"
+    },
+    {
+      "id": "7bdffb9c-d899-4d85-a5a4-c345214303d2",
+      "difficulty": 1,
+      "question": "What is the term for fixing bugs or errors in software?"
+    },
+    {
+      "id": "5860497f-53b2-49f2-8884-73b68658d730",
+      "difficulty": 2,
+      "question": "Explain what 'polymorphism' means in object-oriented programming."
+    },
+    {
+      "id": "9cbbcb9e-3594-4a1f-9450-9b72c0288fbb",
+      "difficulty": 2,
+      "question": "What is a REST API?"
+    },
+    {
+      "id": "6e93ffe1-8122-4bf4-8a50-83e9be30fd37",
+      "difficulty": 2,
+      "question": "What is the main difference between NoSQL and SQL databases?"
+    },
+    {
+      "id": "b54ad71a-0d0b-4d1e-bcc6-9fc579e24332",
+      "difficulty": 2,
+      "question": "What is the purpose of Docker?"
+    },
+    {
+      "id": "41f478d7-0370-4701-9857-5cf3d33c6290",
+      "difficulty": 2,
+      "question": "What is Big O Notation?"
+    },
+    {
+      "id": "1d86ac0b-fe41-4022-a02e-54ac71fce080",
+      "difficulty": 2,
+      "question": "What is meant by 'responsive web design'?"
+    },
+    {
+      "id": "56009333-9fad-4c84-b3fb-58989354978d",
+      "difficulty": 2,
+      "question": "Describe a use case for Redis."
+    },
+    {
+      "id": "17d16d11-54c0-4ca7-b3a1-9eea418699d9",
+      "difficulty": 2,
+      "question": "How does a Blockchain work?"
+    },
+    {
+      "id": "49d62262-9694-41a8-8089-3272d9f409cb",
+      "difficulty": 2,
+      "question": "What is Continuous Integration (CI)?"
+    },
+    {
+      "id": "06e67c6a-b77d-459c-9e7e-e4f982adcfac",
+      "difficulty": 2,
+      "question": "What does the HTTP 404 status code indicate?"
+    },
+    {
+      "id": "7ea58f14-5da4-4adc-b08d-1b3d797c5f5e",
+      "difficulty": 2,
+      "question": "What is an ORM in web development?"
+    },
+    {
+      "id": "3982f6e3-9bb0-4d7d-8dc0-0f80c2e19e1a",
+      "difficulty": 2,
+      "question": "Describe the difference between synchronous and asynchronous programming."
+    },
+    {
+      "id": "57548437-f906-4065-b629-3d9e6cf2c8d2",
+      "difficulty": 2,
+      "question": "What is the principle of 'Don't Repeat Yourself'?"
+    },
+    {
+      "id": "9dde97db-cee7-4694-91e6-3635f3a1ba58",
+      "difficulty": 2,
+      "question": "What is a Microservice Architecture?"
+    },
+    {
+      "id": "31bf4322-1c4b-47f0-a5c4-ffafa6c3f5bf",
+      "difficulty": 2,
+      "question": "How do you manage state in a React application?"
+    },
+    {
+      "id": "8cf45db6-8648-4648-a584-32e25323008e",
+      "difficulty": 2,
+      "question": "What is the difference between a process and a thread?"
+    },
+    {
+      "id": "ce0f5276-5e83-484d-bb0e-954f3e59f126",
+      "difficulty": 2,
+      "question": "What is Agile software development?"
+    },
+    {
+      "id": "77676a98-4e8a-46eb-9c30-229c0adace65",
+      "difficulty": 2,
+      "question": "What are containers in cloud computing?"
+    },
+    {
+      "id": "7cc8f015-dfa1-4561-b000-4319c1b1433c",
+      "difficulty": 2,
+      "question": "Explain the concept of inheritance in OOP."
+    },
+    {
+      "id": "33b26c11-2c0c-4dda-88c1-982619898252",
+      "difficulty": 2,
+      "question": "What does the term 'serverless' refer to in cloud computing?"
+    },
+    {
+      "id": "f39e4f22-1e34-4ad7-8671-5617ae3f2038",
+      "difficulty": 3,
+      "question": "What is a race condition?"
+    },
+    {
+      "id": "999d929a-d88c-49d7-b773-f2acf6d9df8b",
+      "difficulty": 3,
+      "question": "Explain the CAP theorem in distributed systems."
+    },
+    {
+      "id": "039662fb-0851-46c3-9982-fea2f85bc74b",
+      "difficulty": 3,
+      "question": "What is the Singleton Pattern?"
+    },
+    {
+      "id": "6cc96890-a246-4472-ba48-22e8c02609cb",
+      "difficulty": 3,
+      "question": "What are the benefits of GraphQL over REST?"
+    },
+    {
+      "id": "08b505cb-1ab1-4b5d-8a43-5d69a5a3b286",
+      "difficulty": 3,
+      "question": "What is the purpose of a load balancer?"
+    },
+    {
+      "id": "1a3a25ea-edf8-42e4-89d0-883cb3ce5ab5",
+      "difficulty": 3,
+      "question": "Explain the difference between latency and throughput."
+    },
+    {
+      "id": "961e21b1-080f-4ba4-a191-8bf54a7ac229",
+      "difficulty": 3,
+      "question": "What are generative adversarial networks (GANs)?"
+    },
+    {
+      "id": "2c65eace-b4ff-4b48-9003-1728a84ac1c8",
+      "difficulty": 3,
+      "question": "What is Kubernetes?"
+    },
+    {
+      "id": "2cf97671-fd30-4a44-9f46-e98772a2288e",
+      "difficulty": 3,
+      "question": "How does the OAuth authentication protocol work?"
+    },
+    {
+      "id": "6801756e-3a6c-44f3-94e4-a56408b386da",
+      "difficulty": 3,
+      "question": "What is feature engineering in machine learning?"
+    },
+    {
+      "id": "6b003186-f1d3-409e-a6cc-837ab75fb03d",
+      "difficulty": 3,
+      "question": "Explain the difference between functional programming and object-oriented programming."
+    },
+    {
+      "id": "3a1decbc-636f-4eee-ad55-442f4137255b",
+      "difficulty": 3,
+      "question": "What are smart contracts in the context of blockchain?"
+    },
+    {
+      "id": "e1c5ed32-a740-492f-a327-ab4a84e8ae86",
+      "difficulty": 3,
+      "question": "What is edge computing?"
+    },
+    {
+      "id": "135e9389-f1c3-46e9-bea5-51dc87e1e920",
+      "difficulty": 3,
+      "question": "Describe the MapReduce programming model."
+    },
+    {
+      "id": "24327883-8d96-47d9-86bc-1b5cd1412196",
+      "difficulty": 3,
+      "question": "What is model overfitting in machine learning?"
+    },
+    {
+      "id": "c7252cf5-e389-4812-9725-b13f3ad0fb99",
+      "difficulty": 3,
+      "question": "What are the benefits of a microservices architecture over a monolithic architecture?"
+    },
+    {
+      "id": "31a7792a-2744-4100-a612-4f5e076b1138",
+      "difficulty": 3,
+      "question": "How can you achieve consistency in a distributed system?"
+    },
+    {
+      "id": "684d7db2-f087-4ebc-a74a-08aa117169ba",
+      "difficulty": 3,
+      "question": "What is a quantum computer?"
+    },
+    {
+      "id": "c9925fdc-3cd0-4cea-99e8-8a199d425e35",
+      "difficulty": 3,
+      "question": "Explain the concept of DevOps."
+    },
+    {
+      "id": "23958a19-1853-4289-9809-0750eb60da49",
+      "difficulty": 3,
+      "question": "What is Explainable AI?"
+    },
+    {
+      "id": "e982ce93-ed3f-4eae-85af-d69ddd6ac347",
+      "difficulty": 4,
+      "question": "How does a consensus mechanism work in blockchain technology?"
+    },
+    {
+      "id": "bd7985b9-90a9-462c-a6d7-725410e28c15",
+      "difficulty": 4,
+      "question": "Explain the difference between blue/green deployment and canary releases."
+    },
+    {
+      "id": "7860534d-e0d4-4844-aeb6-0e6cff037186",
+      "difficulty": 4,
+      "question": "What is a Directed Acyclic Graph (DAG) in blockchain?"
+    },
+    {
+      "id": "0dca0c9b-88b2-4c9a-8669-16eb29b3f527",
+      "difficulty": 4,
+      "question": "Describe the technique of feature hashing in machine learning."
+    },
+    {
+      "id": "3c86ec52-8f70-46eb-9473-477e53c434d0",
+      "difficulty": 4,
+      "question": "How does a Paxos protocol ensure distributed consensus?"
+    },
+    {
+      "id": "3833db7b-ed3a-4798-828c-e461a8f98942",
+      "difficulty": 4,
+      "question": "What is a Zero Trust security model?"
+    },
+    {
+      "id": "ae84608b-ab37-4c63-84d5-b6564d1695c7",
+      "difficulty": 4,
+      "question": "Describe the concept of sharding in databases."
+    },
+    {
+      "id": "a1453043-ac41-41d1-9de6-c3c98e86eed4",
+      "difficulty": 4,
+      "question": "What are the implications of quantum computing on cybersecurity?"
+    },
+    {
+      "id": "c7d9b229-fa22-477c-aebc-3ad015424670",
+      "difficulty": 4,
+      "question": "How does reinforcement learning differ from supervised learning?"
+    },
+    {
+      "id": "dd9ed48b-ca48-4081-ada3-15b561eacf17",
+      "difficulty": 4,
+      "question": "Explain the concept of serverless computing in detail."
+    },
+    {
+      "id": "84bafc93-2b0b-4517-b2ac-699a734112d1",
+      "difficulty": 4,
+      "question": "What is the Byzantine Generals Problem?"
+    },
+    {
+      "id": "ded9c4e7-0971-4dc2-a798-cabdae6024df",
+      "difficulty": 4,
+      "question": "How do you ensure data governance in a big data environment?"
+    },
+    {
+      "id": "504bc6bb-9496-4005-a8ec-ac4e891406be",
+      "difficulty": 4,
+      "question": "Describe the process of anomaly detection in time series data."
+    },
+    {
+      "id": "142f800b-0c06-470b-9850-94c4b7b442d0",
+      "difficulty": 4,
+      "question": "What is the BERT model in natural language processing?"
+    },
+    {
+      "id": "92c65848-be7e-4ab2-9ee0-686fad03d04c",
+      "difficulty": 4,
+      "question": "Explain the concept of federated learning."
+    },
+    {
+      "id": "068861cf-c081-41f2-a04e-bd471a133f57",
+      "difficulty": 4,
+      "question": "What are the complications of implementing GDPR in big data analytics?"
+    },
+    {
+      "id": "834962a5-a176-48d4-b995-c6e43fda11e6",
+      "difficulty": 4,
+      "question": "How does a Raft consensus algorithm work?"
+    },
+    {
+      "id": "31e28156-5ad2-4062-bbe1-6b4b0502f3b7",
+      "difficulty": 4,
+      "question": "Describe how capsule networks differ from convolutional neural networks."
+    },
+    {
+      "id": "79b86c78-b0a6-4108-a0b1-630c99464216",
+      "difficulty": 4,
+      "question": "What is the significance of quantum entanglement for computing?"
+    },
+    {
+      "id": "45a7fa14-2c32-49ec-836f-6b9a09dcde93",
+      "difficulty": 5,
+      "question": "Explain the concept of Differential Privacy in data analysis."
+    },
+    {
+      "id": "5b0c92e7-e873-4c9f-9441-48a123690954",
+      "difficulty": 5,
+      "question": "What is homomorphic encryption, and how can it be used in cloud computing?"
+    },
+    {
+      "id": "86202d57-44ed-4a2f-8d46-58b9851766de",
+      "difficulty": 5,
+      "question": "Describe the concept of Zero-Knowledge Proofs."
+    },
+    {
+      "id": "f2ef9fdd-ed61-44db-89ff-18efec70233d",
+      "difficulty": 5,
+      "question": "How does the Garbage Collector work in a managed heap environment?"
+    },
+    {
+      "id": "e348ea1d-471e-44f5-90f1-c482cd13d615",
+      "difficulty": 5,
+      "question": "What is a Bloom Filter and where is it used?"
+    },
+    {
+      "id": "963f980b-312a-49f1-a381-136ac910f2b3",
+      "difficulty": 5,
+      "question": "Discuss the limitations and challenges of neural network interpretability."
+    },
+    {
+      "id": "290723d3-d0b5-45d0-8a62-440ff5c43589",
+      "difficulty": 5,
+      "question": "How does a Cross-Site Scripting (XSS) attack work?"
+    },
+    {
+      "id": "be633d93-77c5-4cea-a853-8c2231a4319e",
+      "difficulty": 5,
+      "question": "Discuss the significance of adversarial examples in AI."
+    },
+    {
+      "id": "f6740f42-22ef-4ab9-bbca-384050686831",
+      "difficulty": 5,
+      "question": "Detailed explanation of the TCP/IP model and its layers."
+    },
+    {
+      "id": "49fab75e-56e1-4932-89ed-b63f571d8615",
+      "difficulty": 5,
+      "question": "What are the challenges in implementing quantum computers?"
+    },
+    {
+      "id": "77fb1b91-56e7-45d1-bdfa-cf9967749a0d",
+      "difficulty": 5,
+      "question": "Discuss the concept of multi-tenancy in cloud computing."
+    },
+    {
+      "id": "7a569af9-a207-444b-a33b-f24465cb43e0",
+      "difficulty": 5,
+      "question": "Detail the process of securing a web application from SQL injection attacks."
+    },
+    {
+      "id": "783243fd-0f48-491d-9c5c-e4937c123f04",
+      "difficulty": 5,
+      "question": "What is the Post-Quantum Cryptography?"
+    },
+    {
+      "id": "d60ec10f-ed9e-4abd-b70a-fbca8f693984",
+      "difficulty": 5,
+      "question": "Explain the concept and application of T-Distributed Stochastic Neighbor Embedding (t-SNE)."
+    },
+    {
+      "id": "4a0659c0-e52a-43fe-bc2d-de72e5fb0977",
+      "difficulty": 5,
+      "question": "How does the Spectre and Meltdown vulnerabilities affect processors?"
+    },
+    {
+      "id": "8a5a6b2d-3705-4ae4-bf5d-6024b0630e5a",
+      "difficulty": 5,
+      "question": "What are the ethical considerations in the development and deployment of AI systems?"
+    },
+    {
+      "id": "e811ae59-fee4-4f11-a295-aaca6ce004b9",
+      "difficulty": 5,
+      "question": "Discuss the significance of the OpenAI GPT-3 model."
+    },
+    {
+      "id": "f6853e3c-3c66-41ca-992f-cff7381c5598",
+      "difficulty": 5,
+      "question": "Explain the concept of Spatial Computing."
+    },
+    {
+      "id": "a989e5cf-ae42-4ae0-bbcd-8f11dff741ea",
+      "difficulty": 5,
+      "question": "What are the techniques for mitigating data bias in machine learning models?"
+    },
+    {
+      "id": "26e809b1-300e-4b1e-8a6e-ab1de60bd684",
+      "difficulty": 5,
+      "question": "Discuss the implications of the End-to-End Principle in system design."
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "Automatic Intelligence",
+        "Artificial Ideas",
+        "Artificial Intelligence",
+        "Automated Informatics"
+      ],
+      "answer": 2,
+      "question_id": "2dffb041-1c44-4b31-90ba-bb89da16f46f"
+    },
+    {
+      "choices": [
+        "C++",
+        "Ruby",
+        "Python",
+        "JavaScript"
+      ],
+      "answer": 3,
+      "question_id": "f6bc19f6-905e-4c5b-9d5d-3dbd8a1937d6"
+    },
+    {
+      "choices": [
+        "To speed up the execution time of programs",
+        "To find and remove all the bugs in a program",
+        "To convert source code into machine code",
+        "To manage the memory usage of a program"
+      ],
+      "answer": 2,
+      "question_id": "2a017b88-1d59-4742-9080-c2fb5ff6e8e2"
+    },
+    {
+      "choices": [
+        "Hyper Text Markup Language",
+        "High Text Markup Language",
+        "Hyperlink & Text Markup Language",
+        "Hyper Tool Markup Language"
+      ],
+      "answer": 0,
+      "question_id": "f1d49b4e-cfdc-4aa9-9666-ab5528fc1fff"
+    },
+    {
+      "choices": [
+        "Hosting relational databases",
+        "Version control and collaboration",
+        "Machine learning model training",
+        "Content delivery network services"
+      ],
+      "answer": 1,
+      "question_id": "9500c9a6-b722-48e5-9472-47f6c9f47f09"
+    },
+    {
+      "choices": [
+        "== compares value after type coercion, while === compares both value and type without type coercion",
+        "== and === are identical in functionality and use",
+        "== compares only the type, while === compares only the value",
+        "== compares both value and type after type coercion, while === does not perform comparison at all"
+      ],
+      "answer": 0,
+      "question_id": "9016e107-c77e-43de-8f4d-3ea19bf3b423"
+    },
+    {
+      "choices": [
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Creative Style Systems",
+        "Colorful Style Sheets"
+      ],
+      "answer": 1,
+      "question_id": "b0996b43-d115-4bb8-a71c-c0989909f711"
+    },
+    {
+      "choices": [
+        "HTTP",
+        "SMTP",
+        "FTP",
+        "TCP"
+      ],
+      "answer": 1,
+      "question_id": "045aeddf-7439-4127-a4dd-82904917bb6c"
+    },
+    {
+      "choices": [
+        "Encrypting internet traffic",
+        "Translating domain names to IP addresses",
+        "Speeding up the internet connection",
+        "Managing email delivery"
+      ],
+      "answer": 1,
+      "question_id": "f028a277-3229-4039-8923-b10fca1cf13f"
+    },
+    {
+      "choices": [
+        "Automated Program Interface",
+        "Advanced Programming Interface",
+        "Application Programming Interface",
+        "Array Processing Instruction"
+      ],
+      "answer": 2,
+      "question_id": "a4805586-3294-4bb0-a270-de272635cf85"
+    },
+    {
+      "choices": [
+        "Docker",
+        "Git",
+        "Kubernetes",
+        "Apache Hadoop"
+      ],
+      "answer": 1,
+      "question_id": "fadeffda-f467-4091-8402-fbb72f919e9b"
+    },
+    {
+      "choices": [
+        "To provide a user interface for interacting with system hardware",
+        "To manage computer system resources and simplify application programming",
+        "To serve web pages to clients on the internet",
+        "To design and develop new software applications"
+      ],
+      "answer": 1,
+      "question_id": "2cfdfe27-5d75-4d5b-80fc-026a56677635"
+    },
+    {
+      "choices": [
+        "Object-Oriented Programming",
+        "Functional Programming",
+        "Procedural Programming",
+        "Logic Programming"
+      ],
+      "answer": 1,
+      "question_id": "189ae08f-de44-4eca-97b7-196140d580d8"
+    },
+    {
+      "choices": [
+        "Polymorphism",
+        "Cross-Platform Compatibility",
+        "Abstraction",
+        "Encapsulation"
+      ],
+      "answer": 1,
+      "question_id": "5fca15e1-b03b-4960-ba68-a471ec13dd70"
+    },
+    {
+      "choices": [
+        "YAML",
+        "XML",
+        "CSV",
+        "JSON"
+      ],
+      "answer": 3,
+      "question_id": "42a2e4f3-fea9-4662-bda0-4e7cce4ae9c7"
+    },
+    {
+      "choices": [
+        "Standard Query Language",
+        "Structured Question Language",
+        "Structured Query Language",
+        "Simple Query Language"
+      ],
+      "answer": 2,
+      "question_id": "0eed2c80-382a-4057-a2f5-aa0a9aa52aa0"
+    },
+    {
+      "choices": [
+        "To increase system performance",
+        "To filter incoming and outgoing network traffic",
+        "To provide a user-friendly interface for system management",
+        "To store data securely on the cloud"
+      ],
+      "answer": 1,
+      "question_id": "c7ca0361-df6c-465f-b89f-2e707598c25a"
+    },
+    {
+      "choices": [
+        "C#",
+        "JavaScript",
+        "Python",
+        "Java"
+      ],
+      "answer": 2,
+      "question_id": "6da95830-01ac-4b73-b9c9-98df003b9555"
+    },
+    {
+      "choices": [
+        "Git",
+        "Docker",
+        "Bootstrap",
+        "Jenkins"
+      ],
+      "answer": 1,
+      "question_id": "565cb7c5-6441-4862-80c0-1275a1b06dec"
+    },
+    {
+      "choices": [
+        "Refactoring",
+        "Bug Resolution",
+        "Optimization",
+        "Debugging"
+      ],
+      "answer": 3,
+      "question_id": "7bdffb9c-d899-4d85-a5a4-c345214303d2"
+    },
+    {
+      "choices": [
+        "The concept that different classes can be used interchangeably, provided they share the same interface.",
+        "A design principle that ensures software entities are open for extension but closed for modification.",
+        "The capability of different objects to respond to the same function call in different ways.",
+        "A programming method that involves the simultaneous operation of multiple operations."
+      ],
+      "answer": 2,
+      "question_id": "5860497f-53b2-49f2-8884-73b68658d730"
+    },
+    {
+      "choices": [
+        "A protocol for securing network communications",
+        "A set of rules for designing scalable web services",
+        "A method for encrypting data at rest",
+        "A type of SQL database"
+      ],
+      "answer": 1,
+      "question_id": "9cbbcb9e-3594-4a1f-9450-9b72c0288fbb"
+    },
+    {
+      "choices": [
+        "NoSQL databases are primarily relational, whereas SQL databases are not.",
+        "SQL databases scale horizontally, while NoSQL databases scale vertically.",
+        "NoSQL databases support structured query language, while SQL databases do not.",
+        "NoSQL databases are designed to handle large volumes of unstructured or semi-structured data, while SQL databases are better suited for structured data."
+      ],
+      "answer": 3,
+      "question_id": "6e93ffe1-8122-4bf4-8a50-83e9be30fd37"
+    },
+    {
+      "choices": [
+        "To manage and store versions of source code",
+        "To compile and execute Java applications",
+        "To simplify the process of deploying and running applications in isolated environments",
+        "To monitor and analyze the performance of web servers"
+      ],
+      "answer": 2,
+      "question_id": "b54ad71a-0d0b-4d1e-bcc6-9fc579e24332"
+    },
+    {
+      "choices": [
+        "A methodology for agile software development",
+        "A programming language used for developing large scale applications",
+        "A notation used to describe the efficiency of an algorithm",
+        "A type of software testing technique"
+      ],
+      "answer": 2,
+      "question_id": "41f478d7-0370-4701-9857-5cf3d33c6290"
+    },
+    {
+      "choices": [
+        "Ensuring software responds to user input without delay",
+        "Designing websites to automatically adjust and adapt its content to fit various screen sizes",
+        "The process of making software compatible with different operating systems",
+        "A method of protecting websites from unauthorized access"
+      ],
+      "answer": 1,
+      "question_id": "1d86ac0b-fe41-4022-a02e-54ac71fce080"
+    },
+    {
+      "choices": [
+        "Performing complex object-relational mapping operations",
+        "Caching frequently accessed data to improve application performance",
+        "Rendering 3D graphics in video games",
+        "Performing static type checking in a programming language"
+      ],
+      "answer": 1,
+      "question_id": "56009333-9fad-4c84-b3fb-58989354978d"
+    },
+    {
+      "choices": [
+        "By using a centralized database to store data sequentially",
+        "Through peer-to-peer networks and consensus to validate transactions",
+        "By encrypting files with a single key for security",
+        "Using machine learning algorithms to predict transaction validity"
+      ],
+      "answer": 1,
+      "question_id": "17d16d11-54c0-4ca7-b3a1-9eea418699d9"
+    },
+    {
+      "choices": [
+        "A process for automatically testing high-performance computing systems",
+        "A practice of frequently integrating one's new or changed code with the existing code repository",
+        "A methodology for keeping track of software licenses in large enterprises",
+        "A security protocol for continuous monitoring and vulnerability scanning in software applications"
+      ],
+      "answer": 1,
+      "question_id": "49d62262-9694-41a8-8089-3272d9f409cb"
+    },
+    {
+      "choices": [
+        "Request timed out",
+        "Server Internal Error",
+        "Not Found",
+        "Forbidden"
+      ],
+      "answer": 2,
+      "question_id": "06e67c6a-b77d-459c-9e7e-e4f982adcfac"
+    },
+    {
+      "choices": [
+        "A framework for creating GUI applications",
+        "A library for managing server requests",
+        "A protocol for transferring multimedia",
+        "An interface for translating between an object-oriented programming language and a relational database"
+      ],
+      "answer": 3,
+      "question_id": "7ea58f14-5da4-4adc-b08d-1b3d797c5f5e"
+    },
+    {
+      "choices": [
+        "Synchronous programming allows multiple tasks to run at the same time, while asynchronous programming runs tasks in a sequence.",
+        "In synchronous programming, tasks wait for a call to finish before proceeding to the next one, while asynchronous programming does not wait.",
+        "Asynchronous programming is mainly used for CPU-bound tasks, whereas synchronous programming is used for I/O operations.",
+        "Synchronous programming involves multiple threads, while asynchronous programming cannot use multithreading."
+      ],
+      "answer": 1,
+      "question_id": "3982f6e3-9bb0-4d7d-8dc0-0f80c2e19e1a"
+    },
+    {
+      "choices": [
+        "Always use the first solution you think of",
+        "Write code that is understandable to beginners",
+        "Each piece of knowledge must have a single, unambiguous, authoritative representation within a system",
+        "Optimize your code before writing it"
+      ],
+      "answer": 2,
+      "question_id": "57548437-f906-4065-b629-3d9e6cf2c8d2"
+    },
+    {
+      "choices": [
+        "A single, monolithic application that combines all services",
+        "A set of small services, each running in its process and communicating with lightweight mechanisms",
+        "A type of programming language",
+        "An operating system designed for large servers"
+      ],
+      "answer": 1,
+      "question_id": "9dde97db-cee7-4694-91e6-3635f3a1ba58"
+    },
+    {
+      "choices": [
+        "Using external APIs directly",
+        "Through React lifecycle methods",
+        "Utilizing the useState hook",
+        "Embedding PHP scripts"
+      ],
+      "answer": 2,
+      "question_id": "31bf4322-1c4b-47f0-a5c4-ffafa6c3f5bf"
+    },
+    {
+      "choices": [
+        "A thread is a lightweight process that cannot run in parallel, while a process can.",
+        "A process is a segment of a program that can perform I/O operations, while a thread cannot.",
+        "A process is a program in execution, whereas a thread is the smallest sequence of programmed instructions that can be managed independently.",
+        "A thread has its own stack and program counter, while a process shares these with other processes."
+      ],
+      "answer": 2,
+      "question_id": "8cf45db6-8648-4648-a584-32e25323008e"
+    },
+    {
+      "choices": [
+        "A software development methodology that emphasizes on documentation over working software",
+        "A set of practices for software development that emphasizes minimal viable product",
+        "A programming language used for mobile app development",
+        "A group of software development methodologies based on iterative development, where requirements and solutions evolve through collaboration between self-organizing cross-functional teams"
+      ],
+      "answer": 3,
+      "question_id": "ce0f5276-5e83-484d-bb0e-954f3e59f126"
+    },
+    {
+      "choices": [
+        "Proprietary software needed to access cloud services",
+        "Encrypted data packets transmitted over the network",
+        "Lightweight, standalone, executable software packages that include everything needed to run a piece of software",
+        "Virtual machines with pre-installed operating systems"
+      ],
+      "answer": 2,
+      "question_id": "77676a98-4e8a-46eb-9c30-229c0adace65"
+    },
+    {
+      "choices": [
+        "A process by which one class takes on the properties of another class to promote code reusability",
+        "A practice of keeping code in multiple places to increase reliability",
+        "A technique for dividing a program into executable parts",
+        "A methodology where a program learns from data to make decisions"
+      ],
+      "answer": 0,
+      "question_id": "7cc8f015-dfa1-4561-b000-4319c1b1433c"
+    },
+    {
+      "choices": [
+        "A service that allows applications to run without being hosted on a server",
+        "A server configuration that doesn't require any operating system",
+        "Servers that are managed by artificial intelligence",
+        "A cloud service model for leasing physical servers directly"
+      ],
+      "answer": 0,
+      "question_id": "33b26c11-2c0c-4dda-88c1-982619898252"
+    },
+    {
+      "choices": [
+        "A situation where two or more processes operate simultaneously on the same data but do not perform updates",
+        "A situation where the software executes in a sequence that was not initially planned or intended",
+        "A bug that occurs when the output is dependent on the timing of uncontrollable events such as disk or network latency",
+        "A scenario where multiple threads access shared data without proper synchronization, leading to unexpected results"
+      ],
+      "answer": 3,
+      "question_id": "f39e4f22-1e34-4ad7-8671-5617ae3f2038"
+    },
+    {
+      "choices": [
+        "It asserts that a database can guarantee consistency, availability, and partition tolerance all at the same time.",
+        "It states that in a distributed system, it is impossible for a distributed data store to simultaneously provide more than two out of three guarantees: Consistency, Availability, Partition Tolerance.",
+        "It is a principle that suggests all databases should be able to scale horizontally without losing performance.",
+        "It implies that for any system that uses a form of caching, the system must choose between being up-to-date or being available."
+      ],
+      "answer": 1,
+      "question_id": "999d929a-d88c-49d7-b773-f2acf6d9df8b"
+    },
+    {
+      "choices": [
+        "A pattern that ensures a class only has one instance, while providing a global point of access to that instance.",
+        "A methodology for creating multiple instances of a class, each with their own state.",
+        "A technique used for developing software in a pair, where two developers work on the same code together.",
+        "A design pattern that promotes the use of multiple instances of a class to distribute tasks among them."
+      ],
+      "answer": 0,
+      "question_id": "039662fb-0851-46c3-9982-fea2f85bc74b"
+    },
+    {
+      "choices": [
+        "GraphQL can only fetch predefined amounts of data, whereas REST can retrieve dynamic data sizes.",
+        "REST APIs provide more efficient data retrieval than GraphQL.",
+        "GraphQL allows clients to request exactly the data they need, avoiding over-fetching and under-fetching issues.",
+        "RESTful services are easier and faster to develop than GraphQL APIs."
+      ],
+      "answer": 2,
+      "question_id": "6cc96890-a246-4472-ba48-22e8c02609cb"
+    },
+    {
+      "choices": [
+        "To increase the storage capacity of a system",
+        "To distribute network or application traffic across multiple servers",
+        "To debug and fix software bugs automatically",
+        "To enhance the data processing speed of a single server"
+      ],
+      "answer": 1,
+      "question_id": "08b505cb-1ab1-4b5d-8a43-5d69a5a3b286"
+    },
+    {
+      "choices": [
+        "Latency refers to the amount of memory available, and throughput is the speed of the CPU.",
+        "Throughput is the amount of data a system can process in a given time period, and latency is the time it takes for a data packet to move from source to destination.",
+        "Latency is the time it takes to recover data from storage, while throughput measures the amount of data that can be stored.",
+        "Throughput refers to the quality of data transmission, and latency measures the errors in data transmission."
+      ],
+      "answer": 1,
+      "question_id": "1a3a25ea-edf8-42e4-89d0-883cb3ce5ab5"
+    },
+    {
+      "choices": [
+        "A system for automating software development processes.",
+        "A type of neural network used for generating new data that resembles the training data.",
+        "An approach to software testing that relies on generating random test cases.",
+        "A framework for developing high-performance, scalable web applications."
+      ],
+      "answer": 1,
+      "question_id": "961e21b1-080f-4ba4-a191-8bf54a7ac229"
+    },
+    {
+      "choices": [
+        "A DevOps tool for continuous integration and continuous deployment",
+        "A platform for machine learning and big data analytics",
+        "An open-source system for automating deployment, scaling, and management of containerized applications",
+        "A programming language used for web development"
+      ],
+      "answer": 2,
+      "question_id": "2c65eace-b4ff-4b48-9003-1728a84ac1c8"
+    },
+    {
+      "choices": [
+        "It encrypts data using a symmetric key algorithm.",
+        "It directly shares user credentials between services.",
+        "It allows an application to authenticate on behalf of the user without sharing user credentials.",
+        "It uses a single-use token for each authentication attempt."
+      ],
+      "answer": 2,
+      "question_id": "2cf97671-fd30-4a44-9f46-e98772a2288e"
+    },
+    {
+      "choices": [
+        "The process of deploying ML models into production",
+        "The programming of software features for applications",
+        "The process of selecting, modifying, and creating features to improve model performance",
+        "The development of engineering tools for feature tracking"
+      ],
+      "answer": 2,
+      "question_id": "6801756e-3a6c-44f3-94e4-a56408b386da"
+    },
+    {
+      "choices": [
+        "Functional programming emphasizes on the execution of functions while object-oriented programming focuses on defining objects that contain both data and methods.",
+        "Functional programming is primarily concerned with the inheritance and polymorphism while object-oriented programming is based on the concepts of functions and scopes.",
+        "Object-oriented programming uses a flat data structure whereas functional programming uses a hierarchical data structure.",
+        "Functional programming relies on side effects for state management whereas object-oriented programming aims to eliminate side effects."
+      ],
+      "answer": 0,
+      "question_id": "6b003186-f1d3-409e-a6cc-837ab75fb03d"
+    },
+    {
+      "choices": [
+        "Automated testing frameworks for software applications",
+        "Protocols that facilitate, verify, or enforce the negotiation or performance of a contract",
+        "Advanced software development tools for creating mobile applications",
+        "Security software that protects against data breaches and cyber-attacks"
+      ],
+      "answer": 1,
+      "question_id": "3a1decbc-636f-4eee-ad55-442f4137255b"
+    },
+    {
+      "choices": [
+        "A decentralized computing infrastructure that processes data closer to the source of data",
+        "A programming model that focuses on the creation of software applications as a collection of loosely coupled services",
+        "A cloud computing service that provides a platform allowing customers to develop, run, and manage applications",
+        "An architecture style that defines a collection of pre-defined microservices patterns and solutions"
+      ],
+      "answer": 0,
+      "question_id": "e1c5ed32-a740-492f-a327-ab4a84e8ae86"
+    },
+    {
+      "choices": [
+        "A programming model for parallel processing of large datasets on a cluster of servers.",
+        "A technique for responsive web design.",
+        "A software development methodology based on iterative development and prototyping.",
+        "A security protocol for authenticating distributed systems."
+      ],
+      "answer": 0,
+      "question_id": "135e9389-f1c3-46e9-bea5-51dc87e1e920"
+    },
+    {
+      "choices": [
+        "Excessively simplifying a model to increase its generality",
+        "The phenomenon where a model performs well on training data but poorly on unseen data",
+        "A technique to ensure models perform equally well on training and testing datasets",
+        "Reducing the complexity of a model to improve its speed"
+      ],
+      "answer": 1,
+      "question_id": "24327883-8d96-47d9-86bc-1b5cd1412196"
+    },
+    {
+      "choices": [
+        "Microservices are more difficult to deploy and scale compared to monolithic architectures.",
+        "Microservices architecture increases development complexity and project lead time due to its distributed nature.",
+        "Microservices enable better scalability, easier deployment, and a more flexible technology stack compared to monolithic architectures.",
+        "Microservices make data management more efficient by centralizing all data into a single database."
+      ],
+      "answer": 2,
+      "question_id": "c7252cf5-e389-4812-9725-b13f3ad0fb99"
+    },
+    {
+      "choices": [
+        "Increasing the system's throughput",
+        "Use of a single centralized database",
+        "Employing a two-phase commit protocol",
+        "Decreasing the system's latency"
+      ],
+      "answer": 2,
+      "question_id": "31a7792a-2744-4100-a612-4f5e076b1138"
+    },
+    {
+      "choices": [
+        "A computer that uses qubits as bits to perform tasks faster for certain problems",
+        "A highly advanced AI that predicts future events with 100% accuracy",
+        "A supercomputer used exclusively for weather forecasting",
+        "A fictional computer used in sci-fi movies that can travel through time"
+      ],
+      "answer": 0,
+      "question_id": "684d7db2-f087-4ebc-a74a-08aa117169ba"
+    },
+    {
+      "choices": [
+        "A development methodology focused exclusively on coding practices.",
+        "The practice of operations staff working within the development team to perform all IT operations tasks.",
+        "A set of practices intended to reduce the time between committing a change to a system and the change being placed into normal production, while ensuring high quality.",
+        "An approach where developers use containers for all their applications to ensure portability across environments."
+      ],
+      "answer": 2,
+      "question_id": "c9925fdc-3cd0-4cea-99e8-8a199d425e35"
+    },
+    {
+      "choices": [
+        "A process for creating more efficient AI algorithms.",
+        "AI systems with the ability to explain their reasoning.",
+        "A new programming language for AI development.",
+        "An AI system that exclusively uses explainable models."
+      ],
+      "answer": 1,
+      "question_id": "23958a19-1853-4289-9809-0750eb60da49"
+    },
+    {
+      "choices": [
+        "A mechanism to increase the hash rate of miners",
+        "A process to validate and execute smart contracts automatically",
+        "A protocol to regulate the temperature of mining equipment",
+        "A method to agree on the legitimacy of transactions"
+      ],
+      "answer": 3,
+      "question_id": "e982ce93-ed3f-4eae-85af-d69ddd6ac347"
+    },
+    {
+      "choices": [
+        "Blue/green deployment involves simultaneous running of two versions of an application, while canary releases gradually introduce new features to a small subset of users.",
+        "Canary releases require manual rollback in case of failure, while blue/green deployment does it automatically.",
+        "Blue/green deployment is primarily used for database schema migration, whereas canary releases are not.",
+        "Both strategies are identical, with the only difference being the color naming convention."
+      ],
+      "answer": 0,
+      "question_id": "bd7985b9-90a9-462c-a6d7-725410e28c15"
+    },
+    {
+      "choices": [
+        "A special type of blockchain architecture where each block confirms two preceding blocks",
+        "A programming model for processing and generating large data sets with a parallel, distributed algorithm on a cluster",
+        "A sequential ledger where each block is linked to its predecessor through cryptographic hashes",
+        "A structure used for modeling relationships and processes, consisting of nodes and directed edges, with no cycles"
+      ],
+      "answer": 3,
+      "question_id": "7860534d-e0d4-4844-aeb6-0e6cff037186"
+    },
+    {
+      "choices": [
+        "A technique for iteratively adjusting weights to minimize a cost function",
+        "A method for categorizing textual data using Natural Language Processing (NLP)",
+        "A process for reducing the dimensions of a feature space",
+        "A method used to quickly compute similarity measures between sets of documents"
+      ],
+      "answer": 2,
+      "question_id": "0dca0c9b-88b2-4c9a-8669-16eb29b3f527"
+    },
+    {
+      "choices": [
+        "By using a leader election mechanism to ensure fault tolerance",
+        "By relying on a two-phase commit protocol for transaction management",
+        "By preventing deadlocks through priority inheritance",
+        "By ensuring that the majority of nodes agree on the next value in the sequence"
+      ],
+      "answer": 3,
+      "question_id": "3c86ec52-8f70-46eb-9473-477e53c434d0"
+    },
+    {
+      "choices": [
+        "A security model based exclusively on antivirus software",
+        "A security model that relies only on perimeter defenses",
+        "A framework that requires all users, whether in or outside the organization's network, to be authenticated, authorized, and continuously validating security configuration and posture for establishing trust",
+        "A method of securing a network by physically disconnecting it from the Internet"
+      ],
+      "answer": 2,
+      "question_id": "3833db7b-ed3a-4798-828c-e461a8f98942"
+    },
+    {
+      "choices": [
+        "A technique for improving the security of a database by encrypting its contents",
+        "A method for distributing a database across multiple servers to improve performance and scalability",
+        "The process of converting a database from one type to another, such as from SQL to NoSQL",
+        "A backup and recovery procedure that involves creating duplicate copies of the database at regular intervals"
+      ],
+      "answer": 1,
+      "question_id": "ae84608b-ab37-4c63-84d5-b6564d1695c7"
+    },
+    {
+      "choices": [
+        "Increased vulnerability of current encryption methods",
+        "Slower software development cycles",
+        "Higher costs for software licensing",
+        "Decrease in cloud computing usage"
+      ],
+      "answer": 0,
+      "question_id": "a1453043-ac41-41d1-9de6-c3c98e86eed4"
+    },
+    {
+      "choices": [
+        "In reinforcement learning, models are trained using a feedback loop without labels, while supervised learning requires labeled data for training.",
+        "Reinforcement learning and supervised learning are the same.",
+        "Reinforcement learning requires data to be structured in a specific format, while supervised learning does not.",
+        "Supervised learning uses a reward system for training models, while reinforcement learning does not."
+      ],
+      "answer": 0,
+      "question_id": "c7d9b229-fa22-477c-aebc-3ad015424670"
+    },
+    {
+      "choices": [
+        "A computing model where developers write and deploy code that runs in response to events without managing the underlying infrastructure.",
+        "A traditional computing model where developers are responsible for provisioning and managing servers on which their applications run.",
+        "A cloud service that requires users to install and manage operating systems, middleware, and applications on leased servers.",
+        "A form of distributed computing that requires clients to procure, configure, and manage their own servers and infrastructure."
+      ],
+      "answer": 0,
+      "question_id": "dd9ed48b-ca48-4081-ada3-15b561eacf17"
+    },
+    {
+      "choices": [
+        "A methodology for object-oriented programming",
+        "A type of database transaction issue",
+        "A scenario in distributed computing where agreement must be reached despite the presence of treacherous components",
+        "An algorithm for optimizing search results in real-time"
+      ],
+      "answer": 2,
+      "question_id": "84bafc93-2b0b-4517-b2ac-699a734112d1"
+    },
+    {
+      "choices": [
+        "By increasing data storage capacity",
+        "Implementing strong user authentication mechanisms",
+        "Establishing a comprehensive data governance framework",
+        "Frequently changing data formats"
+      ],
+      "answer": 2,
+      "question_id": "ded9c4e7-0971-4dc2-a798-cabdae6024df"
+    },
+    {
+      "choices": [
+        "Calculating the sum of all data points and dividing by their count",
+        "Using Fourier transforms to convert time series into frequency domain",
+        "Applying a specific algorithm to find patterns that do not conform to expected behavior",
+        "Manually inspecting each data point for outliers"
+      ],
+      "answer": 2,
+      "question_id": "504bc6bb-9496-4005-a8ec-ac4e891406be"
+    },
+    {
+      "choices": [
+        "A machine learning framework for reinforcement learning",
+        "A model for translation between programming languages",
+        "A type of convolutional network for image recognition",
+        "A pre-trained model for natural language understanding"
+      ],
+      "answer": 3,
+      "question_id": "142f800b-0c06-470b-9850-94c4b7b442d0"
+    },
+    {
+      "choices": [
+        "A method of training machine learning models across multiple decentralized edge devices or servers without exchanging their data samples",
+        "An approach to software development focusing on the continuous delivery and deployment of applications",
+        "A programming paradigm that emphasizes the use of pure functions and avoids shared state and mutable data",
+        "A database architecture where a master database synchronizes with multiple slave databases to ensure data consistency"
+      ],
+      "answer": 0,
+      "question_id": "92c65848-be7e-4ab2-9ee0-686fad03d04c"
+    },
+    {
+      "choices": [
+        "Decreased system performance due to encryption",
+        "Difficulty in anonymizing data while retaining its value",
+        "Increased cost for data storage",
+        "Simplification of data processing workflows"
+      ],
+      "answer": 1,
+      "question_id": "068861cf-c081-41f2-a04e-bd471a133f57"
+    },
+    {
+      "choices": [
+        "It relies on a master node for data replication across clusters.",
+        "It uses a leader election process to ensure data consistency and fault tolerance.",
+        "It encrypts data packets for secure transmission over the network.",
+        "It compresses data to minimize bandwidth usage between nodes."
+      ],
+      "answer": 1,
+      "question_id": "834962a5-a176-48d4-b995-c6e43fda11e6"
+    },
+    {
+      "choices": [
+        "Capsule networks require more computational power but are less effective at handling spatial hierarchies in images.",
+        "Capsule networks and convolutional neural networks have no significant differences in terms of architecture or performance.",
+        "Capsule networks organize neurons in capsules, and use routing by agreement for layer-to-layer communication, better capturing spatial hierarchies.",
+        "Convolutional neural networks utilize dynamic routing between layers, which is what fundamentally differentiates them from capsule networks."
+      ],
+      "answer": 2,
+      "question_id": "31e28156-5ad2-4062-bbe1-6b4b0502f3b7"
+    },
+    {
+      "choices": [
+        "Allows for faster traditional database searches",
+        "Enables creation of highly secure cryptography",
+        "Permits parallel processing on a massive scale",
+        "Facilitates instant communication over long distances"
+      ],
+      "answer": 2,
+      "question_id": "79b86c78-b0a6-4108-a0b1-630c99464216"
+    },
+    {
+      "choices": [
+        "A statistical technique that generates synthetic versions of datasets for public release, while preserving individual record confidentiality",
+        "A machine learning model that predicts data trends without accessing the raw data",
+        "An encryption method that ensures transmitted data cannot be intercepted by third parties",
+        "A software development practice that emphasizes the early detection and correction of bugs"
+      ],
+      "answer": 0,
+      "question_id": "45a7fa14-2c32-49ec-836f-6b9a09dcde93"
+    },
+    {
+      "choices": [
+        "A technique for optimizing database performance in cloud-based applications",
+        "A process for compressing data before it is sent to the cloud to save on storage costs",
+        "A form of encryption that allows computation on ciphertexts, generating an encrypted result that, when decrypted, matches the result of operations performed on the plaintext",
+        "A method for ensuring data redundancy across multiple cloud services to prevent data loss"
+      ],
+      "answer": 2,
+      "question_id": "5b0c92e7-e873-4c9f-9441-48a123690954"
+    },
+    {
+      "choices": [
+        "A method of authentication where one party proves to another that a statement is true, without revealing any information apart from the fact that the statement is indeed true",
+        "An encryption technique that uses symmetric keys to secure data transmission between two parties",
+        "The process of validating software code without executing it in a runtime environment",
+        "A software development approach that emphasizes on continuous testing and integration of code changes"
+      ],
+      "answer": 0,
+      "question_id": "86202d57-44ed-4a2f-8d46-58b9851766de"
+    },
+    {
+      "choices": [
+        "It compresses the heap to optimize memory space without releasing unused objects.",
+        "It manually deallocates objects that are no longer in use by the program.",
+        "It periodically scans the heap to find and release objects that are no longer being used by the application.",
+        "It increases the size of the heap whenever more space is needed for new objects."
+      ],
+      "answer": 2,
+      "question_id": "f2ef9fdd-ed61-44db-89ff-18efec70233d"
+    },
+    {
+      "choices": [
+        "A compression algorithm used in high-speed networks",
+        "A sparse matrix representation technique in linear algebra",
+        "A data structure that tests whether an element is a member of a set",
+        "A security protocol for distributed systems"
+      ],
+      "answer": 2,
+      "question_id": "e348ea1d-471e-44f5-90f1-c482cd13d615"
+    },
+    {
+      "choices": [
+        "They can process information faster than traditional algorithms, making them more efficient.",
+        "Neural networks always produce results that are easily explained and understood by humans.",
+        "The black-box nature of neural networks makes it difficult to understand how they make decisions.",
+        "Neural networks are limited by the amount of data available and cannot work with small datasets."
+      ],
+      "answer": 2,
+      "question_id": "963f980b-312a-49f1-a381-136ac910f2b3"
+    },
+    {
+      "choices": [
+        "By exploiting vulnerabilities in DNS servers",
+        "By injecting malicious scripts into web pages viewed by others",
+        "By breaking encryption algorithms to steal data",
+        "By executing high-volume data queries to overload a database"
+      ],
+      "answer": 1,
+      "question_id": "290723d3-d0b5-45d0-8a62-440ff5c43589"
+    },
+    {
+      "choices": [
+        "They are examples that the AI system misclassifies.",
+        "They enable AI systems to learn faster.",
+        "They are used to make AI systems more transparent.",
+        "They decrease the computational power needed for AI systems."
+      ],
+      "answer": 0,
+      "question_id": "be633d93-77c5-4cea-a853-8c2231a4319e"
+    },
+    {
+      "choices": [
+        "A model for artistic digital communications only, consisting of two layers: Transmission and Internet Protocol",
+        "A structured setting for gardening practices, unrelated to computer networks",
+        "A conceptual framework for understanding relationships and functionalities in a digital communications system, consisting of Application, Transport, Internet, and Network Interface layers",
+        "A food processing technique involving Temperature Control and Pressure Integration, unrelated to technology"
+      ],
+      "answer": 2,
+      "question_id": "f6740f42-22ef-4ab9-bbca-384050686831"
+    },
+    {
+      "choices": [
+        "Lack of skilled software developers",
+        "Decoherence and quantum noise",
+        "Overheating of central processing units",
+        "High cost of solid-state drives"
+      ],
+      "answer": 1,
+      "question_id": "49fab75e-56e1-4932-89ed-b63f571d8615"
+    },
+    {
+      "choices": [
+        "A design pattern where different customers share the same application, running on a single server, but each customer has its own data and configuration settings",
+        "A cloud computing model where each customer must deploy and manage their own instance of an application",
+        "The process of deploying several instances of a single application across various physical servers to ensure high availability",
+        "The use of multiple cloud services from different vendors to host the various components of an application"
+      ],
+      "answer": 0,
+      "question_id": "77fb1b91-56e7-45d1-bdfa-cf9967749a0d"
+    },
+    {
+      "choices": [
+        "Use regular expressions to filter out harmful SQL syntax",
+        "Employ client-side validation to ensure input safety",
+        "Keep the database publicly accessible to use automated patching tools",
+        "Use parameterized queries or prepared statements for database access"
+      ],
+      "answer": 3,
+      "question_id": "7a569af9-a207-444b-a33b-f24465cb43e0"
+    },
+    {
+      "choices": [
+        "A framework for developing quantum computing algorithms.",
+        "Encryption methods secure against cyber-attacks from quantum computers.",
+        "A new protocol for faster internet speeds.",
+        "A set of guidelines for quantum computing hardware."
+      ],
+      "answer": 1,
+      "question_id": "783243fd-0f48-491d-9c5c-e4937c123f04"
+    },
+    {
+      "choices": [
+        "A method for optimizing network bandwidth in distributed systems.",
+        "A technique used for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets.",
+        "An algorithm for sorting large datasets in time complexity better than O(n log n).",
+        "A security protocol for establishing a secure communication channel over an insecure network."
+      ],
+      "answer": 1,
+      "question_id": "d60ec10f-ed9e-4abd-b70a-fbca8f693984"
+    },
+    {
+      "choices": [
+        "Decrease the clock speed of the CPU",
+        "Prevent the processor from multitasking",
+        "Allow attackers to steal data from the processor's cache",
+        "Increase the power consumption of the processor"
+      ],
+      "answer": 2,
+      "question_id": "4a0659c0-e52a-43fe-bc2d-de72e5fb0977"
+    },
+    {
+      "choices": [
+        "Optimizing hardware utilization above all other considerations",
+        "Ensuring systems are designed to prevent user addiction",
+        "Focusing exclusively on maximizing the financial return on investment",
+        "Ensuring fairness, transparency, and privacy in system design and operation"
+      ],
+      "answer": 3,
+      "question_id": "8a5a6b2d-3705-4ae4-bf5d-6024b0630e5a"
+    },
+    {
+      "choices": [
+        "It is a type of quantum computer.",
+        "It is the third iteration of Google's PageRank algorithm.",
+        "It is a large-scale machine learning model that can generate human-like text.",
+        "It is a blockchain protocol designed for decentralized finance."
+      ],
+      "answer": 2,
+      "question_id": "e811ae59-fee4-4f11-a295-aaca6ce004b9"
+    },
+    {
+      "choices": [
+        "A process exclusively associated with GPS and mapping software",
+        "The management and automation of data centers through software",
+        "Using computing power to create simulations of physical spaces",
+        "Developing algorithms to compute the shortest path in networking"
+      ],
+      "answer": 2,
+      "question_id": "f6853e3c-3c66-41ca-992f-cff7381c5598"
+    },
+    {
+      "choices": [
+        "Using more complex algorithms",
+        "Increasing model training iterations",
+        "Employing data augmentation and rebalancing techniques",
+        "Reducing the size of the training dataset"
+      ],
+      "answer": 2,
+      "question_id": "a989e5cf-ae42-4ae0-bbcd-8f11dff741ea"
+    },
+    {
+      "choices": [
+        "It emphasizes the importance of application-level protocols over transport-level protocols.",
+        "It states that error handling should be managed by lower-level protocols to ensure robustness.",
+        "It suggests that applications should perform error checking and correction as close to the source and destination as possible instead of relying on the network.",
+        "It advocates for the decentralization of data processing across the network to enhance performance."
+      ],
+      "answer": 2,
+      "question_id": "26e809b1-300e-4b1e-8a6e-ab1de60bd684"
+    }
+  ]
+}

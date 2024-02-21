@@ -1,0 +1,607 @@
+{
+  "topic": "Continuous Delivery",
+  "questions": [
+    {
+      "id": "5a7e6788-4829-4a65-b352-b0e7562e83ed",
+      "difficulty": 1,
+      "question": "What is the primary goal of Continuous Delivery?"
+    },
+    {
+      "id": "fb6986f2-93cf-4061-b27b-5709b1e7d2a2",
+      "difficulty": 1,
+      "question": "Which version control system is most commonly used in modern software projects?"
+    },
+    {
+      "id": "bc25a856-59fe-4a43-90d2-a3d9214daaa4",
+      "difficulty": 1,
+      "question": "What is the main difference between Continuous Integration and Continuous Delivery?"
+    },
+    {
+      "id": "e3be84b2-384c-4216-b5ed-9d68fe7b494a",
+      "difficulty": 1,
+      "question": "In Continuous Delivery, what type of tests are run automatically in the build pipeline?"
+    },
+    {
+      "id": "3677ff60-e288-499b-a4cf-562d7549e37d",
+      "difficulty": 1,
+      "question": "What does CI/CD stand for in software development practices?"
+    },
+    {
+      "id": "41337e05-9c7b-4e41-b1ee-5817ef9b9c08",
+      "difficulty": 1,
+      "question": "What is the benefit of automating the deployment process in Continuous Delivery?"
+    },
+    {
+      "id": "14766c9c-2f77-499a-bbf2-c3c229bc4580",
+      "difficulty": 1,
+      "question": "What type of software tool is Jenkins?"
+    },
+    {
+      "id": "8bb5d6f5-1619-4b36-8d9a-f8a836a1eb6a",
+      "difficulty": 1,
+      "question": "What is the role of a build server in Continuous Delivery?"
+    },
+    {
+      "id": "fe995b7f-0c65-42da-a340-020e0885c7b5",
+      "difficulty": 1,
+      "question": "Which of the following is not a common practice in Continuous Delivery: Automated Testing, Manual Deployment, Continuous Integration, or Continuous Feedback?"
+    },
+    {
+      "id": "deb4f98d-2650-414d-a204-dcf99b7ff6ef",
+      "difficulty": 1,
+      "question": "In Continuous Delivery, what does the term 'pipeline' refer to?"
+    },
+    {
+      "id": "cf8e1770-50c5-459d-a70c-c47baedcf31b",
+      "difficulty": 1,
+      "question": "What is the artifact in a Continuous Delivery pipeline?"
+    },
+    {
+      "id": "a0cb442b-edc9-4f53-9682-356650e6b1e2",
+      "difficulty": 1,
+      "question": "What is the main benefit of a blue/green deployment strategy in Continuous Delivery?"
+    },
+    {
+      "id": "cc86da74-239c-4566-874a-e38fdebe6a5a",
+      "difficulty": 1,
+      "question": "What does the term 'rollback' refer to in the context of Continuous Delivery?"
+    },
+    {
+      "id": "ff156727-25a8-48a6-a327-ac09ec632c76",
+      "difficulty": 1,
+      "question": "What is a 'canary release' in the context of Continuous Delivery?"
+    },
+    {
+      "id": "1e47d2bc-c5e0-4a4d-beeb-ccb480ad2178",
+      "difficulty": 1,
+      "question": "What is the purpose of a staging environment in Continuous Delivery?"
+    },
+    {
+      "id": "ba9dbde0-995f-49de-bffa-36b0bac16044",
+      "difficulty": 1,
+      "question": "Why are feature toggles used in Continuous Delivery?"
+    },
+    {
+      "id": "bd375cd9-4fc7-4e23-bab6-4ad739552692",
+      "difficulty": 1,
+      "question": "What is meant by the term 'deployment frequency'?"
+    },
+    {
+      "id": "99241b60-b8ad-4be6-8970-9c60bc7a9de9",
+      "difficulty": 1,
+      "question": "What is an idempotent operation in the context of Continuous Delivery?"
+    },
+    {
+      "id": "49838151-787a-467d-954b-1ade2b94fba5",
+      "difficulty": 1,
+      "question": "What is the purpose of a version control system in Continuous Delivery?"
+    },
+    {
+      "id": "fddd8339-784a-4a12-85fa-e19e7028a92b",
+      "difficulty": 1,
+      "question": "Why is monitoring important in Continuous Delivery?"
+    },
+    {
+      "id": "92495051-4e4a-4f40-ab37-be713b0c909d",
+      "difficulty": 2,
+      "question": "How does infrastructure as code (IaC) support Continuous Delivery?"
+    },
+    {
+      "id": "26e97699-b8bb-4747-98fe-5cf72a4a6778",
+      "difficulty": 2,
+      "question": "What is the significance of a 'monorepo' in Continuous Delivery?"
+    },
+    {
+      "id": "45b3a88a-6920-4259-b6da-5617f5a0a151",
+      "difficulty": 2,
+      "question": "What are the key characteristics of a microservices architecture that support Continuous Delivery?"
+    },
+    {
+      "id": "8596f04e-326c-41a6-a17d-4352f81e5ec3",
+      "difficulty": 2,
+      "question": "How do feature branches interact with Continuous Delivery practices?"
+    },
+    {
+      "id": "a6c87e99-9406-421b-8e38-5c97eb9841e5",
+      "difficulty": 2,
+      "question": "What is the purpose of using containerization technologies like Docker in Continuous Delivery?"
+    },
+    {
+      "id": "23cba18f-40c0-489e-b88c-d3711462906b",
+      "difficulty": 2,
+      "question": "How do blue/green deployments minimize downtime during deployments?"
+    },
+    {
+      "id": "6cecbe39-9a8c-48ed-a694-f7a8c1b36476",
+      "difficulty": 2,
+      "question": "What is the role of a configuration management tool in Continuous Delivery?"
+    },
+    {
+      "id": "f6030d5c-2b70-4825-a3f6-f298637768e9",
+      "difficulty": 2,
+      "question": "How does Continuous Delivery benefit from cloud computing platforms?"
+    },
+    {
+      "id": "3beaac16-68c7-4fce-8c9b-c25f4504e72d",
+      "difficulty": 2,
+      "question": "What is the difference between mutable and immutable infrastructure in Continuous Delivery?"
+    },
+    {
+      "id": "2afbbfbc-0c6c-4bc1-8fc3-856d45ca04a5",
+      "difficulty": 2,
+      "question": "How do automated security scans fit into the Continuous Delivery pipeline?"
+    },
+    {
+      "id": "a84242cf-672e-4dd4-b890-4e858de7e70d",
+      "difficulty": 2,
+      "question": "What is the role of a service mesh in microservices deployments?"
+    },
+    {
+      "id": "9931609e-9d19-42e1-bba6-738c46047634",
+      "difficulty": 2,
+      "question": "How does A/B testing fit into a Continuous Delivery strategy?"
+    },
+    {
+      "id": "6731072f-843c-49a7-b7ac-f8263332ed7e",
+      "difficulty": 2,
+      "question": "What is the concept of 'shift left' in software testing?"
+    },
+    {
+      "id": "5034fafe-1e13-47c0-9ac2-162ba65d574c",
+      "difficulty": 2,
+      "question": "How do secrets management tools like HashiCorp Vault benefit Continuous Delivery?"
+    },
+    {
+      "id": "22c7cdfc-f0c0-47b2-b735-80c71085f9bc",
+      "difficulty": 2,
+      "question": "What is the significance of load balancing in Continuous Delivery?"
+    },
+    {
+      "id": "b2470adc-bb10-44b7-9a85-fcf380c9a878",
+      "difficulty": 2,
+      "question": "Why is observability crucial in a Continuous Delivery pipeline?"
+    },
+    {
+      "id": "d227b97c-104b-49a5-966a-3e03bc40c4ed",
+      "difficulty": 2,
+      "question": "How do traffic shadowing techniques benefit Continuous Delivery?"
+    },
+    {
+      "id": "524c1bfb-ff69-43c5-9f6c-1b6f8f436c9d",
+      "difficulty": 2,
+      "question": "What are the challenges of database schema migrations in Continuous Delivery?"
+    },
+    {
+      "id": "161f772c-b8e8-4734-b60c-3ecc376c1613",
+      "difficulty": 2,
+      "question": "How does serverless computing impact Continuous Delivery practices?"
+    },
+    {
+      "id": "e43db0df-f702-46cf-83c3-8933b437c885",
+      "difficulty": 2,
+      "question": "What role do API gateways play in Continuous Delivery?"
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "To ensure high code quality and integration at all times",
+        "To facilitate manual testing of every change",
+        "To deliver new features to customers as quickly as possible",
+        "To minimize the use of version control systems"
+      ],
+      "answer": 2,
+      "question_id": "5a7e6788-4829-4a65-b352-b0e7562e83ed"
+    },
+    {
+      "choices": [
+        "Mercurial",
+        "Subversion",
+        "Git",
+        "CVS"
+      ],
+      "answer": 2,
+      "question_id": "fb6986f2-93cf-4061-b27b-5709b1e7d2a2"
+    },
+    {
+      "choices": [
+        "Continuous Delivery ensures all code changes are automatically deployed to production, while Continuous Integration only involves automated testing.",
+        "Continuous Integration merges all developer working copies to a shared mainline several times a day, but Continuous Delivery isn't concerned with merging.",
+        "Continuous Integration is only applicable to large teams, whereas Continuous Delivery can be used by teams of any size.",
+        "Continuous Integration involves automating the integration of code changes from multiple contributors into a single software project, whereas Continuous Delivery automates the delivery of the software to selected infrastructure environments."
+      ],
+      "answer": 3,
+      "question_id": "bc25a856-59fe-4a43-90d2-a3d9214daaa4"
+    },
+    {
+      "choices": [
+        "User acceptance tests",
+        "Manual tests",
+        "Load tests",
+        "Integration tests"
+      ],
+      "answer": 3,
+      "question_id": "e3be84b2-384c-4216-b5ed-9d68fe7b494a"
+    },
+    {
+      "choices": [
+        "Continuous Interaction/Continuous Deployment",
+        "Continuous Integration/Continuous Design",
+        "Continuous Integration/Continuous Deployment",
+        "Constant Integration/Constant Deployment"
+      ],
+      "answer": 2,
+      "question_id": "3677ff60-e288-499b-a4cf-562d7549e37d"
+    },
+    {
+      "choices": [
+        "Reducing the reliance on Cloud services",
+        "Decreasing transparency in the deployment process",
+        "Increasing the efficiency and reliability of deployments",
+        "Limiting team collaboration"
+      ],
+      "answer": 2,
+      "question_id": "41337e05-9c7b-4e41-b1ee-5817ef9b9c08"
+    },
+    {
+      "choices": [
+        "Version control system",
+        "Continuous integration server",
+        "Text editor",
+        "Database management system"
+      ],
+      "answer": 1,
+      "question_id": "14766c9c-2f77-499a-bbf2-c3c229bc4580"
+    },
+    {
+      "choices": [
+        "Periodically backing up application data",
+        "Manually deploying applications to production",
+        "Automating the compilation, testing, and packaging of code",
+        "Monitoring the performance of deployed applications"
+      ],
+      "answer": 2,
+      "question_id": "8bb5d6f5-1619-4b36-8d9a-f8a836a1eb6a"
+    },
+    {
+      "choices": [
+        "Automated Testing",
+        "Continuous Integration",
+        "Manual Deployment",
+        "Continuous Feedback"
+      ],
+      "answer": 2,
+      "question_id": "fe995b7f-0c65-42da-a340-020e0885c7b5"
+    },
+    {
+      "choices": [
+        "A set of instructions for deploying software",
+        "The process of manual code review",
+        "A type of version control system",
+        "The server where code is stored"
+      ],
+      "answer": 0,
+      "question_id": "deb4f98d-2650-414d-a204-dcf99b7ff6ef"
+    },
+    {
+      "choices": [
+        "A development methodology",
+        "The final code ready for production",
+        "The pipeline itself",
+        "A feedback tool for developers"
+      ],
+      "answer": 1,
+      "question_id": "cf8e1770-50c5-459d-a70c-c47baedcf31b"
+    },
+    {
+      "choices": [
+        "It encourages more frequent code documentation",
+        "It allows for uninterrupted traffic during deployment",
+        "It simplifies the rollback of features",
+        "It reduces the cost of infrastructure"
+      ],
+      "answer": 1,
+      "question_id": "a0cb442b-edc9-4f53-9682-356650e6b1e2"
+    },
+    {
+      "choices": [
+        "The process of integrating security practices within the deployment process",
+        "The action of expanding the capacity of the deployment to accommodate more users",
+        "The process of reverting to a previous version of software after identifying issues with the current version",
+        "The act of moving a software update from staging to production environment"
+      ],
+      "answer": 2,
+      "question_id": "cc86da74-239c-4566-874a-e38fdebe6a5a"
+    },
+    {
+      "choices": [
+        "A full deployment of a new version to all users simultaneously",
+        "An automated code review process",
+        "A partial, controlled deployment of a new version to a subset of users before a full rollout",
+        "A technique for rolling back a deployment"
+      ],
+      "answer": 2,
+      "question_id": "ff156727-25a8-48a6-a327-ac09ec632c76"
+    },
+    {
+      "choices": [
+        "To serve as the production environment where users interact",
+        "To act as the initial phase for unit testing",
+        "To simulate the production environment for testing before deployment",
+        "To store the final codebase before release"
+      ],
+      "answer": 2,
+      "question_id": "1e47d2bc-c5e0-4a4d-beeb-ccb480ad2178"
+    },
+    {
+      "choices": [
+        "To increase the number of features in development",
+        "To enable a feature to be tested even though it's not yet ready for release",
+        "To reduce the size of the development team",
+        "To decrease the time spent on quality assurance"
+      ],
+      "answer": 1,
+      "question_id": "ba9dbde0-995f-49de-bffa-36b0bac16044"
+    },
+    {
+      "choices": [
+        "The rate at which new servers are added to the infrastructure",
+        "The interval between software releases to users",
+        "The frequency of system crashes or downtime",
+        "The speed at which code is written by developers"
+      ],
+      "answer": 1,
+      "question_id": "bd375cd9-4fc7-4e23-bab6-4ad739552692"
+    },
+    {
+      "choices": [
+        "An operation that can be applied multiple times without changing the result beyond the initial application",
+        "A deployment method that allows for real-time user interaction",
+        "The process of automatically testing code changes",
+        "A security protocol to ensure that delivery pipelines are free of vulnerabilities"
+      ],
+      "answer": 0,
+      "question_id": "99241b60-b8ad-4be6-8970-9c60bc7a9de9"
+    },
+    {
+      "choices": [
+        "Ensure the application can scale automatically to handle load",
+        "Track changes to the codebase and facilitate collaboration",
+        "Provide real-time monitoring and alerting of the delivery pipeline",
+        "Automate database schema migrations during deployment"
+      ],
+      "answer": 1,
+      "question_id": "49838151-787a-467d-954b-1ade2b94fba5"
+    },
+    {
+      "choices": [
+        "To increase the speed of feature development",
+        "For ensuring the team is meeting deadlines",
+        "To guarantee that any security vulnerabilities are immediately addressed",
+        "To detect issues in the deployment pipeline and ensure the reliability of releases"
+      ],
+      "answer": 3,
+      "question_id": "fddd8339-784a-4a12-85fa-e19e7028a92b"
+    },
+    {
+      "choices": [
+        "By enabling manual server setups and maintenance",
+        "By providing real-time user data analytics",
+        "By allowing infrastructure to be provisioned and managed through code",
+        "By increasing the need for physical hardware"
+      ],
+      "answer": 2,
+      "question_id": "92495051-4e4a-4f40-ab37-be713b0c909d"
+    },
+    {
+      "choices": [
+        "A methodology for version control that simplifies codebase management by using a single repository for multiple projects",
+        "A tool for automating the deployment of applications to production environments",
+        "A feature in CI/CD platforms that automatically rolls back failed deployments",
+        "A practice of committing and pushing code changes to the production branch multiple times a day"
+      ],
+      "answer": 0,
+      "question_id": "26e97699-b8bb-4747-98fe-5cf72a4a6778"
+    },
+    {
+      "choices": [
+        "Monolithic code base and single deployment target",
+        "Shared databases and tight coupling between services",
+        "Independently deployable services and decentralized data management",
+        "Uniform language and framework usage across services"
+      ],
+      "answer": 2,
+      "question_id": "45b3a88a-6920-4259-b6da-5617f5a0a151"
+    },
+    {
+      "choices": [
+        "Feature branches are kept long-lived to accumulate multiple features before merging to the main branch.",
+        "Feature branches are discouraged as they introduce integration delays and conflicts.",
+        "Feature branches are merged directly to production without review to accelerate delivery.",
+        "All feature branches must be approved by a project manager before being merged."
+      ],
+      "answer": 1,
+      "question_id": "8596f04e-326c-41a6-a17d-4352f81e5ec3"
+    },
+    {
+      "choices": [
+        "To enhance security by isolating applications at the hardware level",
+        "To ensure consistent performance metrics across different environments",
+        "To simplify the setup of development environments on new machines",
+        "To package applications and their dependencies together for consistency across development, staging, and production environments"
+      ],
+      "answer": 3,
+      "question_id": "a6c87e99-9406-421b-8e38-5c97eb9841e5"
+    },
+    {
+      "choices": [
+        "By keeping the old version online while the new one is being tested",
+        "By switching traffic from blue to green environments without downtime",
+        "By automatically reverting to the previous version if errors are detected",
+        "By deploying new versions during low-traffic hours"
+      ],
+      "answer": 1,
+      "question_id": "23cba18f-40c0-489e-b88c-d3711462906b"
+    },
+    {
+      "choices": [
+        "Monitoring network traffic",
+        "Automating the deployment process",
+        "Generating performance reports",
+        "Analyzing user behavior"
+      ],
+      "answer": 1,
+      "question_id": "6cecbe39-9a8c-48ed-a694-f7a8c1b36476"
+    },
+    {
+      "choices": [
+        "Decreases collaboration between development and operations teams",
+        "Reduces the elasticity and scalability of deployed applications",
+        "Enables quick and reliable software builds, tests, and deployment processes",
+        "Increases the time to market for new features"
+      ],
+      "answer": 2,
+      "question_id": "f6030d5c-2b70-4825-a3f6-f298637768e9"
+    },
+    {
+      "choices": [
+        "Immutable infrastructure allows changes to existing servers, while mutable infrastructure requires replacing servers for each change.",
+        "Mutable infrastructure allows changes to existing servers, while immutable infrastructure requires replacing servers for each change.",
+        "Immutable infrastructure enhances security by frequently changing server passwords, while mutable infrastructure does not.",
+        "Mutable infrastructure is solely based on cloud technology, whereas immutable infrastructure can be used with physical servers as well."
+      ],
+      "answer": 1,
+      "question_id": "3beaac16-68c7-4fce-8c9b-c25f4504e72d"
+    },
+    {
+      "choices": [
+        "They are only run manually after deployment",
+        "Included as part of the post-deployment validation",
+        "Integrated at various stages of the pipeline to identify vulnerabilities early",
+        "Not applicable to Continuous Delivery processes"
+      ],
+      "answer": 2,
+      "question_id": "2afbbfbc-0c6c-4bc1-8fc3-856d45ca04a5"
+    },
+    {
+      "choices": [
+        "To enhance communication security between services",
+        "To automate the deployment of database schemas",
+        "To monitor the performance of individual microservices",
+        "To compile and build microservice applications"
+      ],
+      "answer": 0,
+      "question_id": "a84242cf-672e-4dd4-b890-4e858de7e70d"
+    },
+    {
+      "choices": [
+        "It replaces traditional testing methods, eliminating the need for pre-release validation.",
+        "A/B testing is not compatible with Continuous Delivery strategies.",
+        "It's used primarily to test the performance scalability of new features.",
+        "A/B testing allows for comparing different versions of a product to understand user preferences or behavior, facilitating iterative development and deployment."
+      ],
+      "answer": 3,
+      "question_id": "9931609e-9d19-42e1-bba6-738c46047634"
+    },
+    {
+      "choices": [
+        "Extending testing to production environments",
+        "Testing software earlier in the development process",
+        "Shifting deployment responsibilities to the left",
+        "Decreasing the amount of automated testing"
+      ],
+      "answer": 1,
+      "question_id": "6731072f-843c-49a7-b7ac-f8263332ed7e"
+    },
+    {
+      "choices": [
+        "They allow for real-time code compilation.",
+        "They automate the deployment process entirely, requiring no human intervention.",
+        "They provide secure storage and access to API keys, passwords, and certificates, supporting a seamless and secure automation in Continuous Delivery pipelines.",
+        "They increase the number of required manual audits for security compliance."
+      ],
+      "answer": 2,
+      "question_id": "5034fafe-1e13-47c0-9ac2-162ba65d574c"
+    },
+    {
+      "choices": [
+        "It enables automatic code reviews.",
+        "It distributes incoming network traffic across multiple servers.",
+        "It encrypts sensitive data in transit.",
+        "It automatically scales compute resources."
+      ],
+      "answer": 1,
+      "question_id": "22c7cdfc-f0c0-47b2-b735-80c71085f9bc"
+    },
+    {
+      "choices": [
+        "To reduce the number of team meetings required",
+        "To ensure that the software meets performance standards before release",
+        "To make the deployment process faster",
+        "To provide insights into the system\u2019s behavior and to detect issues in the deployment pipeline early"
+      ],
+      "answer": 3,
+      "question_id": "b2470adc-bb10-44b7-9a85-fcf380c9a878"
+    },
+    {
+      "choices": [
+        "Increases the security of the application by encrypting all traffic",
+        "Allows for real-time performance monitoring of new releases",
+        "Reduces the cost of infrastructure by utilizing lightweight virtualization",
+        "Facilitates the identification and resolution of issues before full-scale deployment"
+      ],
+      "answer": 3,
+      "question_id": "d227b97c-104b-49a5-966a-3e03bc40c4ed"
+    },
+    {
+      "choices": [
+        "High availability of the delivery team",
+        "Managing version control systems compatibility",
+        "Difficulty in rolling back changes once deployed",
+        "Increased cost of automation tools"
+      ],
+      "answer": 2,
+      "question_id": "524c1bfb-ff69-43c5-9f6c-1b6f8f436c9d"
+    },
+    {
+      "choices": [
+        "It increases the complexity of deployment pipelines.",
+        "It necessitates longer testing cycles.",
+        "It requires more manual intervention in the deployment process.",
+        "It simplifies deployment by abstracting server management."
+      ],
+      "answer": 3,
+      "question_id": "161f772c-b8e8-4734-b60c-3ecc376c1613"
+    },
+    {
+      "choices": [
+        "They primarily provide client-side load balancing.",
+        "They manage the deployment of microservices to different environments.",
+        "They act as a central point of authorization and access control for APIs.",
+        "They ensure the consistency of database schema changes across environments."
+      ],
+      "answer": 2,
+      "question_id": "e43db0df-f702-46cf-83c3-8933b437c885"
+    }
+  ]
+}

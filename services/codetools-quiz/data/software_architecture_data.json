@@ -1,0 +1,1342 @@
+{
+  "topic": "Software Architecture",
+  "questions": [
+    {
+      "id": "2e426a46-7577-49b1-88ff-a3abd6b07ae1",
+      "difficulty": 1,
+      "question": "What is the primary focus of Software Architecture?"
+    },
+    {
+      "id": "0163f0db-ca5a-43c5-a06a-a76440154836",
+      "difficulty": 1,
+      "question": "In software architecture, what does the term 'scalability' refer to?"
+    },
+    {
+      "id": "7ff2cd34-1162-49b2-ab9d-6e24e9374e6e",
+      "difficulty": 1,
+      "question": "What does 'MVC' stand for in software design patterns?"
+    },
+    {
+      "id": "919c05ec-3404-4715-8d33-320f3c49d2f2",
+      "difficulty": 1,
+      "question": "What is the main role of a Data Flow Diagram?"
+    },
+    {
+      "id": "00a01f29-cef5-460d-8bc5-6643f572fb6b",
+      "difficulty": 1,
+      "question": "What is the significance of 'Separation of Concerns' in software architecture?"
+    },
+    {
+      "id": "579a695f-9cce-412b-9c37-33dbb9eda6a0",
+      "difficulty": 1,
+      "question": "What does API stand for in the context of software development?"
+    },
+    {
+      "id": "34d416bb-5354-40b7-bc0b-93083dbc1efa",
+      "difficulty": 1,
+      "question": "What is a Microservices Architecture primarily used for?"
+    },
+    {
+      "id": "598dc05e-9ece-40e9-a5c2-99fabcf8d3b3",
+      "difficulty": 1,
+      "question": "Can you name a benefit of using a layered architecture?"
+    },
+    {
+      "id": "013e185d-105e-4a93-9f6f-29e927c07cf2",
+      "difficulty": 1,
+      "question": "What is the primary purpose of a Service-Oriented Architecture (SOA)?"
+    },
+    {
+      "id": "7a896bd4-5836-41a8-aef0-6a697974a99a",
+      "difficulty": 1,
+      "question": "How does 'Continuous Integration' impact software architecture?"
+    },
+    {
+      "id": "62c84bef-69cc-4863-81dd-433576ee88b3",
+      "difficulty": 1,
+      "question": "What role does 'DevOps' play in software architecture?"
+    },
+    {
+      "id": "d1759371-98e8-4bbe-8890-051212743853",
+      "difficulty": 1,
+      "question": "What is the significance of 'decoupling' components in system design?"
+    },
+    {
+      "id": "7a669dae-4c5c-4c4a-bad3-bdb72309bd94",
+      "difficulty": 1,
+      "question": "In context of architecture, what is a 'monolith' application?"
+    },
+    {
+      "id": "d1afbdc0-8243-4c98-9a4b-fa893db7beb5",
+      "difficulty": 1,
+      "question": "How does the 'repository pattern' benefit software development?"
+    },
+    {
+      "id": "0238055e-b477-461f-949a-3710e16ee8f3",
+      "difficulty": 1,
+      "question": "What does UML stand for?"
+    },
+    {
+      "id": "47f94697-4f52-42e0-928e-ca1d09dc2bd8",
+      "difficulty": 1,
+      "question": "Describe the concept of 'Statelessness' in web applications."
+    },
+    {
+      "id": "9d05f447-3db1-419e-b214-c93e0c1060ea",
+      "difficulty": 1,
+      "question": "What is an 'event-driven' architecture?"
+    },
+    {
+      "id": "e3edfd78-c2b4-4045-93d5-dbf7e4959730",
+      "difficulty": 1,
+      "question": "How do 'microservices' differ from 'monolithic' application architectures?"
+    },
+    {
+      "id": "ceed3a45-1f64-4b30-bced-2f9adeadbcdf",
+      "difficulty": 1,
+      "question": "What is a 'serverless' architecture?"
+    },
+    {
+      "id": "d8dae42f-4495-49d9-bbea-59e02bcf34c5",
+      "difficulty": 1,
+      "question": "Explain the basic idea behind 'Domain-Driven Design'."
+    },
+    {
+      "id": "a0aae660-0474-4ecc-b47c-b0b11efd3f7e",
+      "difficulty": 2,
+      "question": "How does 'CQRS' (Command Query Responsibility Segregation) enhance software architecture?"
+    },
+    {
+      "id": "162c7869-7ea8-4c6f-bb3f-b22b6c040151",
+      "difficulty": 2,
+      "question": "Describe the benefits and disadvantages of microservices."
+    },
+    {
+      "id": "ec5e8fee-1d31-425a-8907-96f4b483ac3d",
+      "difficulty": 2,
+      "question": "Explain the concept of 'Twelve-Factor' app methodology."
+    },
+    {
+      "id": "a3fdab83-d1d4-406b-83c3-0bb1bbfa7465",
+      "difficulty": 2,
+      "question": "In which scenario would you prefer a 'serverless' architecture over 'containerization'?"
+    },
+    {
+      "id": "6a37b661-69d5-4c9f-9ad6-d2449e12a367",
+      "difficulty": 2,
+      "question": "How does 'event sourcing' work in event-driven architecture?"
+    },
+    {
+      "id": "9c0839ce-3eb0-425a-ba34-786e7e377a0c",
+      "difficulty": 2,
+      "question": "What is 'Idempotency' in the context of RESTful APIs?"
+    },
+    {
+      "id": "3dcf4c9e-1c18-47d0-ba1b-5372c6f9e37e",
+      "difficulty": 2,
+      "question": "In software architecture, what is the difference between 'synchronous' and 'asynchronous' communication?"
+    },
+    {
+      "id": "b23ec606-2eb5-4133-a804-ed1687504b37",
+      "difficulty": 2,
+      "question": "Why is 'Domain-Driven Design' important in complex software projects?"
+    },
+    {
+      "id": "0ed05953-8737-421b-b8db-8d383b368662",
+      "difficulty": 2,
+      "question": "What is 'technical debt', and how does it impact software architecture?"
+    },
+    {
+      "id": "af80b390-fbc0-4f39-9fcd-4e551911132b",
+      "difficulty": 2,
+      "question": "Explain the role of 'Message Brokers' in microservices architecture."
+    },
+    {
+      "id": "4a69d182-937c-47d0-8c8c-145fb487564b",
+      "difficulty": 2,
+      "question": "Describe the 'Circuit Breaker' pattern and its use in microservices."
+    },
+    {
+      "id": "39b978cf-cdf0-4b15-a1e8-b33025beb477",
+      "difficulty": 2,
+      "question": "What is the purpose of 'API Gateway' in microservices architecture?"
+    },
+    {
+      "id": "330bca0c-4ac7-47b0-ae06-40f1e6b80078",
+      "difficulty": 2,
+      "question": "How does 'container orchestration' facilitate microservices deployment?"
+    },
+    {
+      "id": "a1cb1964-e4c7-4c98-9129-ffe75297afb8",
+      "difficulty": 2,
+      "question": "Explain the concept and benefits of 'Immutable Infrastructure'."
+    },
+    {
+      "id": "a0713e53-dc7d-4e7a-b9ac-057e1db40950",
+      "difficulty": 2,
+      "question": "What is 'Chaos Engineering', and how does it relate to architecture resilience?"
+    },
+    {
+      "id": "5a884a4e-8102-4d80-8309-198e4e90e1fc",
+      "difficulty": 2,
+      "question": "Describe 'Feature Toggles' and how they support Continuous Delivery."
+    },
+    {
+      "id": "4cf41839-1541-4398-9f01-c1f453f0fe6b",
+      "difficulty": 2,
+      "question": "What role does 'Configuration Management' play in software architecture?"
+    },
+    {
+      "id": "11a66d3d-5d80-4387-b2d7-93e86ad526fd",
+      "difficulty": 2,
+      "question": "How does 'Database Sharding' influence system architecture?"
+    },
+    {
+      "id": "105cb35a-aa4c-44bd-aae5-0186c797276f",
+      "difficulty": 2,
+      "question": "What is the benefit of using 'GraphQL' over 'REST' APIs?"
+    },
+    {
+      "id": "555a9ee0-e0ed-4c09-be5c-549483caf7c5",
+      "difficulty": 2,
+      "question": "Explain the 'Observer' pattern and its application in software development."
+    },
+    {
+      "id": "6efe7c37-a863-4b6a-b3cf-78c36e0a80ca",
+      "difficulty": 3,
+      "question": "How does 'Polyglot Persistence' enhance software architecture?"
+    },
+    {
+      "id": "8d80c6f5-e6c8-4bd0-bbf4-28f8f0085487",
+      "difficulty": 3,
+      "question": "Explain the difference between 'Failover' and 'Failback' in disaster recovery."
+    },
+    {
+      "id": "c8f39a82-0ad3-4c6a-af24-faca4949ccdb",
+      "difficulty": 3,
+      "question": "Describe 'Service Mesh' and its role in microservices architecture."
+    },
+    {
+      "id": "f49ae37f-9564-4866-a584-4c9c06bd5901",
+      "difficulty": 3,
+      "question": "How do 'Edge Computing' and 'Fog Computing' impact software architecture?"
+    },
+    {
+      "id": "4dccc497-67a2-4893-a871-fac430cea123",
+      "difficulty": 3,
+      "question": "Discuss the challenges and strategies in managing 'Data Consistency' in microservices."
+    },
+    {
+      "id": "fe5b8a6b-8c8e-41a6-b13e-6905c14fb33b",
+      "difficulty": 3,
+      "question": "What is 'Backpressure' in reactive programming?"
+    },
+    {
+      "id": "e0d009fb-df07-4a3f-bbc2-47c5032da985",
+      "difficulty": 3,
+      "question": "How do 'Quorum-Based' systems ensure data consistency in distributed systems?"
+    },
+    {
+      "id": "fe2c01dc-4df5-445b-91b4-e94ee44f0b89",
+      "difficulty": 3,
+      "question": "Describe the 'Saga' pattern and its role in handling transactions in microservices."
+    },
+    {
+      "id": "b323cd3d-54d4-4e68-9669-e483c566e050",
+      "difficulty": 3,
+      "question": "How does 'Domain-driven Design' differentiate between 'Aggregate' and 'Entity'?"
+    },
+    {
+      "id": "8ed61f3a-7fa9-4281-aba0-864c08be5f27",
+      "difficulty": 3,
+      "question": "Explain 'Strangler Fig Pattern' and its application in system migration."
+    },
+    {
+      "id": "e991d912-9a6e-4139-b817-c6abd19137d8",
+      "difficulty": 3,
+      "question": "Why is 'Site Reliability Engineering (SRE)' important in maintaining architectures?"
+    },
+    {
+      "id": "a0e7b9fc-4657-4442-8f26-741335498e3f",
+      "difficulty": 3,
+      "question": "Discuss 'Blueprint Architecture' in the context of platform engineering."
+    },
+    {
+      "id": "319aa95d-7ce4-444d-ac49-d6ce38bd9bf1",
+      "difficulty": 3,
+      "question": "What is 'Tracing' in distributed systems, and why is it critical?"
+    },
+    {
+      "id": "da6f53c2-ab28-46a8-b748-1e9ffcf74476",
+      "difficulty": 3,
+      "question": "How does 'Consensus Algorithms' (like Paxos or Raft) impact distributed systems?"
+    },
+    {
+      "id": "fb1061bf-8985-44d5-bc81-97c244e8f2aa",
+      "difficulty": 3,
+      "question": "What is 'Anti-Corruption Layer' in software architecture?"
+    },
+    {
+      "id": "115fbff3-cc08-4447-a37e-3b0efd0d6104",
+      "difficulty": 3,
+      "question": "Discuss the role of 'Load Balancing' in distributed systems."
+    },
+    {
+      "id": "11b23a82-a99b-4f71-8c9e-92b63b7ded57",
+      "difficulty": 3,
+      "question": "How does 'Autoscaling' contribute to system reliability and efficiency?"
+    },
+    {
+      "id": "fdbd43f3-c8b7-404e-b0af-998070ae3b0c",
+      "difficulty": 3,
+      "question": "Describe the 'Builder' pattern and when it should be used."
+    },
+    {
+      "id": "80cae957-d9a3-4d34-9996-b2347c88cb78",
+      "difficulty": 3,
+      "question": "Explain 'Multi-Tenancy' and its architectural considerations."
+    },
+    {
+      "id": "4223312f-7c0c-481b-ab54-bf9011a1f93c",
+      "difficulty": 3,
+      "question": "What architectural patterns are best-suited for 'Big Data' processing?"
+    },
+    {
+      "id": "ea4a9302-6273-4fb1-81ca-45b13ada181e",
+      "difficulty": 4,
+      "question": "Discuss the implications of 'Quantum Computing' on future software architectures."
+    },
+    {
+      "id": "ac7f10db-c180-49f4-ac6d-a3e8d45adb76",
+      "difficulty": 4,
+      "question": "Explain the 'Hexagonal Architecture' model and its benefits."
+    },
+    {
+      "id": "5bd53790-50e5-41c8-844f-a13d6f5c5469",
+      "difficulty": 4,
+      "question": "How does 'Distributed Tracing' facilitate troubleshooting in microservices?"
+    },
+    {
+      "id": "9e46fa57-4a6f-4677-aa9d-b2232f5663b3",
+      "difficulty": 4,
+      "question": "Discuss 'Software Defined Networking (SDN)' and its impact on architecture."
+    },
+    {
+      "id": "6dbb3e8d-63fd-42a7-a359-72844326c690",
+      "difficulty": 4,
+      "question": "What are 'Sidecars' in the context of service meshes?"
+    },
+    {
+      "id": "7163a51b-e721-43b7-b553-9678c97b9334",
+      "difficulty": 4,
+      "question": "How do 'Taints and Tolerations' work in Kubernetes?"
+    },
+    {
+      "id": "20941831-8062-4524-b89a-f3a38bd08fa4",
+      "difficulty": 4,
+      "question": "Explain 'Eventual Consistency' and its trade-offs in distributed databases."
+    },
+    {
+      "id": "a0b0aa5e-5f63-4dc8-9bca-55eb735f16c8",
+      "difficulty": 4,
+      "question": "How does 'Zero Trust Architecture' enhance security in distributed systems?"
+    },
+    {
+      "id": "1d6cdd02-aa13-449a-b009-40c093cdb3fc",
+      "difficulty": 4,
+      "question": "Discuss the role of 'Immutable Data Structures' in functional programming."
+    },
+    {
+      "id": "35eb07ad-2e63-4e9e-a096-5166c36fd20e",
+      "difficulty": 4,
+      "question": "What is 'Bimodal IT', and how does it affect IT strategy?"
+    },
+    {
+      "id": "7c458533-6e13-449e-b0eb-b66548e626b9",
+      "difficulty": 4,
+      "question": "Explain 'Data Gravity' and its implications for software architecture."
+    },
+    {
+      "id": "074e5154-d974-4cd6-a925-e7d8115813f2",
+      "difficulty": 4,
+      "question": "What strategies can be employed for 'Data Mesh' implementation?"
+    },
+    {
+      "id": "39750401-58d7-4419-bd64-cb9a49c62cd4",
+      "difficulty": 4,
+      "question": "Discuss the concept of 'GitOps' and its relevance to DevOps."
+    },
+    {
+      "id": "fa1eabda-d3b3-4874-a7ab-8b7c4d679d2d",
+      "difficulty": 4,
+      "question": "How does 'Fault Injection' aid in resilience testing?"
+    },
+    {
+      "id": "d2ddc6d4-ca61-4c47-8cac-a7f75ef00225",
+      "difficulty": 4,
+      "question": "Explain the importance of 'Cost Optimization' in cloud architectures."
+    },
+    {
+      "id": "a83cfc36-f499-4e24-9e0e-cd7f3cac96db",
+      "difficulty": 4,
+      "question": "What is 'A/B Testing', and how does it relate to architecture?"
+    },
+    {
+      "id": "4cdc832c-fd74-4080-9f4a-e45d9a5d4986",
+      "difficulty": 4,
+      "question": "Describe 'Contract Testing' in the context of microservices."
+    },
+    {
+      "id": "675c39cd-c91d-46b7-b0df-4c08bf7b41e9",
+      "difficulty": 4,
+      "question": "How does 'Green-Blue Deployment' improve the deployment process?"
+    },
+    {
+      "id": "2e82e373-a235-4451-a211-2801cc6e6cb3",
+      "difficulty": 4,
+      "question": "What are the architectural considerations for implementing 'IoT' systems?"
+    },
+    {
+      "id": "cbe2e6c4-d7a4-47ca-8a30-269c9ca18762",
+      "difficulty": 5,
+      "question": "Explain 'Quantum Cryptography' and its potential impact on security architectures."
+    },
+    {
+      "id": "cf2b8f37-bd60-4dba-b2dd-d0e96740ed46",
+      "difficulty": 5,
+      "question": "Discuss the challenges of implementing 'Federated Learning' in AI models."
+    },
+    {
+      "id": "3e79b7e2-d9d3-4575-ac53-09aeb018d00e",
+      "difficulty": 5,
+      "question": "Describe the role of 'Artificial Intelligence' in automating architectural decisions."
+    },
+    {
+      "id": "cc128246-bf4e-46f6-b8cb-248c76f7c929",
+      "difficulty": 5,
+      "question": "How does 'Blockchain' influence software architecture?"
+    },
+    {
+      "id": "29ac5051-45a6-4c5f-8340-d77176564963",
+      "difficulty": 5,
+      "question": "Explain the concept of 'Augmented Reality Cloud' and its architectural implications."
+    },
+    {
+      "id": "25e2cf33-0af4-4f0e-81c1-e54e9b995134",
+      "difficulty": 5,
+      "question": "Discuss the application of 'Deep Learning' in predictive maintenance systems."
+    },
+    {
+      "id": "7a979037-5474-4103-ba69-f447ec3d0810",
+      "difficulty": 5,
+      "question": "How do 'Smart Contracts' integrate with traditional business systems?"
+    },
+    {
+      "id": "38729a30-bfeb-41ce-9e0e-e4041b756473",
+      "difficulty": 5,
+      "question": "Explain the significance of 'Edge AI' in distributed architectures."
+    },
+    {
+      "id": "041fd14c-4dfe-4445-99b2-da48f52ec794",
+      "difficulty": 5,
+      "question": "Discuss the impact of '5G Technology' on mobile and IoT architectures."
+    },
+    {
+      "id": "afa14eb0-a26d-438b-bc24-731afaca5ded",
+      "difficulty": 5,
+      "question": "Explain 'Neuromorphic Computing' and its expected effects on computational paradigms."
+    }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "Coding individual software modules",
+        "Choosing the right programming language",
+        "The high-level structure of the software system",
+        "Debugging software applications"
+      ],
+      "answer": 2,
+      "question_id": "2e426a46-7577-49b1-88ff-a3abd6b07ae1"
+    },
+    {
+      "choices": [
+        "The ability of a system to handle a growing amount of work by adding resources to the system",
+        "The process of converting software into machine language",
+        "The methodology used for version controlling in software development",
+        "The design pattern utilized for user interface development"
+      ],
+      "answer": 0,
+      "question_id": "0163f0db-ca5a-43c5-a06a-a76440154836"
+    },
+    {
+      "choices": [
+        "Model View Controller",
+        "Multiple Variable Configurations",
+        "Main Vector Class",
+        "Module View Component"
+      ],
+      "answer": 0,
+      "question_id": "7ff2cd34-1162-49b2-ab9d-6e24e9374e6e"
+    },
+    {
+      "choices": [
+        "To outline the physical infrastructure necessary for the IT system",
+        "To depict the system\u2019s user interface design",
+        "To represent the process of data movement through an information system",
+        "To display the hierarchical relationship among roles in a project"
+      ],
+      "answer": 2,
+      "question_id": "919c05ec-3404-4715-8d33-320f3c49d2f2"
+    },
+    {
+      "choices": [
+        "Increases code complexity",
+        "Enhances user interface graphics",
+        "Improves maintainability and scalability of the system",
+        "Reduces the number of users that can access the application simultaneously"
+      ],
+      "answer": 2,
+      "question_id": "00a01f29-cef5-460d-8bc5-6643f572fb6b"
+    },
+    {
+      "choices": [
+        "Application Programming Interface",
+        "Automated Process Integration",
+        "Advanced Programming Infrastructure",
+        "Automatic Performance Indicator"
+      ],
+      "answer": 0,
+      "question_id": "579a695f-9cce-412b-9c37-33dbb9eda6a0"
+    },
+    {
+      "choices": [
+        "Reducing complexity by breaking an application into smaller services",
+        "Increasing the processing power of a single service",
+        "Creating monolithic application structures",
+        "Simplifying data storage by using a single database model"
+      ],
+      "answer": 0,
+      "question_id": "34d416bb-5354-40b7-bc0b-93083dbc1efa"
+    },
+    {
+      "choices": [
+        "Increases complexity of the system",
+        "Facilitates tight coupling between components",
+        "Improves scalability and maintainability",
+        "Reduces flexibility of the application"
+      ],
+      "answer": 2,
+      "question_id": "598dc05e-9ece-40e9-a5c2-99fabcf8d3b3"
+    },
+    {
+      "choices": [
+        "To ensure high data consistency across various services",
+        "To improve the user interface design of applications",
+        "To enable loose coupling between services for more flexible development and integration",
+        "To optimize computational algorithms for faster processing"
+      ],
+      "answer": 2,
+      "question_id": "013e185d-105e-4a93-9f6f-29e927c07cf2"
+    },
+    {
+      "choices": [
+        "It reduces the software's scalability.",
+        "Improves code quality and eases integration.",
+        "Increases the cost of maintenance.",
+        "Leads to fewer deployment options."
+      ],
+      "answer": 1,
+      "question_id": "7a896bd4-5836-41a8-aef0-6a697974a99a"
+    },
+    {
+      "choices": [
+        "DevOps primarily focuses on network security and data protection.",
+        "DevOps is responsible for graphic design and user interface creation.",
+        "DevOps bridges the gap between development and operations, promoting faster deployment and collaboration.",
+        "DevOps is dedicated to software testing and quality assurance exclusively."
+      ],
+      "answer": 2,
+      "question_id": "62c84bef-69cc-4863-81dd-433576ee88b3"
+    },
+    {
+      "choices": [
+        "To ensure all components are tightly integrated",
+        "To improve system performance by linking components closely",
+        "To make components independent, enhancing flexibility and maintainability",
+        "To increase the complexity of the system for security reasons"
+      ],
+      "answer": 2,
+      "question_id": "d1759371-98e8-4bbe-8890-051212743853"
+    },
+    {
+      "choices": [
+        "A collection of loosely coupled services",
+        "A distributed system where each service runs in its own process",
+        "An application where its components are united in a single codebase",
+        "A cloud-native application designed for cloud scalability"
+      ],
+      "answer": 2,
+      "question_id": "7a669dae-4c5c-4c4a-bad3-bdb72309bd94"
+    },
+    {
+      "choices": [
+        "It increases coupling between classes and their data sources.",
+        "Improves code maintainability by separating the data access logic from the business logic.",
+        "Directly enhances the user interface with advanced graphical elements.",
+        "Automatically optimizes the application for better performance on mobile devices."
+      ],
+      "answer": 1,
+      "question_id": "d1afbdc0-8243-4c98-9a4b-fa893db7beb5"
+    },
+    {
+      "choices": [
+        "United Modeling Language",
+        "Unified Modeling League",
+        "Universal Markup Language",
+        "Unified Modeling Language"
+      ],
+      "answer": 3,
+      "question_id": "0238055e-b477-461f-949a-3710e16ee8f3"
+    },
+    {
+      "choices": [
+        "A method to increase the scalability of databases by distributing user data across multiple servers",
+        "A web design principle where each transaction is processed independently from others, without the server needing to remember previous interactions",
+        "A security protocol ensuring encrypted communication over the Internet",
+        "A technique to manage user sessions with persistent cookies stored in the browser"
+      ],
+      "answer": 1,
+      "question_id": "47f94697-4f52-42e0-928e-ca1d09dc2bd8"
+    },
+    {
+      "choices": [
+        "A software architecture pattern focused on optimizing database transactions",
+        "A software architecture where system components perform actions in response to events",
+        "A programming model that relies heavily on inheritance and class-based objects",
+        "An approach that emphasizes minimal coding and maximum use of third-party services"
+      ],
+      "answer": 1,
+      "question_id": "9d05f447-3db1-419e-b214-c93e0c1060ea"
+    },
+    {
+      "choices": [
+        "Microservices require a single programming language while monolithic architectures support multiple languages.",
+        "Microservices are centralized, while monolithic architectures are distributed.",
+        "Microservices are designed as a collection of loosely coupled services, whereas monolithic applications are built as a single, unified unit.",
+        "There is no fundamental difference; the terms are interchangeable."
+      ],
+      "answer": 2,
+      "question_id": "e3edfd78-c2b4-4045-93d5-dbf7e4959730"
+    },
+    {
+      "choices": [
+        "An architecture that relies solely on client-side processing",
+        "A type of architecture where the server is managed by a third party and automatically scaled",
+        "A design pattern focused on microservices and APIs",
+        "An architecture that uses physical servers exclusively for application deployment"
+      ],
+      "answer": 1,
+      "question_id": "ceed3a45-1f64-4b30-bced-2f9adeadbcdf"
+    },
+    {
+      "choices": [
+        "Optimizing the application for the cloud environment",
+        "Prioritizing the user interface design over system functionality",
+        "Focusing on the core domain logic and its complexities",
+        "Simplifying codebase through extensive use of libraries and frameworks"
+      ],
+      "answer": 2,
+      "question_id": "d8dae42f-4495-49d9-bbea-59e02bcf34c5"
+    },
+    {
+      "choices": [
+        "By encapsulating business logic into reusable libraries",
+        "By separating modification operations from read operations to optimize performance and scalability",
+        "By consolidating data storage into a single, highly normalized database",
+        "By implementing tight coupling between different modules of the application"
+      ],
+      "answer": 1,
+      "question_id": "a0aae660-0474-4ecc-b47c-b0b11efd3f7e"
+    },
+    {
+      "choices": [
+        "Microservices allow for easy scalability and enhanced flexibility but can increase complexity and require comprehensive management and monitoring tools.",
+        "Microservices simplify application development to a significant extent and completely eliminate the need for scaling or monitoring tools.",
+        "Microservices result in higher application performance and security but limit the technology stack that can be used.",
+        "Microservices streamline deployment processes, removing the need for continuous integration and continuous deployment practices."
+      ],
+      "answer": 0,
+      "question_id": "162c7869-7ea8-4c6f-bb3f-b22b6c040151"
+    },
+    {
+      "choices": [
+        "A methodology that describes twelve design patterns for creating scalable web applications",
+        "A software development process that focuses exclusively on mobile app scalability",
+        "A set of guidelines for developing software within a monolithic architecture",
+        "An approach to software development that prioritizes continuous delivery and integration"
+      ],
+      "answer": 0,
+      "question_id": "ec5e8fee-1d31-425a-8907-96f4b483ac3d"
+    },
+    {
+      "choices": [
+        "When you need direct control over the operating system for application customization",
+        "When you have high computational workloads that require fine-tuned performance optimizations",
+        "For applications with irregular usage patterns and unpredictable scaling requirements",
+        "When managing and orchestrating a cluster of containers is a primary requirement"
+      ],
+      "answer": 2,
+      "question_id": "a3fdab83-d1d4-406b-83c3-0bb1bbfa7465"
+    },
+    {
+      "choices": [
+        "By serializing objects into a relational database for query optimization",
+        "By synchronizing state across distributed systems at regular intervals",
+        "By storing state changes as a sequence of events which can be replayed to recreate the state of an object",
+        "By using a central message broker to distribute tasks to workers in a round-robin fashion"
+      ],
+      "answer": 2,
+      "question_id": "6a37b661-69d5-4c9f-9ad6-d2449e12a367"
+    },
+    {
+      "choices": [
+        "The property that enables an API to handle multiple requests in parallel",
+        "A design principle that suggests using different methods for data retrieval versus data modification",
+        "The ability of an API operation to be safely repeated or retried without changing the result beyond the initial application",
+        "A strategy for ensuring API requests are stateful and maintain session information"
+      ],
+      "answer": 2,
+      "question_id": "9c0839ce-3eb0-425a-ba34-786e7e377a0c"
+    },
+    {
+      "choices": [
+        "Synchronous communication happens at different times, while asynchronous communication occurs simultaneously.",
+        "In synchronous communication, tasks wait for a response before continuing, whereas in asynchronous communication, tasks can continue without waiting for a response.",
+        "Asynchronous communication reduces the system's performance, while synchronous communication improves it.",
+        "Synchronous communication allows multiple data transfers at once; asynchronous communication does not."
+      ],
+      "answer": 1,
+      "question_id": "3dcf4c9e-1c18-47d0-ba1b-5372c6f9e37e"
+    },
+    {
+      "choices": [
+        "To reduce the cost of cloud services",
+        "To enhance the graphical user interface",
+        "To focus on the core business concerns",
+        "To simplify debugging procedures"
+      ],
+      "answer": 2,
+      "question_id": "b23ec606-2eb5-4133-a804-ed1687504b37"
+    },
+    {
+      "choices": [
+        "The cost of retraining staff when new technologies are adopted.",
+        "The rewards from successfully implementing complex algorithms.",
+        "The accumulation of compromises in software development that may hinder future enhancements.",
+        "A measure of how much technology a company owns."
+      ],
+      "answer": 2,
+      "question_id": "0ed05953-8737-421b-b8db-8d383b368662"
+    },
+    {
+      "choices": [
+        "They increase security by encrypting messages.",
+        "They facilitate service-to-service communication through a shared database.",
+        "They act as an intermediary for message queues and publish/subscribe operations, enabling asynchronous communication between services.",
+        "They monitor and log all services in real-time for performance analysis."
+      ],
+      "answer": 2,
+      "question_id": "af80b390-fbc0-4f39-9fcd-4e551911132b"
+    },
+    {
+      "choices": [
+        "A method for incrementally building a complex system by focusing on reproducing small, manageable parts rather than the whole.",
+        "A design pattern used in microservices to prevent a network or service failure from cascading to other services. It does so by stopping the operation for a period when failures reach a certain threshold.",
+        "A strategy for enhancing the security of a microservice architecture by isolating execution environments at the operating system level.",
+        "An algorithm for dynamically routing requests to the most efficient services based on real-time performance metrics."
+      ],
+      "answer": 1,
+      "question_id": "4a69d182-937c-47d0-8c8c-145fb487564b"
+    },
+    {
+      "choices": [
+        "To run database migrations",
+        "To facilitate communication between clients and microservices, providing a single entry point",
+        "To monitor and log service requests",
+        "To balance load among microservices"
+      ],
+      "answer": 1,
+      "question_id": "39b978cf-cdf0-4b15-a1e8-b33025beb477"
+    },
+    {
+      "choices": [
+        "By compiling microservices into a single deployable unit",
+        "By scaling the host operating system for microservices",
+        "By managing the lifecycle and scalability of containers",
+        "By encrypting microservices communication channels"
+      ],
+      "answer": 2,
+      "question_id": "330bca0c-4ac7-47b0-ae06-40f1e6b80078"
+    },
+    {
+      "choices": [
+        "It refers to a style of architecture where components are upgraded in place for scalability.",
+        "It is a security concept where access controls are unchangeable once set.",
+        "It indicates a practice of replacing hardware components rather than repairing them to ensure performance.",
+        "It refers to an approach where infrastructure components are replaced rather than changed, reducing inconsistencies and simplifying rollbacks."
+      ],
+      "answer": 3,
+      "question_id": "a1cb1964-e4c7-4c98-9129-ffe75297afb8"
+    },
+    {
+      "choices": [
+        "A software development methodology that emphasizes early morning coding sessions to enhance creativity.",
+        "A technique to improve security by randomly generating code paths at runtime.",
+        "A practice aimed at discovering a system's vulnerabilities by introducing chaos and unpredictable scenarios, such as server outages, to ensure the system remains resilient.",
+        "A design philosophy that promotes minimalistic user interfaces to reduce user cognitive load."
+      ],
+      "answer": 2,
+      "question_id": "a0713e53-dc7d-4e7a-b9ac-057e1db40950"
+    },
+    {
+      "choices": [
+        "A design pattern that allows for changing the user interface based on user feedback.",
+        "A method of writing code that focuses on the user experience first and foremost.",
+        "A technique for enabling and disabling features in a software application without deploying new code.",
+        "A software development approach that emphasizes the creation of software features in isolation."
+      ],
+      "answer": 2,
+      "question_id": "5a884a4e-8102-4d80-8309-198e4e90e1fc"
+    },
+    {
+      "choices": [
+        "Optimizing the performance of individual components",
+        "Managing the visual elements of the user interface",
+        "Ensuring the software's scalability across multiple platforms",
+        "Handling the changes in software requirements and environments"
+      ],
+      "answer": 3,
+      "question_id": "4cf41839-1541-4398-9f01-c1f453f0fe6b"
+    },
+    {
+      "choices": [
+        "Increases the complexity of system design, but can greatly improve scalability by distributing data across different databases.",
+        "Ensures data redundancy and reliability by creating multiple copies of the same database.",
+        "Significantly reduces the need for robust backup and recovery solutions.",
+        "Eliminates the possibility of data breaches and security threats."
+      ],
+      "answer": 0,
+      "question_id": "11a66d3d-5d80-4387-b2d7-93e86ad526fd"
+    },
+    {
+      "choices": [
+        "Reduced payload size due to over-fetching",
+        "More efficient caching mechanisms",
+        "Easier to implement authentication",
+        "Allows multiple database queries in a single request"
+      ],
+      "answer": 0,
+      "question_id": "105cb35a-aa4c-44bd-aae5-0186c797276f"
+    },
+    {
+      "choices": [
+        "A design pattern where one object provides a list of dependencies to another object without knowing which specific class will be used.",
+        "A behavioral design pattern where an object, known as the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.",
+        "An architectural style for mutual communication between components and services in a distributed system.",
+        "A structural pattern that creates a chain of responsibility, allowing several objects to handle a request, passing it along a chain until an object handles it."
+      ],
+      "answer": 1,
+      "question_id": "555a9ee0-e0ed-4c09-be5c-549483caf7c5"
+    },
+    {
+      "choices": [
+        "By simplifying the deployment process",
+        "By enforcing a single technology stack for all data storage needs",
+        "By allowing the use of multiple storage technologies to optimize performance and scalability",
+        "By reducing the overall cost of infrastructure"
+      ],
+      "answer": 2,
+      "question_id": "6efe7c37-a863-4b6a-b3cf-78c36e0a80ca"
+    },
+    {
+      "choices": [
+        "Failover involves reverting changes back to the original system once it's stable, whereas Failback refers to the automatic switching to a redundant or standby system upon failure.",
+        "Failover is the process of preparing for failure by duplicating systems, whereas Failback involves mitigating a failure once it has occurred.",
+        "Failover is the automatic switching to a redundant or standby system upon failure, whereas Failback involves reverting changes back to the original system once it's stable.",
+        "Failover and Failback are terms used interchangeably in disaster recovery to describe the process of recovering from a system failure."
+      ],
+      "answer": 2,
+      "question_id": "8d80c6f5-e6c8-4bd0-bbf4-28f8f0085487"
+    },
+    {
+      "choices": [
+        "A management interface for cloud storage services",
+        "A network of interconnected nodes that facilitate blockchain transactions",
+        "A dedicated infrastructure layer for facilitating service-to-service communications in microservices architectures",
+        "A tool for deploying monolithic applications in a virtualized environment"
+      ],
+      "answer": 2,
+      "question_id": "c8f39a82-0ad3-4c6a-af24-faca4949ccdb"
+    },
+    {
+      "choices": [
+        "They increase the complexity of network management but have no direct impact on software architecture.",
+        "They primarily enhance data security at the expense of system scalability.",
+        "They necessitate adjustments in architecture to leverage data processing and decision-making closer to data sources.",
+        "They simplify software architecture by centralizing data processing."
+      ],
+      "answer": 2,
+      "question_id": "f49ae37f-9564-4866-a584-4c9c06bd5901"
+    },
+    {
+      "choices": [
+        "Utilizing a single, shared database for all microservices to ensure consistency.",
+        "Applying the Event Sourcing pattern to maintain consistency across distributed services.",
+        "Ensuring all microservices are written in the same programming language to maintain consistency.",
+        "Increasing the number of API endpoints to improve data consistency."
+      ],
+      "answer": 1,
+      "question_id": "4dccc497-67a2-4893-a871-fac430cea123"
+    },
+    {
+      "choices": [
+        "A mechanism to ensure data integrity in distributed systems",
+        "The process of managing how resources are allocated to different processes",
+        "The resistance a system has to accepting new data before it has finished processing current data",
+        "A design pattern for error handling in microservices"
+      ],
+      "answer": 2,
+      "question_id": "fe5b8a6b-8c8e-41a6-b13e-6905c14fb33b"
+    },
+    {
+      "choices": [
+        "By ensuring all nodes process transactions in the same sequence",
+        "Using a consensus protocol to make sure a majority of nodes agree on data values before committing",
+        "By partitioning the data across multiple nodes to prevent any single point of failure",
+        "Synchronizing clocks across all nodes to maintain temporal data consistency"
+      ],
+      "answer": 1,
+      "question_id": "e0d009fb-df07-4a3f-bbc2-47c5032da985"
+    },
+    {
+      "choices": [
+        "A mechanism to manage data consistency across microservices by using asynchronous communication and compensating transactions",
+        "A design pattern that replicates data across microservices to ensure high availability",
+        "An approach for direct synchronous communication between microservices for real-time data processing",
+        "A strategy to use shared databases across microservices to maintain strong data consistency"
+      ],
+      "answer": 0,
+      "question_id": "fe2c01dc-4df5-445b-91b4-e94ee44f0b89"
+    },
+    {
+      "choices": [
+        "Aggregate is a collection of objects treated as a single unit of data, while Entity is a design pattern.",
+        "Entity is a single identifiable object, whereas Aggregate is a cluster of entities and value objects with a root entity.",
+        "Aggregate refers to data processing methods, and Entity refers to the database schema design.",
+        "Entity and Aggregate are interchangeable terms used in database management."
+      ],
+      "answer": 1,
+      "question_id": "b323cd3d-54d4-4e68-9669-e483c566e050"
+    },
+    {
+      "choices": [
+        "A design pattern for adding new features to an application by building a new system around the edges of the old system and gradually replacing it.",
+        "A continuous integration approach that emphasizes deploying small changes frequently to minimize system downtime.",
+        "A security strategy that employs multiple layers of defense mechanisms to protect information technology environments.",
+        "An architectural style that focuses on the deployment of services connected by a lightweight communication protocol."
+      ],
+      "answer": 0,
+      "question_id": "8ed61f3a-7fa9-4281-aba0-864c08be5f27"
+    },
+    {
+      "choices": [
+        "It focuses primarily on creating new features and user interfaces.",
+        "It ensures high availability and reliability by applying a software engineering approach to operations.",
+        "It solely concentrates on the physical aspects of the data centers, such as cooling and power.",
+        "It deals only with financial aspects, aiming to reduce operational costs."
+      ],
+      "answer": 1,
+      "question_id": "e991d912-9a6e-4139-b817-c6abd19137d8"
+    },
+    {
+      "choices": [
+        "A method for version control in software development",
+        "A type of architectural pattern focused on event-driven messaging",
+        "A high-level design plan for the digital infrastructure of a software platform",
+        "An algorithm for load balancing in cloud computing"
+      ],
+      "answer": 2,
+      "question_id": "a0e7b9fc-4657-4442-8f26-741335498e3f"
+    },
+    {
+      "choices": [
+        "A method to optimize performance by caching frequently requested data",
+        "The process of tracking the execution path of a request across multiple microservices",
+        "A security protocol to prevent unauthorized access to system components",
+        "Reducing the size of data packets to speed up network transmission"
+      ],
+      "answer": 1,
+      "question_id": "319aa95d-7ce4-444d-ac49-d6ce38bd9bf1"
+    },
+    {
+      "choices": [
+        "They optimize database indexing for faster query execution.",
+        "They reduce the network latency experienced by the system.",
+        "They ensure data consistency and agreement among distributed processes or systems.",
+        "They increase the computational power of individual nodes within the system."
+      ],
+      "answer": 2,
+      "question_id": "da6f53c2-ab28-46a8-b748-1e9ffcf74476"
+    },
+    {
+      "choices": [
+        "A pattern for merging different databases",
+        "A concept for converting legacy systems to microservices",
+        "A strategy to prevent security breaches in software systems",
+        "A technique to avoid having our domain model contaminated by a foreign model"
+      ],
+      "answer": 3,
+      "question_id": "fb1061bf-8985-44d5-bc81-97c244e8f2aa"
+    },
+    {
+      "choices": [
+        "Optimizing computational resource allocation",
+        "Securing network communication",
+        "Reducing data storage requirements",
+        "Accelerating software development cycles"
+      ],
+      "answer": 0,
+      "question_id": "115fbff3-cc08-4447-a37e-3b0efd0d6104"
+    },
+    {
+      "choices": [
+        "It enables manual adjustment of resources to meet demand.",
+        "It ensures data integrity through frequent backups.",
+        "It automatically adjusts the number of active servers based on load, improving resilience and resource utilization.",
+        "It encrypts data transmissions for secure communication."
+      ],
+      "answer": 2,
+      "question_id": "11b23a82-a99b-4f71-8c9e-92b63b7ded57"
+    },
+    {
+      "choices": [
+        "A behavioral design pattern that allows for the creation of complex objects step by step, used particularly when the algorithm to create an object should be independent of the parts that make up the object and how they're assembled.",
+        "A structural design pattern that helps to extend functionality of objects by placing these objects inside special wrapper objects that contain the behaviors.",
+        "A creational design pattern that defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.",
+        "A pattern that ensures a class has only one instance and provides a global point of access to it, used for managing database connections."
+      ],
+      "answer": 0,
+      "question_id": "fdbd43f3-c8b7-404e-b0af-998070ae3b0c"
+    },
+    {
+      "choices": [
+        "A design approach that ensures every component is redundant in different geographic locations.",
+        "A software architecture where a single instance of software serves multiple customers.",
+        "The practice of running multiple versions of an application for different users.",
+        "An architectural style that focuses on the separation of concerns during application development."
+      ],
+      "answer": 1,
+      "question_id": "80cae957-d9a3-4d34-9996-b2347c88cb78"
+    },
+    {
+      "choices": [
+        "Model-View-Controller (MVC)",
+        "Peer-to-Peer (P2P)",
+        "Microservices",
+        "Lambda and Kappa"
+      ],
+      "answer": 3,
+      "question_id": "4223312f-7c0c-481b-ab54-bf9011a1f93c"
+    },
+    {
+      "choices": [
+        "Increased focus on traditional monolithic architectures due to compatibility issues",
+        "Greater emphasis on concurrent provisioning and deployment strategies",
+        "Enhanced importance of security and encryption in software design to protect against quantum attacks",
+        "No significant impact, as quantum computing will only affect hardware-level operations"
+      ],
+      "answer": 2,
+      "question_id": "ea4a9302-6273-4fb1-81ca-45b13ada181e"
+    },
+    {
+      "choices": [
+        "A design framework focused on the visualization of data flow through software applications.",
+        "A method of structuring a client-server application to enhance manageability and scalability.",
+        "A model that emphasizes dividing an application into layers to improve modifiability and testability.",
+        "An architectural pattern aiming at creating loosely coupled application components that can be easily connected to their software environment."
+      ],
+      "answer": 3,
+      "question_id": "ac7f10db-c180-49f4-ac6d-a3e8d45adb76"
+    },
+    {
+      "choices": [
+        "By synchronizing service logs based on timestamps",
+        "By monitoring network latency between services",
+        "By providing a unique identifier for each request to track its path through the services",
+        "By deploying agents to fix issues automatically in the services"
+      ],
+      "answer": 2,
+      "question_id": "5bd53790-50e5-41c8-844f-a13d6f5c5469"
+    },
+    {
+      "choices": [
+        "SDN restricts network innovation and flexibility, locking architectures into predefined capabilities.",
+        "SDN primarily enhances the physical layer of networking, focusing on hardware improvements for architectures.",
+        "SDN decouples the network control and forwarding functions, enabling programmability of the network control and allowing for more adaptable network architectures.",
+        "SDN increases the cost and complexity of network management, offering no real benefits to software architecture."
+      ],
+      "answer": 2,
+      "question_id": "9e46fa57-4a6f-4677-aa9d-b2232f5663b3"
+    },
+    {
+      "choices": [
+        "A load-balancing technique for databases",
+        "A development framework for microservices",
+        "A deployment method for Docker containers",
+        "An auxiliary container that extends and works alongside a primary application container"
+      ],
+      "answer": 3,
+      "question_id": "6dbb3e8d-63fd-42a7-a359-72844326c690"
+    },
+    {
+      "choices": [
+        "A method to ensure that pods are scheduled on appropriate nodes with specific hardware requirements",
+        "A security mechanism to prevent unauthorized access to pods",
+        "Nodes are marked with taints to repel certain pods unless those pods are marked with matching tolerations",
+        "A networking model to isolate pods into different network segments"
+      ],
+      "answer": 2,
+      "question_id": "7163a51b-e721-43b7-b553-9678c97b9334"
+    },
+    {
+      "choices": [
+        "A technique to ensure that database transactions are processed in real-time across all nodes, guaranteeing immediate data consistency.",
+        "A principle stating that all replicas in a distributed system will converge to the same state given enough time, trading off immediate consistency for system availability and partition tolerance.",
+        "A method used to lock database records until a transaction is committed to prevent concurrent transactions from affecting data consistency.",
+        "A strategy for backup and recovery processes in databases, ensuring data is eventually consistent across backup locations."
+      ],
+      "answer": 1,
+      "question_id": "20941831-8062-4524-b89a-f3a38bd08fa4"
+    },
+    {
+      "choices": [
+        "By implementing public key infrastructure (PKI) for all devices",
+        "By encrypting all data in transit and at rest",
+        "By requiring all users and devices to be authenticated and authorized before accessing resources",
+        "By using traditional perimeter-based security models"
+      ],
+      "answer": 2,
+      "question_id": "a0b0aa5e-5f63-4dc8-9bca-55eb735f16c8"
+    },
+    {
+      "choices": [
+        "To manage state and side-effects in multi-threaded environments",
+        "To provide a way to rollback changes to the system's state",
+        "To optimize the performance of database transactions",
+        "To ensure type-safety across different modules of a program"
+      ],
+      "answer": 0,
+      "question_id": "1d6cdd02-aa13-449a-b009-40c093cdb3fc"
+    },
+    {
+      "choices": [
+        "The use of two different IT governance models in the same organization, leading to increased efficiency and speed.",
+        "A methodology that focuses exclusively on the digital transformation of legacy systems.",
+        "The practice of managing two separate but coherent styles of work: one focused on predictability; the other on exploration, leading to a more agile IT infrastructure.",
+        "The integration of IT services from two different cloud service providers to reduce dependency on a single provider."
+      ],
+      "answer": 2,
+      "question_id": "35eb07ad-2e63-4e9e-a096-5166c36fd20e"
+    },
+    {
+      "choices": [
+        "The principle that developers should always use database management systems within their architecture",
+        "The tendency of data to expand in size, making it harder to manage and process over time",
+        "A design pattern focused on the aggregation of data from multiple sources into a single repository",
+        "The phenomenon by which data and applications are drawn to each other, similar to the way gravity pulls objects towards each other, often resulting in large data sets and applications becoming centralized in one place, influencing architectural decisions"
+      ],
+      "answer": 3,
+      "question_id": "7c458533-6e13-449e-b0eb-b66548e626b9"
+    },
+    {
+      "choices": [
+        "Centralizing all data into a single data lake",
+        "Deploying machine learning algorithms at the edge",
+        "Distributing domain-specific data ownership across decentralized teams",
+        "Utilizing only traditional databases for storage"
+      ],
+      "answer": 2,
+      "question_id": "074e5154-d974-4cd6-a925-e7d8115813f2"
+    },
+    {
+      "choices": [
+        "A methodology for performing surgery using robotic systems",
+        "A set of practices that automates the deployment of infrastructure using Git as a single source of truth",
+        "A graphical user interface for managing Git repositories",
+        "An encryption algorithm used for secure data transmission"
+      ],
+      "answer": 1,
+      "question_id": "39750401-58d7-4419-bd64-cb9a49c62cd4"
+    },
+    {
+      "choices": [
+        "Injects malware to test antivirus effectiveness",
+        "Simulates system crashes to test backup procedures",
+        "Intentionally introduces faults into a system to test its ability to withstand and recover from error conditions",
+        "Automates software updates to reduce human error"
+      ],
+      "answer": 2,
+      "question_id": "fa1eabda-d3b3-4874-a7ab-8b7c4d679d2d"
+    },
+    {
+      "choices": [
+        "Ensures the fastest computational speed",
+        "Balances performance needs with budget constraints",
+        "Guarantees 100% uptime for all services",
+        "Automates the development processes"
+      ],
+      "answer": 1,
+      "question_id": "d2ddc6d4-ca61-4c47-8cac-a7f75ef00225"
+    },
+    {
+      "choices": [
+        "A process to compile software faster by using multiple servers.",
+        "A technique for measuring the interaction between two software systems.",
+        "A testing method where two versions of a component are compared to determine which one performs better.",
+        "A version control strategy for keeping track of changes in software development."
+      ],
+      "answer": 2,
+      "question_id": "a83cfc36-f499-4e24-9e0e-cd7f3cac96db"
+    },
+    {
+      "choices": [
+        "A process to verify the performance efficiency of individual microservices",
+        "A technique to ensure that communication paths between services adhere to a shared understanding documented in a 'contract'",
+        "A method for encrypting data transmitted between services",
+        "A practice for deploying microservices simultaneously to avoid downtime"
+      ],
+      "answer": 1,
+      "question_id": "4cdc832c-fd74-4080-9f4a-e45d9a5d4986"
+    },
+    {
+      "choices": [
+        "It adjusts the application's source code for better performance.",
+        "It allows simultaneous use of different versions of software among users.",
+        "It reduces downtime and risk by switching traffic between two identical environments.",
+        "It encrypts data before deployment for enhanced security."
+      ],
+      "answer": 2,
+      "question_id": "675c39cd-c91d-46b7-b0df-4c08bf7b41e9"
+    },
+    {
+      "choices": [
+        "Graphical User Interface design preferences",
+        "Machine learning model accuracy",
+        "Scalability, security, and interoperability",
+        "Color scheme for the application dashboard"
+      ],
+      "answer": 2,
+      "question_id": "2e82e373-a235-4451-a211-2801cc6e6cb3"
+    },
+    {
+      "choices": [
+        "A methodology for creating highly scalable and responsive software structures.",
+        "A form of secure communication that prevents any third party from altering or intercepting messages.",
+        "A design pattern aimed at reducing the latency in big data processing by using quantum bits.",
+        "A new programming paradigm that emphasizes on the use of quantum algorithms to solve complex problems."
+      ],
+      "answer": 1,
+      "question_id": "cbe2e6c4-d7a4-47ca-8a30-269c9ca18762"
+    },
+    {
+      "choices": [
+        "High computational power is not required.",
+        "Standardization of data across sources is easily achieved.",
+        "Coordinating updates across distributed data sources is straightforward.",
+        "Managing data privacy and security across devices."
+      ],
+      "answer": 3,
+      "question_id": "cf2b8f37-bd60-4dba-b2dd-d0e96740ed46"
+    },
+    {
+      "choices": [
+        "Enhancing database security through encryption protocols",
+        "Improving graphic design elements of the user interface",
+        "Automating and optimizing decision-making processes in software design",
+        "Streamlining hardware assembly on production lines"
+      ],
+      "answer": 2,
+      "question_id": "3e79b7e2-d9d3-4575-ac53-09aeb018d00e"
+    },
+    {
+      "choices": [
+        "By enforcing stricter data typing in programming languages",
+        "By leveraging decentralized networks to enhance application scalability",
+        "By introducing new patterns for user interface design",
+        "By requiring the use of specific programming languages"
+      ],
+      "answer": 1,
+      "question_id": "cc128246-bf4e-46f6-b8cb-248c76f7c929"
+    },
+    {
+      "choices": [
+        "A database technology focused solely on enhancing cloud storage capabilities with artificial intelligence",
+        "A new programming paradigm that combines quantum computing with traditional cloud resources",
+        "A centralized framework for storing and processing the real-world spatial data required for augmented reality experiences",
+        "A security protocol designed specifically for augmented reality applications to ensure data privacy and integrity in cloud computing environments"
+      ],
+      "answer": 2,
+      "question_id": "29ac5051-45a6-4c5f-8340-d77176564963"
+    },
+    {
+      "choices": [
+        "Improving user interface designs based on aesthetics preferences",
+        "Optimizing network traffic routing protocols",
+        "Enhancing the accuracy of failure prediction and parts replacement schedules",
+        "Streamlining the software development lifecycle processes"
+      ],
+      "answer": 2,
+      "question_id": "25e2cf33-0af4-4f0e-81c1-e54e9b995134"
+    },
+    {
+      "choices": [
+        "By replacing physical contracts with digital ones without the need for any integration.",
+        "Through API calls that allow traditional systems to interact with blockchain-based systems.",
+        "Smart Contracts cannot integrate with traditional business systems due to technological limitations.",
+        "They are primarily used for cryptocurrency transactions and do not integrate with business systems."
+      ],
+      "answer": 1,
+      "question_id": "7a979037-5474-4103-ba69-f447ec3d0810"
+    },
+    {
+      "choices": [
+        "Improves the efficiency of global data synchronization",
+        "Reduces the latency in human-computer interaction designs",
+        "Enhances the processing power of centralized data centers",
+        "Brings computational and decision-making processes closer to the data sources"
+      ],
+      "answer": 3,
+      "question_id": "38729a30-bfeb-41ce-9e0e-e4041b756473"
+    },
+    {
+      "choices": [
+        "Increases battery consumption and decreases device longevity",
+        "Reduces the need for physical network infrastructure, relying solely on cloud computing",
+        "Enables lower latency and higher data rates, facilitating more efficient and realtime data processing",
+        "Demands higher security protocols exclusively at the application level, ignoring network security"
+      ],
+      "answer": 2,
+      "question_id": "041fd14c-4dfe-4445-99b2-da48f52ec794"
+    },
+    {
+      "choices": [
+        "A programming technique focused on neuronal network simulation.",
+        "A computing paradigm inspired by the structure, processing method, and learning ability of the human brain, expected to revolutionize AI and machine learning through significantly improved efficiency and processing speed.",
+        "A new software development methodology that emphasizes adaptability and rapid prototyping.",
+        "A cloud computing architecture that dynamically adapts to user demand for optimal performance."
+      ],
+      "answer": 1,
+      "question_id": "afa14eb0-a26d-438b-bc24-731afaca5ded"
+    }
+  ]
+}
