@@ -19,6 +19,8 @@ html5lib = "*"
 bs4 = "*"
 streamlit = "*"
 streamlit-jupyter = "*"
+click = "*"
+pyyaml = "*"
 
 [dev-packages]
 
