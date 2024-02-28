@@ -12,26 +12,29 @@ class KnowledgeTest:
     def __init__(self, topics, test_name):
         self.topics = topics
         self.test_name = test_name
-        self.results = self.load_results()
+        self.state_file = f"{self.test_name}_state.yaml"
+        self.results, self.loaded_questions = self.load_state()
 
-    def load_results(self):
-        """Load or initialize test results."""
-        if os.path.exists(f"{self.test_name}.yaml"):
-            with open(f"{self.test_name}.yaml", "r") as file:
-                return yaml.safe_load(file)
+    def load_state(self):
+        """Load or initialize test."""
+        if os.path.exists(self.state_file):
+            with open(self.state_file, "r") as file:
+                state = yaml.safe_load(file)
+                return state.get("results", {}), state.get("questions", self.topics)
         else:
-            return {
+            results = {
                 topic["topic"]: {
                     "passed_levels": [],
                     "correct_answers": {i: 0 for i in range(1, 6)},
                 }
                 for topic in self.topics
             }
+            return results, self.topics
 
     def run_test(self):
         """Run or resume the knowledge test."""
         print(f"\nTest Name: {self.test_name}\n")
-        for topic in self.topics:
+        for topic in self.loaded_questions:
             current_topic_results = self.results[topic["topic"]]
             print(f"\nTopic: {topic['topic']}\n")
             for difficulty_level in range(1, 6):
@@ -54,10 +57,9 @@ class KnowledgeTest:
                         for item in topic["choices"]
                         if item["question_id"] == question["id"]
                     )
-                    correct_answer_index = choice_info["answer"]
-                    correct_answer = choice_info["choices"][correct_answer_index]
-
-                    print(question["question"])
+                    # correct_answer_index = choice_info["answer"]
+                    # correct_answer = choice_info["choices"][correct_answer_index]
+                    print(f"{topic['topic']}: {question['question']}")
                     for i, choice in enumerate(choice_info["choices"], start=1):
                         print(f"{i}. {choice}")
                     print("5. I don't know\n6. Proceed to next topic")
@@ -86,8 +88,9 @@ class KnowledgeTest:
 
     def update_state(self):
         """Save the current state of the test to a file."""
-        with open(f"{self.test_name}.yaml", "w") as file:
-            yaml.dump(self.results, file)
+        state = {"results": self.results, "questions": self.loaded_questions}
+        with open(self.state_file, "w") as file:
+            yaml.dump(state, file)
 
     def show_results(self):
         """Show test results."""
@@ -177,7 +180,11 @@ def list_topics():
     help="Specify topics to include on the test, separated by commas.",
     multiple=True,
 )
-def start(exclude, include):
+@click.option(
+    "--name",
+    help="Specify the name for a test",
+)
+def start(exclude, include, name):
     excluded_topics = (
         {topic.strip() for t in exclude for topic in t.split(",")} if exclude else None
     )
@@ -190,22 +197,22 @@ def start(exclude, include):
         print("No topics found with the specified criteria.")
         return
 
-    test_name = generate_test_name()
+    test_name = name if name is not None else generate_test_name()
     test = KnowledgeTest(topics_data, test_name)
     test.run_test()
 
 
 @cli.command(help="Resume a test by test name.")
-@click.argument("test_name")
-def resume(test_name):
-    if os.path.exists(f"{test_name}.yaml"):
+@click.option("--name", help="Specify the name for a test", required=True)
+def resume(name):
+    if os.path.exists(f"{name}_state.yaml"):
         topics_data = (
             load_questions()
         )  # Load all topics to ensure test can resume correctly
-        test = KnowledgeTest(topics_data, test_name)
+        test = KnowledgeTest(topics_data, name)
         test.run_test()
     else:
-        print(f"No saved test with the name '{test_name}' found.")
+        print(f"No saved test with the name '{name}' found.")
 
 
 if __name__ == "__main__":
