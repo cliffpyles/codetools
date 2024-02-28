@@ -7,20 +7,37 @@ import yaml
 import os
 from random import shuffle
 
+CONSECUTIVE_PASS_THRESHOLD = 3
+CONSECUTIVE_FAIL_THRESHOLD = 3
+
 
 class KnowledgeTest:
     def __init__(self, topics, test_name):
         self.topics = topics
         self.test_name = test_name
         self.state_file = f"{self.test_name}_state.yaml"
-        self.results, self.loaded_questions = self.load_state()
+        (
+            self.results,
+            self.loaded_questions,
+            self.current_topic_index,
+            self.current_question_index,
+            self.consecutive_correct,
+            self.consecutive_incorrect,
+        ) = self.load_state()
 
     def load_state(self):
         """Load or initialize test."""
         if os.path.exists(self.state_file):
             with open(self.state_file, "r") as file:
                 state = yaml.safe_load(file)
-                return state.get("results", {}), state.get("questions", self.topics)
+                return (
+                    state.get("results", {}),
+                    state.get("questions", self.topics),
+                    state.get("current_topic_index", 0),
+                    state.get("current_question_index", 0),
+                    state.get("consecutive_correct", 0),
+                    state.get("consecutive_incorrect", 0),
+                )
         else:
             results = {
                 topic["topic"]: {
@@ -29,27 +46,48 @@ class KnowledgeTest:
                 }
                 for topic in self.topics
             }
-            return results, self.topics
+            return results, self.topics, 0, 0, 0, 0
 
     def run_test(self):
         """Run or resume the knowledge test."""
+        difficulty_level_names = [
+            "",
+            "Beginner",
+            "Intermediate",
+            "Advanced",
+            "Expert",
+            "Master",
+        ]
         print(f"\nTest Name: {self.test_name}\n")
-        for topic in self.loaded_questions:
+        for i, topic in enumerate(
+            self.loaded_questions[self.current_topic_index :],
+            start=self.current_topic_index,
+        ):
+            self.current_topic_index = i
             current_topic_results = self.results[topic["topic"]]
-            print(f"\nTopic: {topic['topic']}\n")
+            print(f"Topic: {topic['topic']}\n")
             for difficulty_level in range(1, 6):
                 if difficulty_level in current_topic_results["passed_levels"]:
                     continue  # Skip difficulty level if already passed
 
+                difficulty_level_name = difficulty_level_names[difficulty_level]
+                print(f"Difficulty Level: {difficulty_level_name}\n")
                 questions = [
                     q for q in topic["questions"] if q["difficulty"] == difficulty_level
                 ]
                 shuffle(questions)  # Shuffle questions for randomness
-                consecutive_correct = 0
-                consecutive_incorrect = 0
-
-                for question in questions:
-                    if consecutive_incorrect >= 4 or consecutive_correct == 10:
+                for j, question in enumerate(
+                    questions[self.current_question_index :],
+                    start=self.current_question_index,
+                ):
+                    self.current_question_index = j
+                    if self.consecutive_incorrect >= CONSECUTIVE_FAIL_THRESHOLD:
+                        self.consecutive_correct, self.consecutive_incorrect = 0, 0
+                        print("(failed)\n")
+                        break
+                    elif self.consecutive_correct == CONSECUTIVE_PASS_THRESHOLD:
+                        self.consecutive_correct, self.consecutive_incorrect = 0, 0
+                        print("(passed)\n")
                         break
 
                     choice_info = next(
@@ -57,38 +95,55 @@ class KnowledgeTest:
                         for item in topic["choices"]
                         if item["question_id"] == question["id"]
                     )
-                    # correct_answer_index = choice_info["answer"]
-                    # correct_answer = choice_info["choices"][correct_answer_index]
-                    print(f"{topic['topic']}: {question['question']}")
+                    print(
+                        f"{topic['topic']} ({difficulty_level_name}): {question['question']}\n"
+                    )
                     for i, choice in enumerate(choice_info["choices"], start=1):
                         print(f"{i}. {choice}")
                     print("5. I don't know\n6. Proceed to next topic")
 
-                    answer = click.prompt("Your answer", type=int, show_choices=False)
+                    answer = click.prompt("\nYour answer", type=int, show_choices=False)
                     if answer == 5:
-                        consecutive_incorrect += 1
+                        self.consecutive_incorrect += 1
                     elif answer == 6:
+                        self.consecutive_correct, self.consecutive_incorrect = 0, 0
                         break
                     elif answer - 1 == choice_info["answer"]:
-                        consecutive_correct += 1
-                        consecutive_incorrect = 0
+                        self.consecutive_correct += 1
+                        self.consecutive_incorrect = 0
                         current_topic_results["correct_answers"][difficulty_level] += 1
                     else:
-                        consecutive_incorrect += 1
-                        consecutive_correct = 0
+                        self.consecutive_incorrect += 1
+                        self.consecutive_correct = 0
                     # Update state after every question
                     self.update_state()
 
-                if consecutive_correct >= 10:
+                if self.consecutive_correct >= CONSECUTIVE_PASS_THRESHOLD:
                     current_topic_results["passed_levels"].append(difficulty_level)
                     # Ensure state is updated when advancing levels or finishing a topic
                     self.update_state()
+                    self.consecutive_correct, self.consecutive_incorrect = 0, 0
+                self.current_question_index = (
+                    0  # Reset for the next difficulty level or topic
+                )
+
+            self.consecutive_correct, self.consecutive_incorrect = (
+                0,
+                0,
+            )  # Reset counters for the next topic
 
         self.show_results()
 
     def update_state(self):
         """Save the current state of the test to a file."""
-        state = {"results": self.results, "questions": self.loaded_questions}
+        state = {
+            "results": self.results,
+            "questions": self.loaded_questions,
+            "current_topic_index": self.current_topic_index,
+            "current_question_index": self.current_question_index,
+            "consecutive_correct": self.consecutive_correct,
+            "consecutive_incorrect": self.consecutive_incorrect,
+        }
         with open(self.state_file, "w") as file:
             yaml.dump(state, file)
 
@@ -106,9 +161,7 @@ class KnowledgeTest:
 
 def to_snake_case(s):
     """Convert a string to snake case, also replacing spaces and dashes."""
-    # Replace spaces and dashes with underscores
     s = s.replace(" ", "_").replace("-", "_")
-    # Convert CamelCase to snake_case
     return re.sub(r"(?<!^)(?=[A-Z])", "_", s).lower()
 
 
@@ -121,8 +174,7 @@ def generate_test_name():
 
 
 def load_questions(excluded_topics=None, included_topics=None):
-    """Load questions from JSON files in the data directory"""
-
+    """Load questions from JSON files in the data directory."""
     if excluded_topics is not None and included_topics is not None:
         raise ValueError(
             "Either excluded_topics or included_topics should be provided, but not both."
@@ -135,20 +187,16 @@ def load_questions(excluded_topics=None, included_topics=None):
 
     topics = []
     files = Path("./data").glob("*.json")
-
     for file in files:
         with open(file, "r") as f:
             topic_data = json.load(f)
             topic = to_snake_case(topic_data.get("topic", ""))
-
             if included_topics is not None:
                 if topic in included_topics:
                     topics.append(topic_data)
-
             elif excluded_topics is not None:
                 if topic not in excluded_topics:
                     topics.append(topic_data)
-
             elif included_topics is None and excluded_topics is None:
                 topics.append(topic_data)
 
@@ -192,7 +240,6 @@ def start(exclude, include, name):
         {topic.strip() for t in include for topic in t.split(",")} if include else None
     )
     topics_data = load_questions(excluded_topics, included_topics)
-
     if not topics_data:
         print("No topics found with the specified criteria.")
         return
