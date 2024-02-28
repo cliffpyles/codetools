@@ -1,5 +1,6 @@
 import click
 import json
+import re
 from pathlib import Path
 from random import randint, choice
 import yaml
@@ -100,6 +101,14 @@ class KnowledgeTest:
             print("\n")
 
 
+def to_snake_case(s):
+    """Convert a string to snake case, also replacing spaces and dashes."""
+    # Replace spaces and dashes with underscores
+    s = s.replace(" ", "_").replace("-", "_")
+    # Convert CamelCase to snake_case
+    return re.sub(r"(?<!^)(?=[A-Z])", "_", s).lower()
+
+
 def generate_test_name():
     """Generate a unique, human-friendly name for the test."""
     adjectives = ["mighty", "curious", "speedy", "brave", "smart"]
@@ -108,15 +117,38 @@ def generate_test_name():
     return f"{choice(adjectives)}-{choice(nouns)}-{number}"
 
 
-def load_questions(selected_topics=None):
-    """Load questions from JSON files in the data directory, filtered by selected topics."""
+def load_questions(excluded_topics=None, included_topics=None):
+    """Load questions from JSON files in the data directory"""
+
+    if excluded_topics is not None and included_topics is not None:
+        raise ValueError(
+            "Either excluded_topics or included_topics should be provided, but not both."
+        )
+
+    if excluded_topics is not None:
+        excluded_topics = [to_snake_case(topic) for topic in excluded_topics]
+    if included_topics is not None:
+        included_topics = [to_snake_case(topic) for topic in included_topics]
+
     topics = []
     files = Path("./data").glob("*.json")
+
     for file in files:
         with open(file, "r") as f:
             topic_data = json.load(f)
-            if not selected_topics or topic_data["topic"] in selected_topics:
+            topic = to_snake_case(topic_data.get("topic", ""))
+
+            if included_topics is not None:
+                if topic in included_topics:
+                    topics.append(topic_data)
+
+            elif excluded_topics is not None:
+                if topic not in excluded_topics:
+                    topics.append(topic_data)
+
+            elif included_topics is None and excluded_topics is None:
                 topics.append(topic_data)
+
     return topics
 
 
@@ -136,16 +168,28 @@ def list_topics():
 
 @cli.command(help="Start the knowledge test.")
 @click.option(
-    "--topics", help="Specify topics to test on, separated by commas.", multiple=True
+    "--exclude",
+    help="Specify topics to exclude from the test, separated by commas.",
+    multiple=True,
 )
-def start(topics):
-    selected_topics = (
-        {topic.strip() for t in topics for topic in t.split(",")} if topics else None
+@click.option(
+    "--include",
+    help="Specify topics to include on the test, separated by commas.",
+    multiple=True,
+)
+def start(exclude, include):
+    excluded_topics = (
+        {topic.strip() for t in exclude for topic in t.split(",")} if exclude else None
     )
-    topics_data = load_questions(selected_topics)
+    included_topics = (
+        {topic.strip() for t in include for topic in t.split(",")} if include else None
+    )
+    topics_data = load_questions(excluded_topics, included_topics)
+
     if not topics_data:
         print("No topics found with the specified criteria.")
         return
+
     test_name = generate_test_name()
     test = KnowledgeTest(topics_data, test_name)
     test.run_test()
