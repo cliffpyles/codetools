@@ -98,11 +98,12 @@ class KnowledgeTest:
                     print(
                         f"{topic['topic']} ({difficulty_level_name}): {question['question']}\n"
                     )
-                    for i, choice in enumerate(choice_info["choices"], start=1):
-                        print(f"{i}. {choice}")
+                    for k, choice in enumerate(choice_info["choices"], start=1):
+                        print(f"{k}. {choice}")
                     print("5. I don't know\n6. Proceed to next topic")
 
                     answer = click.prompt("\nYour answer", type=int, show_choices=False)
+                    print("")
                     if answer == 5:
                         self.consecutive_incorrect += 1
                     elif answer == 6:
@@ -120,9 +121,11 @@ class KnowledgeTest:
 
                 if self.consecutive_correct >= CONSECUTIVE_PASS_THRESHOLD:
                     current_topic_results["passed_levels"].append(difficulty_level)
+
                     # Ensure state is updated when advancing levels or finishing a topic
-                    self.update_state()
                     self.consecutive_correct, self.consecutive_incorrect = 0, 0
+                    self.update_state()
+
                 self.current_question_index = (
                     0  # Reset for the next difficulty level or topic
                 )
