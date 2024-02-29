@@ -44,6 +44,10 @@ flowchart TD
 
 ```
 
+Upon finishing the test, participants will receive results similar to the following image.
+
+![example result](example_result.png)
+
 ## What - The Features
 
 - **Customizable Tests**: Select specific topics to assess.
