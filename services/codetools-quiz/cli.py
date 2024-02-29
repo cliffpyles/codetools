@@ -6,7 +6,7 @@ import yaml
 from pathlib import Path
 from random import randint, choice, shuffle
 
-CONSECUTIVE_PASS_THRESHOLD = 3
+CONSECUTIVE_PASS_THRESHOLD = 5
 CONSECUTIVE_FAIL_THRESHOLD = 3
 DIFFICULTY_LEVEL_NAMES = [
     "",
