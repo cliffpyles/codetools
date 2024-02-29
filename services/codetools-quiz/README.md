@@ -1,4 +1,4 @@
-# Codetools Quiz README
+# Codetools Quiz
 
 ## Why - The Purpose
 
