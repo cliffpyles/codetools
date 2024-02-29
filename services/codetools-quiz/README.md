@@ -22,6 +22,28 @@ The quiz employs a multiple-choice format for easy self-assessment, accessible t
 
 Add `--help` for more details on command usage, e.g., `cli.py start --help`.
 
+### Participant Flow
+
+```mermaid
+flowchart TD
+    A[Participant] -->|Starts/Resumes| B[Test]
+    B --> C[Topic]
+    C --> D[Beginner]
+    D -->|Answers Correctly| E[Intermediate]
+    D -->|Fails| F[Next Topic]
+    E -->|Answers Correctly| G[Advanced]
+    E -->|Fails| F
+    G -->|Answers Correctly| H[Expert]
+    G -->|Fails| F
+    H -->|Answers Correctly| I[Master]
+    H -->|Fails| F
+    I -->|Answers Correctly| J[Next Topic]
+    I -->|Fails| F
+    J -->|No More Topics| K[View Results]
+    F -->|No More Topics| K
+
+```
+
 ## What - The Features
 
 - **Customizable Tests**: Select specific topics to assess.
