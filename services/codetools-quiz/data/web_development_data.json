@@ -481,5 +481,967 @@
       "difficulty": 5,
       "question": "How can you use CSS Custom Properties (variables)?"
     }
+  ],
+  "choices": [
+    {
+      "choices": [
+        "Hyperlinks and Text Markup Language",
+        "High Text Machine Language",
+        "Hyper Text Markup Language",
+        "Hyper Tool Multi Language"
+      ],
+      "answer": 2,
+      "question_id": "351d8e72-2a2e-4bf1-8041-842cd1d9e299"
+    },
+    {
+      "choices": [
+        "To add functionality to web pages",
+        "To structure the content of web pages",
+        "To style the appearance of web pages",
+        "To increase the loading speed of web pages"
+      ],
+      "answer": 2,
+      "question_id": "572c8901-65a7-4df1-a46d-cb10ae87cc41"
+    },
+    {
+      "choices": [
+        "<style>",
+        "<link>",
+        "<script>",
+        "<stylesheet>"
+      ],
+      "answer": 0,
+      "question_id": "eeac2b77-bf3d-443c-b654-23260807b4a2"
+    },
+    {
+      "choices": [
+        "Hyper Transfer Protocol Text",
+        "Hyper Text Transfer Product",
+        "Hyper Text Transfer Protocol",
+        "High Transfer Protocol Text"
+      ],
+      "answer": 2,
+      "question_id": "94b1e584-d531-4ca5-8c04-ee53e1083c33"
+    },
+    {
+      "choices": [
+        "src",
+        "alt",
+        "href",
+        "title"
+      ],
+      "answer": 1,
+      "question_id": "15e597c1-2f5b-49a7-bbb6-aedce26a88b9"
+    },
+    {
+      "choices": [
+        "<break>",
+        "<lb>",
+        "<br>",
+        "<linebreak>"
+      ],
+      "answer": 2,
+      "question_id": "81c0ca5e-6103-473d-ac75-0b75c67dcfe1"
+    },
+    {
+      "choices": [
+        "<url href=\"http://example.com\">Example</url>",
+        "<a href=\"http://example.com\">Example</a>",
+        "<link src=\"http://example.com\">Example</link>",
+        "<href link=\"http://example.com\">Example</href>"
+      ],
+      "answer": 1,
+      "question_id": "38e0c9e7-01f0-4678-86cd-c263294917ee"
+    },
+    {
+      "choices": [
+        "background-color",
+        "bg-color",
+        "color-background",
+        "color-bg"
+      ],
+      "answer": 0,
+      "question_id": "ba086816-15c3-4871-831f-8a1b4ca01d27"
+    },
+    {
+      "choices": [
+        "To structure the content of web pages",
+        "To define the layout and design of web pages",
+        "To add interactivity and dynamic effects to web pages",
+        "To optimize websites for search engines"
+      ],
+      "answer": 2,
+      "question_id": "17d17bdb-7bab-4d52-b539-86ba1ccb52a5"
+    },
+    {
+      "choices": [
+        "<footer>",
+        "<bottom>",
+        "<div>",
+        "<section>"
+      ],
+      "answer": 0,
+      "question_id": "965fb8b4-2f92-4ef3-a8db-bb4e4c364863"
+    },
+    {
+      "choices": [
+        "font.size:12px;",
+        "font-size:12px;",
+        "Font-Size=12px;",
+        "{font-size:12px;}"
+      ],
+      "answer": 1,
+      "question_id": "5c819a53-6f33-4c9d-888c-97f32850ab7d"
+    },
+    {
+      "choices": [
+        "/* This is a comment */",
+        "// This is a comment",
+        "<!-- This is a comment -->",
+        "`This is a comment`"
+      ],
+      "answer": 0,
+      "question_id": "f2f814bd-da56-4afb-99b9-1c0e144439a2"
+    },
+    {
+      "choices": [
+        "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">",
+        "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">",
+        "<!DOCTYPE html>",
+        "<!DOCTYPE html5>"
+      ],
+      "answer": 2,
+      "question_id": "883924d7-09da-4de4-9e43-fdcb756d006e"
+    },
+    {
+      "choices": [
+        "absolute",
+        "fixed",
+        "relative",
+        "static"
+      ],
+      "answer": 3,
+      "question_id": "0f711014-c111-48cb-bdbe-6ea5b54a5f54"
+    },
+    {
+      "choices": [
+        "<ul>",
+        "<nl>",
+        "<ol>",
+        "<li>"
+      ],
+      "answer": 2,
+      "question_id": "baf0e15c-1901-43b0-a544-899039b92f01"
+    },
+    {
+      "choices": [
+        "To create a new table",
+        "To apply specific fonts to text",
+        "To define a division or a section in an HTML document",
+        "To insert an image"
+      ],
+      "answer": 2,
+      "question_id": "f83e888d-6e3f-4e81-ace8-244f5e65894d"
+    },
+    {
+      "choices": [
+        "email",
+        "color",
+        "range",
+        "text"
+      ],
+      "answer": 2,
+      "question_id": "713c12ca-cb55-40ff-9582-c2d993266e9a"
+    },
+    {
+      "choices": [
+        "#demo",
+        ".demo",
+        "demo",
+        "*demo"
+      ],
+      "answer": 0,
+      "question_id": "b7795327-f7d5-4111-846e-0eb2867a8894"
+    },
+    {
+      "choices": [
+        "class",
+        "src",
+        "style",
+        "href"
+      ],
+      "answer": 2,
+      "question_id": "1cc70f00-de14-4166-af20-b8b33ca68937"
+    },
+    {
+      "choices": [
+        "The language of the linked resource",
+        "The path to the image to display",
+        "The URL of the linked page",
+        "The relationship between the current document and the linked resource"
+      ],
+      "answer": 2,
+      "question_id": "252daceb-078f-4e55-aa99-3aca728eb0fd"
+    },
+    {
+      "choices": [
+        "'class' can be used multiple times per page, while 'id' is unique per page.",
+        "'id' is used to apply styles to images, while 'class' is used for text styling.",
+        "'class' sets the background color, while 'id' sets the text color.",
+        "'id' is used for JavaScript, while 'class' is used for CSS."
+      ],
+      "answer": 0,
+      "question_id": "38e313c4-610e-48ac-bf32-81c569d0c043"
+    },
+    {
+      "choices": [
+        "list-style-type: circle;",
+        "list-style-type: square;",
+        "list-style-type: decimal;",
+        "list-style-type: none;"
+      ],
+      "answer": 1,
+      "question_id": "d30e2cc0-de64-4575-8451-b366853ce3f9"
+    },
+    {
+      "choices": [
+        "Use the @import rule in an external stylesheet",
+        "Link the CSS file in every HTML page except one",
+        "Specify the CSS directly in the HTML elements",
+        "Include a <style> tag within the <head> section of the HTML page"
+      ],
+      "answer": 3,
+      "question_id": "c474cf3a-1408-401e-8b21-5832ce17a539"
+    },
+    {
+      "choices": [
+        "The image creator's name",
+        "A color scheme reference",
+        "A brief description of the image",
+        "The image dimensions"
+      ],
+      "answer": 2,
+      "question_id": "50e87603-269a-4f0f-a31f-40e4338c6c42"
+    },
+    {
+      "choices": [
+        "text-style",
+        "text-size",
+        "font-size",
+        "letter-spacing"
+      ],
+      "answer": 2,
+      "question_id": "a940ebeb-15f8-48ba-a9fb-7edf66c24c89"
+    },
+    {
+      "choices": [
+        "<!-- Comment -->",
+        "// Comment //",
+        "/* Comment */",
+        "# Comment #"
+      ],
+      "answer": 0,
+      "question_id": "75bdc866-19c0-4b98-8c5d-515c18eb52b9"
+    },
+    {
+      "choices": [
+        "document.getElementById('demo').innerHTML = 'Hello World!';",
+        "document.getElementByName('p').value = 'Hello World!';",
+        "#demo.innerHTML = 'Hello World!';",
+        "document.getElement('p').innerHTML = 'Hello World!';"
+      ],
+      "answer": 0,
+      "question_id": "a03d6ff9-a3ec-4212-8f31-1d1ae665b471"
+    },
+    {
+      "choices": [
+        "onmouseover",
+        "onclick",
+        "onchange",
+        "onfocus"
+      ],
+      "answer": 1,
+      "question_id": "74c30708-fd14-4ed4-b31f-0ef85ada678d"
+    },
+    {
+      "choices": [
+        "int myVar = 0;",
+        "let myVar;",
+        "var myVar == 5;",
+        "declare myVar;"
+      ],
+      "answer": 1,
+      "question_id": "5cb53b39-d167-4c60-ac96-b7efb4bd6547"
+    },
+    {
+      "choices": [
+        ".html()",
+        ".show()",
+        ".hide()",
+        ".css()"
+      ],
+      "answer": 2,
+      "question_id": "2c30a946-07f1-4ae1-91ea-28e582670078"
+    },
+    {
+      "choices": [
+        "<div style=\"background-color: yellow;\">",
+        "<background color=\"yellow\">",
+        "<div color: yellow;>",
+        "background-color: yellow;"
+      ],
+      "answer": 0,
+      "question_id": "654bacd1-b41b-455c-956f-4366a585b270"
+    },
+    {
+      "choices": [
+        "<ol>",
+        "<list>",
+        "<ul>",
+        "<bl>"
+      ],
+      "answer": 2,
+      "question_id": "3d8567bc-b0fa-4dce-955c-beafadd3cbdf"
+    },
+    {
+      "choices": [
+        "Changes the font size of an element",
+        "Controls the vertical stacking order of elements",
+        "Alters the opacity of an element",
+        "Adjusts the margin between elements"
+      ],
+      "answer": 1,
+      "question_id": "66231bbd-35a7-4c13-bcf6-ede483a98c02"
+    },
+    {
+      "choices": [
+        "font-style",
+        "font-size",
+        "font-family",
+        "text-style"
+      ],
+      "answer": 2,
+      "question_id": "5c33985e-6f72-4be3-9721-6893c8163529"
+    },
+    {
+      "choices": [
+        "To define a section that links to other parts of the website or to external websites",
+        "To create a container for JavaScript-powered interactive maps",
+        "To specify a unique identifier for an HTML element",
+        "To define a footer for a document or section"
+      ],
+      "answer": 0,
+      "question_id": "01e08b1d-253b-4490-9e8e-cf322487ebf5"
+    },
+    {
+      "choices": [
+        "<scripting>...</scripting>",
+        "<link src='script.js'></link>",
+        "<script src='script.js'></script>",
+        "<js>...</js>"
+      ],
+      "answer": 2,
+      "question_id": "ed812e10-10a2-43de-9aa9-ec3d764caf71"
+    },
+    {
+      "choices": [
+        "<script>",
+        "<javascript>",
+        "<js>",
+        "<source>"
+      ],
+      "answer": 0,
+      "question_id": "15f7d383-0e73-4d05-bb95-0cec971c417c"
+    },
+    {
+      "choices": [
+        "Declare at the top of the stylesheet",
+        "Use the !strong keyword",
+        "Precede with ##",
+        "Use the !important keyword"
+      ],
+      "answer": 3,
+      "question_id": "1f78ab5a-5603-48f5-a343-e5f81b5692c4"
+    },
+    {
+      "choices": [
+        "<style>",
+        "<script>",
+        "<js>",
+        "<javascript>"
+      ],
+      "answer": 1,
+      "question_id": "a29eead2-5e99-4070-a9c4-bb301f0a524b"
+    },
+    {
+      "choices": [
+        "document.location='newPage.html'",
+        "window.navigate('newPage.html')",
+        "browser.redirect('newPage.html')",
+        "location.href='http://www.newPage.com'"
+      ],
+      "answer": 3,
+      "question_id": "f1a40471-1b6d-41bc-a892-356a8c227cfc"
+    },
+    {
+      "choices": [
+        "$('.className')",
+        "$('#className')",
+        "jQuery('className')",
+        "$('className')"
+      ],
+      "answer": 0,
+      "question_id": "102b585b-1604-4eea-a3ac-d35037149b5e"
+    },
+    {
+      "choices": [
+        "document.getElementById('link').getAttribute('href')",
+        "document.getElementById('link').url",
+        "document.getUrl('link')",
+        "document.link.getHref()"
+      ],
+      "answer": 0,
+      "question_id": "45f6527e-e01f-4c58-9c86-8311002adedc"
+    },
+    {
+      "choices": [
+        "An error that occurs when scripts are run asynchronously",
+        "A combination of a function and the lexical environment within which that function was declared",
+        "A built-in JavaScript library for web animations",
+        "A pattern used to create scalable vector graphics on the web"
+      ],
+      "answer": 1,
+      "question_id": "117e8231-6cad-4ff6-8d81-573bf1b80eb0"
+    },
+    {
+      "choices": [
+        "text-style",
+        "font-weight",
+        "text-decoration",
+        "font-style"
+      ],
+      "answer": 1,
+      "question_id": "913a9e8e-b825-4aa5-b6ae-9ed89a455bb1"
+    },
+    {
+      "choices": [
+        "display: grid;",
+        "display: flex;",
+        "flex-container: true;",
+        "flex-wrap: true;"
+      ],
+      "answer": 1,
+      "question_id": "7a5bae22-9858-40b2-8bf4-a4cb10e7b730"
+    },
+    {
+      "choices": [
+        "To specify that the script is executed when the page finishes parsing",
+        "To defer the loading of the script until after the page has loaded",
+        "To ensure the script runs in the background",
+        "To indicate that the script will be executed asynchronously, as soon as it is available"
+      ],
+      "answer": 3,
+      "question_id": "d252aca3-9cc0-46fa-b4d3-507dbf50b363"
+    },
+    {
+      "choices": [
+        "a:link { color: red; }",
+        "a:focus { color: red; }",
+        "a:visited { color: red; }",
+        "a:hover { color: red; }"
+      ],
+      "answer": 2,
+      "question_id": "ef42788c-2990-4ca2-91cb-21fa76fc6616"
+    },
+    {
+      "choices": [
+        "<a href='url' target='_self'>",
+        "<a href='url' target='_new'>",
+        "<a href='url' target='_parent'>",
+        "<a href='url' target='_blank'>"
+      ],
+      "answer": 3,
+      "question_id": "e70466ad-1eb6-423e-ae8a-408948088815"
+    },
+    {
+      "choices": [
+        "Changes the background color of an element",
+        "Modifies the visibility of an element without changing the layout",
+        "Specifies the layout behavior of an element",
+        "Sets the border width of an element"
+      ],
+      "answer": 2,
+      "question_id": "8597082b-1072-49bf-8634-4f52201c3df7"
+    },
+    {
+      "choices": [
+        "window.client.name",
+        "navigator.appName",
+        "browser.name()",
+        "client.browser()"
+      ],
+      "answer": 1,
+      "question_id": "e7b6b6c6-adc1-4ee6-bbee-d3c20607ab20"
+    },
+    {
+      "choices": [
+        "<video>",
+        "<media>",
+        "<img>",
+        "<audio>"
+      ],
+      "answer": 0,
+      "question_id": "00f5913b-db3d-47e3-817a-865c25e0c319"
+    },
+    {
+      "choices": [
+        "Math.trunc(7.25)",
+        "7.25.toFixed()",
+        "Math.round(7.25)",
+        "parseInt(7.25)"
+      ],
+      "answer": 2,
+      "question_id": "3a9c95eb-f7ee-4314-b8c3-ead5cd96eac2"
+    },
+    {
+      "choices": [
+        "To store data on the client side that does not expire with the session",
+        "To refresh the webpage automatically every few seconds",
+        "To change the CSS styles of the webpage dynamically",
+        "To send data to the server in a secured manner"
+      ],
+      "answer": 0,
+      "question_id": "281309f3-094d-4558-a2ad-f01d3c7b9da4"
+    },
+    {
+      "choices": [
+        "Specifies the default language of the document",
+        "Defines the character encoding of the document",
+        "Controls the zoom level and dimensions of the viewport",
+        "Links to external CSS files"
+      ],
+      "answer": 2,
+      "question_id": "3badaf5e-5133-455e-975c-abbbd842db95"
+    },
+    {
+      "choices": [
+        "function = myFunction()",
+        "function: myFunction()",
+        "let myFunction()",
+        "function myFunction()"
+      ],
+      "answer": 3,
+      "question_id": "3f9a76e9-4388-4a28-b00a-01a64a347e9d"
+    },
+    {
+      "choices": [
+        "element{}",
+        "*{}",
+        "#id{}",
+        ".class{}"
+      ],
+      "answer": 1,
+      "question_id": "8a574f80-a61e-48e0-96dc-dd82b607c9e0"
+    },
+    {
+      "choices": [
+        "To update data on the server",
+        "To request data from a specific resource",
+        "To delete the specified resource",
+        "To submit data to be processed to a specified resource"
+      ],
+      "answer": 1,
+      "question_id": "cd3f94ff-9702-499d-a9c6-75c49b1a39e9"
+    },
+    {
+      "choices": [
+        "@media hover { ... }",
+        "element:hover { ... }",
+        "element::onhover { ... }",
+        "<style onhover='element'> { ... }"
+      ],
+      "answer": 1,
+      "question_id": "0bdf606f-b21f-43c6-b300-b06ae27c06ad"
+    },
+    {
+      "choices": [
+        "To specify a style for an element",
+        "To provide a label for screen readers",
+        "To define a JavaScript variable",
+        "To link to a stylesheet"
+      ],
+      "answer": 1,
+      "question_id": "73aca021-2235-4e42-bd6a-bf5e26622ff5"
+    },
+    {
+      "choices": [
+        "Local Storage provides more storage capacity than Session Storage",
+        "Local Storage data persists only during the page session, whereas Session Storage data persists even after the browser is closed",
+        "Session Storage is server-side storage while Local Storage is client-side storage",
+        "Local Storage data persists between browser sessions, whereas Session Storage data is cleared when the page session ends"
+      ],
+      "answer": 3,
+      "question_id": "945bf63d-14a3-4ca3-8552-8aa429efbd13"
+    },
+    {
+      "choices": [
+        "@media only screen and (max-width: 600px) { ... }",
+        "<link rel='stylesheet' media='screen and (max-width: 600px)' href='style.css' />",
+        "function screenSize() { if(window.innerWidth <= 600px) { ... } }",
+        "if(document.querySelector('body').offsetWidth <= 600px) { ... }"
+      ],
+      "answer": 0,
+      "question_id": "79f8f8a3-21e2-4cbf-814a-d0657b3697a2"
+    },
+    {
+      "choices": [
+        "A method used to execute two or more asynchronous operations back to back",
+        "A constructor function for creating a message system between client and server",
+        "An object representing the eventual completion (or failure) of an asynchronous operation, and its resulting value",
+        "A data structure used to manage HTTP requests in web applications"
+      ],
+      "answer": 2,
+      "question_id": "602ab04c-e2fe-4227-9004-7df3ac863836"
+    },
+    {
+      "choices": [
+        "Use the <grid> element in HTML",
+        "Use the display: flex property in CSS",
+        "Call the createGrid() JavaScript function",
+        "Use the display: grid property in CSS"
+      ],
+      "answer": 3,
+      "question_id": "3623a19c-72f8-4b36-9781-f9d7398109e5"
+    },
+    {
+      "choices": [
+        "It downloads the script while the rest of the page is loading, but executes it after the page has fully parsed.",
+        "It runs the script immediately before parsing the rest of the page.",
+        "It prevents the script from running until called explicitly.",
+        "It pauses script execution until all images on the page have loaded."
+      ],
+      "answer": 0,
+      "question_id": "749cc09d-8923-42ec-b622-f07b787db95f"
+    },
+    {
+      "choices": [
+        "A server-side script that communicates with a database",
+        "A client-side script that enables offline use of web pages",
+        "A tool for transpiling ES6 JavaScript to ES5",
+        "A framework for developing server-side applications"
+      ],
+      "answer": 1,
+      "question_id": "7cd6d2d9-64a7-4357-8483-c9daf2e7aa98"
+    },
+    {
+      "choices": [
+        "Set the form's 'action' attribute to 'preventDefault()'",
+        "Call the 'stop()' method on the form",
+        "Use 'form.submit(false)' in the event handler",
+        "Call 'event.preventDefault()' in the form's submit event handler"
+      ],
+      "answer": 3,
+      "question_id": "9cb145fb-19b4-440a-a665-243134fdd8bb"
+    },
+    {
+      "choices": [
+        "Defines the primary content of the document.",
+        "Specifies the technical specifications of a web page.",
+        "Represents a sidebar for tangential content.",
+        "Is used to group footer content in a document."
+      ],
+      "answer": 0,
+      "question_id": "1b834a37-2963-45d3-a818-932f3e7c7e07"
+    },
+    {
+      "choices": [
+        "Reduce image sizes",
+        "Increase HTTP requests",
+        "Use more inline CSS",
+        "Decrease website security"
+      ],
+      "answer": 0,
+      "question_id": "067a6590-6afd-4f75-8cd0-b401805daab2"
+    },
+    {
+      "choices": [
+        "To define a structure for encrypting data",
+        "To manage the layout of the Web document",
+        "To describe the design and layout of elements on a web page",
+        "To provide a collection of built-in functions for web animations"
+      ],
+      "answer": 2,
+      "question_id": "633cf663-0f62-4e30-92cc-31534b82f80b"
+    },
+    {
+      "choices": [
+        "box-shadow: 10px 20px 30px blue;",
+        "border-shadow: 10px 20px 30px blue;",
+        "text-shadow: 10px 20px 30px blue;",
+        "element-shadow: 10px 20px 30px blue;"
+      ],
+      "answer": 0,
+      "question_id": "4254d088-0a23-4def-9565-fb10a220d749"
+    },
+    {
+      "choices": [
+        "Data analysis automation",
+        "Cross-platform mobile app development",
+        "Building user interfaces and single-page applications",
+        "Machine learning model deployment"
+      ],
+      "answer": 2,
+      "question_id": "0d82822b-f9c3-492c-8525-c7312e36d8eb"
+    },
+    {
+      "choices": [
+        "Using a for loop",
+        "Using the async/await keywords and try/catch blocks",
+        "By adding event listeners",
+        "Implementing a switch statement"
+      ],
+      "answer": 1,
+      "question_id": "2485a677-9970-41ee-92b8-651ee256497f"
+    },
+    {
+      "choices": [
+        "To adjust the spacing between characters of text",
+        "To control the layout of elements in a grid format",
+        "To specify how an <img> or <video> should be resized to fit its container",
+        "To determine the background color of an element"
+      ],
+      "answer": 2,
+      "question_id": "30147921-dfb3-4bf2-95b7-732083f07bfb"
+    },
+    {
+      "choices": [
+        "Remove alt attributes from images",
+        "Reduce the number of interactive elements",
+        "Use only colors to convey information",
+        "Provide alternative text for images"
+      ],
+      "answer": 3,
+      "question_id": "84a9b075-7642-44f7-bac9-915d7c7c0c4c"
+    },
+    {
+      "choices": [
+        "Use the meta tag 'no-cache' in the HTML header.",
+        "Append a timestamp to the file URL.",
+        "Set Cache-Control header to 'private'.",
+        "Increase the refresh rate of the browser."
+      ],
+      "answer": 1,
+      "question_id": "cddc031f-3f8d-4464-a7ed-cff4b3032449"
+    },
+    {
+      "choices": [
+        "It is a protocol that defines the structure of web requests and responses.",
+        "It is the standard for encrypting and securing web traffic.",
+        "It is a programming interface for web documents that represents the page so that programs can change the document structure, style, and content.",
+        "It is a set of guidelines for how web servers communicate with search engines."
+      ],
+      "answer": 2,
+      "question_id": "c1991547-36b2-449f-9b05-d2147599d72a"
+    },
+    {
+      "choices": [
+        "Declare it inside a <script> tag with type=\"worker\"",
+        "Using the new Worker() constructor in the main JavaScript file",
+        "Import it as a module in the main app component",
+        "Add a <worker> tag in the HTML file"
+      ],
+      "answer": 1,
+      "question_id": "afd05b77-351b-4e2a-a35e-0a4cbbb387e7"
+    },
+    {
+      "choices": [
+        "Allowing users to execute SQL commands directly on a database to improve performance",
+        "Encrypting user data using advanced encryption algorithms to prevent data theft",
+        "Injecting malicious scripts into web pages viewed by other users to compromise their information",
+        "Using multiple servers to host the same website content to increase loading speed"
+      ],
+      "answer": 2,
+      "question_id": "ec59e5eb-5689-48d9-ba32-ff8214da5cd0"
+    },
+    {
+      "choices": [
+        "Use the latest web design trends",
+        "Implement Content Security Policy",
+        "Frequently change the website's color scheme",
+        "Store all sensitive information in cookies"
+      ],
+      "answer": 1,
+      "question_id": "400d5b9c-fa61-4782-b0f4-2a0ac13763f6"
+    },
+    {
+      "choices": [
+        "A mobile app version of a website, accessible only from the App Store or Google Play",
+        "An advanced SEO technique to rank websites higher in search engines",
+        "A type of web software that uses machine learning to improve user experience over time",
+        "A type of web application designed to work on any platform that uses a standards-compliant browser, offering features such as offline use, push notifications, and device hardware access"
+      ],
+      "answer": 3,
+      "question_id": "9192c14c-038c-4ac5-8779-06f6abcec472"
+    },
+    {
+      "choices": [
+        "Using AJAX calls to dynamically update the SPA",
+        "By prerendering the SPA at build time",
+        "Employing a CDN to cache the SPA pages",
+        "Using a framework or library that supports SSR, such as Next.js for React applications"
+      ],
+      "answer": 3,
+      "question_id": "b3142de9-1224-4518-a89a-f4fc056e1a13"
+    },
+    {
+      "choices": [
+        "Speeding up data analysis processes",
+        "Compiling high-level languages into bytecode that runs in web browsers",
+        "Enhancing the security of client-side scripting",
+        "Automating back-end server tasks"
+      ],
+      "answer": 1,
+      "question_id": "e48dc3bb-b2a4-4dc7-bf2d-03578ee10d7f"
+    },
+    {
+      "choices": [
+        "A synchronous function allows the execution of multiple tasks at the same time, whereas an asynchronous function does not.",
+        "A synchronous function blocks the execution of code until it completes, whereas an asynchronous function does not.",
+        "An asynchronous function is executed after a set delay, while a synchronous function executes immediately.",
+        "A synchronous function can only be used in web workers, while an asynchronous function can be used in the main thread."
+      ],
+      "answer": 1,
+      "question_id": "4bd6ff0f-72c7-4075-a752-5701e7fde4cf"
+    },
+    {
+      "choices": [
+        "Using local storage for session persistence",
+        "Setting cookies on the client-side",
+        "Utilizing state management libraries like Redux or MobX",
+        "Directly manipulating the DOM to reflect state changes"
+      ],
+      "answer": 2,
+      "question_id": "59c71f9e-afdc-4201-bf0a-9cc43cd6423a"
+    },
+    {
+      "choices": [
+        "Using only static units like pixels for layout",
+        "Making a different website for each device",
+        "Flexibility, Responsiveness, and User-friendly Navigation",
+        "Designing for the largest screen size only"
+      ],
+      "answer": 2,
+      "question_id": "c718d5d2-11fc-4fd3-bd96-66dda4d33d33"
+    },
+    {
+      "choices": [
+        "Increase the loading speed of pages",
+        "Decreasing the use of keywords",
+        "Using fewer images and videos",
+        "Making the website private"
+      ],
+      "answer": 0,
+      "question_id": "6c8e4950-746f-4622-80d8-194052f114c5"
+    },
+    {
+      "choices": [
+        "A development method that encourages developers to write tests for bugs as soon as they are found",
+        "A software development practice where developers regularly merge their code changes into a central repository, followed by automatic builds and tests",
+        "A programming approach aimed at improving code quality by pairing two programmers to work on the same task",
+        "A frontend development technique for reducing website load times by asynchronously loading images"
+      ],
+      "answer": 1,
+      "question_id": "59e69ab7-dd69-4bbb-888f-10428d813c54"
+    },
+    {
+      "choices": [
+        "GET is used to create resources, while POST is used to retrieve information.",
+        "GET requests can be bookmarked, while POST requests cannot.",
+        "There is no difference; both methods perform the same actions.",
+        "POST is more secure than GET as it does not allow data to be sent as URL parameters."
+      ],
+      "answer": 1,
+      "question_id": "9d715660-e5a1-4bc4-b02b-422a010d0820"
+    },
+    {
+      "choices": [
+        "Use a performance optimization tool",
+        "Manual review of the application's source code",
+        "Utilize accessibility testing tools like Axe or Lighthouse",
+        "Conduct user acceptance testing only"
+      ],
+      "answer": 2,
+      "question_id": "d7fe18b2-d5bc-4cd3-9a54-1a24ef71226d"
+    },
+    {
+      "choices": [
+        "Use a CDN to serve your content globally",
+        "Configure your server's timezone to UTC",
+        "Implement language-specific URLs and utilize the Accept-Language request HTTP header",
+        "Increase the memory limit of your web server"
+      ],
+      "answer": 2,
+      "question_id": "d86814c5-5fa3-45a6-8d77-dd198c481d19"
+    },
+    {
+      "choices": [
+        "HTTPS requires a longer connection time compared to HTTP.",
+        "HTTPS uses a secure protocol, providing encrypted communication and secure identification of a network web server.",
+        "HTTPS allows faster data transfer compared to HTTP.",
+        "HTTPS supports only text data, whereas HTTP supports text and binary data."
+      ],
+      "answer": 1,
+      "question_id": "21011daf-14b2-4f60-84bf-c91165fb47d2"
+    },
+    {
+      "choices": [
+        "By periodically sending AJAX requests to the server",
+        "By sending data over a single HTTP connection without closing it",
+        "Through the use of WebSockets, enabling full-duplex communication channels over a single connection",
+        "Using session storage to maintain a live connection with the server"
+      ],
+      "answer": 2,
+      "question_id": "87327e16-4692-4e68-b023-9513ce3a275f"
+    },
+    {
+      "choices": [
+        "A server-side process that prepares and sends data to a client upon request",
+        "A method in JavaScript to secure data transmission",
+        "The synchronization between the model and the view, where the model reflects changes made in the view, and vice versa",
+        "A technique to optimize website loading times by pre-fetching data"
+      ],
+      "answer": 2,
+      "question_id": "b03a7a20-2a72-4856-a321-805cf3a7196b"
+    },
+    {
+      "choices": [
+        "A collection of multiple back-end services that communicate via APIs to speed up development",
+        "An approach to web development where the frontend is divided into smaller, independent parts that work together",
+        "A technique to optimize images for faster loading times in web applications",
+        "A set of microservices designed specifically for handling web requests and responses"
+      ],
+      "answer": 1,
+      "question_id": "1663f9b6-984f-4571-abb7-9888d3c50273"
+    },
+    {
+      "choices": [
+        "Allows any website to access resources from any other website",
+        "Ensures that all websites adopt a uniform set of security standards",
+        "Prevents websites from making requests to a different domain than the one that served the web page",
+        "Enables websites to share local storage and cookies with each other freely"
+      ],
+      "answer": 2,
+      "question_id": "681cb3d5-5533-4b32-a541-b1a4b05dd6a1"
+    },
+    {
+      "choices": [
+        "To reuse code snippets in JavaScript",
+        "To store data on the client-side",
+        "To define variable values that can be reused throughout the CSS document",
+        "To optimize the loading speed of a website"
+      ],
+      "answer": 2,
+      "question_id": "2b452eb3-d997-453e-af4f-b5b82e47dc16"
+    }
   ]
 }
