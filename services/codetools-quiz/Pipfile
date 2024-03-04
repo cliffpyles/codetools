@@ -21,6 +21,7 @@ streamlit = "*"
 streamlit-jupyter = "*"
 click = "*"
 pyyaml = "*"
+awswrangler = "*"
 
 [dev-packages]
 
