@@ -1,26 +1,63 @@
 import streamlit as st
+import glob
+import json
+
+
+# Load questions from JSON files with error handling
+def load_questions():
+    question_files = glob.glob("data/*.json")
+    all_data = []
+    for file in question_files:
+        try:
+            with open(file, "r") as f:
+                data = json.load(f)
+                all_data.append(data)
+        except Exception as e:
+            st.error(f"Error loading questions from {file}: {e}")
+    return all_data
+
+
+# Transform questions into a structured format
+def transform_questions(input_data):
+    # Define a mapping from numeric difficulty to named difficulty levels
+    difficulty_mapping = {
+        1: "beginner",
+        2: "intermediate",
+        3: "advance",
+        4: "expert",
+        5: "master",
+    }
+
+    transformed_data = []
+
+    for topic_info in input_data:
+        topic = topic_info["topic"]
+        questions = topic_info["questions"]
+        choices_info = topic_info["choices"]
+
+        for question in questions:
+            # Find the choices and correct answer for this question
+            for choice in choices_info:
+                if choice["question_id"] == question["id"]:
+                    # Map the numeric difficulty to a named level
+                    level = difficulty_mapping.get(question["difficulty"], "beginner")
+                    correct_answer = choice["choices"][choice["answer"]]
+                    transformed_question = {
+                        "topic": topic,
+                        "level": level,
+                        "question": question["question"],
+                        "choices": choice["choices"],
+                        "correct_answer": correct_answer,
+                        "selected_answer": None,
+                    }
+                    transformed_data.append(transformed_question)
+
+    return transformed_data
 
 
 def load_data():
-    questions = [
-        {
-            "topic": "Science",
-            "level": "beginner",
-            "question": "What is the boiling point of water?",
-            "choices": ["100°C", "90°C", "80°C", "20°C"],
-            "correct_answer": "100°C",
-            "selected_answer": None,
-        },
-        {
-            "topic": "Science",
-            "level": "beginner",
-            "question": "What is the freezing point of water?",
-            "choices": ["100°C", "90°C", "80°C", "0°C"],
-            "correct_answer": "0°C",
-            "selected_answer": None,
-        },
-        # Add more questions as needed
-    ]
+    questions_raw = load_questions()
+    questions = transform_questions(questions_raw)
     if "data" not in st.session_state:
         st.session_state.data = questions
         st.session_state.current_index = 0
