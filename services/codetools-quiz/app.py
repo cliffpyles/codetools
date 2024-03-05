@@ -1,6 +1,8 @@
 import streamlit as st
+import yaml
 import glob
 import json
+import os
 
 
 # Load questions from JSON files with error handling
@@ -56,11 +58,46 @@ def transform_questions(input_data):
 
 
 def load_data():
-    questions_raw = load_questions()
-    questions = transform_questions(questions_raw)
     if "data" not in st.session_state:
+        load_state()
+
+
+# Load the app state from a YAML file
+def load_state():
+    try:
+        if os.path.exists("current_test.yaml"):
+            with open("current_test.yaml", "r") as file:
+                state = yaml.safe_load(file)
+                st.session_state.update(state)
+    except Exception as e:
+        st.error(f"Failed to load state from file: {e}")
+        questions_raw = load_questions()
+        questions = transform_questions(questions_raw)
         st.session_state.data = questions
         st.session_state.current_index = 0
+
+
+# Convert the session state to a serializable format
+def state_to_serializable(state_proxy):
+    serializable_state = {}
+    keys_to_serialize = [
+        "data",
+        "current_index",
+    ]
+    for key in keys_to_serialize:
+        if key in state_proxy:
+            serializable_state[key] = state_proxy[key]
+    return serializable_state
+
+
+# Save the current state of the app to a YAML file with serialization
+def save_state():
+    try:
+        serializable_state = state_to_serializable(st.session_state)
+        with open("current_test.yaml", "w") as file:
+            yaml.safe_dump(serializable_state, file)
+    except Exception as e:
+        st.error(f"Failed to save state to file: {e}")
 
 
 def dispatch(action):
@@ -101,7 +138,7 @@ def calculate_progress():
         1 for q in level_questions if q["selected_answer"] is not None
     ) / len(level_questions)
 
-    return topic_progress, level_progress
+    return topic_progress, level_progress, topic, level
 
 
 def calculate_scores_by_topic_and_level():
@@ -156,14 +193,14 @@ def calculate_highest_passing_level(scores):
 
 
 def render_sidebar():
-    topic_progress, level_progress = calculate_progress()
+    topic_progress, level_progress, topic, level = calculate_progress()
 
     with st.sidebar:
         st.header("Knowledge Test")
         st.subheader("Topic Progress")
-        st.progress(topic_progress)
+        st.progress(text=topic, value=topic_progress)
         st.subheader("Level Progress")
-        st.progress(level_progress)
+        st.progress(text=level, value=level_progress)
 
 
 def render_results():
@@ -203,6 +240,7 @@ def render_main():
 
         if selected_answer is not None:
             dispatch({"name": "SELECT_ANSWER", "payload": selected_answer})
+            save_state()
             dispatch({"name": "GOTO_NEXT_QUESTION"})
     else:
         render_results()  # Display results if quiz is complete
