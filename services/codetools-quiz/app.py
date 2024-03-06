@@ -5,6 +5,10 @@ import json
 import os
 import random
 import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+from config import TOPIC_GROUPS
 
 
 # Load questions from JSON files with error handling
@@ -269,6 +273,80 @@ def find_first_question_of_next_topic(current_topic):
     return None  # Return None if no next topic is found
 
 
+def calculate_highest_level_per_topic():
+    scores = calculate_scores_by_topic_and_level()
+    # Initialize with all topics at level 0 (not started)
+    highest_levels = {
+        topic: 0 for topic in set(q["topic"] for q in st.session_state.data)
+    }
+
+    # Update with the highest level passed for each topic
+    for (topic, level), score in scores.items():
+        level_value = ["beginner", "intermediate", "advance", "expert", "master"].index(
+            level
+        ) + 1
+        if score["correct"] / score["total"] > 0.5:  # Considered passing
+            highest_levels[topic] = max(highest_levels[topic], level_value)
+
+    return highest_levels
+
+
+def insert_line_breaks(text, char_limit=10):
+    """
+    Insert line breaks into text at space positions to ensure
+    that each line does not exceed the character limit.
+    """
+    words = text.split()
+    broken_text = ""
+    current_line = ""
+    for word in words:
+        if len(current_line) + len(word) <= char_limit:
+            current_line += word + " "
+        else:
+            broken_text += current_line.strip() + "\n"
+            current_line = word + " "
+    broken_text += current_line.strip()  # Add the last line
+    return broken_text
+
+
+def plot_knowledge_level_chart(highest_levels):
+    level_names = [
+        "Not Started",
+        "Beginner",
+        "Intermediate",
+        "Advance",
+        "Expert",
+        "Master",
+    ]
+    topics = list(highest_levels.keys())
+    levels = [highest_levels[topic] for topic in topics]
+
+    # Adjust topics for line breaks
+    adjusted_topics = [insert_line_breaks(topic, char_limit=10) for topic in topics]
+
+    theta = np.linspace(0.0, 2 * np.pi, len(topics), endpoint=False)
+
+    fig, ax = plt.subplots(subplot_kw={"projection": "polar"})
+    bars = ax.bar(theta, levels, width=0.3)
+
+    for bar, level in zip(bars, levels):
+        bar.set_facecolor(plt.cm.viridis(level / 5.0))
+        bar.set_alpha(0.5)
+
+    ax.set_xticks(theta)
+    ax.set_xticklabels(adjusted_topics, fontsize=6, ha="right")
+
+    # Additional adjustments for layout
+    plt.gcf().tight_layout()
+
+    st.pyplot(fig)
+
+
+def render_performance_chart():
+    highest_levels = calculate_highest_level_per_topic()
+    plot_knowledge_level_chart(highest_levels)
+
+
 def render_sidebar():
     with st.sidebar:
         st.subheader("Progress")
@@ -276,15 +354,18 @@ def render_sidebar():
 
 
 def render_results():
-    scores = calculate_scores_by_topic_and_level()
-    highest_passing_levels = calculate_highest_passing_level(scores)
+    # scores = calculate_scores_by_topic_and_level()
+    # highest_passing_levels = calculate_highest_passing_level(scores)
+    # passed_topics = [
+    #     (topic, info["level"]) for topic, info in highest_passing_levels.items()
+    # ]
+    # st.write("### Quiz Complete!")
 
-    st.write("### Quiz Complete!")
+    # # Display the highest passing level for each topic
+    # for topic, level in passed_topics:
+    #     st.write(f"**{topic}:** {level}")
 
-    # Display the highest passing level for each topic
-    for topic, info in highest_passing_levels.items():
-        level = info["level"]
-        st.write(f"**{topic}:** {level}")
+    render_performance_chart()
 
 
 def render_navigation():
@@ -393,7 +474,7 @@ def render_debugger():
         st.write(score, scores_by_topic_and_level[score])
 
 
-def render_main():
+def render_questions():
     # Modification: Only display questions if quiz is not complete
     if not st.session_state.get("quiz_complete", False):
         current_question = st.session_state.data[st.session_state.current_index]
@@ -414,14 +495,16 @@ def main():
         st.session_state.quiz_complete = False
     load_data()
     render_sidebar()
-    tab_1, tab_2 = st.tabs(["Debugger", "Questions"])
+    tab_1, tab_2, tab_3 = st.tabs(["Questions", "Results", "Debugger"])
 
     with tab_1:
-        render_debugger()
-    with tab_2:
-        render_main()
+        render_questions()
         if not st.session_state.quiz_complete:
             render_navigation()
+    with tab_2:
+        render_results()
+    with tab_3:
+        render_debugger()
 
 
 if __name__ == "__main__":
