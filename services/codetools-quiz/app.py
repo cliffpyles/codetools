@@ -311,7 +311,7 @@ def insert_line_breaks(text, char_limit=10):
 
 def plot_knowledge_level_chart(highest_levels):
     level_names = [
-        "Not Started",
+        "Not\nStarted",
         "Beginner",
         "Intermediate",
         "Advance",
@@ -321,7 +321,7 @@ def plot_knowledge_level_chart(highest_levels):
     topics = list(highest_levels.keys())
     levels = [highest_levels[topic] for topic in topics]
 
-    # Adjust topics for line breaks
+    # Add line breaks to topics
     adjusted_topics = [insert_line_breaks(topic, char_limit=10) for topic in topics]
 
     theta = np.linspace(0.0, 2 * np.pi, len(topics), endpoint=False)
@@ -333,8 +333,12 @@ def plot_knowledge_level_chart(highest_levels):
         bar.set_facecolor(plt.cm.viridis(level / 5.0))
         bar.set_alpha(0.5)
 
+    # Adjust the topic labels
     ax.set_xticks(theta)
-    ax.set_xticklabels(adjusted_topics, fontsize=6, ha="right")
+    ax.set_xticklabels(adjusted_topics, fontsize=6, ha="center", va="center")
+
+    # Adjust the level labels
+    ax.set_yticklabels(level_names, fontsize=4.5, ha="right", va="center")
 
     # Additional adjustments for layout
     plt.gcf().tight_layout()
