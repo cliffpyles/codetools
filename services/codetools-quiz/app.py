@@ -4,6 +4,7 @@ import glob
 import json
 import os
 import random
+import pandas as pd
 
 
 # Load questions from JSON files with error handling
@@ -248,6 +249,26 @@ def calculate_highest_passing_level(scores):
     return highest_passing_levels
 
 
+def has_passed_current_level(topic, level):
+    scores_by_topic_and_level = calculate_scores_by_topic_and_level()
+    key = (topic, level)
+    if key in scores_by_topic_and_level:
+        score_info = scores_by_topic_and_level[key]
+        passed = score_info["correct"] / score_info["total"] > 0.5
+        return passed
+    return False  # Assume failure if no data available
+
+
+def find_first_question_of_next_topic(current_topic):
+    current_found = False
+    for index, question in enumerate(st.session_state.data):
+        if question["topic"] == current_topic:
+            current_found = True
+        elif current_found:
+            return index  # Return the index of the first question of the next topic
+    return None  # Return None if no next topic is found
+
+
 def render_sidebar():
     with st.sidebar:
         st.subheader("Progress")
@@ -267,17 +288,23 @@ def render_results():
 
 
 def render_navigation():
-    col1, col2, col3, col4, col5 = st.columns(5, gap="medium")
 
-    if st.session_state.current_index > 0:
-        with col1:
-            if st.button("Previous"):
-                dispatch({"name": "GOTO_PREVIOUS_QUESTION"})
+    # if st.session_state.current_index > 0:
+    #     with col1:
+    #         if st.button("Previous"):
+    #             dispatch({"name": "GOTO_PREVIOUS_QUESTION"})
 
-    if st.session_state.current_index < len(st.session_state.data) - 1:
-        with col5:
-            if st.button("Next"):
-                dispatch({"name": "GOTO_NEXT_QUESTION"})
+    # if st.session_state.current_index < len(st.session_state.data) - 1:
+    #     with col2:
+    #         if st.button("Next"):
+    #             dispatch({"name": "GOTO_NEXT_QUESTION"})
+    st.divider()
+    with st.container():
+        col1, col2, col3 = st.columns(3, gap="medium")
+        if st.session_state.current_index < len(st.session_state.data) - 1:
+            with col3:
+                if st.button("Skip Question", use_container_width=True):
+                    dispatch({"name": "GOTO_NEXT_QUESTION"})
 
 
 def render_topic_tree():
@@ -335,6 +362,37 @@ def render_topic_tree():
                     st.markdown(f"{level.capitalize()}: Not Started")
 
 
+def render_debugger():
+    data = st.session_state.data
+    current_index = st.session_state.current_index
+    quiz_complete = st.session_state.quiz_complete
+    questions_count = len(st.session_state.data)
+    scores_by_topic_and_level = calculate_scores_by_topic_and_level()
+    # choices = [datum["choices"] for datum in data]
+    choices = data
+    st.markdown(
+        f"current_index: **{current_index}** | quiz_complete: **{quiz_complete}** | questions count: **{questions_count}**"
+    )
+    choices_df = pd.DataFrame.from_records(choices)
+    st.subheader("Data")
+    st.dataframe(
+        choices_df,
+        column_order=(
+            "topic",
+            "level",
+            "correct_answer",
+            "selected_answer",
+            "question",
+            "choices",
+        ),
+    )
+
+    st.subheader("Scores")
+    for score in scores_by_topic_and_level:
+        # st.write(score)
+        st.write(score, scores_by_topic_and_level[score])
+
+
 def render_main():
     # Modification: Only display questions if quiz is not complete
     if not st.session_state.get("quiz_complete", False):
@@ -356,9 +414,14 @@ def main():
         st.session_state.quiz_complete = False
     load_data()
     render_sidebar()
-    render_main()
-    if not st.session_state.quiz_complete:
-        render_navigation()
+    tab_1, tab_2 = st.tabs(["Debugger", "Questions"])
+
+    with tab_1:
+        render_debugger()
+    with tab_2:
+        render_main()
+        if not st.session_state.quiz_complete:
+            render_navigation()
 
 
 if __name__ == "__main__":
