@@ -3,6 +3,7 @@ import yaml
 import glob
 import json
 import os
+import random
 
 
 # Load questions from JSON files with error handling
@@ -57,24 +58,77 @@ def transform_questions(input_data):
     return transformed_data
 
 
+def filter_questions(
+    questions, questions_per_level=50, included_topics=[], randomize_questions=False
+):
+    # Filter questions by included topics if any are specified
+    if included_topics:
+        questions = [q for q in questions if q["topic"] in included_topics]
+
+    filtered_questions = []
+
+    if randomize_questions:
+        # Group questions by topic and level
+        questions_by_topic_level = {}
+        for question in questions:
+            key = (question["topic"], question["level"])
+            if key not in questions_by_topic_level:
+                questions_by_topic_level[key] = []
+            questions_by_topic_level[key].append(question)
+
+        for _, qs in questions_by_topic_level.items():
+            # If questions_per_level is not specified or higher than the number of available questions, include all questions
+            limit = (
+                min(questions_per_level, len(qs)) if questions_per_level else len(qs)
+            )
+            # Randomly select questions
+            selected_qs = random.sample(qs, limit)
+            filtered_questions.extend(selected_qs)
+    else:
+        # If randomization is not required, simply limit the questions by questions_per_level
+        # This section needs to group questions by topic and level to correctly apply the limit
+        questions_by_topic_level = {}
+        for question in questions:
+            key = (question["topic"], question["level"])
+            if key not in questions_by_topic_level:
+                questions_by_topic_level[key] = []
+            questions_by_topic_level[key].append(question)
+
+        for _, qs in questions_by_topic_level.items():
+            limit = (
+                min(questions_per_level, len(qs)) if questions_per_level else len(qs)
+            )
+            filtered_questions.extend(qs[:limit])
+
+    return filtered_questions
+
+
 def load_data():
     if "data" not in st.session_state:
         load_state()
 
 
-# Load the app state from a YAML file
+# Load the app state
 def load_state():
-    try:
-        if os.path.exists("current_test.yaml"):
+    if os.path.exists("current_test.yaml"):
+        try:
             with open("current_test.yaml", "r") as file:
                 state = yaml.safe_load(file)
                 st.session_state.update(state)
-    except Exception as e:
-        st.error(f"Failed to load state from file: {e}")
-        questions_raw = load_questions()
-        questions = transform_questions(questions_raw)
-        st.session_state.data = questions
-        st.session_state.current_index = 0
+        except Exception as e:
+            st.error(f"Failed to load state from file: {e}")
+    else:
+        try:
+            questions_raw = load_questions()
+            questions = transform_questions(questions_raw)
+            # Assuming filter_questions functionality is correctly implemented
+            questions = filter_questions(questions)
+            st.session_state.data = questions
+            st.session_state.current_index = 0
+            # Save the initial state now that questions are loaded and filtered
+            save_state()
+        except Exception as e:
+            st.error(f"Error processing questions: {e}")
 
 
 # Convert the session state to a serializable format
@@ -108,16 +162,19 @@ def dispatch(action):
         st.session_state.data[st.session_state.current_index][
             "selected_answer"
         ] = payload
+        save_state()
     elif name == "GOTO_NEXT_QUESTION":
         if st.session_state.current_index < len(st.session_state.data) - 1:
             st.session_state.current_index += 1
         else:
             # New: Mark the quiz as complete if this was the last question
             st.session_state.quiz_complete = True
+        save_state()
         st.rerun()
     elif name == "GOTO_PREVIOUS_QUESTION":
         if st.session_state.current_index > 0:
             st.session_state.current_index -= 1
+        save_state()
         st.rerun()
     else:
         st.error(f"Unknown action: {name}")
@@ -195,12 +252,18 @@ def calculate_highest_passing_level(scores):
 def render_sidebar():
     topic_progress, level_progress, topic, level = calculate_progress()
 
+    # with st.sidebar:
+    #     st.header("Knowledge Test")
+    #     st.subheader("Topic Progress")
+    #     st.progress(text=topic, value=topic_progress)
+    #     st.subheader("Level Progress")
+    #     st.progress(text=level, value=level_progress)
     with st.sidebar:
         st.header("Knowledge Test")
-        st.subheader("Topic Progress")
-        st.progress(text=topic, value=topic_progress)
-        st.subheader("Level Progress")
-        st.progress(text=level, value=level_progress)
+        st.subheader(f"Topic: {topic} Progress")
+        st.progress(topic_progress)
+        st.subheader(f"Level: {level} Progress")
+        st.progress(level_progress)
 
 
 def render_results():
@@ -240,7 +303,6 @@ def render_main():
 
         if selected_answer is not None:
             dispatch({"name": "SELECT_ANSWER", "payload": selected_answer})
-            save_state()
             dispatch({"name": "GOTO_NEXT_QUESTION"})
     else:
         render_results()  # Display results if quiz is complete
