@@ -122,7 +122,7 @@ def load_state():
             questions_raw = load_questions()
             questions = transform_questions(questions_raw)
             # Assuming filter_questions functionality is correctly implemented
-            questions = filter_questions(questions)
+            questions = filter_questions(questions, questions_per_level=5)
             st.session_state.data = questions
             st.session_state.current_index = 0
             # Save the initial state now that questions are loaded and filtered
