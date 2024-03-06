@@ -162,7 +162,6 @@ def dispatch(action):
         st.session_state.data[st.session_state.current_index][
             "selected_answer"
         ] = payload
-        save_state()
     elif name == "GOTO_NEXT_QUESTION":
         if st.session_state.current_index < len(st.session_state.data) - 1:
             st.session_state.current_index += 1
@@ -250,20 +249,9 @@ def calculate_highest_passing_level(scores):
 
 
 def render_sidebar():
-    topic_progress, level_progress, topic, level = calculate_progress()
-
-    # with st.sidebar:
-    #     st.header("Knowledge Test")
-    #     st.subheader("Topic Progress")
-    #     st.progress(text=topic, value=topic_progress)
-    #     st.subheader("Level Progress")
-    #     st.progress(text=level, value=level_progress)
     with st.sidebar:
-        st.header("Knowledge Test")
-        st.subheader(f"Topic: {topic} Progress")
-        st.progress(topic_progress)
-        st.subheader(f"Level: {level} Progress")
-        st.progress(level_progress)
+        st.subheader("Progress")
+        render_topic_tree()
 
 
 def render_results():
@@ -290,6 +278,61 @@ def render_navigation():
         with col5:
             if st.button("Next"):
                 dispatch({"name": "GOTO_NEXT_QUESTION"})
+
+
+def render_topic_tree():
+    scores_by_topic_and_level = calculate_scores_by_topic_and_level()
+
+    levels = [
+        "beginner",
+        "intermediate",
+        "advance",
+        "expert",
+        "master",
+    ]
+    seen = set()
+    topics = [
+        q["topic"]
+        for q in st.session_state.data
+        if q["topic"] not in seen and not seen.add(q["topic"])
+    ]
+    current_question_topic = st.session_state.data[st.session_state.current_index][
+        "topic"
+    ]
+    current_question_level = st.session_state.data[st.session_state.current_index][
+        "level"
+    ]
+    current_question_topic_index = topics.index(current_question_topic)
+    completed_icon = ":white_check_mark:"
+    incomplete_icon = ":hourglass_flowing_sand:"
+
+    for topic_index, topic in enumerate(topics):
+        is_completed = current_question_topic_index > topic_index
+        status_icon = completed_icon if is_completed is True else incomplete_icon
+        is_current_topic = topic_index == current_question_topic_index
+
+        with st.expander(f"{status_icon} {topic}", expanded=is_current_topic):
+            for level in levels:
+                key = (topic, level)
+                is_active_level = is_current_topic and level == current_question_level
+
+                if key in scores_by_topic_and_level:
+                    score = scores_by_topic_and_level[key]
+                    correct = score["correct"]
+                    total = score["total"]
+
+                    active_status_message = (
+                        f"**{level.capitalize()}: {correct}/{total}**"
+                    )
+                    inactive_status_message = f"{level.capitalize()}: {correct}/{total}"
+                    status_message = (
+                        active_status_message
+                        if is_active_level
+                        else inactive_status_message
+                    )
+                    st.markdown(status_message)
+                else:
+                    st.markdown(f"{level.capitalize()}: Not Started")
 
 
 def render_main():
