@@ -6,9 +6,8 @@ import os
 import random
 import pandas as pd
 import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 import numpy as np
-
-from config import TOPIC_GROUPS
 
 
 # Load questions from JSON files with error handling
@@ -31,7 +30,7 @@ def transform_questions(input_data):
     difficulty_mapping = {
         1: "beginner",
         2: "intermediate",
-        3: "advance",
+        3: "advanced",
         4: "expert",
         5: "master",
     }
@@ -227,7 +226,7 @@ def calculate_scores_by_topic_and_level():
 
 def calculate_highest_passing_level(scores):
     # Define the order of levels from lowest to highest
-    level_order = ["beginner", "intermediate", "advance", "expert", "master"]
+    level_order = ["beginner", "intermediate", "advanced", "expert", "master"]
     # Initialize a dictionary to keep the highest passing level for each topic
     highest_passing_levels = {}
 
@@ -282,9 +281,13 @@ def calculate_highest_level_per_topic():
 
     # Update with the highest level passed for each topic
     for (topic, level), score in scores.items():
-        level_value = ["beginner", "intermediate", "advance", "expert", "master"].index(
-            level
-        ) + 1
+        level_value = [
+            "beginner",
+            "intermediate",
+            "advanced",
+            "expert",
+            "master",
+        ].index(level) + 1
         if score["correct"] / score["total"] > 0.5:  # Considered passing
             highest_levels[topic] = max(highest_levels[topic], level_value)
 
@@ -311,39 +314,46 @@ def insert_line_breaks(text, char_limit=10):
 
 def plot_knowledge_level_chart(highest_levels):
     level_names = [
-        "Not\nStarted",
-        "Beginner",
-        "Intermediate",
-        "Advance",
-        "Expert",
-        "Master",
+        "beginner",
+        "intermediate",
+        "advanced",
+        "expert",
+        "master",
     ]
     topics = list(highest_levels.keys())
     levels = [highest_levels[topic] for topic in topics]
 
-    # Add line breaks to topics
-    adjusted_topics = [insert_line_breaks(topic, char_limit=10) for topic in topics]
+    # Calculate the numeric representation for plotting
+    level_numeric = [level for level in levels]
 
-    theta = np.linspace(0.0, 2 * np.pi, len(topics), endpoint=False)
+    # Prepare data for the Plotly chart
+    data = go.Barpolar(
+        r=level_numeric,
+        theta=topics,
+        marker_color=level_numeric,
+        marker_line_color="black",
+        marker_line_width=1,
+        opacity=0.7,
+    )
 
-    fig, ax = plt.subplots(subplot_kw={"projection": "polar"})
-    bars = ax.bar(theta, levels, width=0.3)
+    layout = go.Layout(
+        polar=dict(
+            radialaxis=dict(
+                visible=True,
+                type="category",
+                tickvals=[1, 2, 3, 4],
+                ticktext=level_names,
+                range=[0, 4],  # Adjust the range based on your levels
+            ),
+            angularaxis=dict(direction="clockwise", period=len(topics)),
+        ),
+        title="Knowledge Levels per Topic",
+    )
 
-    for bar, level in zip(bars, levels):
-        bar.set_facecolor(plt.cm.viridis(level / 5.0))
-        bar.set_alpha(0.5)
+    fig = go.Figure(data=data, layout=layout)
 
-    # Adjust the topic labels
-    ax.set_xticks(theta)
-    ax.set_xticklabels(adjusted_topics, fontsize=6, ha="center", va="center")
-
-    # Adjust the level labels
-    ax.set_yticklabels(level_names, fontsize=4.5, ha="right", va="center")
-
-    # Additional adjustments for layout
-    plt.gcf().tight_layout()
-
-    st.pyplot(fig)
+    # Show the figure in the Streamlit app
+    st.plotly_chart(fig)
 
 
 def render_performance_chart():
@@ -398,7 +408,7 @@ def render_topic_tree():
     levels = [
         "beginner",
         "intermediate",
-        "advance",
+        "advanced",
         "expert",
         "master",
     ]

@@ -22,6 +22,7 @@ streamlit-jupyter = "*"
 click = "*"
 pyyaml = "*"
 awswrangler = "*"
+plotly = "*"
 
 [dev-packages]
 
