@@ -1,15 +1,82 @@
----
 AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
-Description: Static site with CDN
+Description: Static site with CDN and access logging
 
 Parameters:
-    DeploymentName:
-      Description: Unique name used to create OAC and cache policy.
-      Type: String
-      AllowedPattern: (?!(^((2(5[0-5]|[0-4][0-9])|[01]?[0-9]{1,2})\.){3}(2(5[0-5]|[0-4][0-9])|[01]?[0-9]{1,2})$|^xn--|.+-s3alias$))^[a-z0-9][a-z0-9.-]{1,61}[a-z0-9]$
+  DeploymentName:
+    Description: Unique name used to create OAC and cache policy.
+    Type: String
+    AllowedPattern: (?!(^((2(5[0-5]|[0-4][0-9])|[01]?[0-9]{1,2})\.){3}(2(5[0-5]|[0-4][0-9])|[01]?[0-9]{1,2})$|^xn--|.+-s3alias$))^[a-z0-9][a-z0-9.-]{1,61}[a-z0-9]$
+  LogBucketName:
+    Description: The name of the S3 bucket to store logs. Must be globally unique.
+    Type: String
 
 Resources:
+  LogBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref LogBucketName
+
+  Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - BucketKeyEnabled: true
+            ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      LoggingConfiguration:
+        DestinationBucketName: !Ref LogBucket
+        LogFilePrefix: s3-access-logs/
+
+  BucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref Bucket
+      PolicyDocument:
+        Version: 2008-10-17
+        Statement:
+          - Sid: AllowCloudFrontServicePrincipalReadOnly
+            Action:
+              - 's3:GetObject'
+            Effect: Allow
+            Principal:
+              Service: cloudfront.amazonaws.com
+            Resource: !Sub "${Bucket.Arn}/*"
+            Condition:
+              StringEquals:
+                AWS:SourceArn: !Sub "arn:aws:cloudfront::${AWS::AccountId}:distribution/${CloudFrontDistribution.Id}"
+
+  LogBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref LogBucket
+      PolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Action:
+              - 's3:PutObject'
+            Effect: Allow
+            Principal:
+              Service: logging.s3.amazonaws.com
+            Resource: !Join 
+              - ''
+              - - 'arn:aws:s3:::'
+                - !Ref LogBucket
+                - /*
+            Condition:
+              ArnLike:
+                'aws:SourceArn': !GetAtt
+                  - Bucket
+                  - Arn
+              StringEquals:
+                'aws:SourceAccount': !Sub '${AWS::AccountId}'
+
   CloudFrontOriginAccessControl:
     Type: AWS::CloudFront::OriginAccessControl
     Properties:
@@ -18,6 +85,7 @@ Resources:
         OriginAccessControlOriginType: s3
         SigningBehavior: always
         SigningProtocol: sigv4
+
   CloudFrontCachePolicy:
     Type: AWS::CloudFront::CachePolicy
     Properties:
@@ -35,56 +103,31 @@ Resources:
             HeaderBehavior: none
           QueryStringsConfig:
             QueryStringBehavior: none
+
   CloudFrontDistribution:
     Type: AWS::CloudFront::Distribution
     Properties:
       DistributionConfig:
         Enabled: true
-        DefaultRootObject: index.html
-        DefaultCacheBehavior: 
-          CachePolicyId: !Ref CloudFrontCachePolicy
+        DefaultRootObject: "index.html"
+        DefaultCacheBehavior:
           TargetOriginId: thisS3Origin
           ViewerProtocolPolicy: redirect-to-https
+          CachePolicyId: !Ref CloudFrontCachePolicy
         Origins:
-        - DomainName: !GetAtt Bucket.DomainName
-          Id: thisS3Origin
-          OriginAccessControlId: !Ref CloudFrontOriginAccessControl
-          S3OriginConfig:
-            OriginAccessIdentity: ""
-  Bucket:
-    Type: AWS::S3::Bucket
-    Properties:
-      BucketEncryption:
-        ServerSideEncryptionConfiguration:
-          - BucketKeyEnabled: true
-            ServerSideEncryptionByDefault:
-              SSEAlgorithm: AES256
-      PublicAccessBlockConfiguration:
-        BlockPublicAcls: true
-        BlockPublicPolicy: true
-        IgnorePublicAcls: true
-        RestrictPublicBuckets: true
-  BucketPolicy:
-    Type: AWS::S3::BucketPolicy
-    Properties:
-      Bucket: !Ref Bucket
-      PolicyDocument:
-        Version: 2008-10-17
-        Statement:
-          - Sid: AllowCloudFrontServicePrincipalReadOnly
-            Action:
-            - 's3:GetObject'
-            Effect: Allow
-            Principal:
-              Service: cloudfront.amazonaws.com
-            Resource: !Sub "${Bucket.Arn}/*"
-            Condition:
-              StringEquals:
-                AWS:SourceArn: !Sub "arn:aws:cloudfront::${AWS::AccountId}:distribution/${CloudFrontDistribution.Id}"
+          - DomainName: !GetAtt Bucket.DomainName
+            Id: thisS3Origin
+            OriginAccessControlId: !Ref CloudFrontOriginAccessControl
+            S3OriginConfig:
+              OriginAccessIdentity: ""
+
 Outputs:
   BucketName:
+    Description: Name of the S3 bucket for the website.
     Value: !Ref Bucket
-    Description: Name of S3 bucket.
   CloudFrontDomain:
-    Description: URL of CloudFront distribution.
+    Description: URL of the CloudFront distribution.
     Value: !GetAtt CloudFrontDistribution.DomainName
+  LogBucketName:
+    Description: Name of the S3 bucket for logs.
+    Value: !Ref LogBucket

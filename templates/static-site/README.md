@@ -1,11 +1,12 @@
 # Static Site
 
-Template for a static site
+Template for a static site with CDN and access logging
 
 ## Features
 
 - Hosting with S3
 - CDN with CloudFront
+- Access logs stored in separate S3 bucket
 
 ## Requirements
 
