@@ -6,7 +6,7 @@ This document presents a strategic roadmap for developing CloudForecasts. It is 
 - **Reliability**: Ensuring stability and performance of each MVP.
 - **Continuous Improvement**: Iteratively enhancing features based on user feedback and performance metrics.
 
-## Approach
+## Team Approach
 
 Our approach leverages the DORA Core Model’s metrics as guideposts to optimize the development lifecycle, focusing on:
 
@@ -49,7 +49,7 @@ By committing to these metrics, we aim to:
 
 Engaging with this roadmap actively and collaboratively will help steer CloudForecasts towards achieving its strategic milestones efficiently and effectively.
 
-## Our Timeline
+## Timeline
 
 ```mermaid
 gantt
