@@ -4,7 +4,7 @@ CloudForecasts analyzes user-provided cloud solution architectures, identifying 
 
 ## How it Works
 
-```
+```mermaid
 graph TD
     Start[Start] --> Input[Input: User's Solution Architecture, Requirements, Preferences]
     Input --> InputTypeDecision{Determine Input Type}
@@ -15,13 +15,13 @@ graph TD
     ParseFile --> IdentifyCloudServices
     ProcessManualInputs --> IdentifyCloudServices
     IdentifyCloudServices --> ServicesIdentifiedDecision{Are Cloud Services Identified?}
-    ServicesIdentifiedDecision -->|Yes| GenerateScenarios[Generate Simulation Scenarios Based on Identified Services]
+    ServicesIdentifiedDecision -->|Yes| RetrieveServiceDetails[Retrieve Service Details: Cost Structures, Hard Limits, Service Quotas]
     ServicesIdentifiedDecision -->|No| RequestMoreInfo[Request Additional Information From User]
     RequestMoreInfo --> Input
+    RetrieveServiceDetails --> GenerateScenarios[Generate Simulation Scenarios Based on Services & Retrieved Details]
     GenerateScenarios --> SimulateScenarios[Simulate Scenarios for Each Identified Service]
     SimulateScenarios --> EvaluateScenarios[Evaluate Scenarios Against Non-Functional Requirements]
-    EvaluateScenarios --> RetrieveServiceDetails[Retrieve Service Details: Cost Structures, Hard Limits, Service Quotas]
-    RetrieveServiceDetails --> RankServices[Rank Services Based on Performance, Cost, and Quotas]
+    EvaluateScenarios --> RankServices[Rank Services Based on Performance, Cost, and Quotas]
     EvaluateScenarios -->|Requirements Not Met| AdjustScenarios[Adjust Scenarios & Parameters]
     AdjustScenarios --> SimulateScenarios
     RankServices --> UserReviewDecision{Does User Want to Review?}
@@ -34,4 +34,5 @@ graph TD
     FinalizeSelection --> ForecastEvents[Forecast Future Events Based on Selected Services]
     ForecastEvents --> GenerateReport[Generate Detailed Report for User, Including Future Cost Estimates]
     GenerateReport --> End[End]
+
 ```
