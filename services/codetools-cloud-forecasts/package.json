@@ -1,0 +1,13 @@
+{
+  "name": "codetools-cloud-forecasts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Tool for forecasting the efficiency of cloud-based applications and systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cliff Pyles <cliff@cliffpyles.com>",
+  "license": "MIT"
+}
