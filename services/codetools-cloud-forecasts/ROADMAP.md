@@ -53,34 +53,34 @@ Engaging with this roadmap actively and collaboratively will help steer CloudFor
 
 ```mermaid
 gantt
-    dateFormat  YYYY-MM-DD
+    dateFormat  MM-DD
     title CloudForecasts Development Roadmap
 
     section Milestone 1: Basic Cloud Service Identification
-    Design and implement the API for accepting user input :a1, 2022-01-01, 2022-01-10
-    Implement the logic for parsing and analyzing the input :a2, 2022-01-11, 2022-01-20
-    Develop a database or use an API for cloud service information :a3, 2022-01-21, 2022-01-30
-    Implement the logic for identifying relevant cloud services based on user input :a4, 2022-01-31, 2022-02-10
+    Design and implement the API for accepting user input :a1, 01-01, 01-10
+    Implement the logic for parsing and analyzing the input :a2, 01-11, 01-20
+    Develop a database or use an API for cloud service information :a3, 01-21, 01-30
+    Implement the logic for identifying relevant cloud services based on user input :a4, 01-31, 02-10
 
     section Milestone 2: Scenario Generation and Simulation
-    Implement the logic for generating scenarios based on the identified cloud services and their details :b1, 2022-02-11, 2022-02-25
-    Implement the logic for simulating the generated scenarios :b2, 2022-02-26, 2022-03-10
-    Test the scenario generation and simulation modules :b3, 2022-03-11, 2022-03-20
+    Implement the logic for generating scenarios based on the identified cloud services and their details :b1, 02-11, 02-25
+    Implement the logic for simulating the generated scenarios :b2, 02-26, 03-10
+    Test the scenario generation and simulation modules :b3, 03-11, 03-20
 
     section Milestone 3: Scenario Evaluation and Service Ranking
-    Implement the logic for evaluating the simulated scenarios against non-functional requirements :c1, 2022-03-21, 2022-04-05
-    Implement the logic for ranking the cloud services based on the evaluation results :c2, 2022-04-06, 2022-04-20
-    Test the scenario evaluation and service ranking modules :c3, 2022-04-21, 2022-04-30
+    Implement the logic for evaluating the simulated scenarios against non-functional requirements :c1, 03-21, 04-05
+    Implement the logic for ranking the cloud services based on the evaluation results :c2, 04-06, 04-20
+    Test the scenario evaluation and service ranking modules :c3, 04-21, 04-30
 
     section Milestone 4: Future Event Forecasting
-    Implement the logic for forecasting future events and costs based on the selected cloud services :d1, 2022-05-01, 2022-05-15
-    Test the future event forecasting module :d2, 2022-05-16, 2022-05-25
+    Implement the logic for forecasting future events and costs based on the selected cloud services :d1, 05-01, 05-15
+    Test the future event forecasting module :d2, 05-16, 05-25
 
     section Milestone 5: Comprehensive Testing and Refinement
-    Develop and execute test cases for the entire application :e1, 2022-05-26, 2022-06-10
-    Analyze the test results and identify areas for improvement :e2, 2022-06-11, 2022-06-20
-    Refine the application based on the test results :e3, 2022-06-21, 2022-07-05
-    Repeat the testing and refinement process until the application meets all requirements and performs satisfactorily :e4, 2022-07-06, 2022-07-31
+    Develop and execute test cases for the entire application :e1, 05-26, 06-10
+    Analyze the test results and identify areas for improvement :e2, 06-11, 06-20
+    Refine the application based on the test results :e3, 06-21, 07-05
+    Repeat the testing and refinement process until the application meets all requirements and performs satisfactorily :e4, 07-06, 07-31
 ```
 
 ## Milestones
