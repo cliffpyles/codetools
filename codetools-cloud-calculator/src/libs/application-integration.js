@@ -1,27 +1,88 @@
 /**
- * Placeholder for AWS Step Functions Cost Calculation
- * Step Functions pricing is based on the number of state transitions in your workflows.
+ * Calculates the cost of using AWS EventBridge.
+ *
+ * @param {object} params - The parameters for AWS EventBridge usage.
+ * @param {number} params.eventsPut - The number of events put to EventBridge per month.
+ * @param {number} params.customEventBuses - The number of custom event buses used per month, beyond the free tier.
+ * @param {number} params.customEventBusesHours - The total hours that custom event buses are running per month.
+ * @param {number} params.schemaRegistryRequests - The number of Schema Registry API requests per month, beyond the free tier.
+ * @param {number} params.dataTransferOutGB - The amount of data transferred out of EventBridge in gigabytes per month.
+ * @return {number} The total cost of using AWS EventBridge in USD.
+ *
+ * Note: The pricing used in this example is simplified and based on generic values. For precise and up-to-date pricing,
+ * always consult the official AWS documentation and pricing pages.
  */
+export function calculateEventBridgeCost({
+  eventsPut,
+  customEventBuses,
+  customEventBusesHours,
+  schemaRegistryRequests,
+  dataTransferOutGB,
+}) {
+  // Cost factors (placeholders, adjust based on current pricing)
+  const costPerEventPut = 1.0 / 1000000; // Cost per million events put to EventBridge
+  const costPerCustomEventBusHour = 0.02; // Cost per custom event bus hour
+  const costPerSchemaRegistryRequest = 1.0 / 1000000; // Cost per million Schema Registry API requests
+  const costPerGBDataTransferOut = 0.09; // Cost per GB of data transferred out
+
+  // Calculating costs
+  const eventsPutCost = eventsPut * costPerEventPut;
+  const customEventBusesCost = customEventBuses * customEventBusesHours * costPerCustomEventBusHour;
+  const schemaRegistryRequestsCost = schemaRegistryRequests * costPerSchemaRegistryRequest;
+  const dataTransferOutCost = dataTransferOutGB * costPerGBDataTransferOut;
+
+  // Total cost
+  return eventsPutCost + customEventBusesCost + schemaRegistryRequestsCost + dataTransferOutCost;
+}
+
+// // Example usage:
+// const eventBridgeUsage = {
+//   eventsPut: 5000000, // 5 million events put to EventBridge
+//   customEventBuses: 2, // 2 custom event buses
+//   customEventBusesHours: 720, // 2 buses running 24/7 for a 30-day month
+//   schemaRegistryRequests: 1000000, // 1 million Schema Registry API requests
+//   dataTransferOutGB: 50 // 50 GB data transferred out
+// };
+
+// const totalCost = calculateEventBridgeCost(eventBridgeUsage);
+// console.log(`Total AWS EventBridge cost: $${totalCost.toFixed(2)}`);
 
 /**
- * Placeholder for Amazon EventBridge (formerly CloudWatch Events) Cost Calculation
- * EventBridge pricing is based on the number of events published to the bus, schema discovery requests, and optional features like custom event buses.
+ * Calculates the cost of using AWS Step Functions.
+ *
+ * @param {object} params - The parameters for the AWS Step Functions usage.
+ * @param {number} params.standardTransitions - The number of state transitions for Standard workflows.
+ * @param {number} params.expressTransitions - The number of state transitions for Express workflows.
+ * @param {number} params.expressGbSeconds - The total GB-seconds used by Express workflows, calculated as the memory size allocated times the duration in seconds.
+ * @return {number} The total cost of using AWS Step Functions in USD.
+ *
+ * Note: The pricing used in this example is simplified and based on generic values. For precise and up-to-date pricing,
+ * always consult the official AWS documentation and pricing pages.
  */
+export function calculateStepFunctionsCost({ standardTransitions, expressTransitions, expressGbSeconds }) {
+  // Cost factors (placeholders, adjust based on current pricing)
+  const costPerStandardTransition = 0.025 / 1000; // Cost per 1,000 state transitions for Standard workflows
+  const costPerExpressTransition = 0.000001; // Cost per state transition for Express workflows
+  const costPerGbSecondExpress = 0.0000166667; // Cost per GB-second for Express workflows
 
-/**
- * Placeholder for Amazon EMR (Elastic MapReduce) Cost Calculation
- * EMR pricing includes costs for the EC2 instances, EMR capacity units, storage (if using EMR File System), and data transfer.
- */
+  // Calculating costs
+  const standardTransitionsCost = standardTransitions * costPerStandardTransition;
+  const expressTransitionsCost = expressTransitions * costPerExpressTransition;
+  const expressGbSecondsCost = expressGbSeconds * costPerGbSecondExpress;
 
-/**
- * Placeholder for Amazon OpenSearch Service (formerly Elasticsearch Service) Cost Calculation
- * OpenSearch Service pricing is based on instance hours, storage type and capacity, data transfer, and optional features like UltraWarm and Cold storage.
- */
+  // Total cost
+  return standardTransitionsCost + expressTransitionsCost + expressGbSecondsCost;
+}
 
-/**
- * Placeholder for Amazon Athena Cost Calculation
- * Athena pricing is based on the amount of data scanned by queries, with potential savings from compressed, partitioned, or columnar data formats.
- */
+// // Example usage:
+// const stepFunctionsUsage = {
+//   standardTransitions: 4000, // 4,000 state transitions for Standard workflows
+//   expressTransitions: 1000000, // 1,000,000 state transitions for Express workflows
+//   expressGbSeconds: 5000 // 5,000 GB-seconds for Express workflows
+// };
+
+// const totalCost = calculateStepFunctionsCost(stepFunctionsUsage);
+// console.log(`Total AWS Step Functions cost: $${totalCost.toFixed(2)}`);
 
 /**
  * Calculates the cost of using Amazon SQS (Simple Queue Service).
