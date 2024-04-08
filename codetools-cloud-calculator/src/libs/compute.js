@@ -1,6 +1,54 @@
 /**
- * Placeholder for Amazon EC2 Cost Calculation
+ * Calculates the cost of using AWS EC2.
+ *
+ * @param {object} params - The parameters for AWS EC2 usage.
+ * @param {number} params.instanceHours - The total hours of instance usage per month.
+ * @param {number} params.instanceRate - The hourly rate for the chosen instance type in USD.
+ * @param {number} params.numberOfInstances - The number of instances of the specified type.
+ * @param {number} params.ebsVolumeGB - The total size of EBS volumes attached to the instances in gigabytes.
+ * @param {number} params.ebsRatePerGBMonth - The monthly cost per GB for the EBS volume in USD.
+ * @param {number} params.dataTransferOutGB - The amount of data transferred out of AWS EC2 to the internet in gigabytes per month.
+ * @param {number} params.dataTransferRate - The cost per GB for data transfer out in USD.
+ * @return {number} The total cost of using AWS EC2 in USD.
+ *
+ * Note: The pricing used in this example is simplified and based on generic values. For precise and up-to-date pricing,
+ * always consult the official AWS documentation and pricing pages.
  */
+export function calculateEC2Cost({
+  instanceHours,
+  instanceRate,
+  numberOfInstances,
+  ebsVolumeGB,
+  ebsRatePerGBMonth,
+  dataTransferOutGB,
+  dataTransferRate,
+}) {
+  // Calculating instance costs
+  const instanceCost = instanceHours * instanceRate * numberOfInstances;
+
+  // Calculating EBS volume cost
+  const ebsCost = ebsVolumeGB * ebsRatePerGBMonth;
+
+  // Calculating data transfer costs
+  const dataTransferCost = dataTransferOutGB * dataTransferRate;
+
+  // Total cost
+  return instanceCost + ebsCost + dataTransferCost;
+}
+
+// Example usage:
+// const ec2Usage = {
+//   instanceHours: 720, // 1 instance running 24/7 for a 30-day month
+//   instanceRate: 0.1, // Hypothetical rate for a specific instance type
+//   numberOfInstances: 2, // 2 instances running
+//   ebsVolumeGB: 1000, // 1 TB of EBS storage
+//   ebsRatePerGBMonth: 0.1, // Hypothetical monthly cost per GB for EBS
+//   dataTransferOutGB: 500, // 500 GB data transferred out
+//   dataTransferRate: 0.09 // Cost per GB for data transfer out
+// };
+
+// const totalCost = calculateEC2Cost(ec2Usage);
+// console.log(`Total AWS EC2 cost: $${totalCost.toFixed(2)}`);
 
 /**
  * Calculates the cost of using AWS Lambda.
